@@ -31,14 +31,10 @@ Dev **Front-end / Full-stack** focado em transformar ideias em produtos reais �
 
 ## 🚀 Projetos em que estou envolvido
 
-### 🩺 Medicina Consulta
-Assistente virtual de saúde que ajuda o paciente a entender **possíveis doenças** e **especialistas indicados**, usando IA e automações.
+### 🩺 Zello Life
+Assistente de IA para médicos, clínicas, usando IA e automações.
 
-- Fluxo de sintomas → possíveis diagnósticos + especialista
-- Integração com **WhatsApp**, **N8N** e modelos de IA
-- Pagamentos e assinaturas com **Stripe**
-
-🔗 Site: https://medicinaconsulta.com.br  
+🔗 Site: https://zellolife.com  
 
 ---
 
