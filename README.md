@@ -63,9 +63,7 @@ Produto focado em **funil comercial e performance**, com dashboards e integraç�
 
 ## 📈 GitHub em números
 
-![Martin's GitHub stats](https://github-readme-stats.vercel.app/api?username=martinlofranodeoliveira&show_icons=true&theme=tokyonight&hide_title=true&include_all_commits=true&count_private=true&cache_seconds=1800)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=martinlofranodeoliveira&layout=compact&theme=tokyonight&langs_count=8&cache_seconds=1800)
+![GitHub Streak](https://streak-stats.demolab.com?user=martinlofranodeoliveira&theme=tokyonight)
 
 ---
 
