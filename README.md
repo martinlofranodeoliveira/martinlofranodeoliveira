@@ -64,6 +64,7 @@ Produto focado em **funil comercial e performance**, com dashboards e integraç�
 ## 📈 GitHub em números
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=martinlofranodeoliveira&theme=tokyonight)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=martinlofranodeoliveira&theme=tokyo-night)
 
 ---
 
