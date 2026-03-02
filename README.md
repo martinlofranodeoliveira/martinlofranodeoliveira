@@ -1,83 +1,77 @@
 # 👋 Olá, eu sou o Martin Lofrano
 
-Dev **Front-end / Full-stack** focado em transformar ideias em produtos reais — principalmente em **saúde, IA e vendas**.
+Sou dev **Front-end / Full-stack** (TypeScript/React/Node) e construo **produtos SaaS do zero ao deploy** — com foco em **UX, performance, integrações (pagamentos/webhooks) e IA aplicada**.
 
-- 🚀 Construindo produtos como **Medicina Consulta**, **Sora2Videos**, **Controle Analítico** , e soluções para **FASUL**
-- 💻 Stack principal: **TypeScript, React, Node.js, Docker, Postgres, Supabase, Stripe**
-- 🤖 Apaixonado por **IA aplicada** (assistentes, automações, geração de vídeo e voz)
-- 🎯 Objetivo: criar SaaS que realmente geram resultado (leads, vendas, diagnósticos, etc.)
+✅ Se você precisa de alguém para **tirar uma ideia do papel**, evoluir um produto existente, ou entregar uma feature crítica com qualidade de produção, vamos conversar.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧩 O que eu entrego (na prática)
 
-**Linguagens & Base**
-- JavaScript · TypeScript · SQL
-
-**Front-end**
-- React · Vite · Next.js  
-- Tailwind CSS · MUI · shadcn/ui
-
-**Back-end & APIs**
-- Node.js · Express · NestJS  
-- REST APIs · Webhooks · Stripe (pagamentos, planos, créditos)
-
-**Banco & Infra**
-- Postgres · Supabase  
-- Docker · Nginx/Caddy  
-- Google Cloud · NVIDIA (NGC, GPUs)
+- **Front-end moderno e rápido** (React, Vite/Next, Tailwind/MUI, shadcn/ui)
+- **Back-end e integrações** (Node/Nest/Express, REST, Webhooks, Stripe)
+- **Infra e deploy** (Docker, Nginx/Caddy, Postgres/Supabase, Cloud)
+- **IA aplicada em produto** (assistentes, automações, pipelines de mídia: voz/vídeo)
 
 ---
 
-## 🚀 Projetos em que estou envolvido
+## 🛠️ Stack principal
+
+**TypeScript · React · Node.js · Docker · Postgres · Supabase · Stripe**  
+Extras: Next.js · Vite · Tailwind · MUI · shadcn/ui · Google Cloud
+
+---
+
+## 🚀 Projetos (seleção)
 
 ### 🩺 Zello Life
-Assistente de IA para médicos, clínicas, usando IA e automações.
+Assistente de IA para médicos e clínicas, com automações e foco em produtividade.
+- IA + automação aplicada ao fluxo real de atendimento
+- Integrações e arquitetura pensando em escala
 
-🔗 Site: https://zellolife.com  
+🔗 https://zellolife.com
 
 ---
 
 ### 🎬 Sora2Videos
-Plataforma para gerar **vídeos de anúncio com IA** (Sora 2, Veo 3.1, etc.) para **agências, infoprodutores e social media**.
+Plataforma para gerar **vídeos de anúncio com IA** (Sora, Veo etc.) para agências e criadores.
+- **Vite + React + Tailwind**
+- **Node.js + Stripe + Supabase**
+- Pipeline de geração (HD/Full HD) e produto voltado para **tráfego pago**
 
-- Frontend em **Vite + React + Tailwind**
-- Backend em **Node.js + Stripe + Supabase**
-- Geração de vídeos em **HD/Full HD** com áudio sincronizado
-- Foco em campanhas de **tráfego pago** e validação rápida de criativos
-
-🔗 Site: https://sora2videos.io  
+🔗 https://sora2videos.io
 
 ---
 
 ### 📊 Bússola de Vendas
-Ferramenta focada em **performance comercial** e **funil de vendas**, com dashboards e métricas de conversão.
+Produto focado em **funil comercial e performance**, com dashboards e integrações.
+- **React + TypeScript + MUI**
+- Métricas de conversão, motivos de perda, oportunidades
+- Integrações com CRMs/APIs
 
-- React + TypeScript + MUI
-- Integração com CRM / APIs
-- Visão de funil, motivos de perda e oportunidades
-
-🔗 Site: https://bussoladevendas.com.br
-
----
-
-## 📚 O que estou estudando agora
-
-- Integração de **modelos de IA** (Llama, GPT, Gemini) em produtos reais (SaaS)
-- Arquitetura de **assistentes digitais** (voz + vídeo + texto) para saúde
-- Otimização de conversão com **Google Ads PMax, Tag Manager, eventos de lead**
+🔗 https://bussoladevendas.com.br
 
 ---
 
-## 📈 Um pouco das minhas atividades por aqui
+## 📌 O que eu curto resolver
+- SaaS com **pagamento recorrente** e lógica de créditos (Stripe)
+- **Dashboards** que fazem sentido pro negócio (métricas, conversão, cohort)
+- Produtos com **IA no fluxo**, não “IA de enfeite”
+- **Performance e UX** (interfaces rápidas, limpas e fáceis de usar)
+
+---
+
+## 📈 GitHub em números
 
 ![Martin's GitHub stats](https://github-readme-stats.vercel.app/api?username=martinlofranodeoliveira&show_icons=true&theme=tokyonight&hide_title=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=martinlofranodeoliveira&layout=compact&theme=tokyonight)
 
 ---
 
-## 📫 Onde me encontrar
+## 🤝 Vamos trabalhar juntos?
 
-- 🌐 Site / Portfólio: *https://www.linkedin.com/in/martinlofrano/*
-- 💼 LinkedIn: *https://www.linkedin.com/in/martinlofrano/*
-- 📧 E-mail: *genesisrecordshouse@gmail.com*
+Se você quer me contratar (CLT, PJ ou freelancer), me chama no LinkedIn com uma mensagem direta dizendo:
+**“Vi seu GitHub e queria falar sobre [projeto/vaga]”**.
+
+- 💼 LinkedIn: https://www.linkedin.com/in/martinlofrano/
+- 📧 E-mail: genesisrecordshouse@gmail.com
