@@ -24,6 +24,15 @@ Extras: Next.js · Vite · Tailwind · MUI · shadcn/ui · Google Cloud
 
 ## 🚀 Projetos (seleção)
 
+
+### 📊 Bússola de Vendas
+Produto focado em **funil comercial e performance**, com dashboards e integrações.
+- **React + TypeScript + AI**
+- Métricas de conversão, motivos de perda, oportunidades
+- Integrações com CRMs/APIs
+
+🔗 https://bussoladevendas.com.br
+
 ### 💎 GemCRM.io (🚧 em construção / Beta)
 CRM omnichannel com **IA** para times de vendas: centraliza **WhatsApp Business API, Instagram e Email** e automatiza o fluxo comercial (qualificação → agendamento → fechamento).
 
@@ -56,16 +65,6 @@ Plataforma para gerar **vídeos de anúncio com IA** (Sora, Veo etc.) para agên
 - Pipeline de geração (HD/Full HD) e produto voltado para **tráfego pago**
 
 🔗 https://sora2videos.io
-
----
-
-### 📊 Bússola de Vendas
-Produto focado em **funil comercial e performance**, com dashboards e integrações.
-- **React + TypeScript + MUI**
-- Métricas de conversão, motivos de perda, oportunidades
-- Integrações com CRMs/APIs
-
-🔗 https://bussoladevendas.com.br
 
 ---
 
