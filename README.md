@@ -24,6 +24,22 @@ Extras: Next.js · Vite · Tailwind · MUI · shadcn/ui · Google Cloud
 
 ## 🚀 Projetos (seleção)
 
+### 💎 GemCRM.io (🚧 em construção / Beta)
+CRM omnichannel com **IA** para times de vendas: centraliza **WhatsApp Business API, Instagram e Email** e automatiza o fluxo comercial (qualificação → agendamento → fechamento).
+
+**Destaques do produto**
+- 📥 **Inbox unificado (omnichannel)**: WhatsApp, Instagram Direct e Messenger em uma caixa colaborativa
+- 🤖 **IA em tempo real 24/7**: detecta intenção de compra, extrai dados do lead e preenche o CRM automaticamente
+- 🧩 **Kanban drag & drop com automações**: ao mover para “Ganho”, dispara ações (ex.: envio automático de contrato)
+- ⚡ **Automações no-code**: construtor visual para fluxos rápidos (beta)
+
+**O que eu estou construindo aqui (engineering)**
+- Integração **WhatsApp Business API** + tratamento de eventos/webhooks
+- Pipeline de automações acionadas por estágio, intenção e regras
+- Modelagem de CRM (leads, empresas, oportunidades, atividades) + métricas de funil
+
+🔗 https://gemcrm.io
+
 ### 🩺 Zello Life
 Assistente de IA para médicos e clínicas, com automações e foco em produtividade.
 - IA + automação aplicada ao fluxo real de atendimento
