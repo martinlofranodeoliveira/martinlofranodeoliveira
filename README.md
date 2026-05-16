@@ -25,27 +25,6 @@ Extras: Next.js · Vite · Tailwind · MUI · shadcn/ui · Google Cloud
 
 ## 🚀 Projetos (seleção)
 
-### 💎 GemCRM.io (🚧 em construção / Beta)
-CRM omnichannel com **IA** para times de vendas: centraliza **WhatsApp Business API, Instagram e Email** e automatiza o fluxo comercial (qualificação → agendamento → fechamento).
-
-- 📥 **Inbox unificado (omnichannel)**: WhatsApp, Instagram Direct e Messenger em uma caixa colaborativa
-- 🤖 **IA em tempo real 24/7**: detecta intenção de compra, extrai dados do lead e preenche o CRM automaticamente
-- 🧩 **Kanban drag & drop com automações**: ao mover para “Ganho”, dispara ações (ex.: envio de contrato)
-
-🔗 https://gemcrm.io
-
----
-
-### 📊 Bússola de Vendas
-Produto focado em **funil comercial e performance**, com dashboards e integrações.
-
-- **React + TypeScript + MUI**
-- Métricas de conversão, motivos de perda, oportunidades e forecast
-- Integrações com CRM/APIs e visão de pipeline
-
-🔗 https://bussoladevendas.com.br
-
----
 
 ### 🩺 Zello Life
 Assistente de IA para médicos e clínicas, com automações e foco em produtividade.
@@ -54,17 +33,6 @@ Assistente de IA para médicos e clínicas, com automações e foco em produtivi
 - Integrações e arquitetura pensando em escala
 
 🔗 https://zellolife.com
-
----
-
-### 🎬 Sora2Videos
-Plataforma para gerar **vídeos de anúncio com IA** (Sora, Veo etc.) para agências e criadores.
-
-- **Vite + React + Tailwind**
-- **Node.js + Stripe + Supabase**
-- Pipeline de geração (HD/Full HD) e produto voltado para **tráfego pago**
-
-🔗 https://sora2videos.io
 
 ---
 
@@ -83,11 +51,6 @@ Plataforma para gerar **vídeos de anúncio com IA** (Sora, Veo etc.) para agên
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=martinlofranodeoliveira&theme=tokyo-night)
 
 ---
-
-## 🤝 Vamos trabalhar juntos?
-
-Se você quer me contratar (CLT, PJ ou freelancer), me chama no LinkedIn com uma mensagem direta dizendo:
-**“Vi seu GitHub e queria falar sobre [projeto/vaga]”**.
 
 - 💼 LinkedIn: https://www.linkedin.com/in/martinlofrano/
 - 📧 E-mail: genesisrecordshouse@gmail.com
