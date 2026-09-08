@@ -26,13 +26,15 @@ Extras: Next.js · Vite · Tailwind · MUI · shadcn/ui · Google Cloud
 ## 🚀 Projetos (seleção)
 
 
-### 🩺 Zello Life
-Assistente de IA para médicos e clínicas, com automações e foco em produtividade.
+### 💎 GemCRM
+Sou fundador do **GemCRM**, um CRM para conectar contatos, empresas, pipeline de vendas, atividades e histórico comercial.
 
-- IA + automação aplicada ao fluxo real de atendimento
-- Integrações e arquitetura pensando em escala
+- Gestão do relacionamento e das oportunidades em um só lugar
+- Assistente contextual, sugestões de follow-up e relatórios com IA, mediante configuração do provedor
+- MVP funcional no Google Cloud, em desenvolvimento contínuo
 
-🔗 https://zellolife.com
+🔗 Site: https://gemcrm.io  
+🚀 Aplicativo: https://app.gemcrm.io
 
 ---
 
