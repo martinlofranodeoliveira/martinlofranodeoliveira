@@ -1,7 +1,7 @@
 """Offline regression tests for public data validation and SVG publication."""
 
 import copy
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 import importlib.util
 from pathlib import Path
 import sys
@@ -61,7 +61,7 @@ class ActivityValidationTests(unittest.TestCase):
         activity = metrics.parse_activity(activity_response(), LOGIN, NOW)
         self.assertEqual(activity.total, 5)
         self.assertEqual(sum(day.count for week in activity.weeks for day in week), 5)
-        root = ET.fromstring(metrics.render_metrics(activity))
+        root = ET.fromstring(metrics.render_metrics(activity, 42))
         labels = [node.text for node in root.iter("{http://www.w3.org/2000/svg}title")]
         self.assertIn("26/10/2026: 2 contribuições", labels)
         self.assertIn("27/10/2026: 0 contribuições", labels)
@@ -69,7 +69,7 @@ class ActivityValidationTests(unittest.TestCase):
     def test_genuinely_empty_data_is_valid(self):
         activity = metrics.parse_activity(activity_response(()), LOGIN, NOW)
         self.assertEqual(activity.total, 0)
-        self.assertIn("Sem contribuições", metrics.render_metrics(activity))
+        self.assertIn("Sem contribuições", metrics.render_metrics(activity, 0))
         summary = metrics.fetch_languages(LOGIN, "test", lambda *args: repositories_response())
         self.assertEqual(summary.nonfork_count, 0)
         self.assertIn("Ainda não há bytes", metrics.render_languages(summary, NOW))
@@ -104,6 +104,43 @@ class ActivityValidationTests(unittest.TestCase):
 
     def test_sao_paulo_date_does_not_use_utc_day(self):
         self.assertEqual(metrics.updated_label(NOW), "28/10/2026 · 22:45 BRT")
+
+    def test_streak_crosses_weeks_and_resets_on_zero_days_and_gaps(self):
+        cases = [
+            ([('2026-10-23', 1), ('2026-10-24', 1), ('2026-10-25', 1),
+              ('2026-10-26', 1), ('2026-10-27', 1), ('2026-10-28', 0),
+              ('2026-10-29', 1)], (6, 5)),
+            ([('2026-10-29', 1), ('2026-10-31', 1), ('2026-11-01', 1)], (3, 2)),
+        ]
+        for dates, expected in cases:
+            with self.subTest(dates=dates):
+                weeks, days = [], []
+                for iso_date, count in dates:
+                    current = date.fromisoformat(iso_date)
+                    weekday = current.isoweekday() % 7
+                    if days and weekday <= days[-1]["weekday"]:
+                        weeks.append({"contributionDays": days})
+                        days = []
+                    days.append({"date": iso_date, "weekday": weekday, "contributionCount": count,
+                                 "contributionLevel": "FIRST_QUARTILE" if count else "NONE"})
+                weeks.append({"contributionDays": days})
+                data = activity_response()
+                collection = data["user"]["contributionsCollection"]
+                collection["startedAt"] = "2026-10-23T03:00:00Z"
+                collection["endedAt"] = "2026-11-02T03:00:00Z"
+                collection["contributionCalendar"] = {"totalContributions": sum(count for _, count in dates), "weeks": weeks}
+                activity = metrics.parse_activity(data, LOGIN, NOW)
+                self.assertEqual(metrics.active_days_and_longest_streak(activity), expected)
+
+    def test_metrics_card_uses_consistent_calendar_and_public_repo_counters(self):
+        activity = metrics.parse_activity(activity_response(), LOGIN, NOW)
+        svg = metrics.render_metrics(activity, 42)
+        root = ET.fromstring(svg)
+        texts = [node.text for node in root.iter("{http://www.w3.org/2000/svg}text")]
+        for expected in ("CONTRIBUIÇÕES", "DIAS ATIVOS", "MAIOR SEQUÊNCIA", "REPOS PÚBLICOS", "42", "1 dia"):
+            self.assertIn(expected, texts)
+        for removed in ("COMMITS", "PULL REQUESTS", "ISSUES", "REVIEWS"):
+            self.assertNotIn(removed, texts)
 
 
 class LanguageValidationTests(unittest.TestCase):

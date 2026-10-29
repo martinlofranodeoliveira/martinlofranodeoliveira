@@ -382,33 +382,60 @@ def text_element(x: float, y: float, text: object, size: int = 14,
             f'text-anchor="{anchor}" fill="{color}">{xml_text(text)}</text>')
 
 
-def render_metrics(activity: Activity) -> str:
+def active_days_and_longest_streak(activity: Activity) -> tuple[int, int]:
+    """Count active dates and the longest uninterrupted sequence in this period."""
+    active_days = longest = current = 0
+    previous_date = None
+    for week in activity.weeks:
+        for day in week:
+            if day.count > 0:
+                active_days += 1
+                current = current + 1 if previous_date is not None and day.date == previous_date + timedelta(days=1) else 1
+                longest = max(longest, current)
+            else:
+                current = 0
+            previous_date = day.date
+    return active_days, longest
+
+
+def render_metrics(activity: Activity, public_repository_count: int) -> str:
+    public_repository_count = nonnegative_int(public_repository_count)
+    active_days, longest = active_days_and_longest_streak(activity)
     period = f'{activity.start.astimezone(SAO_PAULO):%d/%m/%Y} a {activity.end.astimezone(SAO_PAULO):%d/%m/%Y}'
     parts = svg_start(1200, 420, "Atividade de Martin Lofrano no GitHub",
-                      f"{activity.total} contribuições visíveis no período de {period}. Calendário e contagens consultados no GitHub.")
+                      f"{activity.total} contribuições visíveis no período de {period}; {active_days} dias ativos e maior sequência de {longest} dias nesse período. {public_repository_count} repositórios públicos.")
     parts += [text_element(32, 42, "ATIVIDADE NO GITHUB", 22, "#F3F5FA", 700),
-              text_element(32, 67, f"{activity.login} · {period}", 14),
+              text_element(32, 67, f"{activity.login} · Período consultado: {period}", 14),
               text_element(1168, 42, "LOFRANO / ENGINEERING", 13, "#F38AB7", 700, "end")]
-    counters = [("CONTRIBUIÇÕES", activity.total), ("COMMITS", activity.commits),
-                ("PULL REQUESTS", activity.pull_requests), ("ISSUES", activity.issues), ("REVIEWS", activity.reviews)]
-    for index, (label, count) in enumerate(counters):
-        x = 32 + index * 230
-        parts += [f'<rect x="{x}" y="88" width="216" height="90" rx="12" fill="#151B29" stroke="#263047"/>',
-                  text_element(x + 18, 131, integer_label(count), 34, "#FF91C3" if index == 0 else "#F1F5FB", 700),
+    counters = [("CONTRIBUIÇÕES", integer_label(activity.total)), ("DIAS ATIVOS", integer_label(active_days)),
+                ("MAIOR SEQUÊNCIA", f"{integer_label(longest)} {'dia' if longest == 1 else 'dias'}"),
+                ("REPOS PÚBLICOS", integer_label(public_repository_count))]
+    for index, (label, value) in enumerate(counters):
+        x = 32 + index * 288
+        parts += [f'<rect x="{x}" y="88" width="272" height="90" rx="12" fill="#151B29" stroke="#263047"/>',
+                  text_element(x + 18, 131, value, 34, "#FF91C3" if index == 0 else "#F1F5FB", 700),
                   text_element(x + 18, 157, label, 12, "#9EACC4", 700)]
     parts.append('<path d="M32 194H1168" stroke="#263047"/>')
     if activity.weeks:
         pitch = min(19.5, 1034 / max(len(activity.weeks), 1))
         cell = min(15.5, pitch - 3)
+        month_starts = []
         previous_month = None
         for column, week in enumerate(activity.weeks):
             month = week[0].date.month
-            x = 100 + column * pitch
             if month != previous_month:
-                # Avoid cramped final-month labels at the right edge.
-                if column <= len(activity.weeks) - 2 or column == 0:
-                    parts.append(text_element(x, 216, MONTHS[month], 11, "#8D9BB4", 700))
+                month_starts.append((column, month))
                 previous_month = month
+        # A short leading/trailing partial month should not collide with the
+        # neighboring month's label when the card is reduced inside a README.
+        if len(month_starts) > 1 and month_starts[1][0] - month_starts[0][0] < 3:
+            month_starts.pop(0)
+        if len(month_starts) > 1 and len(activity.weeks) - month_starts[-1][0] < 2:
+            month_starts.pop()
+        for column, month in month_starts:
+            parts.append(text_element(100 + column * pitch, 216, MONTHS[month], 11, "#8D9BB4", 700))
+        for column, week in enumerate(activity.weeks):
+            x = 100 + column * pitch
             for day in week:
                 y = 230 + day.weekday * 19
                 caption = f"{day.date:%d/%m/%Y}: {integer_label(day.count)} contribuições"
@@ -417,7 +444,7 @@ def render_metrics(activity: Activity) -> str:
             parts.append(text_element(56, 242 + weekday * 19, label, 10, "#7D8BA3", 500, "end"))
     else:
         parts.append(text_element(600, 286, "Sem contribuições no período consultado.", 18, "#AAB6CB", 400, "middle"))
-    parts.append(text_element(32, 395, f"Fonte: GitHub · Atualizado {updated_label(activity.collected_at)}", 12, "#8391A9"))
+    parts.append(text_element(32, 395, f"Calendário visível no perfil; repositórios públicos · Atualizado {updated_label(activity.collected_at)}", 12, "#8391A9"))
     parts.append(text_element(983, 395, "MENOS", 9, "#8391A9", 700, "end"))
     for index, color in enumerate(LEVELS.values()):
         parts.append(f'<rect x="{992 + index * 20}" y="383" width="14" height="14" rx="3" fill="{color}"/>')
@@ -509,7 +536,7 @@ def update_profile(username: str, output_directory: Path, token: str,
     data = fetcher(ACTIVITY_QUERY, {"login": username, "from": beginning.isoformat(), "to": now.isoformat()}, token)
     activity = parse_activity(data, username, now)
     languages = fetch_languages(username, token, fetcher)
-    documents = {"github-metrics.svg": render_metrics(activity),
+    documents = {"github-metrics.svg": render_metrics(activity, languages.public_count),
                  "github-languages.svg": render_languages(languages, now)}
     atomic_write_svgs(output_directory, documents)
 

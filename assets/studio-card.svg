@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+  <title id="title">Estúdio LOFRANO — comece seu projeto</title>
+  <desc id="desc">Converse sobre sua ideia. Explore uma primeira versão. Ilustração original de uma janela de projeto.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12141d"/><stop offset="1" stop-color="#0b0d12"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ec4899" stop-opacity=".18"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f472b6" stop-opacity=".8"/><stop offset="1" stop-color="#f472b6" stop-opacity=".12"/></linearGradient>
+    <clipPath id="clip"><rect width="600" height="220" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="600" height="220" fill="url(#bg)"/>
+    <ellipse cx="501" cy="100" rx="166" ry="147" fill="url(#glow)"/>
+    <path d="M388 0V220M424 0V220M460 0V220M496 0V220M532 0V220M568 0V220M380 40H600M380 76H600M380 112H600M380 148H600M380 184H600" stroke="#fff" stroke-opacity=".025"/>
+    <rect x="28" y="27" width="20" height="3" rx="1.5" fill="#f472b6"/>
+    <text x="58" y="32" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.7" fill="#c9a3ba">01 / DA IDEIA À PRÉVIA</text>
+    <text x="28" y="70" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="-.5" fill="#fff">ESTÚDIO LOFRANO</text>
+    <text x="28" y="104" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#c5c4cf">Converse sobre sua ideia.</text>
+    <text x="28" y="129" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#c5c4cf">Explore uma primeira versão.</text>
+    <rect x="28" y="159" width="241" height="36" rx="8" fill="#ec4899" fill-opacity=".12" stroke="#f472b6" stroke-opacity=".42"/>
+    <text x="43" y="182" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing=".6" fill="#f9c4e0">COMEÇAR MEU PROJETO</text>
+    <path d="M242 177H253M248 172L253 177L248 182" fill="none" stroke="#f472b6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original illustration: a project window and its emerging layout. -->
+    <rect x="410" y="70" width="145" height="112" rx="10" fill="#090b10" stroke="#f472b6" stroke-opacity=".12"/>
+    <rect x="422" y="56" width="145" height="112" rx="10" fill="#161722" stroke="url(#edge)" stroke-width="1.2"/>
+    <path d="M422 81H567" stroke="#f472b6" stroke-opacity=".2"/>
+    <circle cx="436" cy="69" r="2.6" fill="#f472b6"/>
+    <circle cx="445" cy="69" r="2.6" fill="#f472b6" fill-opacity=".36"/>
+    <circle cx="454" cy="69" r="2.6" fill="#f472b6" fill-opacity=".16"/>
+    <rect x="435" y="94" width="30" height="60" rx="4" fill="#f472b6" fill-opacity=".065" stroke="#f472b6" stroke-opacity=".12"/>
+    <path d="M442 105H458M442 114H454M442 123H456" stroke="#ddb8ce" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+    <rect x="475" y="94" width="79" height="22" rx="4" fill="#f472b6" fill-opacity=".17"/>
+    <rect x="475" y="125" width="35" height="29" rx="4" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".08"/>
+    <rect x="519" y="125" width="35" height="29" rx="4" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".08"/>
+    <path d="M484 104H540" stroke="#f6bbd9" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+    <path d="M390 102H405M397.5 94.5V109.5" stroke="#f472b6" stroke-width="1.5" stroke-linecap="round" opacity=".65"/>
+    <path d="M571 185H578M574.5 181.5V188.5" stroke="#f472b6" stroke-width="1.2" stroke-linecap="round" opacity=".35"/>
+    <rect x=".6" y=".6" width="598.8" height="218.8" rx="17.4" fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="1.2"/>
+  </g>
+</svg>

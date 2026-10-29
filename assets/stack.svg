@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="title desc">
+  <title id="title">Tecnologias e ferramentas</title>
+  <desc id="desc">TypeScript, React, Node.js, PostgreSQL, Docker e Google Cloud. Identificadores tipográficos originais, sem métricas ou indicação de certificação.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12141d"/><stop offset="1" stop-color="#0b0d12"/></linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1a1722"/><stop offset="1" stop-color="#101219"/></linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="1199" height="169" rx="18" fill="url(#bg)" stroke="#fff" stroke-opacity=".09"/>
+  <rect x="28" y="26" width="20" height="3" rx="1.5" fill="#f472b6"/>
+  <text x="60" y="32" fill="#d5cedb" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.8">TECNOLOGIAS &amp; FERRAMENTAS</text>
+  <text x="1172" y="32" text-anchor="end" fill="#898391" font-family="Arial, Helvetica, sans-serif" font-size="12">Stack de desenvolvimento</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(28 58)">
+      <rect width="179" height="84" rx="12" fill="url(#tile)" stroke="#f472b6" stroke-opacity=".18"/>
+      <rect x="14" y="22" width="40" height="40" rx="11" fill="#f472b6" fill-opacity=".09" stroke="#f472b6" stroke-opacity=".19"/>
+      <text x="34" y="49" text-anchor="middle" font-size="17" font-weight="700" fill="#f6b2d5">TS</text>
+      <text x="65" y="48" font-size="17" font-weight="700" fill="#f0ebf3">TypeScript</text>
+    </g>
+    <g transform="translate(221 58)">
+      <rect width="179" height="84" rx="12" fill="url(#tile)" stroke="#f472b6" stroke-opacity=".18"/>
+      <rect x="14" y="22" width="40" height="40" rx="11" fill="#f472b6" fill-opacity=".09" stroke="#f472b6" stroke-opacity=".19"/>
+      <text x="34" y="49" text-anchor="middle" font-size="19" font-weight="700" fill="#f6b2d5">R</text>
+      <text x="65" y="48" font-size="17" font-weight="700" fill="#f0ebf3">React</text>
+    </g>
+    <g transform="translate(414 58)">
+      <rect width="179" height="84" rx="12" fill="url(#tile)" stroke="#f472b6" stroke-opacity=".18"/>
+      <rect x="14" y="22" width="40" height="40" rx="11" fill="#f472b6" fill-opacity=".09" stroke="#f472b6" stroke-opacity=".19"/>
+      <text x="34" y="49" text-anchor="middle" font-size="19" font-weight="700" fill="#f6b2d5">N</text>
+      <text x="65" y="48" font-size="17" font-weight="700" fill="#f0ebf3">Node.js</text>
+    </g>
+    <g transform="translate(607 58)">
+      <rect width="179" height="84" rx="12" fill="url(#tile)" stroke="#f472b6" stroke-opacity=".18"/>
+      <rect x="14" y="22" width="40" height="40" rx="11" fill="#f472b6" fill-opacity=".09" stroke="#f472b6" stroke-opacity=".19"/>
+      <text x="34" y="49" text-anchor="middle" font-size="16" font-weight="700" fill="#f6b2d5">PG</text>
+      <text x="65" y="48" font-size="16.5" font-weight="700" fill="#f0ebf3">PostgreSQL</text>
+    </g>
+    <g transform="translate(800 58)">
+      <rect width="179" height="84" rx="12" fill="url(#tile)" stroke="#f472b6" stroke-opacity=".18"/>
+      <rect x="14" y="22" width="40" height="40" rx="11" fill="#f472b6" fill-opacity=".09" stroke="#f472b6" stroke-opacity=".19"/>
+      <text x="34" y="49" text-anchor="middle" font-size="19" font-weight="700" fill="#f6b2d5">D</text>
+      <text x="65" y="48" font-size="17" font-weight="700" fill="#f0ebf3">Docker</text>
+    </g>
+    <g transform="translate(993 58)">
+      <rect width="179" height="84" rx="12" fill="url(#tile)" stroke="#f472b6" stroke-opacity=".18"/>
+      <rect x="14" y="22" width="40" height="40" rx="11" fill="#f472b6" fill-opacity=".09" stroke="#f472b6" stroke-opacity=".19"/>
+      <text x="34" y="49" text-anchor="middle" font-size="16" font-weight="700" fill="#f6b2d5">GC</text>
+      <text x="65" y="48" font-size="15.8" font-weight="700" fill="#f0ebf3">Google Cloud</text>
+    </g>
+  </g>
+</svg>

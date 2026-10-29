@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="title desc">
+  <title id="title">Sede digital 3D — explore a LOFRANO</title>
+  <desc id="desc">Conheça os ambientes. Explore a visão pública das equipes. Ilustração arquitetônica original.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12141d"/><stop offset="1" stop-color="#0b0d12"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ec4899" stop-opacity=".18"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f472b6" stop-opacity=".14"/><stop offset="1" stop-color="#f472b6" stop-opacity=".025"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".065"/><stop offset="1" stop-color="#fff" stop-opacity=".01"/></linearGradient>
+    <clipPath id="clip"><rect width="600" height="220" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="600" height="220" fill="url(#bg)"/>
+    <ellipse cx="501" cy="104" rx="166" ry="147" fill="url(#glow)"/>
+    <path d="M388 0V220M424 0V220M460 0V220M496 0V220M532 0V220M568 0V220M380 40H600M380 76H600M380 112H600M380 148H600M380 184H600" stroke="#fff" stroke-opacity=".025"/>
+    <rect x="28" y="27" width="20" height="3" rx="1.5" fill="#f472b6"/>
+    <text x="58" y="32" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.7" fill="#c9a3ba">02 / UMA NOVA PERSPECTIVA</text>
+    <text x="28" y="70" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="-.5" fill="#fff">SEDE DIGITAL 3D</text>
+    <text x="28" y="104" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#c5c4cf">Conheça os ambientes.</text>
+    <text x="28" y="129" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#c5c4cf">Explore a visão pública das equipes.</text>
+    <rect x="28" y="159" width="204" height="36" rx="8" fill="#ec4899" fill-opacity=".12" stroke="#f472b6" stroke-opacity=".42"/>
+    <text x="43" y="182" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing=".6" fill="#f9c4e0">EXPLORAR A SEDE</text>
+    <path d="M204 177H215M210 172L215 177L210 182" fill="none" stroke="#f472b6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Original abstract architecture, not a reproduction of the actual building. -->
+    <path d="M406 174L484 148L577 176L498 204Z" fill="#f472b6" fill-opacity=".035" stroke="#f472b6" stroke-opacity=".13"/>
+    <path d="M437 167L492 184L547 165" fill="none" stroke="#f472b6" stroke-opacity=".32" stroke-width="1.1"/>
+    <path d="M440 65L491 48L549 67L496 86Z" fill="#fff" fill-opacity=".055" stroke="#f1c7dd" stroke-opacity=".55" stroke-linejoin="round"/>
+    <path d="M440 65L496 86V181L440 162Z" fill="url(#front)" stroke="#f472b6" stroke-opacity=".65" stroke-linejoin="round"/>
+    <path d="M496 86L549 67V162L496 181Z" fill="url(#side)" stroke="#f1c7dd" stroke-opacity=".35" stroke-linejoin="round"/>
+    <path d="M440 84L496 105L549 86M440 103L496 124L549 105M440 122L496 143L549 124M440 141L496 162L549 143" fill="none" stroke="#eeb9d5" stroke-opacity=".24"/>
+    <path d="M458 72V168M478 80V175M514 80V174M532 73V167" stroke="#f4d7e7" stroke-opacity=".12"/>
+    <path d="M452 101L482 112M452 120L482 131M509 119L537 109" stroke="#f472b6" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+    <path d="M490 48V34M484 37H496" stroke="#f472b6" stroke-width="1.2" stroke-linecap="round" opacity=".55"/>
+    <path d="M566 100H581M573.5 92.5V107.5" stroke="#f472b6" stroke-width="1.5" stroke-linecap="round" opacity=".45"/>
+    <rect x=".6" y=".6" width="598.8" height="218.8" rx="17.4" fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="1.2"/>
+  </g>
+</svg>

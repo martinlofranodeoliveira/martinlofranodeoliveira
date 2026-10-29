@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-labelledby="title desc">
+  <title id="title">Martin Lofrano — Full Stack Developer</title>
+  <desc id="desc">LOFRANO TECNOLOGIA. Software, inteligência artificial e automação. O brilho decorativo não representa um indicador de atividade.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#12141d"/><stop offset="1" stop-color="#0b0d12"/></linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ec4899" stop-opacity=".08"/><stop offset=".7" stop-color="#f472b6" stop-opacity=".55"/><stop offset="1" stop-color="#ec4899" stop-opacity=".12"/></linearGradient>
+    <clipPath id="clip"><rect width="1200" height="92" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .circuit-glow { stroke-dasharray: 34 420; animation: circuit-flow 16s linear infinite; }
+    @keyframes circuit-flow { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -908; } }
+    @media (prefers-reduced-motion: reduce) { .circuit-glow { animation: none; stroke-dasharray: none; opacity: .16; } }
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="92" fill="url(#bg)"/>
+    <rect x="28" y="28" width="4" height="37" rx="2" fill="#f472b6"/>
+    <text x="48" y="43" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing=".25">MARTIN LOFRANO <tspan fill="#65616e">/</tspan><tspan dx="7" fill="#dbd7e0" font-size="19" font-weight="400">FULL STACK DEVELOPER</tspan></text>
+    <text x="48" y="67" fill="#9a93a3" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2">LOFRANO TECNOLOGIA</text>
+    <path d="M774 27V65" stroke="#fff" stroke-opacity=".1"/>
+    <text x="812" y="54" fill="#f2bbd8" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing=".8">SOFTWARE · IA · AUTOMAÇÃO</text>
+    <path d="M803 80H1153L1178 55V18H1139" fill="none" stroke="url(#rose)" stroke-width="1.1"/>
+    <path class="circuit-glow" d="M803 80H1153L1178 55V18H1139" fill="none" stroke="#f472b6" stroke-width="1.7" stroke-linecap="round" opacity=".7"/>
+    <rect x=".5" y=".5" width="1199" height="91" rx="13.5" fill="none" stroke="#fff" stroke-opacity=".09"/>
+  </g>
+</svg>
