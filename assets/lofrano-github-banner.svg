@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">LOFRANO TECNOLOGIA</title>
+  <desc id="desc">Software sob medida. Inteligência aplicada. Engenharia de software, IA, automação e integrações.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111117"/><stop offset=".58" stop-color="#0B0B10"/><stop offset="1" stop-color="#181018"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx=".84" cy=".48" r=".47">
+      <stop offset="0" stop-color="#EC4D93" stop-opacity=".14"/><stop offset=".55" stop-color="#EC4D93" stop-opacity=".035"/><stop offset="1" stop-color="#EC4D93" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".74"/><stop offset=".3" stop-color="#B9BBC8" stop-opacity=".12"/><stop offset=".7" stop-color="#9A738A" stop-opacity=".2"/><stop offset="1" stop-color="#F17BAD" stop-opacity=".68"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".07"/><stop offset=".52" stop-color="#FFFFFF" stop-opacity=".008"/><stop offset="1" stop-color="#F17BAD" stop-opacity=".05"/>
+    </linearGradient>
+    <radialGradient id="core">
+      <stop offset="0" stop-color="#FFF4F9"/><stop offset=".28" stop-color="#FFBAD7"/><stop offset=".62" stop-color="#ED5B9B"/><stop offset="1" stop-color="#ED5B9B" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1280" height="360" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="url(#background)"/>
+    <rect width="1280" height="360" fill="url(#ambient)"/>
+    <path d="M858 0V360M940 0V360M1022 0V360M1104 0V360M1186 0V360" stroke="#FFFFFF" stroke-opacity=".025"/>
+    <path d="M858 80H1280M858 180H1280M858 280H1280" stroke="#FFFFFF" stroke-opacity=".025"/>
+    <g transform="translate(1062 177)">
+      <ellipse rx="137" ry="100" transform="rotate(-34)" fill="url(#glass)" stroke="url(#metal)" stroke-width="1.25"/>
+      <ellipse rx="137" ry="100" transform="rotate(34)" fill="none" stroke="url(#metal)" stroke-width="1.25"/>
+      <ellipse rx="69" ry="139" transform="rotate(-34)" fill="url(#glass)" stroke="url(#metal)" stroke-width="1"/>
+      <ellipse rx="69" ry="139" transform="rotate(34)" fill="none" stroke="#D8BCCB" stroke-opacity=".2"/>
+      <ellipse rx="91" ry="62" transform="rotate(-34)" fill="none" stroke="#F17BAD" stroke-opacity=".2"/>
+      <circle r="44" fill="url(#core)" opacity=".88"/>
+      <circle r="6" fill="#FFE8F3"/><circle r="12" fill="none" stroke="#FFB8D5" stroke-opacity=".3"/>
+    </g>
+    <rect x="64" y="49" width="4" height="24" rx="2" fill="#F06AA6"/>
+    <text x="84" y="69" fill="#F6F4F7" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="3.3">LOFRANO TECNOLOGIA</text>
+    <text x="64" y="155" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.25">Software sob medida.</text>
+    <text x="64" y="212" fill="#F2A0C4" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.25">Inteligência aplicada.</text>
+    <path d="M64 251H808" stroke="#FFFFFF" stroke-opacity=".12"/>
+    <text x="64" y="288" fill="#C5C1CA" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" letter-spacing="1.05">ENGENHARIA DE SOFTWARE · IA · AUTOMAÇÃO · INTEGRAÇÕES</text>
+    <path d="M64 327H116" stroke="#F06AA6" stroke-width="3" stroke-linecap="round"/>
+    <path d="M126 327H144" stroke="#F06AA6" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+    <rect x=".5" y=".5" width="1279" height="359" rx="21.5" fill="none" stroke="#FFFFFF" stroke-opacity=".09"/>
+  </g>
+</svg>
