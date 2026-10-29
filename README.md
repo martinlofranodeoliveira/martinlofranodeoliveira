@@ -1,5 +1,5 @@
 <a href="https://lofranotecnologia.com.br">
-  <img src="./assets/lofrano-github-banner.svg" alt="LOFRANO TECNOLOGIA — Software sob medida. Inteligência aplicada. Martin Lofrano, Full Stack Developer." width="100%" />
+  <img src="./assets/lofrano-hero.jpg" alt="LOFRANO TECNOLOGIA — Software sob medida. Inteligência aplicada. Martin Lofrano, Full Stack Developer." width="100%" />
 </a>
 
 <img src="./assets/focus-strip.svg" alt="Martin Lofrano · Full Stack Developer · Software, IA e automação" width="100%" />
