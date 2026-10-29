@@ -1,0 +1,50 @@
+name: Métricas do perfil
+
+on:
+  schedule:
+    - cron: '23 9 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-metrics.yml
+      - scripts/update_profile_metrics.py
+      - tests/test_profile_metrics.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Ler repositório
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+
+      - name: Validar cálculo e renderização
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Consultar GitHub e gerar os painéis
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_PROFILE_LOGIN: martinlofranodeoliveira
+        run: python3 scripts/update_profile_metrics.py
+
+      - name: Publicar os painéis atualizados
+        run: |
+          git add assets/github-metrics.svg assets/github-languages.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: atualiza métricas do perfil'
+          git pull --rebase origin main
+          git push origin HEAD:main
