@@ -24,6 +24,24 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 <!-- FIRST-BATCH:END -->
 
+<!-- SECOND-BATCH:BEGIN -->
+## Segunda leva · 8 projetos abertos
+
+**Publicado · desenvolvimento 0.1.** Mais oito ferramentas com contratos explícitos, documentação em português e inglês, testes e demos reproduzíveis. Confira a execução atual nos links de Actions.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Trace Waterfall SVG](https://github.com/martinlofranodeoliveira/trace-waterfall-svg) | C++ | Transforma eventos de trace em SVG com faixas, tempos e prévia reproduzível. | [Docs](https://github.com/martinlofranodeoliveira/trace-waterfall-svg/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/trace-waterfall-svg/actions/workflows/ci.yml) |
+| [HAR Budget Audit](https://github.com/martinlofranodeoliveira/har-budget-audit) | Dart | Audita requisições, bytes conhecidos e latência de HAR com resultado explícito quando faltam dados. | [Docs](https://github.com/martinlofranodeoliveira/har-budget-audit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/har-budget-audit/actions/workflows/ci.yml) |
+| [Test Shard Plan](https://github.com/martinlofranodeoliveira/test-shard-plan) | Python | Distribui testes por duração estimada e grupos de afinidade, com plano determinístico. | [Docs](https://github.com/martinlofranodeoliveira/test-shard-plan/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/test-shard-plan/actions/workflows/ci.yml) |
+| [Metric Cardinality Audit](https://github.com/martinlofranodeoliveira/metric-cardinality-audit) | Lua | Conta séries e valores de rótulos de métricas e confere orçamentos de cardinalidade. | [Docs](https://github.com/martinlofranodeoliveira/metric-cardinality-audit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/metric-cardinality-audit/actions/workflows/ci.yml) |
+| [Sequence Gap Audit](https://github.com/martinlofranodeoliveira/sequence-gap-audit) | Elixir | Encontra intervalos ausentes, repetições e chegadas fora de ordem em logs sequenciais. | [Docs](https://github.com/martinlofranodeoliveira/sequence-gap-audit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/sequence-gap-audit/actions/workflows/ci.yml) |
+| [HTTP Freshness Core](https://github.com/martinlofranodeoliveira/http-freshness-core) | Kotlin | Calcula frescor e decisões de cache HTTP dentro de um contrato documentado. | [Docs](https://github.com/martinlofranodeoliveira/http-freshness-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/http-freshness-core/actions/workflows/ci.yml) |
+| [UTC Cron Preview](https://github.com/martinlofranodeoliveira/utc-cron-preview) | C# | Mostra próximas ocorrências de expressões cron no recorte UTC suportado. | [Docs](https://github.com/martinlofranodeoliveira/utc-cron-preview/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/utc-cron-preview/actions/workflows/ci.yml) |
+| [POSIX Run Capture](https://github.com/martinlofranodeoliveira/posix-run-capture) | C | Executa um comando local com prazo, captura limitada de saída e resultado estruturado no Linux. | [Docs](https://github.com/martinlofranodeoliveira/posix-run-capture/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/posix-run-capture/actions/workflows/ci.yml) |
+
+<!-- SECOND-BATCH:END -->
+
 ## Catálogo existente
 
 | Projeto | Finalidade |
