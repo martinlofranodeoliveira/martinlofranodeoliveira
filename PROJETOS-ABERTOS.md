@@ -134,6 +134,25 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 <!-- SEVENTH-BATCH:END -->
 
+<!-- EIGHTH-BATCH:BEGIN -->
+## Oitava leva · 9 projetos abertos
+
+**Publicado · desenvolvimento 0.1.0.** Nove projetos com documentação bilíngue, testes e demos locais. Os links de Actions permitem conferir o commit e o resultado da execução atual; os contratos registram o alcance de cada implementação.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Anchored Affine Alignment](https://github.com/martinlofranodeoliveira/anchored-affine-alignment) | Kotlin | Biblioteca de alinhamento global com custo afim de lacunas, âncoras obrigatórias, desempate determinístico e operações verificáveis. | [Docs](https://github.com/martinlofranodeoliveira/anchored-affine-alignment/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/anchored-affine-alignment/actions/workflows/ci.yml) |
+| [Control Flow Dominance Core](https://github.com/martinlofranodeoliveira/control-flow-dominance-core) | Java | Biblioteca de análise de fluxo de controle com dominância, pós-dominância condicionada à saída, dependências e laços naturais verificáveis. | [Docs](https://github.com/martinlofranodeoliveira/control-flow-dominance-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/control-flow-dominance-core/actions/workflows/ci.yml) |
+| [Git Bundle Merge Rehearsal](https://github.com/martinlofranodeoliveira/git-bundle-merge-rehearsal) | Ruby | Aplicação offline para ensaiar merges de bundles Git em repositório descartável, produzindo resultado verificável ou conflitos estruturados. | [Docs](https://github.com/martinlofranodeoliveira/git-bundle-merge-rehearsal/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/git-bundle-merge-rehearsal/actions/workflows/ci.yml) |
+| [gRPC Cancellation Tree Lab](https://github.com/martinlofranodeoliveira/grpc-cancel-tree-lab) | TypeScript | Laboratório gRPC sem interface gráfica para propagação de prazos, cancelamento cooperativo e contabilização de tarefas entre processos locais. | [Docs](https://github.com/martinlofranodeoliveira/grpc-cancel-tree-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/grpc-cancel-tree-lab/actions/workflows/ci.yml) |
+| [Loopback TLS Rotation Lab](https://github.com/martinlofranodeoliveira/loopback-tls-rotation-lab) | Java | Laboratório JSSE para troca atômica de contexto TLS, preservação de sessões existentes e verificação local com PKI descartável. | [Docs](https://github.com/martinlofranodeoliveira/loopback-tls-rotation-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/loopback-tls-rotation-lab/actions/workflows/ci.yml) |
+| [Multipart Object Commit Lab](https://github.com/martinlofranodeoliveira/multipart-object-commit-lab) | PHP | Aplicação local de upload multipart com publicação atômica de lotes, deduplicação por conteúdo e recuperação de arquivos órfãos. | [Docs](https://github.com/martinlofranodeoliveira/multipart-object-commit-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/multipart-object-commit-lab/actions/workflows/ci.yml) |
+| [OFD Lock Ownership Lab](https://github.com/martinlofranodeoliveira/ofd-lock-ownership-lab) | C | Laboratório Linux de locks por faixa de bytes, com processos concorrentes, herança de descritores e aquisição com prazo explícito. | [Docs](https://github.com/martinlofranodeoliveira/ofd-lock-ownership-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/ofd-lock-ownership-lab/actions/workflows/ci.yml) |
+| [Revisioned Text Buffer](https://github.com/martinlofranodeoliveira/revisioned-text-buffer) | C++ | Biblioteca de texto UTF-8 com edições múltiplas atômicas, snapshots imutáveis, posições UTF-16 e mapas explícitos de reposicionamento. | [Docs](https://github.com/martinlofranodeoliveira/revisioned-text-buffer/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/revisioned-text-buffer/actions/workflows/ci.yml) |
+| [Verified Block Delta](https://github.com/martinlofranodeoliveira/verified-block-delta) | Rust | Biblioteca de diferenças binárias com assinaturas deslizantes, operações determinísticas e aplicação verificada sem alterar o arquivo base. | [Docs](https://github.com/martinlofranodeoliveira/verified-block-delta/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/verified-block-delta/actions/workflows/ci.yml) |
+
+<!-- EIGHTH-BATCH:END -->
+
 ## Catálogo existente
 
 | Projeto | Finalidade |
