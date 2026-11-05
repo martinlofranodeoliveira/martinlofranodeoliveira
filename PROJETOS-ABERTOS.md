@@ -51,4 +51,3 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 | [ZelloLife — documentos clínicos seguros](https://github.com/martinlofranodeoliveira/zellolife-open) | Biblioteca reutilizável para renderização e validação de documentos fornecidos pelo chamador. Não inventa achados, não realiza decisão clínica e não abre o SaaS integral. |
 | [Auditor de manifestos de arquivos ZIP](https://github.com/martinlofranodeoliveira/zip-manifest-audit) | Inventaria metadados do diretório central de ZIPs sem extrair nem ler os conteúdos dos membros. Relata riscos, mas não certifica a segurança do arquivo. |
 | [Casa Aberta — gerador de plantas](https://github.com/martinlofranodeoliveira/gerador-plantas-casas) | Editor local de planta 2D, vista 3D e exportações em medidas métricas. |
-
