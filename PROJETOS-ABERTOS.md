@@ -4,6 +4,28 @@
 
 Código, ferramentas e exemplos públicos. Consulte o README de cada repositório para conhecer sua finalidade, instalação e licença.
 
+<!-- FIRST-BATCH:BEGIN -->
+## Primeira leva · 10 projetos abertos
+
+**Publicado · desenvolvimento 0.1.** Esta primeira leva reúne 10 projetos abertos com documentação bilíngue, testes e demos locais. Os links de Actions permitem conferir o status atual da CI de cada repositório.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Health Probe CLI](https://github.com/martinlofranodeoliveira/health-probe-cli) | Go | Confere um GET HTTP, status esperado, latência e limite de resposta. | [Docs](https://github.com/martinlofranodeoliveira/health-probe-cli/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/health-probe-cli/actions/workflows/ci.yml) |
+| [Webhook Signature Lab](https://github.com/martinlofranodeoliveira/webhook-signature-lab) | TypeScript | Assina e verifica corpos brutos com HMAC e tempo explícito. | [Docs](https://github.com/martinlofranodeoliveira/webhook-signature-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/webhook-signature-lab/actions/workflows/ci.yml) |
+| [NDJSON Redact](https://github.com/martinlofranodeoliveira/ndjson-redact) | Rust | Substitui campos de NDJSON por JSON Pointer, com limites e diagnósticos sem valores. | [Docs](https://github.com/martinlofranodeoliveira/ndjson-redact/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/ndjson-redact/actions/workflows/ci.yml) |
+| [Approval Flow Core](https://github.com/martinlofranodeoliveira/approval-flow-core) | TypeScript | Organiza transições de aprovação, versão esperada e histórico reconstruível. | [Docs](https://github.com/martinlofranodeoliveira/approval-flow-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/approval-flow-core/actions/workflows/ci.yml) |
+| [OpenAPI Example Check](https://github.com/martinlofranodeoliveira/openapi-example-check) | TypeScript | Confere exemplos JSON no recorte documentado de OpenAPI 3.1.1, offline. | [Docs](https://github.com/martinlofranodeoliveira/openapi-example-check/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/openapi-example-check/actions/workflows/ci.yml) |
+| [Retrieval Eval Kit](https://github.com/martinlofranodeoliveira/retrieval-eval-kit) | TypeScript | Avalia rankings rotulados com Recall@K, MRR@K, fonte e abstenção. | [Docs](https://github.com/martinlofranodeoliveira/retrieval-eval-kit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/retrieval-eval-kit/actions/workflows/ci.yml) |
+| [Tenant Policy Lab](https://github.com/martinlofranodeoliveira/tenant-policy-lab) | SQL · PostgreSQL | Demonstra RLS por tenant com papéis distintos, dados fictícios e testes negativos. | [Docs](https://github.com/martinlofranodeoliveira/tenant-policy-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/tenant-policy-lab/actions/workflows/ci.yml) |
+| [Cursor Page Kit](https://github.com/martinlofranodeoliveira/cursor-page-kit) | PHP | Demonstra paginação por chave composta, cursor validado e snapshot SQLite. | [Docs](https://github.com/martinlofranodeoliveira/cursor-page-kit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/cursor-page-kit/actions/workflows/ci.yml) |
+| [Static Link Audit](https://github.com/martinlofranodeoliveira/static-link-audit) | Ruby | Confere destinos e fragmentos de links em uma exportação HTML local. | [Docs](https://github.com/martinlofranodeoliveira/static-link-audit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/static-link-audit/actions/workflows/ci.yml) |
+| [Business Day Calendar](https://github.com/martinlofranodeoliveira/business-day-calendar) | Java | Calcula datas úteis com fins de semana e fechamentos explicitamente configurados. | [Docs](https://github.com/martinlofranodeoliveira/business-day-calendar/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/business-day-calendar/actions/workflows/ci.yml) |
+
+<!-- FIRST-BATCH:END -->
+
+## Catálogo existente
+
 | Projeto | Finalidade |
 | --- | --- |
 | [Gestão de igrejas — aplicação aberta](https://github.com/martinlofranodeoliveira/Gest-o-de-Igrejas-open) | Aplicação React com modo local no navegador e desktop Electron/SQLite. Começa sem cadastros, sem conta padrão e sem dados da operação anterior. |
