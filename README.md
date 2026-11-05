@@ -75,6 +75,8 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 
 [Explore o catálogo de projetos open source e ferramentas →](PROJETOS-ABERTOS.md)
 
+[Consulte os commits e as evidências técnicas do portfólio →](EVIDENCIAS.md)
+
 <!-- FIRST-BATCH:BEGIN -->
 ### Primeira leva · 10 projetos abertos
 
@@ -136,6 +138,20 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 | [Resumable Transfer Lab](https://github.com/martinlofranodeoliveira/resumable-transfer-lab) | C# | Demonstra retomada HTTP por Range, ETag, checkpoint e SHA-256 esperado em loopback. | [Docs](https://github.com/martinlofranodeoliveira/resumable-transfer-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/resumable-transfer-lab/actions/workflows/ci.yml) |
 
 <!-- THIRD-BATCH:END -->
+
+<!-- FOURTH-BATCH:BEGIN -->
+### Núcleos de execução · 4 projetos abertos
+
+**Publicado · desenvolvimento 0.1.** Bibliotecas e laboratórios com contratos de estado e recursos explícitos, testes independentes e demos locais.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Saga Compensation Lab](https://github.com/martinlofranodeoliveira/saga-compensation-lab) | Java | Demonstra compensação reversa, persistência e reconciliação de resultados incertos com serviços HTTP locais. | [Docs](https://github.com/martinlofranodeoliveira/saga-compensation-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/saga-compensation-lab/actions/workflows/ci.yml) |
+| [Duplex Drain Pump](https://github.com/martinlofranodeoliveira/duplex-drain-pump) | C | Retransmite dois fluxos Linux com buffers limitados, contrapressão e half-close por direção. | [Docs](https://github.com/martinlofranodeoliveira/duplex-drain-pump/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/duplex-drain-pump/actions/workflows/ci.yml) |
+| [Guillotine Cut Plan](https://github.com/martinlofranodeoliveira/guillotine-cut-plan) | C++ | Planeja cortes guilhotinados com espessura de corte e certificado geométrico verificável. | [Docs](https://github.com/martinlofranodeoliveira/guillotine-cut-plan/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/guillotine-cut-plan/actions/workflows/ci.yml) |
+| [Deficit Round Queue](https://github.com/martinlofranodeoliveira/deficit-round-queue) | Lua | Escalona custos declarados por deficit round-robin, com filas limitadas e contabilidade exata. | [Docs](https://github.com/martinlofranodeoliveira/deficit-round-queue/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/deficit-round-queue/actions/workflows/ci.yml) |
+
+<!-- FOURTH-BATCH:END -->
 
 ---
 
