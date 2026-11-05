@@ -82,6 +82,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 <!-- FOURTH-BATCH:END -->
 
+<!-- FIFTH-BATCH:BEGIN -->
+## Concorrência e integração · 3 projetos abertos
+
+**Publicado · desenvolvimento 0.1.** Exemplos verificáveis de estado, processamento externo e integração com processos locais.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [ETS Snapshot Bundles](https://github.com/martinlofranodeoliveira/ets-snapshot-bundles) | Elixir | Publica gerações imutáveis de dados ETS com leases por processo, limites e limpeza de pins. | [Docs](https://github.com/martinlofranodeoliveira/ets-snapshot-bundles/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/ets-snapshot-bundles/actions/workflows/ci.yml) |
+| [Spill Outer Join](https://github.com/martinlofranodeoliveira/spill-outer-join) | Kotlin | Faz full outer join de JSONL com ordenação externa, multiplicidade e limites compartilhados de disco. | [Docs](https://github.com/martinlofranodeoliveira/spill-outer-join/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/spill-outer-join/actions/workflows/ci.yml) |
+| [MQTT Session Recovery Lab](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab) | Go | Exercita retained, recuperação de sessão, reinício e Last Will com um broker local próprio. | [Docs](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab/actions/workflows/ci.yml) |
+
+<!-- FIFTH-BATCH:END -->
+
 ## Catálogo existente
 
 | Projeto | Finalidade |

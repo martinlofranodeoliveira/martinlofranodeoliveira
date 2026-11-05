@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "evaluated_at_utc": "2026-11-05T06:30:48Z",
+  "evaluated_at_utc": "2026-11-05T06:47:44Z",
   "ttl_seconds": 86400,
   "repositories": [
     {
@@ -310,6 +310,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T06:21:10Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "ets-snapshot-bundles",
+      "description": "An ETS-backed immutable bundle index with monitored reader leases and atomic generation publication. Readers can inspect several keys without mixing versions, while pinned generations and request admission remain explicitly bounded.",
+      "language": "Elixir",
+      "source_sha": "b32f7bad46b805cd046774c1abdae4c082f38205",
+      "observed_at_utc": "2026-11-05T06:47:44Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407798348,
+            "name": "offline-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41981492134,
+            "workflow_id": 407798348,
+            "head_sha": "b32f7bad46b805cd046774c1abdae4c082f38205",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:36:37Z"
           }
         ]
       },
@@ -648,6 +687,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T04:22:18Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "mqtt-session-recovery-lab",
+      "description": "An end-to-end loopback Mosquitto lab for MQTT 3.1.1 retained messages, persistent sessions, queued QoS 1 delivery and Last Will. Fixed scenarios assert protocol outcomes without cloud brokers, credentials or a browser.",
+      "language": "Go",
+      "source_sha": "e2cbf83f8022dcdc7417244ab75b2ea874e6f441",
+      "observed_at_utc": "2026-11-05T06:47:44Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407803619,
+            "name": "local-broker-tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41982305763,
+            "workflow_id": 407803619,
+            "head_sha": "e2cbf83f8022dcdc7417244ab75b2ea874e6f441",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:44:41Z"
           }
         ]
       },
@@ -1051,6 +1129,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T04:23:12Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "spill-outer-join",
+      "description": "A bounded external-sort full outer join for local keyed JSONL streams. It preserves duplicate multiplicity, exposes SQL-like null nonmatching and publishes no result when parsing, Cartesian expansion or disk limits fail.",
+      "language": "Kotlin",
+      "source_sha": "f092a78c0f6ff9c78e17b64b4db83ba1c3066a35",
+      "observed_at_utc": "2026-11-05T06:47:44Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407803448,
+            "name": "local-contract",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41982283368,
+            "workflow_id": 407803448,
+            "head_sha": "f092a78c0f6ff9c78e17b64b4db83ba1c3066a35",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:44:50Z"
           }
         ]
       },

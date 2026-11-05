@@ -77,6 +77,22 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 
 [Consulte os commits e as evidências técnicas do portfólio →](EVIDENCIAS.md)
 
+### Comece por estes projetos
+
+| Projeto | O que experimentar | Abrir |
+| --- | --- | --- |
+| [GitHub Evidence Board](https://github.com/martinlofranodeoliveira/github-evidence-board) | Inspecionar commits, horários e cobertura de CI de repositórios públicos. | [Demo web](https://martinlofranodeoliveira.github.io/github-evidence-board/) |
+| [Freebusy Slot Studio](https://github.com/martinlofranodeoliveira/freebusy-slot-studio) | Encontrar horários comuns em cenários de disponibilidade explícitos. | [Demo web](https://martinlofranodeoliveira.github.io/freebusy-slot-studio/) |
+| [Schema Form Studio](https://github.com/martinlofranodeoliveira/schema-form-studio) | Gerar formulários e inspecionar validações de um recorte de JSON Schema. | [Demo web](https://martinlofranodeoliveira.github.io/schema-form-studio/) |
+| [Resumable Transfer Lab · C#](https://github.com/martinlofranodeoliveira/resumable-transfer-lab) | Retomar uma transferência HTTP com checkpoint, ETag e SHA-256 esperado. | [Executar localmente](https://github.com/martinlofranodeoliveira/resumable-transfer-lab/blob/main/README.pt-BR.md) |
+| [SQLite Migration Rehearsal Lab · Python](https://github.com/martinlofranodeoliveira/sqlite-migration-rehearsal-lab) | Ensaiar migrações up/down/up em cópias do banco e conferir dados. | [Executar localmente](https://github.com/martinlofranodeoliveira/sqlite-migration-rehearsal-lab/blob/main/README.pt-BR.md) |
+| [MQTT Session Recovery Lab · Go](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab) | Reproduzir recuperação de sessão e Last Will com Mosquitto isolado. | [Executar localmente](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab/blob/main/README.pt-BR.md) |
+
+As demos usam cenários sintéticos. Seu código e arquivos publicados foram conferidos; a revisão visual em navegador permanece pendente. Veja o alcance da validação em [EVIDENCIAS.md](EVIDENCIAS.md).
+
+<details>
+<summary><strong>Ver os 39 projetos desta série</strong></summary>
+
 <!-- FIRST-BATCH:BEGIN -->
 ### Primeira leva · 10 projetos abertos
 
@@ -152,6 +168,21 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 | [Deficit Round Queue](https://github.com/martinlofranodeoliveira/deficit-round-queue) | Lua | Escalona custos declarados por deficit round-robin, com filas limitadas e contabilidade exata. | [Docs](https://github.com/martinlofranodeoliveira/deficit-round-queue/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/deficit-round-queue/actions/workflows/ci.yml) |
 
 <!-- FOURTH-BATCH:END -->
+
+<!-- FIFTH-BATCH:BEGIN -->
+### Concorrência e integração · 3 projetos abertos
+
+**Publicado · desenvolvimento 0.1.** Exemplos verificáveis de estado, processamento externo e integração com processos locais.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [ETS Snapshot Bundles](https://github.com/martinlofranodeoliveira/ets-snapshot-bundles) | Elixir | Publica gerações imutáveis de dados ETS com leases por processo, limites e limpeza de pins. | [Docs](https://github.com/martinlofranodeoliveira/ets-snapshot-bundles/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/ets-snapshot-bundles/actions/workflows/ci.yml) |
+| [Spill Outer Join](https://github.com/martinlofranodeoliveira/spill-outer-join) | Kotlin | Faz full outer join de JSONL com ordenação externa, multiplicidade e limites compartilhados de disco. | [Docs](https://github.com/martinlofranodeoliveira/spill-outer-join/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/spill-outer-join/actions/workflows/ci.yml) |
+| [MQTT Session Recovery Lab](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab) | Go | Exercita retained, recuperação de sessão, reinício e Last Will com um broker local próprio. | [Docs](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab/actions/workflows/ci.yml) |
+
+<!-- FIFTH-BATCH:END -->
+
+</details>
 
 ---
 
