@@ -99,7 +99,7 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 As demos usam cenários sintéticos. Seu código e arquivos publicados foram conferidos; a revisão visual em navegador permanece pendente. Veja o alcance da validação em [EVIDENCIAS.md](EVIDENCIAS.md).
 
 <details>
-<summary><strong>Ver os 85 projetos desta série</strong></summary>
+<summary><strong>Ver os 92 projetos desta série</strong></summary>
 
 <!-- FIRST-BATCH:BEGIN -->
 ### Primeira leva · 10 projetos abertos
@@ -285,6 +285,24 @@ As demos usam cenários sintéticos. Seu código e arquivos publicados foram con
 | [Audio Edit Replay Lab](https://github.com/martinlofranodeoliveira/audio-edit-replay-lab) | C# | Monta cortes e silêncio de áudio PCM por índices de amostras, com mapa de saída e conferência dos valores decodificados. | [Docs](https://github.com/martinlofranodeoliveira/audio-edit-replay-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/audio-edit-replay-lab/actions/workflows/ci.yml) |
 
 <!-- TENTH-BATCH:END -->
+
+<!-- ELEVENTH-BATCH:BEGIN -->
+### Pacotes e ensaios nativos · 7 projetos abertos
+
+**Publicado · desenvolvimento 0.1.** Bibliotecas e ferramentas com contratos explícitos, testes nativos, documentação bilíngue e consumo de pacotes conferido fora do código-fonte. Consulte os limites e as execuções de Actions de cada projeto.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Swift Actor Transition Rehearsal](https://github.com/martinlofranodeoliveira/swift-actor-transition-rehearsal) | Swift | Ensaios de transições em atores, com cancelamento, confirmação de etapas e resultados reproduzíveis. | [Docs](https://github.com/martinlofranodeoliveira/swift-actor-transition-rehearsal/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/swift-actor-transition-rehearsal/actions/workflows/ci.yml) |
+| [SFTP Generation Publisher](https://github.com/martinlofranodeoliveira/sftp-generation-publisher) | Rust | Publica gerações por SFTP em um servidor próprio, com verificação de arquivos e pontos de confirmação explícitos. | [Docs](https://github.com/martinlofranodeoliveira/sftp-generation-publisher/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/sftp-generation-publisher/actions/workflows/ci.yml) |
+| [Gettext Generation Workbench](https://github.com/martinlofranodeoliveira/gettext-generation-workbench) | Ruby | Cria gerações de traduções Gettext, confere arquivos GNU e mantém consultas vinculadas a uma versão. | [Docs](https://github.com/martinlofranodeoliveira/gettext-generation-workbench/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/gettext-generation-workbench/actions/workflows/ci.yml) |
+| [Julia Bounded GK Evidence](https://github.com/martinlofranodeoliveira/julia-bounded-gk-evidence) | Julia | Resume fluxos inteiros com limites de recursos e certificados de posição conferidos contra os dados de teste. | [Docs](https://github.com/martinlofranodeoliveira/julia-bounded-gk-evidence/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/julia-bounded-gk-evidence/actions/workflows/ci.yml) |
+| [Corpus Font Bundle](https://github.com/martinlofranodeoliveira/corpus-font-bundle) | Python | Produz subconjuntos TTF e WOFF2 para corpus declarado, conferindo composição de glifos e métricas com HarfBuzz. | [Docs](https://github.com/martinlofranodeoliveira/corpus-font-bundle/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/corpus-font-bundle/actions/workflows/ci.yml) |
+| [OTP State Upgrade Rehearsal](https://github.com/martinlofranodeoliveira/otp-state-upgrade-rehearsal) | Elixir | Ensaios de troca de código e migração de estado OTP, com recuperação do histórico confirmado em memória. | [Docs](https://github.com/martinlofranodeoliveira/otp-state-upgrade-rehearsal/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/otp-state-upgrade-rehearsal/actions/workflows/ci.yml) |
+| [LDAP Membership Evidence Lab](https://github.com/martinlofranodeoliveira/ldap-membership-evidence-lab) | C# | Explica caminhos de grupos LDAP sintéticos, ciclos, referências ausentes e observações incompletas. | [Docs](https://github.com/martinlofranodeoliveira/ldap-membership-evidence-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/ldap-membership-evidence-lab/actions/workflows/ci.yml) |
+
+<!-- ELEVENTH-BATCH:END -->
+
 
 </details>
 
