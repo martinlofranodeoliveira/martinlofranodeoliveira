@@ -153,6 +153,27 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 <!-- EIGHTH-BATCH:END -->
 
+<!-- NINTH-BATCH:BEGIN -->
+## Nona leva · 11 projetos abertos
+
+**Publicado · desenvolvimento 0.1.0.** Onze projetos com documentação bilíngue, testes e demonstrações. Três aplicações React incluem cenas 3D e versões acessíveis por GitHub Pages; a revisão visual em navegador permanece pendente. Consulte o contrato e o commit de cada execução em Actions.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Cabinet Assembly Studio](https://github.com/martinlofranodeoliveira/cabinet-assembly-studio) | TypeScript | Configura um gabinete em 3D, explora a montagem e exporta medidas e componentes conceituais. | [Docs](https://github.com/martinlofranodeoliveira/cabinet-assembly-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/cabinet-assembly-studio/actions/workflows/ci.yml) |
+| [Frame Transform Studio](https://github.com/martinlofranodeoliveira/frame-transform-studio) | TypeScript | Explora hierarquias de coordenadas em 3D e compara poses locais e globais. | [Docs](https://github.com/martinlofranodeoliveira/frame-transform-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/frame-transform-studio/actions/workflows/ci.yml) |
+| [Integer Periodic Neighbors](https://github.com/martinlofranodeoliveira/integer-periodic-neighbors) | Python | Biblioteca de vizinhança periódica com coordenadas inteiras, reconstrução conservadora e comparação exata com um oráculo de todos os pares. | [Docs](https://github.com/martinlofranodeoliveira/integer-periodic-neighbors/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/integer-periodic-neighbors/actions/workflows/ci.yml) |
+| [Logical Snapshot Handoff Lab](https://github.com/martinlofranodeoliveira/logical-snapshot-handoff-lab) | Go | Laboratório PostgreSQL/SQLite para bootstrap por snapshot exportado, replicação lógica transacional e retomada após falhas. | [Docs](https://github.com/martinlofranodeoliveira/logical-snapshot-handoff-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/logical-snapshot-handoff-lab/actions/workflows/ci.yml) |
+| [Modbus Register Replay Lab](https://github.com/martinlofranodeoliveira/modbus-register-replay-lab) | Rust | Laboratório Modbus TCP sintético com cliente, emulador independente e falhas controladas, sem hardware ou destinos externos. | [Docs](https://github.com/martinlofranodeoliveira/modbus-register-replay-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/modbus-register-replay-lab/actions/workflows/ci.yml) |
+| [OCI Layer Effect Explorer](https://github.com/martinlofranodeoliveira/oci-layer-effect-explorer) | Go | Explica o sistema de arquivos efetivo de imagens OCI locais, incluindo whiteouts e origem por camada, sem executar a imagem. | [Docs](https://github.com/martinlofranodeoliveira/oci-layer-effect-explorer/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/oci-layer-effect-explorer/actions/workflows/ci.yml) |
+| [Offline Dependency Capsule](https://github.com/martinlofranodeoliveira/offline-dependency-capsule) | Kotlin | Resolve catálogos locais de dependências com restrições explícitas, mudanças mínimas no lock e resultados inconclusivos quando o orçamento termina. | [Docs](https://github.com/martinlofranodeoliveira/offline-dependency-capsule/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/offline-dependency-capsule/actions/workflows/ci.yml) |
+| [Relational Fixture Slice](https://github.com/martinlofranodeoliveira/relational-fixture-slice) | SQL | Extrai fixtures PostgreSQL limitadas, com fechamento referencial, e demonstra a restauração em outro banco vazio. | [Docs](https://github.com/martinlofranodeoliveira/relational-fixture-slice/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/relational-fixture-slice/actions/workflows/ci.yml) |
+| [Revisioned Formula Cells](https://github.com/martinlofranodeoliveira/revisioned-formula-cells) | Dart | Biblioteca de fórmulas tipadas com edições atômicas, recálculo incremental e recibos de revisão, sem eval. | [Docs](https://github.com/martinlofranodeoliveira/revisioned-formula-cells/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/revisioned-formula-cells/actions/workflows/ci.yml) |
+| [Scoped Congruence Explanations](https://github.com/martinlofranodeoliveira/scoped-congruence-explanations) | C# | Motor limitado de igualdades entre termos concretos, com congruência, escopos reversíveis e explicações de conflitos verificadas também pelo Z3. | [Docs](https://github.com/martinlofranodeoliveira/scoped-congruence-explanations/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/scoped-congruence-explanations/actions/workflows/ci.yml) |
+| [Spatial Loading Studio](https://github.com/martinlofranodeoliveira/spatial-loading-studio) | TypeScript | Planeja a ocupação volumétrica em 3D com colisões explícitas, rotações e desfazer. | [Docs](https://github.com/martinlofranodeoliveira/spatial-loading-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/spatial-loading-studio/actions/workflows/ci.yml) |
+
+<!-- NINTH-BATCH:END -->
+
 ## Catálogo existente
 
 | Projeto | Finalidade |
