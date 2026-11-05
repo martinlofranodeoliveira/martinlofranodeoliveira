@@ -95,6 +95,28 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 <!-- FIFTH-BATCH:END -->
 
+<!-- SIXTH-BATCH:BEGIN -->
+## Algoritmos e laboratórios · 12 projetos abertos
+
+**Publicado · desenvolvimento 0.1.** Ferramentas com contratos explícitos, referências, testes independentes e demos reproduzíveis.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Pairwise Fixture Plan](https://github.com/martinlofranodeoliveira/pairwise-fixture-plan) | Python | Gera fixtures que cobrem pares viáveis de opções, com restrições declarativas e verificador independente. | [Docs](https://github.com/martinlofranodeoliveira/pairwise-fixture-plan/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/pairwise-fixture-plan/actions/workflows/ci.yml) |
+| [Capability Match Core](https://github.com/martinlofranodeoliveira/capability-match-core) | PHP | Maximiza atribuições compatíveis e minimiza custo inteiro, com certificados de fluxo e custo. | [Docs](https://github.com/martinlofranodeoliveira/capability-match-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/capability-match-core/actions/workflows/ci.yml) |
+| [PostgreSQL Isolation Replay Lab](https://github.com/martinlofranodeoliveira/postgres-isolation-replay-lab) | Ruby | Reproduz anomalias de isolamento, rollback e retentativas com PostgreSQL próprio e barreiras. | [Docs](https://github.com/martinlofranodeoliveira/postgres-isolation-replay-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/postgres-isolation-replay-lab/actions/workflows/ci.yml) |
+| [Loopback DNS Cache Lab](https://github.com/martinlofranodeoliveira/loopback-dns-cache-lab) | TypeScript | Exercita cache DNS positivo/negativo e recuperação UDP para TCP com autoridade local. | [Docs](https://github.com/martinlofranodeoliveira/loopback-dns-cache-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/loopback-dns-cache-lab/actions/workflows/ci.yml) |
+| [Rollback Connectivity Timeline](https://github.com/martinlofranodeoliveira/rollback-connectivity-timeline) | Rust | Consulta conectividade ao longo de um histórico de arestas com union-find reversível. | [Docs](https://github.com/martinlofranodeoliveira/rollback-connectivity-timeline/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/rollback-connectivity-timeline/actions/workflows/ci.yml) |
+| [Orthogonal Route Core](https://github.com/martinlofranodeoliveira/orthogonal-route-core) | C++ | Roteia conectores em grade inteira com obstáculos, comprimento mínimo e desempate por curvas. | [Docs](https://github.com/martinlofranodeoliveira/orthogonal-route-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/orthogonal-route-core/actions/workflows/ci.yml) |
+| [Bounded Token Net](https://github.com/martinlofranodeoliveira/bounded-token-net) | Elixir | Explora modelos finitos de recursos e devolve testemunhos de deadlock e limites de exploração. | [Docs](https://github.com/martinlofranodeoliveira/bounded-token-net/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/bounded-token-net/actions/workflows/ci.yml) |
+| [Revision Validity Index](https://github.com/martinlofranodeoliveira/revision-validity-index) | Kotlin | Preserva consultas históricas por revisão ao corrigir intervalos de validade em memória. | [Docs](https://github.com/martinlofranodeoliveira/revision-validity-index/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/revision-validity-index/actions/workflows/ci.yml) |
+| [Fenced Weight Cache](https://github.com/martinlofranodeoliveira/fenced-weight-cache) | Dart | Combina cache LRU por peso, TTL e carregamento único com proteção contra resultados antigos. | [Docs](https://github.com/martinlofranodeoliveira/fenced-weight-cache/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/fenced-weight-cache/actions/workflows/ci.yml) |
+| [Mask Region Core](https://github.com/martinlofranodeoliveira/mask-region-core) | Java | Calcula componentes, buracos e distâncias quadráticas exatas em máscaras binárias, com adaptador PNG. | [Docs](https://github.com/martinlofranodeoliveira/mask-region-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/mask-region-core/actions/workflows/ci.yml) |
+| [Stripe Recovery Kit](https://github.com/martinlofranodeoliveira/stripe-recovery-kit) | Rust | Restaura arquivos a partir de fragmentos redundantes, tratando blocos ausentes ou corrompidos. | [Docs](https://github.com/martinlofranodeoliveira/stripe-recovery-kit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/stripe-recovery-kit/actions/workflows/ci.yml) |
+| [Bounded Observed Set](https://github.com/martinlofranodeoliveira/bounded-observed-set) | C# | Modela conjunto replicado com remoção observada, histórico limitado e snapshots validados. | [Docs](https://github.com/martinlofranodeoliveira/bounded-observed-set/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/bounded-observed-set/actions/workflows/ci.yml) |
+
+<!-- SIXTH-BATCH:END -->
+
 ## Catálogo existente
 
 | Projeto | Finalidade |
