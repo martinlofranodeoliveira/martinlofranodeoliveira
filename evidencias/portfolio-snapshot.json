@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "evaluated_at_utc": "2026-11-05T12:41:11Z",
+  "evaluated_at_utc": "2026-11-05T14:13:41Z",
   "ttl_seconds": 86400,
   "repositories": [
     {
@@ -76,6 +76,84 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T02:59:38Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "audio-edit-replay-lab",
+      "description": "A headless PCM audio assembly application that compiles sample-index edit plans into fixed FFmpeg operations, publishes audio with a source-to-output map and verifies exact decoded samples using synthetic fixtures.",
+      "language": "C#",
+      "source_sha": "a90e95806671e437e338230e3d15f195dded4bf0",
+      "observed_at_utc": "2026-11-05T14:13:41Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408231094,
+            "name": "ci",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42042542017,
+            "workflow_id": 408231094,
+            "head_sha": "a90e95806671e437e338230e3d15f195dded4bf0",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T14:12:48Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "booklet-imposition-pack",
+      "description": "Turn selected static PDF pages into bounded booklet signatures with explicit blank padding, sheet-side maps and deterministic geometry. A headless demo checks the PDF structure, text markers and raster samples.",
+      "language": "PHP",
+      "source_sha": "89213a52cd6f92786f9cc2faaf2b62ec49780666",
+      "observed_at_utc": "2026-11-05T14:13:41Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408228867,
+            "name": "offline-runtime-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42042250705,
+            "workflow_id": 408228867,
+            "head_sha": "89213a52cd6f92786f9cc2faaf2b62ec49780666",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T14:10:24Z"
           }
         ]
       },
@@ -232,6 +310,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T02:44:30Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "byte-corpus-suffix-index",
+      "description": "A bounded byte-corpus suffix index with overlapping occurrence and distinct-document queries. A callable Lua API and asserting CLI compare results with an independent naive substring oracle.",
+      "language": "Lua",
+      "source_sha": "deca7b199f2366e7a50b3eb5d04693aac3954a5c",
+      "observed_at_utc": "2026-11-05T13:26:14Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408158068,
+            "name": "tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42032052639,
+            "workflow_id": 408158068,
+            "head_sha": "deca7b199f2366e7a50b3eb5d04693aac3954a5c",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T13:01:36Z"
           }
         ]
       },
@@ -1089,6 +1206,45 @@
     },
     {
       "owner": "martinlofranodeoliveira",
+      "name": "inotify-convergence-lab",
+      "description": "A Linux directory-index application over a fresh owned fixture tree. Real inotify events, rename cookies and quiescent reconciliation demonstrate when an index is current, dirty or incomplete.",
+      "language": "C",
+      "source_sha": "d2b18daae174071f761934da2aad6d327f316c36",
+      "observed_at_utc": "2026-11-05T13:26:14Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408164163,
+            "name": "Linux C checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42034999030,
+            "workflow_id": 408164163,
+            "head_sha": "d2b18daae174071f761934da2aad6d327f316c36",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T13:21:40Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
       "name": "integer-periodic-neighbors",
       "description": "An exact-integer periodic neighbor-list library for synthetic particle experiments, with minimum-image distances, conservative skin-based rebuilds and failure-atomic frame updates checked against an all-pairs oracle.",
       "language": "Python",
@@ -1238,6 +1394,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T10:03:22Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "lsp-rename-rehearsal",
+      "description": "Rehearse semantic TypeScript renames against a real language-server subprocess. Produce a new checked workspace and edit receipt while leaving the imported source snapshot unchanged.",
+      "language": "TypeScript",
+      "source_sha": "653c91af90a3ffa574a3198eadfe32697431bf4d",
+      "observed_at_utc": "2026-11-05T13:52:26Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408206974,
+            "name": "checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42039225179,
+            "workflow_id": 408206974,
+            "head_sha": "653c91af90a3ffa574a3198eadfe32697431bf4d",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T13:50:16Z"
           }
         ]
       },
@@ -1862,6 +2057,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T07:21:44Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "raster-priority-mosaic",
+      "description": "A headless GeoTIFF mosaic application with explicit grid geometry, valid-mask-aware priority rules and per-pixel provenance and coverage outputs. Tiny synthetic rasters make reprojection and overlap behavior independently checkable.",
+      "language": "Python",
+      "source_sha": "f84fc4a322c0cfd251b4e06246e55bc6e2240eac",
+      "observed_at_utc": "2026-11-05T13:26:14Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408170928,
+            "name": "offline-raster-tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42034000991,
+            "workflow_id": 408170928,
+            "head_sha": "f84fc4a322c0cfd251b4e06246e55bc6e2240eac",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T13:15:23Z"
           }
         ]
       },
@@ -2855,6 +3089,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T04:23:12Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "trace-context-hop-lab",
+      "description": "Two local HTTP services and a real OpenTelemetry Collector demonstrate trace parentage, request-context isolation and baggage allowlisting. A headless verifier checks exported OTLP evidence instead of requiring a tracing dashboard.",
+      "language": "Elixir",
+      "source_sha": "7ec54ce284acbcbaa5980d917b7c579a22a9f3ee",
+      "observed_at_utc": "2026-11-05T13:26:14Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408150298,
+            "name": "local-evidence",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42031032846,
+            "workflow_id": 408150298,
+            "head_sha": "7ec54ce284acbcbaa5980d917b7c579a22a9f3ee",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T12:54:59Z"
           }
         ]
       },

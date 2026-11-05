@@ -174,6 +174,23 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 <!-- NINTH-BATCH:END -->
 
+<!-- TENTH-BATCH:BEGIN -->
+## Décima leva · 7 projetos abertos
+
+**Publicado · desenvolvimento 0.1.0.** Sete projetos com documentação bilíngue, testes e demonstrações locais. Os contratos explicam os limites e os links de Actions permitem conferir cada execução.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Trace Context Hop Lab](https://github.com/martinlofranodeoliveira/trace-context-hop-lab) | TypeScript | Reproduz propagação de contexto W3C entre serviços locais, com OpenTelemetry e verificações de continuidade e falhas. | [Docs](https://github.com/martinlofranodeoliveira/trace-context-hop-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/trace-context-hop-lab/actions/workflows/ci.yml) |
+| [Byte Corpus Suffix Index](https://github.com/martinlofranodeoliveira/byte-corpus-suffix-index) | Lua | Indexa pequenos corpora binários com array de sufixos, busca sobreposta e contagens por documento. | [Docs](https://github.com/martinlofranodeoliveira/byte-corpus-suffix-index/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/byte-corpus-suffix-index/actions/workflows/ci.yml) |
+| [Inotify Convergence Lab](https://github.com/martinlofranodeoliveira/inotify-convergence-lab) | C | Reconcilia diretórios próprios após eventos inotify, distinguindo estado atual, dados antigos e observação incompleta. | [Docs](https://github.com/martinlofranodeoliveira/inotify-convergence-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/inotify-convergence-lab/actions/workflows/ci.yml) |
+| [Raster Priority Mosaic](https://github.com/martinlofranodeoliveira/raster-priority-mosaic) | Python | Produz mosaicos de rasters GeoTIFF com prioridade explícita, máscara de validade e conferência independente pelo GDAL. | [Docs](https://github.com/martinlofranodeoliveira/raster-priority-mosaic/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/raster-priority-mosaic/actions/workflows/ci.yml) |
+| [LSP Rename Rehearsal](https://github.com/martinlofranodeoliveira/lsp-rename-rehearsal) | TypeScript | Ensaia renomeação semântica em cópia própria, verifica edições e compila o resultado sem alterar a origem. | [Docs](https://github.com/martinlofranodeoliveira/lsp-rename-rehearsal/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/lsp-rename-rehearsal/actions/workflows/ci.yml) |
+| [Booklet Imposition Pack](https://github.com/martinlofranodeoliveira/booklet-imposition-pack) | PHP | Organiza páginas PDF em cadernos dobráveis, com mapa de posições e validação por estrutura, texto e rasterização. | [Docs](https://github.com/martinlofranodeoliveira/booklet-imposition-pack/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/booklet-imposition-pack/actions/workflows/ci.yml) |
+| [Audio Edit Replay Lab](https://github.com/martinlofranodeoliveira/audio-edit-replay-lab) | C# | Monta cortes e silêncio de áudio PCM por índices de amostras, com mapa de saída e conferência dos valores decodificados. | [Docs](https://github.com/martinlofranodeoliveira/audio-edit-replay-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/audio-edit-replay-lab/actions/workflows/ci.yml) |
+
+<!-- TENTH-BATCH:END -->
+
 ## Catálogo existente
 
 | Projeto | Finalidade |
