@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "evaluated_at_utc": "2026-11-05T08:02:00Z",
+  "evaluated_at_utc": "2026-11-05T08:47:50Z",
   "ttl_seconds": 86400,
   "repositories": [
     {
@@ -9,7 +9,7 @@
       "description": "A deterministic approval-request core with authorized transitions, expected versions and reconstructable history. It records internal decisions without making payments, sending messages or invoking external systems.",
       "language": "TypeScript",
       "source_sha": "9735d660cb8c74d0851b9bf03b77c44d1236f8a0",
-      "observed_at_utc": "2026-11-05T08:01:32Z",
+      "observed_at_utc": "2026-11-05T08:47:17Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -48,7 +48,7 @@
       "description": "A bounded observed-remove set for offline replica experiments, with explicit causal tags, atomic merge rejection and canonical snapshots. It demonstrates convergence and concurrent-add survival without clocks, transport or unsafe history pr",
       "language": "C#",
       "source_sha": "3ec460e8f22493bc1b06e2300b0cec0ecd866eff",
-      "observed_at_utc": "2026-11-05T08:01:32Z",
+      "observed_at_utc": "2026-11-05T08:47:17Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -87,7 +87,7 @@
       "description": "A bounded token-flow library for modeling resource protocols, firing transitions atomically and exploring reachable markings. It returns replayable deadlock witnesses and distinguishes completed searches from budget-limited exploration.",
       "language": "Elixir",
       "source_sha": "4d9d17865cc3e9454d8c02821e5ea6bc0f8f7025",
-      "observed_at_utc": "2026-11-05T08:01:31Z",
+      "observed_at_utc": "2026-11-05T08:47:17Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -126,7 +126,7 @@
       "description": "Go quota ledger with concurrent reservations, explicit dispatch, settlement and uncertain-charge reconciliation. Retains overage evidence and blocks new holds. Includes race tests, bounded audit history and an offline demo.",
       "language": "Go",
       "source_sha": "734f59cfecfa760e61b1b540cde128d9bca34a12",
-      "observed_at_utc": "2026-11-05T08:01:31Z",
+      "observed_at_utc": "2026-11-05T08:47:17Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -165,7 +165,7 @@
       "description": "A business-date library with configured weekends and explicit closure dates. It calculates operational dates with LocalDate without inferring legal holidays or replacing employment/contract rules.",
       "language": "Java",
       "source_sha": "cbbe71876f88f266e6f0e0ae4187562c9e218c99",
-      "observed_at_utc": "2026-11-05T08:01:34Z",
+      "observed_at_utc": "2026-11-05T08:47:19Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -204,7 +204,7 @@
       "description": "A capacitated bipartite assignment library that maximizes fulfilled items before minimizing integer preference cost. It returns replayable assignments, unassigned items and independently verifiable optimality certificates.",
       "language": "PHP",
       "source_sha": "80a5ac88912adf249d041633f2cd4a3c4dad6540",
-      "observed_at_utc": "2026-11-05T08:01:34Z",
+      "observed_at_utc": "2026-11-05T08:47:19Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -243,7 +243,7 @@
       "description": "Offline IPv4/IPv6 CIDR audit and deterministic subnet planning in Python. Finds overlaps and non-canonical prefixes, allocates aligned VLSM blocks around reservations and reports exact free address space.",
       "language": "Python",
       "source_sha": "e7a5286c5e5fb53faf9ffaf3bc5c7e29e4327146",
-      "observed_at_utc": "2026-11-05T08:01:34Z",
+      "observed_at_utc": "2026-11-05T08:47:19Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -282,7 +282,7 @@
       "description": "A layered configuration resolver producing effective state and per-path write provenance. It never reads the host environment and masks sensitive trace values without correlatable secret hashes.",
       "language": "Rust",
       "source_sha": "248cb4d1e955071c1158b22ee794b6282d4af955",
-      "observed_at_utc": "2026-11-05T08:01:34Z",
+      "observed_at_utc": "2026-11-05T08:47:19Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -317,11 +317,50 @@
     },
     {
       "owner": "martinlofranodeoliveira",
+      "name": "connection-handoff-reload-lab",
+      "description": "A Linux supervisor/worker lab that transfers accepted sockets with SCM_RIGHTS, switches new connections only after worker readiness and drains old sessions under explicit ownership and deadline rules.",
+      "language": "C",
+      "source_sha": "a29abc686f268fd6856f7f33e557d207550a8662",
+      "observed_at_utc": "2026-11-05T08:47:21Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407895764,
+            "name": "C lab checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41996762135,
+            "workflow_id": 407895764,
+            "head_sha": "a29abc686f268fd6856f7f33e557d207550a8662",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:44:45Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
       "name": "cursor-page-kit",
       "description": "A forward keyset-pagination core with validated opaque cursors and a PDO/SQLite example. It demonstrates stable snapshot pagination with repeated sort values without building another CRUD dashboard.",
       "language": "PHP",
-      "source_sha": "a72f2d16dc7066d9553e792e296972256f8d46f0",
-      "observed_at_utc": "2026-11-05T08:01:36Z",
+      "source_sha": "75a3bbfb42c743636081df45e2f88b646ad85b31",
+      "observed_at_utc": "2026-11-05T08:47:21Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -343,12 +382,12 @@
         "complete": true,
         "items": [
           {
-            "id": 41958705225,
+            "id": 41993374893,
             "workflow_id": 407648450,
-            "head_sha": "a72f2d16dc7066d9553e792e296972256f8d46f0",
+            "head_sha": "75a3bbfb42c743636081df45e2f88b646ad85b31",
             "status": "completed",
             "conclusion": "success",
-            "updated_at_utc": "2026-11-05T02:59:48Z"
+            "updated_at_utc": "2026-11-05T08:18:58Z"
           }
         ]
       },
@@ -360,7 +399,7 @@
       "description": "A bounded, clock-free Deficit Round Robin scheduler for caller-owned work IDs and integer costs. It exposes complete rounds, cancellation and credit accounting without executing jobs or sending packets.",
       "language": "Lua",
       "source_sha": "1a2d97bf7bdd524c4cdee2d8dd78fa7e3cab8c15",
-      "observed_at_utc": "2026-11-05T08:01:36Z",
+      "observed_at_utc": "2026-11-05T08:47:21Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -399,7 +438,7 @@
       "description": "A bounded Linux library for relaying two connected stream sockets while preserving backpressure and directional EOF. Includes a socketpair lab for partial writes, half-close draining and explicit idle deadlines.",
       "language": "C",
       "source_sha": "72ee164185b020d2d61cba6735c912973750bc6f",
-      "observed_at_utc": "2026-11-05T08:01:36Z",
+      "observed_at_utc": "2026-11-05T08:47:22Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -438,7 +477,7 @@
       "description": "An ETS-backed immutable bundle index with monitored reader leases and atomic generation publication. Readers can inspect several keys without mixing versions, while pinned generations and request admission remain explicitly bounded.",
       "language": "Elixir",
       "source_sha": "b32f7bad46b805cd046774c1abdae4c082f38205",
-      "observed_at_utc": "2026-11-05T08:01:36Z",
+      "observed_at_utc": "2026-11-05T08:47:23Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -477,7 +516,7 @@
       "description": "An asynchronous weighted LRU cache with single-flight loading, inclusive TTL expiry and generation-fenced invalidation. A deterministic manual-clock demo shows why an old in-flight load must not resurrect invalidated data.",
       "language": "Dart",
       "source_sha": "aa14d977ca9e707160fac12b5a9974360f16f87e",
-      "observed_at_utc": "2026-11-05T08:01:38Z",
+      "observed_at_utc": "2026-11-05T08:47:24Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -516,7 +555,7 @@
       "description": "Offline browser studio and Node CLI for common availability. Intersects dated working intervals, subtracts buffered busy blocks and explains conflicts. Uses explicit UTC offsets and bounded slot generation.",
       "language": "JavaScript",
       "source_sha": "6bed4069d7aad3b6b11e92c87d929bfe5467de55",
-      "observed_at_utc": "2026-11-05T08:01:38Z",
+      "observed_at_utc": "2026-11-05T08:47:24Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -568,7 +607,7 @@
       "description": "A synthetic integration and reconciliation lab correlating orders, reservation events and shipment snapshots, explaining quantity mismatches and missing evidence without money, payments or live inventory operations.",
       "language": "Go",
       "source_sha": "5dcad071d7d7fdb32f245107a1f7ddb1fcdf7f10",
-      "observed_at_utc": "2026-11-05T08:01:38Z",
+      "observed_at_utc": "2026-11-05T08:47:24Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -607,7 +646,7 @@
       "description": "Static browser workbench and Node CLI for inspecting public GitHub evidence snapshots, source SHAs, CI results and snapshot age. Includes synthetic offline demos, local import/export and explicit public API refresh.",
       "language": "JavaScript",
       "source_sha": "5b992ae803038d4be1bb2208df9138531054e0da",
-      "observed_at_utc": "2026-11-05T08:01:39Z",
+      "observed_at_utc": "2026-11-05T08:47:25Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -659,7 +698,7 @@
       "description": "A deterministic rectangle-packing library producing replayable guillotine cut certificates with integer dimensions, kerf and per-item rotation rules. Intended for planning experiments, not machine control or optimality claims.",
       "language": "C++",
       "source_sha": "8b77ee6334c6415a9eac462fb19537c66516ef98",
-      "observed_at_utc": "2026-11-05T08:01:41Z",
+      "observed_at_utc": "2026-11-05T08:47:26Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -698,7 +737,7 @@
       "description": "A local HAR analyzer summarizing requests, known response bytes and latency percentiles by origin against explicit budgets. It does not capture traffic or invent performance scores.",
       "language": "Dart",
       "source_sha": "bd0da64c6ddada3e32bb30fdf396a33eb9d15051",
-      "observed_at_utc": "2026-11-05T08:01:41Z",
+      "observed_at_utc": "2026-11-05T08:47:26Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -737,7 +776,7 @@
       "description": "A one-shot HTTP probe for teams that need expected-status, availability, latency and response-limit checks in a JSON report. It is not a continuous monitoring service.",
       "language": "Go",
       "source_sha": "f2a81e58785ded739fa18ce92fa0040a82c0c3c1",
-      "observed_at_utc": "2026-11-05T08:01:41Z",
+      "observed_at_utc": "2026-11-05T08:47:27Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -776,7 +815,7 @@
       "description": "A pure calculator of HTTP response age and a restricted freshness verdict from structured metadata and explicit times. It neither stores responses nor parses raw headers or implements a complete cache/proxy.",
       "language": "Kotlin",
       "source_sha": "e3011a5fee4be79e89c30aa14bda0bcaeda768d1",
-      "observed_at_utc": "2026-11-05T08:01:41Z",
+      "observed_at_utc": "2026-11-05T08:47:28Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -815,7 +854,7 @@
       "description": "A loopback-only DNS client and authoritative-service lab demonstrating positive and negative caching, expiry, UDP truncation and TCP fallback with bounded messages and independently checkable protocol fixtures.",
       "language": "TypeScript",
       "source_sha": "a5f2553dfc22fcf9da89999a78e8049b034a164b",
-      "observed_at_utc": "2026-11-05T08:01:43Z",
+      "observed_at_utc": "2026-11-05T08:47:28Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -854,7 +893,7 @@
       "description": "A bounded binary-grid library for deterministic connected components, dual-connectivity hole filling and exact squared distance to background. Synthetic PNG round trips and numerical oracles make the demo checkable without viewing images.",
       "language": "Java",
       "source_sha": "ee738c775aa32111a9adc1ed88d538b6d4e847c7",
-      "observed_at_utc": "2026-11-05T08:01:43Z",
+      "observed_at_utc": "2026-11-05T08:47:28Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -893,7 +932,7 @@
       "description": "An offline cardinality auditor for an explicit Prometheus text-format subset. It counts series and distinct label values without reproducing label values in reports.",
       "language": "Lua",
       "source_sha": "2508055d59b3a1544b0271954ec7d95fc860b36b",
-      "observed_at_utc": "2026-11-05T08:01:43Z",
+      "observed_at_utc": "2026-11-05T08:47:29Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -928,11 +967,50 @@
     },
     {
       "owner": "martinlofranodeoliveira",
+      "name": "monotone-curve-core",
+      "description": "A shape-preserving monotone cubic interpolation library with derivatives, analytic integration and plateau-aware inverse brackets. Explicit domains, tolerances and iteration limits make synthetic calibration curves checkable without charts.",
+      "language": "Dart",
+      "source_sha": "198dd1c257b50ba1fcafdf38e509eda3d117c936",
+      "observed_at_utc": "2026-11-05T08:47:30Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407889922,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41996715165,
+            "workflow_id": 407889922,
+            "head_sha": "198dd1c257b50ba1fcafdf38e509eda3d117c936",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:44:18Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
       "name": "mqtt-session-recovery-lab",
       "description": "An end-to-end loopback Mosquitto lab for MQTT 3.1.1 retained messages, persistent sessions, queued QoS 1 delivery and Last Will. Fixed scenarios assert protocol outcomes without cloud brokers, credentials or a browser.",
       "language": "Go",
       "source_sha": "e2cbf83f8022dcdc7417244ab75b2ea874e6f441",
-      "observed_at_utc": "2026-11-05T08:01:43Z",
+      "observed_at_utc": "2026-11-05T08:47:31Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -971,7 +1049,7 @@
       "description": "An NDJSON log transformer that replaces explicitly selected JSON Pointer fields with per-record processing, explicit limits and diagnostics that do not repeat values. It does not promise complete anonymization.",
       "language": "Rust",
       "source_sha": "96d26f7b42ab6452480c0e1c53a4fb41125b169d",
-      "observed_at_utc": "2026-11-05T08:01:46Z",
+      "observed_at_utc": "2026-11-05T08:47:31Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1010,7 +1088,7 @@
       "description": "An offline checker of JSON request/response body examples against a documented OpenAPI 3.1.1 subset. It helps API authors keep examples consistent without calling the real service.",
       "language": "TypeScript",
       "source_sha": "0f22f1ed315ae18e93d92388c295068c29765733",
-      "observed_at_utc": "2026-11-05T08:01:45Z",
+      "observed_at_utc": "2026-11-05T08:47:31Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1049,7 +1127,7 @@
       "description": "A bounded integer-grid router for orthogonal connectors around rectangular obstacles. It minimizes Manhattan length and then bends, returning replayable paths or an explicit no-path result with a small-grid oracle.",
       "language": "C++",
       "source_sha": "bb61374731bade720fc7814bf5fb7cfa5f6e39ed",
-      "observed_at_utc": "2026-11-05T08:01:45Z",
+      "observed_at_utc": "2026-11-05T08:47:32Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1088,7 +1166,7 @@
       "description": "A deterministic constrained pairwise test-fixture planner. It enumerates a bounded configuration space, covers every feasible option pair and reports impossible pairs separately, with an independent coverage verifier and no test execution.",
       "language": "Python",
       "source_sha": "dfd772380577c289bba7389216657b513dd3768f",
-      "observed_at_utc": "2026-11-05T08:01:46Z",
+      "observed_at_utc": "2026-11-05T08:47:33Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1127,7 +1205,7 @@
       "description": "PHP codec for explicit fixed-width record layouts. Parses and formats header/detail/trailer batches with exact minor-unit control sums, bounded input and diagnostics without raw field values. Includes synthetic offline fixtures.",
       "language": "PHP",
       "source_sha": "6c11536cd886d2829c4690dcaacdebc19761a8fb",
-      "observed_at_utc": "2026-11-05T08:01:48Z",
+      "observed_at_utc": "2026-11-05T08:47:33Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1166,7 +1244,7 @@
       "description": "A local Linux runner that captures stdout/stderr from an explicitly supplied command with output bounds, a deadline and a structured result. It is an automation utility, not a sandbox or agent orchestrator.",
       "language": "C",
       "source_sha": "9a974e6c318e8073d2144dfc5cd4782053091d80",
-      "observed_at_utc": "2026-11-05T08:01:48Z",
+      "observed_at_utc": "2026-11-05T08:47:34Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1205,7 +1283,7 @@
       "description": "An isolated PostgreSQL concurrency lab that reproduces write skew, serialization retries and deadlock rollback using deterministic barriers and independent SQL checks, without touching an installed database.",
       "language": "Ruby",
       "source_sha": "f2eed1d5c71dab102800643e314a49c79a9fde03",
-      "observed_at_utc": "2026-11-05T08:01:48Z",
+      "observed_at_utc": "2026-11-05T08:47:35Z",
       "provenance": "imported",
       "license": "unknown",
       "documentation": {
@@ -1240,11 +1318,50 @@
     },
     {
       "owner": "martinlofranodeoliveira",
+      "name": "rational-polyphase-stream",
+      "description": "A streaming rational-rate FIR resampler with explicit causal indexing, bounded history and chunk-invariant output. Synthetic numerical demos verify interpolation, decimation and flush behavior without audio playback.",
+      "language": "C++",
+      "source_sha": "dd6f6ea2e70c834505278aabc8472b9107bc5f3a",
+      "observed_at_utc": "2026-11-05T08:47:35Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407889775,
+            "name": "Build and test",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995785585,
+            "workflow_id": 407889775,
+            "head_sha": "dd6f6ea2e70c834505278aabc8472b9107bc5f3a",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:36:51Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
       "name": "resumable-transfer-lab",
       "description": "A .NET utility and end-to-end lab for interrupted local HTTP transfers using persisted state, Range/If-Range, a strong ETag and caller-supplied digest, without claiming production transport or origin authenticity.",
       "language": "C#",
       "source_sha": "0a5e071776b3f67672bb47dfad37977d5335cfd5",
-      "observed_at_utc": "2026-11-05T08:01:48Z",
+      "observed_at_utc": "2026-11-05T08:47:35Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1283,7 +1400,7 @@
       "description": "An offline evaluator of retrieval rankings using Recall@K, MRR@K, source hit rate and abstention decisions on labeled cases. It calls no models and does not assess the semantic truth of generated answers.",
       "language": "TypeScript",
       "source_sha": "82370079d8732b9bc203167569b6f9e0553f75e9",
-      "observed_at_utc": "2026-11-05T08:01:50Z",
+      "observed_at_utc": "2026-11-05T08:47:36Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1322,7 +1439,7 @@
       "description": "An in-memory historical fact index separating effective intervals from knowledge revisions. Corrections split and coalesce intervals atomically while old revisions remain queryable under explicit retention and concurrency limits.",
       "language": "Kotlin",
       "source_sha": "3badda6e3050f01afa7af8dc983e151e1f7b6311",
-      "observed_at_utc": "2026-11-05T08:01:50Z",
+      "observed_at_utc": "2026-11-05T08:47:37Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1357,11 +1474,50 @@
     },
     {
       "owner": "martinlofranodeoliveira",
+      "name": "revisioned-fts-search-lab",
+      "description": "A loopback HTTP search application with SQLite FTS5, atomic revisioned document batches, exact tag filters and explicitly defined facet counts. A CLI writer and HTTP reader exercise crash recovery and concurrent access.",
+      "language": "PHP",
+      "source_sha": "1f5016f03e63f9c045d70e94f8da5d7321a14b67",
+      "observed_at_utc": "2026-11-05T08:47:38Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407889607,
+            "name": "offline-lab",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995755748,
+            "workflow_id": 407889607,
+            "head_sha": "1f5016f03e63f9c045d70e94f8da5d7321a14b67",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:37:00Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
       "name": "rollback-connectivity-timeline",
       "description": "An offline dynamic-connectivity library answering graph connectivity and component-size queries across edge additions and removals using interval decomposition and rollback union-find, with explicit completeness and work limits.",
       "language": "Rust",
       "source_sha": "7427312a099f0ee78ca40e4483c2cf6a0062088d",
-      "observed_at_utc": "2026-11-05T08:01:50Z",
+      "observed_at_utc": "2026-11-05T08:47:38Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1400,7 +1556,7 @@
       "description": "Ruby feature-flag evaluation core with typed targeting rules, prerequisite cycle detection, complete SemVer comparisons and reproducible SHA-256 cohort buckets. Includes bounded decision traces and synthetic offline demos.",
       "language": "Ruby",
       "source_sha": "99c8da8ff8856068bc447a97a8ec2a10fda83f5d",
-      "observed_at_utc": "2026-11-05T08:01:51Z",
+      "observed_at_utc": "2026-11-05T08:47:39Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1439,7 +1595,7 @@
       "description": "A Java integration lab for sequential compensable steps against local HTTP services, demonstrating reverse-order compensation and recovery from lost acknowledgments while blocking unresolved outcomes.",
       "language": "Java",
       "source_sha": "5624c3fa97dd033a9174f8c6f856075aa331b15c",
-      "observed_at_utc": "2026-11-05T08:01:52Z",
+      "observed_at_utc": "2026-11-05T08:47:39Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1478,7 +1634,7 @@
       "description": "Offline browser studio and Node CLI for a bounded JSON Schema subset. Builds labeled forms, validates instances and exports JSON. Includes explicit unsupported-keyword errors and a finite-state pattern matcher.",
       "language": "JavaScript",
       "source_sha": "b6c8c8f99f49148d0a2efff168ec4e01579cbeee",
-      "observed_at_utc": "2026-11-05T08:01:52Z",
+      "observed_at_utc": "2026-11-05T08:47:40Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1526,11 +1682,50 @@
     },
     {
       "owner": "martinlofranodeoliveira",
+      "name": "selection-bitmap-core",
+      "description": "An immutable in-memory selection index for typed columns, evaluating bounded predicate trees with SQL-style true, false and unknown masks. SQLite oracle tests verify null semantics independently of the bitmap implementation.",
+      "language": "C#",
+      "source_sha": "3e79e63477bfb0d699816fb5fc5ba4f73f6c1c66",
+      "observed_at_utc": "2026-11-05T08:47:40Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407890080,
+            "name": "verify",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995838646,
+            "workflow_id": 407890080,
+            "head_sha": "3e79e63477bfb0d699816fb5fc5ba4f73f6c1c66",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:37:31Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
       "name": "sequence-gap-audit",
       "description": "A sequential-event log auditor identifying final gaps, repeated sequence numbers and out-of-order arrivals per stream. It is offline integrity inspection, not a broker consumer or event executor.",
       "language": "Elixir",
       "source_sha": "00af0626b7af7701b9c4b221e2ed51a8701c47fe",
-      "observed_at_utc": "2026-11-05T08:01:53Z",
+      "observed_at_utc": "2026-11-05T08:47:41Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1565,11 +1760,89 @@
     },
     {
       "owner": "martinlofranodeoliveira",
+      "name": "smtp-mime-capture-lab",
+      "description": "An offline SMTP sink and MIME inspection application for deterministic mail-integration tests. It exercises real SMTP transactions, durable local acceptance, recipient rejection and attachment decoding without sending external mail.",
+      "language": "Ruby",
+      "source_sha": "22ada93eba50dd9a440d47e03a93287e42a210e8",
+      "observed_at_utc": "2026-11-05T08:47:41Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407889422,
+            "name": "Test",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995728411,
+            "workflow_id": 407889422,
+            "head_sha": "22ada93eba50dd9a440d47e03a93287e42a210e8",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:36:53Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "source-map-chain-replay-lab",
+      "description": "A headless compiler, bundler and Node replay lab that traces structured stack frames through explicit source-map chains, preserves unmapped locations and checks results against Node's native source-map support.",
+      "language": "TypeScript",
+      "source_sha": "04735016b7867092f9474cb4801f260fd3c1e224",
+      "observed_at_utc": "2026-11-05T08:47:42Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407890612,
+            "name": "offline-after-install-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995924383,
+            "workflow_id": 407890612,
+            "head_sha": "04735016b7867092f9474cb4801f260fd3c1e224",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:37:45Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
       "name": "spill-outer-join",
       "description": "A bounded external-sort full outer join for local keyed JSONL streams. It preserves duplicate multiplicity, exposes SQL-like null nonmatching and publishes no result when parsing, Cartesian expansion or disk limits fail.",
       "language": "Kotlin",
       "source_sha": "f092a78c0f6ff9c78e17b64b4db83ba1c3066a35",
-      "observed_at_utc": "2026-11-05T08:01:53Z",
+      "observed_at_utc": "2026-11-05T08:47:43Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1607,8 +1880,8 @@
       "name": "sqlite-migration-rehearsal-lab",
       "description": "A disposable SQLite migration rehearsal using a consistent copy, explicit invariants and up/down/up state comparisons, preserving the source and avoiding general SQL-equivalence claims.",
       "language": "Python",
-      "source_sha": "868be1d1889e11e54a49e39cc592a97765d96efb",
-      "observed_at_utc": "2026-11-05T08:01:55Z",
+      "source_sha": "962fe9166c09e566975da0cbd2425f5e59fd777e",
+      "observed_at_utc": "2026-11-05T08:47:43Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1621,7 +1894,7 @@
         "items": [
           {
             "id": 407762270,
-            "name": "checks",
+            "name": "SQLite runtime checks",
             "state": "active"
           }
         ]
@@ -1630,12 +1903,12 @@
         "complete": true,
         "items": [
           {
-            "id": 41976311855,
+            "id": 41993369316,
             "workflow_id": 407762270,
-            "head_sha": "868be1d1889e11e54a49e39cc592a97765d96efb",
+            "head_sha": "962fe9166c09e566975da0cbd2425f5e59fd777e",
             "status": "completed",
             "conclusion": "success",
-            "updated_at_utc": "2026-11-05T05:48:39Z"
+            "updated_at_utc": "2026-11-05T08:19:04Z"
           }
         ]
       },
@@ -1647,7 +1920,7 @@
       "description": "Incremental offline SSE capture inspector in Rust. Handles arbitrary chunk boundaries, event framing, IDs and retry fields, with strict UTF-8 diagnostics and independent retention limits. Includes JSON/text reports and CLI demo.",
       "language": "Rust",
       "source_sha": "70b944beacb0cd3e47a6be05df2ed02b5300d04f",
-      "observed_at_utc": "2026-11-05T08:01:55Z",
+      "observed_at_utc": "2026-11-05T08:47:44Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1686,7 +1959,7 @@
       "description": "An offline auditor of link targets and fragments in a local HTML export. It helps teams check sites before handoff without an external crawler or claims of complete SEO/security auditing.",
       "language": "Ruby",
       "source_sha": "c88ffdd244745c3c2af3ba2441a3579a9e1d22fa",
-      "observed_at_utc": "2026-11-05T08:01:55Z",
+      "observed_at_utc": "2026-11-05T08:47:45Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1725,7 +1998,7 @@
       "description": "A local file-recovery library and CLI using mature Reed-Solomon and SHA-256 crates. Bounded stripes, per-block hashes and manifest-last commits demonstrate recovery from missing or corrupted shards without modifying the source set.",
       "language": "Rust",
       "source_sha": "2e55c3601a34e8a3b01d360ab8571d23d41f8bcf",
-      "observed_at_utc": "2026-11-05T08:01:55Z",
+      "observed_at_utc": "2026-11-05T08:47:46Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1764,7 +2037,7 @@
       "description": "A reproducible PostgreSQL lab demonstrating tenant access policies with separate roles, synthetic data and negative read/write tests. It is a bounded RLS example, not a general SaaS security guarantee.",
       "language": "PLpgSQL",
       "source_sha": "f4ea4ef23e2dcdc093bf1fb2964c3ede7be83652",
-      "observed_at_utc": "2026-11-05T08:01:57Z",
+      "observed_at_utc": "2026-11-05T08:47:46Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1803,7 +2076,7 @@
       "description": "A deterministic test-to-worker partition planner using supplied durations and affinity groups. It fills the execution-balancing gap without calculating dependencies or running tests.",
       "language": "Python",
       "source_sha": "6de51bb60427b05b62d616cb9ae70fb77ff4f311",
-      "observed_at_utc": "2026-11-05T08:01:57Z",
+      "observed_at_utc": "2026-11-05T08:47:47Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1842,7 +2115,7 @@
       "description": "An offline converter of complete trace events into a standalone SVG with process/thread tracks and an explicit time scale. It helps inspect concurrent operations without uploading traces to a service.",
       "language": "C++",
       "source_sha": "72016fdaa8f4550dd6ae18589a2767d99de58c33",
-      "observed_at_utc": "2026-11-05T08:01:57Z",
+      "observed_at_utc": "2026-11-05T08:47:48Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1880,8 +2153,8 @@
       "name": "transactional-outbox-lab",
       "description": "Python/SQLite transactional outbox lab with atomic domain/event writes, fenced worker leases, retry scheduling and dead letters. Demonstrates at-least-once delivery and consumer deduplication with reproducible offline fault injection.",
       "language": "Python",
-      "source_sha": "64546c77830711f385dbea4270a33b406a838800",
-      "observed_at_utc": "2026-11-05T08:01:57Z",
+      "source_sha": "f60f71c9ea54df997312ba3fc6c69276d85bce55",
+      "observed_at_utc": "2026-11-05T08:47:48Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1894,7 +2167,7 @@
         "items": [
           {
             "id": 407736345,
-            "name": "ci",
+            "name": "SQLite runtime checks",
             "state": "active"
           }
         ]
@@ -1903,12 +2176,12 @@
         "complete": true,
         "items": [
           {
-            "id": 41973082729,
+            "id": 41993363326,
             "workflow_id": 407736345,
-            "head_sha": "64546c77830711f385dbea4270a33b406a838800",
+            "head_sha": "f60f71c9ea54df997312ba3fc6c69276d85bce55",
             "status": "completed",
             "conclusion": "success",
-            "updated_at_utc": "2026-11-05T05:17:46Z"
+            "updated_at_utc": "2026-11-05T08:18:51Z"
           }
         ]
       },
@@ -1920,7 +2193,7 @@
       "description": "A deterministic preview of future occurrences for an explicit five-field UTC cron subset. It helps review automations before configuration without installing jobs or executing commands.",
       "language": "C#",
       "source_sha": "be924480c5eb177580f781e7d9cebcec3d4ae02a",
-      "observed_at_utc": "2026-11-05T08:01:59Z",
+      "observed_at_utc": "2026-11-05T08:47:48Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1959,7 +2232,7 @@
       "description": "An offline library and lab for signing and verifying raw webhook bodies with an explicit HMAC protocol and caller-supplied time. It complements idempotency controls without executing events or claiming provider compatibility.",
       "language": "TypeScript",
       "source_sha": "b89a5f069d72f30741f2b13d3b9239addc6e9225",
-      "observed_at_utc": "2026-11-05T08:02:00Z",
+      "observed_at_utc": "2026-11-05T08:47:49Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -1998,7 +2271,7 @@
       "description": "A Java 21 library and CLI for deterministic computation of numerical statistics over tumbling and sliding time windows on event streams. It uses explicit event timestamps, watermark progression to classify late arrivals, Welford's online al",
       "language": "Java",
       "source_sha": "dd66208d4bb26dcb243fa707e82cfb84ddb1fbd2",
-      "observed_at_utc": "2026-11-05T08:02:00Z",
+      "observed_at_utc": "2026-11-05T08:47:50Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {

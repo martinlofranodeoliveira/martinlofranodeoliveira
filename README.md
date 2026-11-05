@@ -91,7 +91,7 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 As demos usam cenários sintéticos. Seu código e arquivos publicados foram conferidos; a revisão visual em navegador permanece pendente. Veja o alcance da validação em [EVIDENCIAS.md](EVIDENCIAS.md).
 
 <details>
-<summary><strong>Ver os 51 projetos desta série</strong></summary>
+<summary><strong>Ver os 58 projetos desta série</strong></summary>
 
 <!-- FIRST-BATCH:BEGIN -->
 ### Primeira leva · 10 projetos abertos
@@ -203,6 +203,23 @@ As demos usam cenários sintéticos. Seu código e arquivos publicados foram con
 | [Bounded Observed Set](https://github.com/martinlofranodeoliveira/bounded-observed-set) | C# | Modela conjunto replicado com remoção observada, histórico limitado e snapshots validados. | [Docs](https://github.com/martinlofranodeoliveira/bounded-observed-set/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/bounded-observed-set/actions/workflows/ci.yml) |
 
 <!-- SIXTH-BATCH:END -->
+
+<!-- SEVENTH-BATCH:BEGIN -->
+### Sétima leva · 7 projetos abertos
+
+**Publicado · desenvolvimento 0.1.** Sete projetos com documentação bilíngue, testes e demos locais verificáveis. Os contratos descrevem os limites de cada implementação; consulte a execução atual nos links de Actions.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Monotone Curve Core](https://github.com/martinlofranodeoliveira/monotone-curve-core) | Dart | Interpola dados crescentes com PCHIP, derivadas, integrais e intervalos inversos explícitos. | [Docs](https://github.com/martinlofranodeoliveira/monotone-curve-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/monotone-curve-core/actions/workflows/ci.yml) |
+| [Selection Bitmap Core](https://github.com/martinlofranodeoliveira/selection-bitmap-core) | C# | Avalia predicados tipados em bitmaps, preservando resultados verdadeiros, falsos e desconhecidos. | [Docs](https://github.com/martinlofranodeoliveira/selection-bitmap-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/selection-bitmap-core/actions/workflows/ci.yml) |
+| [Source Map Chain Replay Lab](https://github.com/martinlofranodeoliveira/source-map-chain-replay-lab) | TypeScript | Reproduz mapas encadeados de código com TypeScript, esbuild e comparação com o Node. | [Docs](https://github.com/martinlofranodeoliveira/source-map-chain-replay-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/source-map-chain-replay-lab/actions/workflows/ci.yml) |
+| [Revisioned FTS Search Lab](https://github.com/martinlofranodeoliveira/revisioned-fts-search-lab) | PHP | Demonstra busca FTS5, revisões, tombstones e consultas consistentes entre HTTP e SQLite. | [Docs](https://github.com/martinlofranodeoliveira/revisioned-fts-search-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/revisioned-fts-search-lab/actions/workflows/ci.yml) |
+| [SMTP MIME Capture Lab](https://github.com/martinlofranodeoliveira/smtp-mime-capture-lab) | Ruby | Captura mensagens SMTP locais e inspeciona MIME com armazenamento e recuperação demonstráveis. | [Docs](https://github.com/martinlofranodeoliveira/smtp-mime-capture-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/smtp-mime-capture-lab/actions/workflows/ci.yml) |
+| [Rational Polyphase Stream](https://github.com/martinlofranodeoliveira/rational-polyphase-stream) | C++ | Reamostra sequências numéricas em blocos com filtro FIR, limites e oráculo de convolução. | [Docs](https://github.com/martinlofranodeoliveira/rational-polyphase-stream/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/rational-polyphase-stream/actions/workflows/ci.yml) |
+| [Connection Handoff Reload Lab](https://github.com/martinlofranodeoliveira/connection-handoff-reload-lab) | C | Demonstra troca de gerações e transferência de conexões TCP por descritores Unix. | [Docs](https://github.com/martinlofranodeoliveira/connection-handoff-reload-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/connection-handoff-reload-lab/actions/workflows/ci.yml) |
+
+<!-- SEVENTH-BATCH:END -->
 
 </details>
 
