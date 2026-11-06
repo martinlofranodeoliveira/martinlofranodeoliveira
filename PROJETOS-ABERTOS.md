@@ -257,3 +257,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 | [LDAP Membership Evidence Lab](https://github.com/martinlofranodeoliveira/ldap-membership-evidence-lab) | C# | Explica caminhos de grupos LDAP sintéticos, ciclos, referências ausentes e observações incompletas. | [Docs](https://github.com/martinlofranodeoliveira/ldap-membership-evidence-lab/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/ldap-membership-evidence-lab/actions/workflows/ci.yml) |
 
 <!-- ELEVENTH-BATCH:END -->
+
+<!-- TWELFTH-BATCH:BEGIN -->
+## Geometria, dados e execução · 6 projetos abertos
+
+**Publicado · desenvolvimento 0.1.0.** Seis bibliotecas e ferramentas com exemplos originais, documentação bilíngue, testes e pacotes conferidos fora do código-fonte. Os contratos descrevem os limites e distinguem resultados completos de execuções inconclusivas.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Indexed PNG Palette Pack](https://github.com/martinlofranodeoliveira/indexed-png-palette-pack) | C++ | Converte pequenos PNGs RGBA em paletas indexadas, com verificação independente dos pixels e dos limites do formato. | [Docs](https://github.com/martinlofranodeoliveira/indexed-png-palette-pack/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/indexed-png-palette-pack/actions/workflows/ci.yml) |
+| [Stratified Permutation Mass](https://github.com/martinlofranodeoliveira/stratified-permutation-mass) | R | Calcula massas combinatórias exatas de somas em atribuições finitas, preservando os totais de cada estrato. | [Docs](https://github.com/martinlofranodeoliveira/stratified-permutation-mass/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/stratified-permutation-mass/actions/workflows/ci.yml) |
+| [Parquet Schema Union Rewrite](https://github.com/martinlofranodeoliveira/parquet-schema-union-rewrite) | Python | Reescreve pequenos conjuntos Parquet em um esquema compatível, com proveniência por linha e conferência pelo DuckDB. | [Docs](https://github.com/martinlofranodeoliveira/parquet-schema-union-rewrite/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/parquet-schema-union-rewrite/actions/workflows/ci.yml) |
+| [OCaml Regular Path Witness](https://github.com/martinlofranodeoliveira/ocaml-regular-path-witness) | OCaml | Encontra percursos de grafos aceitos por expressões regulares, com testemunhas verificadas e limites explícitos de busca. | [Docs](https://github.com/martinlofranodeoliveira/ocaml-regular-path-witness/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/ocaml-regular-path-witness/actions/workflows/ci.yml) |
+| [Rational Halfspace Witnesses](https://github.com/martinlofranodeoliveira/rational-halfspace-witnesses) | Haskell | Resolve pequenos sistemas de desigualdades racionais com pontos ou certificados conferidos separadamente e resultado inconclusivo quando necessário. | [Docs](https://github.com/martinlofranodeoliveira/rational-halfspace-witnesses/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/rational-halfspace-witnesses/actions/workflows/ci.yml) |
+| [Wasm Capability Replay](https://github.com/martinlofranodeoliveira/wasm-capability-replay) | Go | Reproduz chamadas de módulos WebAssembly sintéticos, conferindo o histórico e a consistência com a entrada declarada. | [Docs](https://github.com/martinlofranodeoliveira/wasm-capability-replay/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/wasm-capability-replay/actions/workflows/ci.yml) |
+
+<!-- TWELFTH-BATCH:END -->

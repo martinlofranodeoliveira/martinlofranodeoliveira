@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "evaluated_at_utc": "2026-11-05T15:48:33Z",
+  "evaluated_at_utc": "2026-11-05T17:29:13Z",
   "ttl_seconds": 86400,
   "repositories": [
     {
@@ -359,8 +359,8 @@
       "name": "cabinet-assembly-studio",
       "description": "A React3D cabinet configurator with linked panel selection, dimensional editing, exploded assembly and deterministic component exports.",
       "language": "TypeScript",
-      "source_sha": "a260673f0c46b9ed46a197d203b8692b21afb12d",
-      "observed_at_utc": "2026-11-05T15:45:28Z",
+      "source_sha": "f7ce91fbe30d776c92e5cc7b7b69f7d497b235d1",
+      "observed_at_utc": "2026-11-05T16:27:50Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -387,12 +387,12 @@
         "complete": true,
         "items": [
           {
-            "id": 42026994232,
+            "id": 42062492005,
             "workflow_id": 408106610,
-            "head_sha": "a260673f0c46b9ed46a197d203b8692b21afb12d",
+            "head_sha": "f7ce91fbe30d776c92e5cc7b7b69f7d497b235d1",
             "status": "completed",
             "conclusion": "success",
-            "updated_at_utc": "2026-11-05T12:25:59Z"
+            "updated_at_utc": "2026-11-05T16:15:53Z"
           }
         ]
       },
@@ -832,8 +832,8 @@
       "name": "frame-transform-studio",
       "description": "A React3D rigid-frame editor explaining local/world transforms, quaternion interpolation and world-preserving reparenting with inspectable matrices.",
       "language": "TypeScript",
-      "source_sha": "07de4d24d2054339fd65c2e007219d0215ca6395",
-      "observed_at_utc": "2026-11-05T15:45:36Z",
+      "source_sha": "5ac300429a83a2552a4d87465679d809bae4f85d",
+      "observed_at_utc": "2026-11-05T16:27:50Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -860,12 +860,12 @@
         "complete": true,
         "items": [
           {
-            "id": 42029002772,
+            "id": 42062503161,
             "workflow_id": 408127097,
-            "head_sha": "07de4d24d2054339fd65c2e007219d0215ca6395",
+            "head_sha": "5ac300429a83a2552a4d87465679d809bae4f85d",
             "status": "completed",
             "conclusion": "success",
-            "updated_at_utc": "2026-11-05T12:39:53Z"
+            "updated_at_utc": "2026-11-05T16:16:06Z"
           }
         ]
       },
@@ -1282,6 +1282,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T04:29:57Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "indexed-png-palette-pack",
+      "description": "Convert bounded RGBA PNG fixtures into deterministic indexed palettes using exact integer error accounting. Real libpng output is checked through independent decoding, palette and packed-row oracles.",
+      "language": "C++",
+      "source_sha": "ce650c39d7abfd490a515e413b0747f9d6e472e8",
+      "observed_at_utc": "2026-11-05T16:53:12Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408390412,
+            "name": "offline-native-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42066727097,
+            "workflow_id": 408390412,
+            "head_sha": "ce650c39d7abfd490a515e413b0747f9d6e472e8",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:41:11Z"
           }
         ]
       },
@@ -1874,6 +1913,45 @@
     },
     {
       "owner": "martinlofranodeoliveira",
+      "name": "ocaml-regular-path-witness",
+      "description": "A bounded graph engine that finds a shortest path whose edge-label word belongs to a public regular-expression AST. It explains epsilon handling, deterministic tie-breaking and the difference between no witness and an exhausted search budge",
+      "language": "OCaml",
+      "source_sha": "e1ba874e2737120b5365be365d959460439ed319",
+      "observed_at_utc": "2026-11-05T17:23:43Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408414691,
+            "name": "offline-contract",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42070306543,
+            "workflow_id": 408414691,
+            "head_sha": "e1ba874e2737120b5365be365d959460439ed319",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T17:02:00Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
       "name": "oci-layer-effect-explorer",
       "description": "Explain an offline OCI image's effective filesystem without executing or extracting it. Resolve whiteouts and opaque directories, attribute surviving paths to layers and compare synthetic results with a real rootless unpacker.",
       "language": "Go",
@@ -2147,6 +2225,45 @@
     },
     {
       "owner": "martinlofranodeoliveira",
+      "name": "parquet-schema-union-rewrite",
+      "description": "Unify a small explicit Parquet schema subset and rewrite dictionary-backed columns with provenance. PyArrow performs real I/O while independent DuckDB queries verify rows, nulls and aggregates.",
+      "language": "Python",
+      "source_sha": "83d21b2483887984267b9666e9b860d565ed6759",
+      "observed_at_utc": "2026-11-05T17:23:43Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408406633,
+            "name": "bounded-offline-validation",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42069094535,
+            "workflow_id": 408406633,
+            "head_sha": "83d21b2483887984267b9666e9b860d565ed6759",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:54:02Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
       "name": "positional-record-codec",
       "description": "PHP codec for explicit fixed-width record layouts. Parses and formats header/detail/trailer batches with exact minor-unit control sums, bounded input and diagnostics without raw field values. Includes synthetic offline fixtures.",
       "language": "PHP",
@@ -2296,6 +2413,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T13:15:23Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "rational-halfspace-witnesses",
+      "description": "An exact rational feasibility library for small systems of non-strict linear inequalities, returning either a checked feasible point, a replayable infeasibility certificate or an explicit exhausted-budget result.",
+      "language": "Haskell",
+      "source_sha": "5fe7edb512265fcad88b914581850cf8eda15f9f",
+      "observed_at_utc": "2026-11-05T17:29:13Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408437556,
+            "name": "native-offline-gates",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42074093011,
+            "workflow_id": 408437556,
+            "head_sha": "5fe7edb512265fcad88b914581850cf8eda15f9f",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T17:24:12Z"
           }
         ]
       },
@@ -3021,8 +3177,8 @@
       "name": "spatial-loading-studio",
       "description": "A React3D spatial placement editor for bounded boxes, with exact interior-overlap rules, axis-aligned rotations, undo and deterministic plans.",
       "language": "TypeScript",
-      "source_sha": "60ce5d88e923d04614adfd2147ba552d3e460fe3",
-      "observed_at_utc": "2026-11-05T15:46:10Z",
+      "source_sha": "8b9dd49c5a7aaef7caf57535c7bafba6ec22062b",
+      "observed_at_utc": "2026-11-05T16:27:50Z",
       "provenance": "imported",
       "license": "present",
       "documentation": {
@@ -3049,12 +3205,12 @@
         "complete": true,
         "items": [
           {
-            "id": 42024405624,
+            "id": 42062511773,
             "workflow_id": 408082829,
-            "head_sha": "60ce5d88e923d04614adfd2147ba552d3e460fe3",
+            "head_sha": "8b9dd49c5a7aaef7caf57535c7bafba6ec22062b",
             "status": "completed",
             "conclusion": "success",
-            "updated_at_utc": "2026-11-05T12:07:21Z"
+            "updated_at_utc": "2026-11-05T16:16:05Z"
           }
         ]
       },
@@ -3211,6 +3367,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T03:14:53Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "stratified-permutation-mass",
+      "description": "An exact combinatorial distribution library for bounded two-label assignments within fixed strata, using dynamic programming and convolution to return integer masses and exact rational tail counts.",
+      "language": "R",
+      "source_sha": "6522f24d5fd92c532ea00e474e7bdb785a62fbf1",
+      "observed_at_utc": "2026-11-05T16:53:13Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408398669,
+            "name": "Native offline gates",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42067953553,
+            "workflow_id": 408398669,
+            "head_sha": "6522f24d5fd92c532ea00e474e7bdb785a62fbf1",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:49:36Z"
           }
         ]
       },
@@ -3562,6 +3757,45 @@
             "status": "completed",
             "conclusion": "success",
             "updated_at_utc": "2026-11-05T08:52:38Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "wasm-capability-replay",
+      "description": "Compile original WebAssembly fixtures and capture or replay their bounded host capabilities with wazero. Exact call traces, independent arithmetic oracles and explicit interruption outcomes make behavior inspectable.",
+      "language": "Go",
+      "source_sha": "1fdbcde63ed99ac9f9adf86cfa8504fad674ec92",
+      "observed_at_utc": "2026-11-05T17:29:13Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408440962,
+            "name": "offline-container-tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42074685602,
+            "workflow_id": 408440962,
+            "head_sha": "1fdbcde63ed99ac9f9adf86cfa8504fad674ec92",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T17:27:21Z"
           }
         ]
       },
