@@ -2,6 +2,16 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## Extrato OFX · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/extrato-ofx/tree/11e803c78d15fa821f653902ecf031f200d3a2d2), licença MIT, biblioteca/CLI e documentação em português. O perfil bancário/cartão interpreta OFX1 SGML e OFX2 XML, sem conexão bancária, reconciliação ou aplicação de correções.
+- 104 testes na suíte da [CI desse commit](https://github.com/martinlofranodeoliveira/extrato-ofx/actions/runs/42531636608), com Python 3.11–3.14 no Linux e 3.14 no Windows. No Windows, somente o teste de broken pipe é omitido. Todos os cinco jobs constroem a distribuição e exercitam o wheel instalado em um ambiente novo fora dos fontes.
+- A comparação opcional com ofxtools 1.1.1 confronta 22 variantes de extratos fictícios com projeções de campos e expectativas escritas à mão. Três diferenças conhecidas ficam separadas: rejeição de offset 5.5 pelo oráculo, interpretação divergente de 5.50 e rejeição de VERSION 221. Não se declara conformidade integral com OFX.
+- Valores e somas usam coeficientes inteiros e escalas, com testes por Fraction e independência do contexto Decimal. Datas preservam precisão e usam horas decimais para o offset. Duplicatas permanecem no relatório, agrupadas por conta; diferenças de moeda ou conteúdo interpretado geram conflito.
+- A revisão independente exercitou 10.000 mutações determinísticas de entradas SGML/XML e reproduziu problemas em relatórios alterados pelo chamador. As regressões corrigem tipos inválidos de status, fórmulas em colunas numéricas e conteúdo de Markdown. Os pontos revisados foram revalidados sem pendências.
+- Um arquivo sintético com 10.000 transações e 2.180.909 bytes foi interpretado e exportado nos três formatos, mantendo a soma exata de -899000. Isso verifica esse caso local; não constitui medição universal de desempenho ou memória.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/extrato-ofx/releases/tag/v1.0.0): wheel instalável, sdist e ZIP com 40 arquivos rastreados foram baixados da publicação e conferidos por SHA-256 contra o manifesto. Os fontes do ZIP e os nove módulos do wheel corresponderam ao commit. A [CI da tag](https://github.com/martinlofranodeoliveira/extrato-ofx/actions/runs/42531768464) também passou nos cinco jobs. Os exemplos são inteiramente fictícios; relatórios reais continuam contendo dados financeiros privados.
+
 ## Folha de Contato · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/folha-de-contato/tree/4223c61abd91b75a42cec326b2b3303c4d009c3f), licença MIT e documentação em português, com instruções para publicar e adaptar um fork. A organização Mesa de edição e a implementação estática foram confirmadas pelo usuário.

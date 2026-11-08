@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-OFX-2026-11-08:BEGIN -->
+## Extrato OFX · extratos locais, valores exatos
+
+Biblioteca e CLI Python para converter extratos bancários e de cartão em JSON, CSV e Markdown. Preservam valores decimais, datas com offset, saldos, correções e identificadores repetidos, com diagnósticos e cobertura explícita do perfil interpretado.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Extrato OFX](https://github.com/martinlofranodeoliveira/extrato-ofx) · Python · MIT · README em português | [Extratos e relatórios fictícios](https://github.com/martinlofranodeoliveira/extrato-ofx/tree/main/examples) | [v1.0.0](https://github.com/martinlofranodeoliveira/extrato-ofx/releases/tag/v1.0.0) · 104 testes na suíte · [CI Linux/Windows](https://github.com/martinlofranodeoliveira/extrato-ofx/actions/runs/42531636608) |
+
+Funciona offline após a instalação e requer Python 3.11+ e defusedxml. Não conecta contas, não aplica correções nem reconcilia saldos. Uma lista ausente se distingue de uma lista vazia; campos desconhecidos tornam a cobertura incompleta e bloqueiam o CSV por padrão. Todos os exemplos são inventados.
+
+<!-- DELIVERY-OFX-2026-11-08:END -->
+
 <!-- DELIVERY-CONTACT-2026-11-08:BEGIN -->
 ## Folha de Contato · fotos que viram catálogo
 
