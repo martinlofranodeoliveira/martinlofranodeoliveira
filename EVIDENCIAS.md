@@ -2,6 +2,16 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## Pauta Aberta · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/pauta-aberta/tree/45cd2d4845ba6fd0dbe5a9df60f38559d50ac51d), licença MIT, documentação em português, contrato e exemplos sintéticos.
+- 103 testes passaram em cada job Node.js 22/24 da [CI desse commit](https://github.com/martinlofranodeoliveira/pauta-aberta/actions/runs/42517233074), sem omissões. Cobrem limite UTF-8 exato de 2 MiB, snapshots independentes, vínculos, datas civis, importação integral, transações IndexedDB e revisões monotônicas contra conflitos. Markdown e CSV foram confrontados com parsers independentes.
+- A revisão funcional reproduziu duas corridas: notas digitadas após abrir a confirmação da ata e uma leitura antiga de arquivo substituindo uma prévia mais recente. As correções e três regressões passaram na mesma CI. Rascunhos de formulário são preservados em memória e não são apresentados como dados já salvos.
+- [Deploy do GitHub Pages](https://github.com/martinlofranodeoliveira/pauta-aberta/actions/runs/42517233124) aprovado; 14 arquivos públicos, incluindo HTML, módulos, estilos, fontes e avisos de licença, foram comparados byte a byte com a distribuição preparada. O marcador `.nojekyll` foi conferido apenas dentro do ZIP estático.
+- Na prévia local, um backup com 1 reunião, 3 pontos, 1 decisão, 2 ações e 2 atas foi restaurado e reexportado preservando os 7.413 bytes. O Markdown histórico e o CSV baixados corresponderam aos exportadores; a versão 1 permaneceu intacta após editar a ficha e gerar a versão 2. O caderno salvo foi recuperado após recarga. Na demonstração pública, o backup do exemplo preservou os 4.779 bytes do gerador canônico.
+- Revisão visual independente de pauta, ata e encaminhamentos em desktop e celular: disposição `ship`, sem correções materiais exigidas. A largura móvel de 390 px permaneceu sem overflow; a captura pública na largura disponível de 1.010 px também foi conferida. O detector mecânico operou com parsers indisponíveis, portanto não certificou contraste ou seletores.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/pauta-aberta/releases/tag/v1.0.0): os ZIPs de fontes e distribuição estática foram baixados da release pública e verificados por SHA-256; seus 39 e 15 arquivos, respectivamente, corresponderam aos arquivos preparados. A [CI da tag](https://github.com/martinlofranodeoliveira/pauta-aberta/actions/runs/42517454695) também foi aprovada no mesmo código.
+
 ## EPUB Navigation Audit · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/epub-navigation-audit/tree/24e4cb5bf6a57ce6762adcccaff2d73ecf28f2fe), licença MIT, biblioteca/CLI e documentação em português.

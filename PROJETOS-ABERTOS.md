@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-PAUTA-2026-11-08:BEGIN -->
+## Pauta Aberta · da reunião aos próximos passos
+
+Prepare a pauta, registre decisões e acompanhe encaminhamentos com responsável e prazo. A ficha continua editável; cada versão da ata preserva uma cópia independente do que foi registrado. Funciona no navegador, com backup JSON, Markdown histórico, CSV e salvamento local opcional.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/pauta-aberta/) | [Pauta Aberta](https://github.com/martinlofranodeoliveira/pauta-aberta) · MIT · README em português | [v1.0.0](https://github.com/martinlofranodeoliveira/pauta-aberta/releases/tag/v1.0.0) · 103 testes · [CI Node.js 22/24](https://github.com/martinlofranodeoliveira/pauta-aberta/actions/runs/42517233074) |
+
+A pauta e o registro preservado aparecem lado a lado no computador; os encaminhamentos viram fichas completas no celular. O exemplo é inteiramente fictício. Atas locais organizam o histórico informado e não equivalem a uma assinatura ou comprovação de presença.
+
+<!-- DELIVERY-PAUTA-2026-11-08:END -->
+
 <!-- DELIVERY-EPUB-2026-11-08:BEGIN -->
 ## EPUB Navigation Audit · confira a navegação de livros digitais
 
