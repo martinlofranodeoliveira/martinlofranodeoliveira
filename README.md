@@ -320,15 +320,16 @@ As demos usam cenários sintéticos. Seu código e arquivos publicados foram con
 <!-- TWELFTH-BATCH:END -->
 
 <!-- THIRTEENTH-BATCH:BEGIN -->
-### Junção por similaridade, compatibilidade binária e lógica temporal · Projetos abertos
+### Junção por similaridade, lógica temporal e árvores de tensores · Projetos abertos
 
-**Publicado · desenvolvimento 0.1.0.** Ensaios de ligação JPMS, algoritmos exatos de junção por similaridade de conjuntos e contratos temporais trivalentes com explicações verificáveis.
+**Publicado · desenvolvimento 0.1.0.** Ensaios de ligação JPMS, algoritmos exatos de junção por similaridade de conjuntos, contratos temporais trivalentes e otimização exata de contração de tensores com aritmética verificada em 128 bits.
 
 | Projeto | Linguagem | Finalidade | Consulta |
 | --- | --- | --- | --- |
 | [JPMS Linkage Rehearsal](https://github.com/martinlofranodeoliveira/jpms-linkage-rehearsal) | Java | Ensaios de ligação JPMS, evolução binária de interfaces, encapsulamento e isolamento de processos no Linux. | [Docs](https://github.com/martinlofranodeoliveira/jpms-linkage-rehearsal/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/jpms-linkage-rehearsal/actions/workflows/ci.yml) |
 | [Set Overlap Join](https://github.com/martinlofranodeoliveira/set-overlap-join) | Go | Junção exata em lote por similaridade de Jaccard com indexação por prefixos e verificação inteira exata. | [Docs](https://github.com/martinlofranodeoliveira/set-overlap-join/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/set-overlap-join/actions/workflows/ci.yml) |
 | [Temporal Obligation Core](https://github.com/martinlofranodeoliveira/temporal-obligation-core) | PHP | Contratos temporais offline sob Strong Kleene com memoização compacta e operador Until incremental. | [Docs](https://github.com/martinlofranodeoliveira/temporal-obligation-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/temporal-obligation-core/actions/workflows/ci.yml) |
+| [Tensor Order Core](https://github.com/martinlofranodeoliveira/tensor-order-core) | C++ | Otimização combinatória exata de árvores binárias de contração de tensores com DP sobre bipartições e aritmética checada em 128 bits. | [Docs](https://github.com/martinlofranodeoliveira/tensor-order-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/tensor-order-core/actions/workflows/ci.yml) |
 
 <!-- THIRTEENTH-BATCH:END -->
 
