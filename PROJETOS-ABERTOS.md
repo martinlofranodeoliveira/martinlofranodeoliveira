@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-WARRANTY-2026-11-08:BEGIN -->
+## Garantia Aberta · bens, comprovantes e cuidados
+
+Inventário pessoal no navegador com busca, categorias, documentos e agenda de manutenção. Os prazos são informados por quem usa o aplicativo. O backup JSON inclui os anexos e verifica sua integridade antes de restaurar; o salvamento em IndexedDB é opcional e controla conflitos entre revisões.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/garantia-aberta/) | [Garantia Aberta](https://github.com/martinlofranodeoliveira/garantia-aberta) · MIT · README em português | [v1.0.0](https://github.com/martinlofranodeoliveira/garantia-aberta/releases/tag/v1.0.0) · 75 testes · [CI Node.js 22/24](https://github.com/martinlofranodeoliveira/garantia-aberta/actions/runs/42461183329) |
+
+A demonstração publicada restaurou e reexportou um backup fictício com 3 bens e 1 anexo, preservando os dados e o PDF baixado. Interface conferida em desktop e celular. A agenda é consultada no aplicativo, sem notificações em segundo plano.
+
+<!-- DELIVERY-WARRANTY-2026-11-08:END -->
+
 <!-- DELIVERY-QUOTE-2026-11-08:BEGIN -->
 ## Orçamento Aberto · aplicação para pequenos negócios
 

@@ -2,6 +2,15 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## Garantia Aberta · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/garantia-aberta/tree/117e6261ac596e0e5d99dd09feaa70c11e7be90d), licença MIT e documentação em português.
+- 75 testes passaram no [workflow Node.js 22/24](https://github.com/martinlofranodeoliveira/garantia-aberta/actions/runs/42461183329), no mesmo commit. Incluem limites do backup, integridade dos anexos, concorrência entre conexões IndexedDB e regressões de interface.
+- [Deploy do GitHub Pages](https://github.com/martinlofranodeoliveira/garantia-aberta/actions/runs/42461183339) concluído; os cinco módulos JavaScript e o CSS públicos foram conferidos por SHA256 contra esse código.
+- [Demonstração](https://martinlofranodeoliveira.github.io/garantia-aberta/) exercitada no navegador com backup fictício: 3 bens e 1 PDF. Restauração e reexportação preservaram o livro completo; o PDF baixado preservou os 693 bytes do arquivo original.
+- Revisão visual em desktop (viewport 1280 × 720) e celular (390 × 844), incluindo inventário vazio, fichas, documentos, agenda, backup e cadastro. Salvamento e recuperação entre visitas também exercitados na prévia local.
+- [Download da versão e checksum](https://github.com/martinlofranodeoliveira/garantia-aberta/releases/tag/v1.0.0).
+
 ## Orçamento Aberto · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/lofrano-orcamentos-open/tree/5ac25f885ede16fff75e52a339f2d1d2e8817c5d), licença MIT e documentação em português.
