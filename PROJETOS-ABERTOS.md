@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-STUDY-2026-11-08:BEGIN -->
+## Caderno de Revisões · cartões e prática de estudo
+
+Crie baralhos e cartões, revele a resposta na própria fila e registre sua autoavaliação. Uma regra explícita calcula a próxima data; versões do conteúdo preservam o histórico anterior. Funciona no navegador, com backup JSON, importação CSV com prévia e salvamento local opcional com controle de conflitos.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/caderno-revisoes/) | [Caderno de Revisões](https://github.com/martinlofranodeoliveira/caderno-revisoes) · MIT · README em português | [v1.0.0](https://github.com/martinlofranodeoliveira/caderno-revisoes/releases/tag/v1.0.0) · 80 testes · [CI Node.js 22/24](https://github.com/martinlofranodeoliveira/caderno-revisoes/actions/runs/42465613140) |
+
+A demonstração restaurou e reexportou um backup fictício com 2 baralhos, 6 cartões e 5 avaliações sem alterar seus bytes. A importação de dois cartões e uma nova avaliação também foram conferidas no site publicado. Interface revisada em desktop e celular; os intervalos são uma regra de organização, sem promessa de eficácia pedagógica ou notificações em segundo plano.
+
+<!-- DELIVERY-STUDY-2026-11-08:END -->
+
 <!-- DELIVERY-WARRANTY-2026-11-08:BEGIN -->
 ## Garantia Aberta · bens, comprovantes e cuidados
 

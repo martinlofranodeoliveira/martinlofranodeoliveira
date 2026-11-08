@@ -2,6 +2,15 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## Caderno de Revisões · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/caderno-revisoes/tree/5ab7d570d5c99486b018ee21359031c6f2757e75), licença MIT e documentação em português, com arquivos de exemplo para importar.
+- 80 testes passaram no [workflow Node.js 22/24](https://github.com/martinlofranodeoliveira/caderno-revisoes/actions/runs/42465613140), no mesmo commit. Incluem regras de intervalo, datas, versões, limites, importação atômica, conflitos IndexedDB e regressões de interface.
+- [Deploy do GitHub Pages](https://github.com/martinlofranodeoliveira/caderno-revisoes/actions/runs/42465613119) concluído; os quatro módulos JavaScript e o CSS públicos foram conferidos por SHA256 contra esse código.
+- [Demonstração](https://martinlofranodeoliveira.github.io/caderno-revisoes/) exercitada no navegador: restauração e reexportação de backup fictício (2 baralhos, 6 cartões, 5 avaliações) preservaram todos os bytes. Depois de importar dois cartões CSV e registrar uma avaliação, o backup resultante válido contém 8 cartões e 6 avaliações; a revisão foi agendada para 09/11/2026 conforme a regra.
+- Revisão visual em desktop (viewport 1280 × 720) e celular (390 × 844), cobrindo fila com prática inline, biblioteca, histórico e backup. Os ajustes de barra de rolagem e sua adaptação móvel foram pontuados como resolvidos. Salvamento e recuperação após recarga também foram exercitados na prévia local.
+- [Download da versão e checksum](https://github.com/martinlofranodeoliveira/caderno-revisoes/releases/tag/v1.0.0).
+
 ## Garantia Aberta · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/garantia-aberta/tree/117e6261ac596e0e5d99dd09feaa70c11e7be90d), licença MIT e documentação em português.
