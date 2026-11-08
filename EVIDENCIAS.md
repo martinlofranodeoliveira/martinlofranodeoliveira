@@ -2,6 +2,16 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## Decisões Abertas · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/decisoes-abertas/tree/b8daa0b35a5c4d5d3d501395c950a7f4836f3b2d), licença MIT, documentação em português e exemplos sintéticos.
+- 93 testes passaram em cada job Node.js 22/24 da [CI desse commit](https://github.com/martinlofranodeoliveira/decisoes-abertas/actions/runs/42473656383), sem omissões. Cobrem cálculo inteiro, notas ausentes e zero, pesos inativos, empates, snapshots, importação integral, geração de prévias e concorrência de salvamento com controle de revisão.
+- [Deploy do GitHub Pages](https://github.com/martinlofranodeoliveira/decisoes-abertas/actions/runs/42473656386) aprovado; nove assets públicos e dois avisos de licença foram comparados byte a byte com o código e os recursos locais. A demonstração pública exibiu os resultados fictícios 80,0%, 81,0% e 79,0%.
+- Fluxo real no navegador: nota ausente removeu o ranking, nota zero foi contabilizada e peso zero desativou o critério. Uma escolha diferente da primeira colocada foi salva, registrada em histórico e reaberta após recarga com o salvamento opcional.
+- Um backup com 1 comparação, 3 alternativas, 4 critérios e 2 registros foi restaurado e reexportado sem alterar bytes. CSV e Markdown histórico baixados também corresponderam às exportações esperadas; o relatório histórico manteve uma escolha diferente da matriz corrente.
+- Revisão desktop/celular identificou três correções materiais: largura com oito alternativas, contexto dos critérios no celular e continuidade do foco. A revisão das recapturas pontuou os três itens como resolvidos. A medição de oito alternativas encontrou 32 seletores sem sobreposição, com rolagem apenas dentro da tabela; a versão móvel permaneceu sem overflow horizontal.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/decisoes-abertas/releases/tag/v1.0.0): os ZIPs de código-fonte e versão estática foram baixados da release pública e verificados por SHA-256. Os 40 arquivos do ZIP de fontes e 14 da distribuição estática corresponderam aos arquivos preparados, incluindo os avisos MIT e OFL.
+
 ## SQLite Catalog Report · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/sqlite-catalog-report/tree/2becdce860ccf25ff6699bea592d65ce6aaca47b), licença MIT, API/CLI e documentação em português.

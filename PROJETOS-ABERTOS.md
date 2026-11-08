@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-DECISION-2026-11-08:BEGIN -->
+## Decisões Abertas · compare alternativas com contexto
+
+Defina critérios, pesos e notas, veja o cálculo e registre sua escolha com uma justificativa. O aplicativo distingue lacunas de nota zero, mostra intervalos enquanto faltam respostas e preserva versões da matriz. Funciona no navegador com backup JSON, relatórios Markdown/CSV e salvamento local opcional.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/decisoes-abertas/) | [Decisões Abertas](https://github.com/martinlofranodeoliveira/decisoes-abertas) · MIT · README em português | [v1.0.0](https://github.com/martinlofranodeoliveira/decisoes-abertas/releases/tag/v1.0.0) · 93 testes · [CI Node.js 22/24](https://github.com/martinlofranodeoliveira/decisoes-abertas/actions/runs/42473656383) |
+
+A matriz se transforma em fichas no celular. Um backup fictício foi restaurado e reexportado sem alterar seus bytes; o relatório histórico preservou a escolha anterior. A pontuação organiza as informações fornecidas e a conclusão continua sendo da pessoa que usa o aplicativo.
+
+<!-- DELIVERY-DECISION-2026-11-08:END -->
+
 <!-- DELIVERY-SQLITE-CATALOG-2026-11-08:BEGIN -->
 ## SQLite Catalog Report · documentação de bancos
 
