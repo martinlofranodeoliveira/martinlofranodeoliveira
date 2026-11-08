@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-WHEEL-2026-11-08:BEGIN -->
+## Wheel Record Audit · conferência de pacotes Python
+
+Biblioteca e CLI que conferem inventário, metadados selecionados, hashes, tamanhos e CRC de um wheel local, sem instalar ou executar o pacote auditado. Relatórios JSON/Markdown distinguem divergências comprovadas de verificações incompletas por limite ou recurso fora do perfil.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Wheel Record Audit](https://github.com/martinlofranodeoliveira/wheel-record-audit) · Python · MIT · README em português | [Gerador e relatórios sintéticos](https://github.com/martinlofranodeoliveira/wheel-record-audit/tree/main/examples) | [v1.0.0](https://github.com/martinlofranodeoliveira/wheel-record-audit/releases/tag/v1.0.0) · 133 testes na suíte · [CI Linux/Windows](https://github.com/martinlofranodeoliveira/wheel-record-audit/actions/runs/42468166025) |
+
+A CI inclui Python 3.11–3.14 no Linux e 3.14 no Windows, com instalação fora da árvore e auditoria do próprio wheel. O teste de FIFO é omitido no Windows. A ferramenta confere seu perfil documentado; hashes internos não autenticam a procedência nem comprovam a segurança do código.
+
+<!-- DELIVERY-WHEEL-2026-11-08:END -->
+
 <!-- DELIVERY-STUDY-2026-11-08:BEGIN -->
 ## Caderno de Revisões · cartões e prática de estudo
 

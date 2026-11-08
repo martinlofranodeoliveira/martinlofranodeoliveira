@@ -2,6 +2,15 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## Wheel Record Audit · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/wheel-record-audit/tree/f7a87e3068ab97a140931c02a5d568eaeb50e568), licença MIT, API/CLI e documentação em português.
+- [CI do mesmo commit](https://github.com/martinlofranodeoliveira/wheel-record-audit/actions/runs/42468166025) aprovada em cinco jobs: Python 3.11, 3.12, 3.13 e 3.14 no Ubuntu; Python 3.14 no Windows. Cada job executa a suíte de 133 testes; no Windows há uma omissão específica de FIFO, recurso indisponível nesse ambiente.
+- Todos os jobs constroem a distribuição, instalam o wheel em um ambiente virtual temporário fora do código-fonte e exercitam a CLI, o caso sintético válido, o adulterado e a auditoria do próprio wheel.
+- A revisão independente reproduziu três grupos de falhas estruturais em 11 arquivos sintéticos. A revalidação confirmou a recusa dos cabeçalhos/descritores/diretórios contraditórios e o bloqueio de EOCD ambíguo antes de criar objetos ZipInfo.
+- [Relatórios de exemplo](https://github.com/martinlofranodeoliveira/wheel-record-audit/tree/main/examples) registram conteúdos fictícios. O perfil, os limites e as distinções entre `consistent`, `invalid` e `incomplete` estão documentados.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/wheel-record-audit/releases/tag/v1.0.0): wheel instalável, sdist, ZIP dos fontes e relatório da auditoria do próprio wheel, com 12 arquivos e seus tamanhos/hashes confirmados.
+
 ## Caderno de Revisões · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/caderno-revisoes/tree/5ab7d570d5c99486b018ee21359031c6f2757e75), licença MIT e documentação em português, com arquivos de exemplo para importar.
