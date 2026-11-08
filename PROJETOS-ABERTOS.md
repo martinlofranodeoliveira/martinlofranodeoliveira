@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-SQLITE-CATALOG-2026-11-08:BEGIN -->
+## SQLite Catalog Report · documentação de bancos
+
+Biblioteca e CLI Python que documentam o esquema de um arquivo SQLite em JSON, Markdown e Mermaid, sem exportar os registros das tabelas. Incluem colunas, índices, chaves estrangeiras, ciclos e camadas de dependência, com fingerprint dos metadados e indicação explícita de capturas parciais.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [SQLite Catalog Report](https://github.com/martinlofranodeoliveira/sqlite-catalog-report) · Python · MIT · README em português | [Esquema, gerador e relatórios sintéticos](https://github.com/martinlofranodeoliveira/sqlite-catalog-report/tree/main/examples) | [v1.0.0](https://github.com/martinlofranodeoliveira/sqlite-catalog-report/releases/tag/v1.0.0) · 81 testes · [CI Linux/Windows](https://github.com/martinlofranodeoliveira/sqlite-catalog-report/actions/runs/42470742835) |
+
+Requer Python 3.11+ e SQLite 3.37+, sem dependências de execução externas à biblioteca padrão. Cada job da CI constrói o pacote e testa a distribuição instalada fora da árvore de fontes. O grafo descreve relações declaradas; não verifica os dados do banco.
+
+<!-- DELIVERY-SQLITE-CATALOG-2026-11-08:END -->
+
 <!-- DELIVERY-WHEEL-2026-11-08:BEGIN -->
 ## Wheel Record Audit · conferência de pacotes Python
 

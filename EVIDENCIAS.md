@@ -2,6 +2,15 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## SQLite Catalog Report · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/sqlite-catalog-report/tree/2becdce860ccf25ff6699bea592d65ce6aaca47b), licença MIT, API/CLI e documentação em português.
+- [CI do mesmo commit](https://github.com/martinlofranodeoliveira/sqlite-catalog-report/actions/runs/42470742835) aprovada em cinco jobs: Python 3.11, 3.12, 3.13 e 3.14 no Ubuntu; Python 3.14 no Windows. Cada job executou 81 testes, sem omissões, construiu a distribuição e instalou o wheel fora da árvore de fontes.
+- Os testes cobrem snapshot WAL com alteração concorrente de esquema, leitura somente de metadados, limites globais, relações compostas, ciclos longos, escaping e publicação de relatórios sem sobrescrita. Valores canários dos registros sintéticos permanecem ausentes dos três formatos.
+- A revisão independente identificou e resolveu classificação incompleta de shadows, índices ainda não detalhados marcados como completos e falha de pipe no encerramento da CLI. A CI também revelou duas incompatibilidades de Windows no gerador e no nome de arquivo do teste, corrigidas antes da release.
+- [Exemplos](https://github.com/martinlofranodeoliveira/sqlite-catalog-report/tree/main/examples) incluem esquema sintético e saídas JSON/Markdown/Mermaid. A apresentação foi conferida adicionalmente com os parsers Mermaid 12.3.0 e Markdown-it 14.1.0 usando nomes e SQL com caracteres de formatação, sem injeção de nós, links ou elementos HTML.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/sqlite-catalog-report/releases/tag/v1.0.0): wheel, sdist e ZIP de fontes foram baixados da release pública e conferidos por SHA-256. Os oito módulos no wheel e os 29 arquivos do ZIP correspondem ao código indicado; o wheel baixado foi instalado e exercitado em ambiente temporário separado.
+
 ## Wheel Record Audit · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/wheel-record-audit/tree/f7a87e3068ab97a140931c02a5d568eaeb50e568), licença MIT, API/CLI e documentação em português.
