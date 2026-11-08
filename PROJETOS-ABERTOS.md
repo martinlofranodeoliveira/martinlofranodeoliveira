@@ -405,9 +405,9 @@ Três bibliotecas e CLIs Python com licença MIT, README em português, exemplos
 <!-- TWELFTH-BATCH:END -->
 
 <!-- THIRTEENTH-BATCH:BEGIN -->
-## Junção por similaridade, parsing preditivo, lógica temporal, tensores e geometria · Projetos abertos
+## Junção por similaridade, parsing preditivo, lógica temporal, tensores, geometria e grafos · Projetos abertos
 
-**Publicado · desenvolvimento 0.1.0.** Ensaios de ligação JPMS, algoritmos exatos de junção por similaridade, contratos temporais trivalentes, otimização de árvores de tensores, parsing preditivo LL(1) e fatiamento exato de malhas com aritmética racional.
+**Publicado · desenvolvimento 0.1.0.** Ensaios de ligação JPMS, algoritmos exatos de junção por similaridade, contratos temporais trivalentes, otimização de árvores de tensores, parsing preditivo LL(1), fatiamento exato de malhas com aritmética racional e isomorfismo exato de grafos com refinamento 1-D Weisfeiler-Lehman.
 
 | Projeto | Linguagem | Finalidade | Consulta |
 | --- | --- | --- | --- |
@@ -417,5 +417,6 @@ Três bibliotecas e CLIs Python com licença MIT, README em português, exemplos
 | [Tensor Order Core](https://github.com/martinlofranodeoliveira/tensor-order-core) | C++ | Otimização combinatória exata de árvores binárias de contração de tensores com DP sobre bipartições e aritmética checada em 128 bits. | [Docs](https://github.com/martinlofranodeoliveira/tensor-order-core/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/tensor-order-core/actions/workflows/ci.yml) |
 | [Predictive Grammar Kit](https://github.com/martinlofranodeoliveira/predictive-grammar-kit) | Rust | Análise de gramáticas livres de contexto, derivação de FIRST/FOLLOW e parsing preditivo LL(1) bounded em arena. | [Docs](https://github.com/martinlofranodeoliveira/predictive-grammar-kit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/predictive-grammar-kit/actions/workflows/ci.yml) |
 | [Mesh Section Loops](https://github.com/martinlofranodeoliveira/mesh-section-loops) | C# | Fatiamento exato de malhas fechadas 2-variedades em polígonos planares 2D com aritmética racional e simplificação colinear. | [Docs](https://github.com/martinlofranodeoliveira/mesh-section-loops/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/mesh-section-loops/actions/workflows/ci.yml) |
+| [Colored Graph Witness](https://github.com/martinlofranodeoliveira/colored-graph-witness) | Kotlin | Isomorfismo exato de grafos pequenos direcionados e rotulados com refinamento 1-D Weisfeiler-Lehman e busca com retrocesso. | [Docs](https://github.com/martinlofranodeoliveira/colored-graph-witness/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/colored-graph-witness/actions/workflows/ci.yml) |
 
 <!-- THIRTEENTH-BATCH:END -->
