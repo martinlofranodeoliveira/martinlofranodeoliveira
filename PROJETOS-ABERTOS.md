@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-CIVIL-2026-11-08:BEGIN -->
+## Recorrência Civil · calcule séries de datas
+
+Biblioteca e CLI Python para expandir regras diárias, semanais, mensais e anuais, com inclusões e exceções. Uma série mensal no dia 31 pula os meses incompatíveis; limites explícitos interrompem a consulta com um prefixo comprovado, sem apresentar a lista parcial como completa.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Recorrência Civil](https://github.com/martinlofranodeoliveira/recorrencia-civil) · Python · MIT · README em português | [Entradas e relatórios sintéticos](https://github.com/martinlofranodeoliveira/recorrencia-civil/tree/main/examples) | [v1.0.0](https://github.com/martinlofranodeoliveira/recorrencia-civil/releases/tag/v1.0.0) · 75 testes · [CI Linux/Windows](https://github.com/martinlofranodeoliveira/recorrencia-civil/actions/runs/42520927671) |
+
+Requer Python 3.11+, funciona offline e usa somente a biblioteca padrão na execução. Exporta JSON, Markdown e CSV. Implementa um perfil de datas da RFC 5545: não importa ICS, não calcula horários ou fusos e não executa uma agenda. Uma divergência conhecida com dateutil está reproduzida na documentação.
+
+<!-- DELIVERY-CIVIL-2026-11-08:END -->
+
 <!-- DELIVERY-PAUTA-2026-11-08:BEGIN -->
 ## Pauta Aberta · da reunião aos próximos passos
 

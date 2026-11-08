@@ -2,6 +2,15 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## Recorrência Civil · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/recorrencia-civil/tree/26a224fb69be7f9b444ec1c5144bafcebf6c8acc), licença MIT, biblioteca/CLI e documentação em português. O contrato declara um perfil DATE da RFC 5545, sem conformidade integral iCalendar ou execução de agendas.
+- 75 testes passaram em cada um dos cinco jobs da [CI desse commit](https://github.com/martinlofranodeoliveira/recorrencia-civil/actions/runs/42520927671): Python 3.11–3.14 no Ubuntu e 3.14 no Windows, sem omissões da suíte. Cada job construiu o pacote e instalou o wheel em um ambiente novo fora da árvore de fontes, sem dependências de runtime.
+- A comparação independente com `python-dateutil==4.0.0` coincidiu em 289 cenários, com 8.109 ocorrências comparadas e 72 partições de janelas inclusivas. Uma divergência na seleção `BYSETPOS` da primeira semana foi reproduzida separadamente, com discussão e proposta upstream documentadas; ela não é contabilizada como comparação aprovada. O [resumo reproduzível](https://github.com/martinlofranodeoliveira/recorrencia-civil/blob/26a224fb69be7f9b444ec1c5144bafcebf6c8acc/examples/oraculos.json) registra entradas e resultados.
+- Os testes cobrem sincronização de DTSTART, contagem antes de exclusões e janela, RDATE independente de COUNT/UNTIL, períodos completos antes de BYSETPOS, anos 0001 e 9999, orçamentos zero, prefixos comprovados e limites exatos de entrada. A revisão independente confrontou ainda 42 casos de consultas parciais com suas expansões completas, sem encontrar novas divergências nesses casos.
+- A primeira execução no Windows revelou tradução das quebras de linha de stdout. A correção emite UTF-8 pelo buffer binário; uma regressão reproduz o wrapper com CRLF também no Linux. A instalação verificada compara os três formatos byte a byte com a API instalada e analisa CSV de stdout e arquivo com parser independente. Destinos existentes e criados durante a publicação são preservados.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/recorrencia-civil/releases/tag/v1.0.0): wheel, sdist e ZIP de fontes foram baixados da release pública e verificados por SHA-256. Os oito módulos do wheel, os 36 arquivos rastreados incluídos no sdist e os 39 arquivos do ZIP corresponderam ao código indicado. O wheel baixado foi instalado em ambiente separado e conferido nos três formatos, com limite parcial e publicação exclusiva.
+
 ## Pauta Aberta · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/pauta-aberta/tree/45cd2d4845ba6fd0dbe5a9df60f38559d50ac51d), licença MIT, documentação em português, contrato e exemplos sintéticos.
