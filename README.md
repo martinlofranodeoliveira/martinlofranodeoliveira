@@ -320,13 +320,14 @@ As demos usam cenários sintéticos. Seu código e arquivos publicados foram con
 <!-- TWELFTH-BATCH:END -->
 
 <!-- THIRTEENTH-BATCH:BEGIN -->
-### JPMS e compatibilidade binária · Projeto aberto
+### Junção por similaridade e compatibilidade binária · Projetos abertos
 
-**Publicado · desenvolvimento 0.1.0.** Ensaios de ligação JPMS, evolução binária de interfaces e isolamento nativo de processos Linux em múltiplos JVMs independentes.
+**Publicado · desenvolvimento 0.1.0.** Ensaios de ligação JPMS e algoritmos exatos de junção por similaridade de conjuntos com ordenação global de tokens e filtragem determinística por prefixos.
 
 | Projeto | Linguagem | Finalidade | Consulta |
 | --- | --- | --- | --- |
 | [JPMS Linkage Rehearsal](https://github.com/martinlofranodeoliveira/jpms-linkage-rehearsal) | Java | Ensaios de ligação JPMS, evolução binária de interfaces, encapsulamento e isolamento de processos no Linux. | [Docs](https://github.com/martinlofranodeoliveira/jpms-linkage-rehearsal/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/jpms-linkage-rehearsal/actions/workflows/ci.yml) |
+| [Set Overlap Join](https://github.com/martinlofranodeoliveira/set-overlap-join) | Go | Junção exata em lote por similaridade de Jaccard com indexação por prefixos e verificação inteira exata. | [Docs](https://github.com/martinlofranodeoliveira/set-overlap-join/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/set-overlap-join/actions/workflows/ci.yml) |
 
 <!-- THIRTEENTH-BATCH:END -->
 
