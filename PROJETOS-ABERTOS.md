@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-EPUB-2026-11-08:BEGIN -->
+## EPUB Navigation Audit · confira a navegação de livros digitais
+
+Biblioteca e CLI Python que conferem a rendição selecionada, o manifest, a ordem de leitura, os destinos do sumário e seus fragmentos em um EPUB local. Produzem JSON ou Markdown, sem renderizar o livro ou executar seu conteúdo, com limites explícitos e distinção entre erro comprovado e verificação incompleta.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [EPUB Navigation Audit](https://github.com/martinlofranodeoliveira/epub-navigation-audit) · Python · MIT · README em português | [Gerador e relatórios sintéticos](https://github.com/martinlofranodeoliveira/epub-navigation-audit/tree/main/examples) | [v1.0.0](https://github.com/martinlofranodeoliveira/epub-navigation-audit/releases/tag/v1.0.0) · 105 testes na suíte · [CI Linux/Windows](https://github.com/martinlofranodeoliveira/epub-navigation-audit/actions/runs/42477675035) |
+
+Doze exemplos originais foram confrontados com EPUBCheck 5.3.0; URLs do subconjunto aceito foram comparadas ao WHATWG URL do Node.js. Requer Python 3.11+ e defusedxml. A ferramenta cobre seu perfil documentado e não substitui a validação integral de EPUB. A CI inclui instalação fora dos fontes; o teste de FIFO é omitido no Windows.
+
+<!-- DELIVERY-EPUB-2026-11-08:END -->
+
 <!-- DELIVERY-DECISION-2026-11-08:BEGIN -->
 ## Decisões Abertas · compare alternativas com contexto
 

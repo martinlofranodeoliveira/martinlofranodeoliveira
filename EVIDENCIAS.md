@@ -2,6 +2,15 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## EPUB Navigation Audit · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/epub-navigation-audit/tree/24e4cb5bf6a57ce6762adcccaff2d73ecf28f2fe), licença MIT, biblioteca/CLI e documentação em português.
+- [CI do mesmo commit](https://github.com/martinlofranodeoliveira/epub-navigation-audit/actions/runs/42477675035) aprovada em cinco jobs de distribuição: Python 3.11–3.14 no Ubuntu e 3.14 no Windows. Cada job executou a suíte de 105 testes, construiu o pacote e exercitou o wheel instalado fora da árvore de fontes. Há uma omissão específica de FIFO no Windows.
+- Os testes cobrem leitura ZIP limitada, headers e CRC contraditórios, XML sem entidades externas, limites globais, normalização Unicode, XHTML/SVG, seleção de rendição, privacidade dos relatórios e saída sem sobrescrita. A CI revelou diferenças de Windows no gerador de um ZIP com barra invertida e na classificação de diretórios; ambas foram corrigidas antes da release.
+- O sexto job confrontou os [12 EPUBs sintéticos originais](https://github.com/martinlofranodeoliveira/epub-navigation-audit/blob/main/scripts/make_samples.py) com EPUBCheck 5.3.0, cujo arquivo oficial é verificado por SHA-256. Inclui casos válidos, falhas conhecidas e recursos legítimos fora do perfil próprio. O helper de URLs contém 18 casos, com 14 resoluções locais comparadas ao WHATWG URL do Node.js e quatro referências fora do perfil local.
+- [Relatórios de exemplo](https://github.com/martinlofranodeoliveira/epub-navigation-audit/tree/main/examples) registram estados e cobertura separadamente. O confronto com EPUBCheck corrigiu um falso diagnóstico de caminhos Unicode equivalentes. Um livro consistente neste perfil não é certificado como integralmente conforme ou seguro para execução.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/epub-navigation-audit/releases/tag/v1.0.0): wheel, sdist e ZIP de fontes foram baixados da release pública e verificados por SHA-256. Os dez módulos do wheel e os 36 arquivos do ZIP correspondem ao código indicado; o wheel baixado foi instalado em ambiente separado e conferiu os doze casos, a seleção explícita e a interrupção por limite.
+
 ## Decisões Abertas · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/decisoes-abertas/tree/b8daa0b35a5c4d5d3d501395c950a7f4836f3b2d), licença MIT, documentação em português e exemplos sintéticos.
