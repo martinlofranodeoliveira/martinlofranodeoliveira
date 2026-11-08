@@ -1,6 +1,15 @@
 # Evidências técnicas dos projetos abertos
 
-Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. Os projetos estão em desenvolvimento 0.1.0. Consulte a finalidade e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
+Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
+
+## Orçamento Aberto · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/lofrano-orcamentos-open/tree/5ac25f885ede16fff75e52a339f2d1d2e8817c5d), licença MIT e documentação em português.
+- 47 testes passaram no [workflow Node.js 22/24](https://github.com/martinlofranodeoliveira/lofrano-orcamentos-open/actions/runs/42457496754), no mesmo commit.
+- [Deploy do GitHub Pages](https://github.com/martinlofranodeoliveira/lofrano-orcamentos-open/actions/runs/42457496792) concluído; JavaScript principal e CSS públicos conferidos por SHA256 contra o código dessa versão.
+- [Demonstração](https://martinlofranodeoliveira.github.io/lofrano-orcamentos-open/) conferida no navegador: cálculo fracionado, desconto e adicional totalizando R$ 15,52; exemplo fictício totalizando R$ 2.700,00.
+- Revisão visual em desktop (viewport 1055 × 900) e celular (390 × 844). Salvamento opcional, recuperação do rascunho e download JSON também exercitados na prévia local.
+- [Download da versão e checksum](https://github.com/martinlofranodeoliveira/lofrano-orcamentos-open/releases/tag/v1.0.0).
 
 ## Consultar uma versão
 
@@ -25,4 +34,4 @@ O snapshot utiliza TTL de 24 horas em relação ao horário de avaliação infor
 
 O material demonstra implementações, documentação e verificações públicas. Contratos com clientes, atestados de execução comercial e habilitação em licitações precisam de seus próprios documentos; este catálogo não os declara.
 
-As demos web publicadas tiveram os arquivos e tipos HTTP conferidos contra o código revisado. A revisão visual e de acessibilidade em navegador permanece pendente, conforme os arquivos DESIGN.md dos projetos. Presença de licença, README ou política de segurança registra existência, sem certificar seu conteúdo.
+Os registros de cada entrega indicam o alcance da conferência HTTP, da revisão visual e dos testes de interação. O snapshot geral e os arquivos DESIGN.md devem ser lidos com sua data e escopo próprios. Presença de licença, README ou política de segurança registra existência, sem certificar seu conteúdo.
