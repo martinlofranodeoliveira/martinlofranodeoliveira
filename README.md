@@ -320,9 +320,9 @@ As demos usam cenários sintéticos. Seu código e arquivos publicados foram con
 <!-- TWELFTH-BATCH:END -->
 
 <!-- THIRTEENTH-BATCH:BEGIN -->
-### Junção por similaridade, parsing preditivo, lógica temporal, tensores, geometria, grafos e cinemática 3D · Projetos abertos
+### Junção por similaridade, parsing preditivo, lógica temporal, tensores, geometria, grafos, cinemática 3D e robótica · Projetos abertos
 
-**Publicado · desenvolvimento 0.1.0.** Ensaios de ligação JPMS, algoritmos exatos de junção por similaridade, contratos temporais trivalentes, otimização de árvores de tensores, parsing preditivo LL(1), fatiamento exato de malhas com aritmética racional, isomorfismo exato de grafos com refinamento 1-D Weisfeiler-Lehman e cinemática analítica de desdobramento de embalagens 3D em Three.js.
+**Publicado · desenvolvimento 0.1.0.** Ensaios de ligação JPMS, algoritmos exatos de junção por similaridade, contratos temporais trivalentes, otimização de árvores de tensores, parsing preditivo LL(1), fatiamento exato de malhas com aritmética racional, isomorfismo exato de grafos com refinamento 1-D Weisfeiler-Lehman, cinemática analítica de desdobramento de embalagens 3D em Three.js e bancada educacional de cinemática de braços articulados de 3 juntas rotativas com ramos analíticos de cotovelo.
 
 | Projeto | Linguagem | Finalidade | Consulta |
 | --- | --- | --- | --- |
@@ -334,6 +334,7 @@ As demos usam cenários sintéticos. Seu código e arquivos publicados foram con
 | [Mesh Section Loops](https://github.com/martinlofranodeoliveira/mesh-section-loops) | C# | Fatiamento exato de malhas fechadas 2-variedades em polígonos planares 2D com aritmética racional e simplificação colinear. | [Docs](https://github.com/martinlofranodeoliveira/mesh-section-loops/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/mesh-section-loops/actions/workflows/ci.yml) |
 | [Colored Graph Witness](https://github.com/martinlofranodeoliveira/colored-graph-witness) | Kotlin | Isomorfismo exato de grafos pequenos direcionados e rotulados com refinamento 1-D Weisfeiler-Lehman e busca com retrocesso. | [Docs](https://github.com/martinlofranodeoliveira/colored-graph-witness/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/colored-graph-witness/actions/workflows/ci.yml) |
 | [Carton Hinge Studio](https://github.com/martinlofranodeoliveira/carton-hinge-studio) | TypeScript | Cinemática analítica de desdobramento de embalagens retangulares em 3D (Three.js), convergência de junções e exportação de faca de corte em SVG. | [Docs](https://github.com/martinlofranodeoliveira/carton-hinge-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/carton-hinge-studio/actions/workflows/ci.yml) |
+| [Reach Branch Studio](https://github.com/martinlofranodeoliveira/reach-branch-studio) | TypeScript | Cinemática analítica de braço robótico com 3 juntas rotativas (Three.js), enumeração de ramos de cotovelo, alternativas radiais e rejeição por limites articulares. | [Docs](https://github.com/martinlofranodeoliveira/reach-branch-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/reach-branch-studio/actions/workflows/ci.yml) |
 
 <!-- THIRTEENTH-BATCH:END -->
 
