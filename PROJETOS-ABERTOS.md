@@ -273,3 +273,14 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 | [Wasm Capability Replay](https://github.com/martinlofranodeoliveira/wasm-capability-replay) | Go | Reproduz chamadas de módulos WebAssembly sintéticos, conferindo o histórico e a consistência com a entrada declarada. | [Docs](https://github.com/martinlofranodeoliveira/wasm-capability-replay/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/wasm-capability-replay/actions/workflows/ci.yml) |
 
 <!-- TWELFTH-BATCH:END -->
+
+<!-- THIRTEENTH-BATCH:BEGIN -->
+## JPMS e compatibilidade binária · Projeto aberto
+
+**Publicado · desenvolvimento 0.1.0.** Ensaios de ligação JPMS, evolução binária de interfaces e isolamento nativo de processos Linux em múltiplos JVMs independentes.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [JPMS Linkage Rehearsal](https://github.com/martinlofranodeoliveira/jpms-linkage-rehearsal) | Java | Ensaios de ligação JPMS, evolução binária de interfaces, encapsulamento e isolamento de processos no Linux. | [Docs](https://github.com/martinlofranodeoliveira/jpms-linkage-rehearsal/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/jpms-linkage-rehearsal/actions/workflows/ci.yml) |
+
+<!-- THIRTEENTH-BATCH:END -->
