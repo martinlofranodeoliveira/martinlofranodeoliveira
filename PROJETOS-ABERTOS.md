@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-CONTACT-2026-11-08:BEGIN -->
+## Folha de Contato · fotos que viram catálogo
+
+Organize fotos de produtos, informe nomes, referências e preços opcionais e monte páginas A4/Carta. A mesa de edição reúne folha, formulário e sequência numerada; o projeto JSON leva as imagens normalizadas junto para continuar em outro navegador.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/folha-de-contato/) | [Folha de Contato](https://github.com/martinlofranodeoliveira/folha-de-contato) · MIT · README em português | [v1.0.0](https://github.com/martinlofranodeoliveira/folha-de-contato/releases/tag/v1.0.0) · 62 testes · [CI Node.js 22/24](https://github.com/martinlofranodeoliveira/folha-de-contato/actions/runs/42527098441) |
+
+Exporta PNG/SVG da página atual e JSON completo. Funciona no navegador com até 32 produtos, sem salvamento automático: guarde o projeto para continuar depois. Os preços são informados por quem edita. O exemplo usa objetos, referências e preços fictícios.
+
+<!-- DELIVERY-CONTACT-2026-11-08:END -->
+
 <!-- DELIVERY-CIVIL-2026-11-08:BEGIN -->
 ## Recorrência Civil · calcule séries de datas
 
