@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-2026-11-08:BEGIN -->
+## Novas ferramentas · 8 de novembro de 2026
+
+Três bibliotecas e CLIs Python com licença MIT, README em português, exemplos executáveis e releases para download. Foram conferidos 67 testes locais e os workflows públicos de cada projeto.
+
+| Projeto | Finalidade | Verificação e download |
+| --- | --- | --- |
+| [HTTP Contract Diff](https://github.com/martinlofranodeoliveira/http-contract-diff) | Compara contratos HTTP JSON e aponta mudanças incompatíveis antes de uma entrega. Perfil plano explícito, sem consulta à API. | 19 testes · [CI](https://github.com/martinlofranodeoliveira/http-contract-diff/actions/runs/42455372230) · [v1.0.0](https://github.com/martinlofranodeoliveira/http-contract-diff/releases/tag/v1.0.0) |
+| [Resource Booking Ledger](https://github.com/martinlofranodeoliveira/resource-booking-ledger) | Controla reservas de salas e equipamentos por pico simultâneo, com capacidade, idempotência e transações SQLite. | 20 testes · [CI](https://github.com/martinlofranodeoliveira/resource-booking-ledger/actions/runs/42455375445) · [v1.0.0](https://github.com/martinlofranodeoliveira/resource-booking-ledger/releases/tag/v1.0.0) |
+| [Conventional Changelog Kit](https://github.com/martinlofranodeoliveira/conventional-changelog-kit) | Gera changelog e recomenda versão a partir de mensagens convencionais em JSON ou Git local, sem publicar releases. | 28 testes · [CI](https://github.com/martinlofranodeoliveira/conventional-changelog-kit/actions/runs/42455375260) · [v1.0.0](https://github.com/martinlofranodeoliveira/conventional-changelog-kit/releases/tag/v1.0.0) |
+
+<!-- DELIVERY-2026-11-08:END -->
+
 <!-- FIRST-BATCH:BEGIN -->
 ## Primeira leva · 10 projetos abertos
 
