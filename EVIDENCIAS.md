@@ -2,6 +2,19 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-MIDI-2026-11-09:BEGIN -->
+## Mapa MIDI · 9 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/mapa-midi/tree/71b832f0eafab4c6d9645dfa6401584ca0519672), licença MIT, biblioteca/CLI Python 3.11+ e README em português. O leitor captura bytes de arquivo regular somente para leitura, com limite e comparação de fstat, e usa Mido 1.3.3 como decoder central. O SHA-256 identifica os bytes capturados, sem prometer a imutabilidade futura do caminho.
+- A [CI desse commit](https://github.com/martinlofranodeoliveira/mapa-midi/actions/runs/42555236493) executou a suíte de 75 testes em Linux/Python 3.11–3.14 e Windows/Python 3.14; no Windows, duas verificações específicas de POSIX são omitidas. Os cinco jobs construíram wheel/sdist, conferiram inventário e RECORD e instalaram o wheel fora do checkout. O sexto job compilou o MIDICSV 1.1 fixado por SHA e executou novamente o consumidor C sobre dados originais.
+- O [ensaio independente](https://github.com/martinlofranodeoliveira/mapa-midi/blob/71b832f0eafab4c6d9645dfa6401584ca0519672/docs/INTEROPERABILIDADE.md) compara todos os fatos de 90 eventos produzidos/decodificados por csvmidi/midicsv em cinco casos válidos. Oráculos manuais separados conferem 22 intervalos, proveniência dos pares e tempos racionais. Dois contraexemplos registram a permissividade do consumidor para running status após meta/SysEx; o guard aplica a regra do PDF oficial SMF consultado. O modo offline verifica registros e não equivale a nova execução externa.
+- O [exemplo musical original](https://github.com/martinlofranodeoliveira/mapa-midi/tree/71b832f0eafab4c6d9645dfa6401584ca0519672/examples) contém três trilhas, 42 eventos, 13 notas completas e 3 andamentos. A nota longa atravessa uma mudança e dura 7/4 s; o último EOT ocorre em 41/10 s. Os testes verificam posições do gráfico contra frações; PNG 1440 × 960 e SVG com texto foram renderizados, e o PNG foi inspecionado visualmente.
+- A [revisão dirigida](https://github.com/martinlofranodeoliveira/mapa-midi/blob/71b832f0eafab4c6d9645dfa6401584ca0519672/docs/VALIDACAO.md) encontrou inferência de porta zero pelo decoder a partir de metadado vazio. A correção recusa prefixos insuficientes antes da decodificação e foi confirmada com a reprodução original; extensões maiores permitidas por SMF continuam aceitas. Uma falha inicial da CI Windows mostrou conversão de quebras de linha de uma fixture JSON; o atributo LF corrigiu o checkout, sem alterar o oráculo.
+- JSON conserva metadados textuais e tempos exatos; CSV protege prefixos de fórmula e Markdown escapa texto. Payloads opacos apresentam tamanho/digest. A publicação usa temporário irmão e link exclusivo, preservando destinos existentes. Os relatórios não são uma cópia sem perdas do SMF, não identificam instrumentos GM e não calculam duração audível.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/mapa-midi/releases/tag/v1.0.0) com wheel, sdist, ZIP de exemplo, PNG e SHA256SUMS. O código público e os assets foram conferidos contra os artefatos preparados; a confirmação limita-se ao commit, casos e plataformas registrados.
+
+<!-- EVIDENCE-MIDI-2026-11-09:END -->
+
 <!-- EVIDENCE-XLSX-2026-11-08:BEGIN -->
 ## Conferência XLSX · 8 de novembro de 2026
 

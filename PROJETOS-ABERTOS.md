@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-MIDI-2026-11-09:BEGIN -->
+## Mapa MIDI · notas, eventos e andamento
+
+Inspecione arquivos MIDI sem sintetizador ou dispositivos. A biblioteca e CLI Python mostram intervalos entre mensagens de nota, mudanças de andamento e diagnósticos; exportam JSON, CSV, Markdown e rolo de piano SVG/PNG com proveniência por trilha e evento.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Mapa MIDI](https://github.com/martinlofranodeoliveira/mapa-midi/tree/71b832f0eafab4c6d9645dfa6401584ca0519672) · Python · MIT · README em português | [MIDI original e relatórios](https://github.com/martinlofranodeoliveira/mapa-midi/releases/download/v1.0.0/exemplo-mapa-midi.zip) · [Ver rolo de piano](https://github.com/martinlofranodeoliveira/mapa-midi/blob/71b832f0eafab4c6d9645dfa6401584ca0519672/examples/rolo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/mapa-midi/releases/tag/v1.0.0) · suíte de 75 testes · [CI Linux/Windows e MIDICSV](https://github.com/martinlofranodeoliveira/mapa-midi/actions/runs/42555236493) |
+
+Requer Python 3.11+, Mido e Matplotlib. Usa segundos racionais exatos e pareamento FIFO por trilha, porta, canal e nota. Cinco exemplos sintéticos passaram pelo consumidor C MIDICSV 1.1: 90 eventos e 22 intervalos conferidos com oráculos manuais. Pedal é registrado, sem inferir duração audível; sobreposições ficam marcadas como ambíguas e notas abertas não recebem fim inventado. O escopo aceita SMF tipos 0/1 com PPQN e está documentado no contrato.
+
+<!-- DELIVERY-MIDI-2026-11-09:END -->
+
 <!-- DELIVERY-XLSX-2026-11-08:BEGIN -->
 ## Conferência XLSX · veja o que mudou na planilha
 
