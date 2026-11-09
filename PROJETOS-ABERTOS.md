@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-QUESTIONS-2026-11-08:BEGIN -->
+## Banco de Questões · do banco versionado à revisão
+
+Biblioteca e CLI Python que validam um banco JSON de esquema fechado e compilam Moodle XML com imagens e gabaritos. Representam escolha simples, escolha múltipla, verdadeiro/falso, resposta curta e numérica; produzem cadernos HTML docente/aluno, relatórios sem repetir enunciados ou respostas e ZIP com manifesto SHA256.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Banco de Questões](https://github.com/martinlofranodeoliveira/banco-de-questoes) · Python · MIT · README em português | [Banco e cadernos fictícios para download](https://github.com/martinlofranodeoliveira/banco-de-questoes/releases/tag/v1.0.0) | [v1.0.0](https://github.com/martinlofranodeoliveira/banco-de-questoes/releases/tag/v1.0.0) · 61 testes · [CI Linux/Windows e Moodle](https://github.com/martinlofranodeoliveira/banco-de-questoes/actions/runs/42542138739) |
+
+Requer Python 3.11+ e Pillow 13.0.0; funciona offline após a instalação, sem conexão ao LMS. A importação e a correção reais foram exercitadas no Moodle 4.5.15+ fixado, com oito questões, 30 respostas corrigidas, reimportação da exportação com a imagem PNG preservada e conferência de 41 percentuais. O alcance cobre os casos documentados nessa versão. O XML e o caderno docente contêm gabaritos por finalidade; os arquivos devem ser revisados antes da distribuição.
+
+<!-- DELIVERY-QUESTIONS-2026-11-08:END -->
+
 <!-- DELIVERY-VIDEO-2026-11-08:BEGIN -->
 ## Roteiro de Vídeo · da narrativa à gravação
 
