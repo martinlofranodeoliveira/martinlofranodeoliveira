@@ -2,6 +2,20 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-SEATING-2026-11-09:BEGIN -->
+## Mapa de Mesas · 9 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/mapa-de-mesas/tree/db3b68f968083f2b59f6724e0d7dec6b5769b63a), licença MIT, documentação em português e [demonstração pública](https://martinlofranodeoliveira.github.io/mapa-de-mesas/). Fontes Lato locais com licença própria preservada. Os 43 arquivos fonte e os 15 arquivos do ZIP estático foram conferidos contra a árvore Git e o manifesto; 14 arquivos públicos HTTP foram confrontados byte a byte com o build (o `.nojekyll` foi conferido no pacote).
+- [CI](https://github.com/martinlofranodeoliveira/mapa-de-mesas/actions/runs/42559744917) aprovada: 46 testes em cada job Node 22/24, nove testes Python e exportações Node confrontadas com o leitor Python. [Pages](https://github.com/martinlofranodeoliveira/mapa-de-mesas/actions/runs/42559744829) aprovou testes, build e conferência antes da implantação. O commit dessas execuções é o código apontado acima.
+- O [modelo](https://github.com/martinlofranodeoliveira/mapa-de-mesas/blob/db3b68f968083f2b59f6724e0d7dec6b5769b63a/CONTRACT.md) valida esquema fechado, IDs, datas civis, referências, capacidades e grupos. Operações são imutáveis e atômicas; nomes iguais não fundem identidades. A sessão conserva vinte estados para desfazer. JSON é o backup completo; CSV de importação tem quatro colunas e distribuição tem cinco, sem promessa de reimportação desse relatório.
+- A [prova de interoperabilidade](https://github.com/martinlofranodeoliveira/mapa-de-mesas/blob/db3b68f968083f2b59f6724e0d7dec6b5769b63a/docs/INTEROPERABILIDADE.md) usa Python sem importar a produção JavaScript para ler JSON/CSV/HTML realmente baixados pelo Chrome. Conferiu 18 convidados, 12 alocados, seis não alocados, 18 linhas CSV, 18 pessoas nas listas e 18 no índice. O backup de 2.573 bytes foi aberto e reexportado sem alterar seus bytes; o SHA é `4acd3cc47942377fd2385d3f8ef769c6ad68a475033a60ce86c64f9bbcfbc075`.
+- A interface recusou grupo sem capacidade sem mudar 18/12/6; um grupo válido moveu integralmente para 18/13/5, e desfazer restaurou 18/12/6. Também foram exercitados novos cadastros, remoção de mesa ocupada com cancelamento e liberação das pessoas, recuperação, projeto vazio e CSV inválido preservando estado e rascunho. Os dados são originais/fictícios.
+- A [revisão visual independente](https://github.com/martinlofranodeoliveira/mapa-de-mesas/blob/db3b68f968083f2b59f6724e0d7dec6b5769b63a/docs/VALIDACAO.md) retornou `ship` nas composições desktop 1280 × 800, celular 390 × 844 e viewport observado 1920 × 961. A revisão ocorreu por capturas e arquivos, sem browser próprio; referências externas de qualidade estavam indisponíveis por HTTP 403. DESIGN.md registra o mundo construído. O detector foi regex degradado, sem alegação de auditoria completa de contraste ou leitor de tela.
+- O HTML para impressão foi baixado e validado. A revisão automática do navegador rejeitou a navegação para a URL temporária `blob:`, por permitir somente HTTP/HTTPS; não foi tentado contorno. **PDF não foi gerado nem validado.** O aplicativo solicita impressão ao navegador e permite baixar o HTML para uso à parte.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/mapa-de-mesas/releases/tag/v1.0.0) com código, site estático e encontro JSON fictício. Os assets públicos foram baixados novamente e conferidos contra os preparados. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-SEATING-2026-11-09:END -->
+
 <!-- EVIDENCE-MIDI-2026-11-09:BEGIN -->
 ## Mapa MIDI · 9 de novembro de 2026
 

@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-SEATING-2026-11-09:BEGIN -->
+## Mapa de Mesas · cada convidado, um lugar
+
+Organize pessoas e grupos por mesas, confira as vagas e prepare listas por mesa e em ordem alfabética. Uma distribuição manual com capacidade validada, IDs que preservam homônimos e movimento de grupo completo ou recusado integralmente.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/mapa-de-mesas/) | [Mapa de Mesas](https://github.com/martinlofranodeoliveira/mapa-de-mesas/tree/db3b68f968083f2b59f6724e0d7dec6b5769b63a) · HTML/CSS/JavaScript · MIT · português | [v1.0.0](https://github.com/martinlofranodeoliveira/mapa-de-mesas/releases/tag/v1.0.0) · 46 testes Node + 9 Python · [CI](https://github.com/martinlofranodeoliveira/mapa-de-mesas/actions/runs/42559744917) |
+
+Até 300 convidados e 50 mesas, sem conta ou salvamento implícito. JSON guarda o encontro completo; CSV ajuda a importar convidados e consultar a distribuição; HTML prepara as listas para impressão. Backup reaberto no Chrome preservou os bytes, e os downloads reais foram conferidos por um leitor Python independente. Não há solver, planta em escala ou geração própria de PDF; PDF não foi validado nesta entrega. Guarde o JSON para continuar depois.
+
+<!-- DELIVERY-SEATING-2026-11-09:END -->
+
 <!-- DELIVERY-MIDI-2026-11-09:BEGIN -->
 ## Mapa MIDI · notas, eventos e andamento
 
