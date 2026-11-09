@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-ACERVO-2026-11-08:BEGIN -->
+## Acervo de Leitura · referências e tempo para ler
+
+Importe referências CSL JSON, organize a fila por prioridade e distribua as estimativas restantes pela capacidade de cada dia da semana. O plano identifica pendências e alocações depois do prazo; o histórico registra sessões sem alterar automaticamente as estimativas ou a conclusão.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/acervo-de-leitura/) | [Acervo de Leitura](https://github.com/martinlofranodeoliveira/acervo-de-leitura) · HTML/CSS/JavaScript · MIT · README em português | [v1.0.0](https://github.com/martinlofranodeoliveira/acervo-de-leitura/releases/tag/v1.0.0) · 48 testes · [CI Node.js 22/24](https://github.com/martinlofranodeoliveira/acervo-de-leitura/actions/runs/42546938219) |
+
+Funciona no navegador com até 500 referências, backup JSON, metadados CSL e relatórios CSV/Markdown. Os dados permanecem locais; guarde o projeto JSON antes de fechar a aba. Três referências fictícias percorreram o Zotero Translation Server oficial: o Acervo preservou o CSL recebido, e a reimportação oficial regenerou somente os IDs nessa amostra. O backup do aplicativo inclui o planejamento e não abrange anexos ou coleções do Zotero.
+
+<!-- DELIVERY-ACERVO-2026-11-08:END -->
+
 <!-- DELIVERY-QUESTIONS-2026-11-08:BEGIN -->
 ## Banco de Questões · do banco versionado à revisão
 

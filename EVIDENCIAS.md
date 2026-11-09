@@ -2,6 +2,22 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-ACERVO-2026-11-08:BEGIN -->
+## Acervo de Leitura · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/acervo-de-leitura/tree/be6f3ced211376a20259054ed05839a50647e560), licença MIT e documentação em português. Aplicativo estático HTML/CSS/JavaScript com importação CSL JSON, fila de leitura, capacidade por dia da semana, sessões e exportações JSON/CSL/CSV/Markdown.
+- 48 testes passaram em cada job Node.js 22/24 da [CI desse commit](https://github.com/martinlofranodeoliveira/acervo-de-leitura/actions/runs/42546938219), sem omissões. Cobrem datas civis e fusos, limites, preservação dos metadados e tokens numéricos, chaves JSON repetidas, importação atômica, alterações concorrentes durante leitura de arquivo, formulários pendentes, fila, pendências e invariantes de capacidade. Minutos registrados, estimativa restante e conclusão são declarações independentes.
+- A [evidência de interoperabilidade](https://github.com/martinlofranodeoliveira/acervo-de-leitura/blob/be6f3ced211376a20259054ed05839a50647e560/docs/INTEROPERABILIDADE.md) registra o Zotero Translation Server 2.0.5, revisão `00032f679fb3a91b682fd54c9926d920caaf6aef`, com o tradutor oficial CSL JSON fixado. Três referências originais fictícias — livro, artigo e capítulo — passaram por exportação oficial, importação no Acervo, backup/restauração, reexportação CSL e nova importação/exportação oficial. As três chamadas retornaram HTTP 200.
+- O Acervo preservou todos os campos, tipos, valores e tokens numéricos do CSL recebido, inclusive `id`. Na nova exportação pelo consumidor oficial, a comparação dos metadados coincidiu excluindo somente `id`, regenerado por ele. A sessão preservada no backup não reduziu a estimativa, e os controles de planejamento permaneceram fora do CSL exportado.
+- Os [artefatos sintéticos e hashes](https://github.com/martinlofranodeoliveira/acervo-de-leitura/tree/be6f3ced211376a20259054ed05839a50647e560/fixtures/interop) tiveram sua integridade e o percurso interno de importação/restauração/reexportação conferidos novamente pelo verificador da fixture. Essa conferência não executa outra vez o consumidor externo. O ensaio externo ocorreu em contêiner sem rede externa, sem portas publicadas ou conta Zotero; cobre essa amostra e o Translation Server, sem teste da interface ou do banco do Zotero Desktop.
+- [Deploy do GitHub Pages](https://github.com/martinlofranodeoliveira/acervo-de-leitura/actions/runs/42546938227) aprovado no mesmo commit; dez arquivos públicos de execução corresponderam byte a byte à distribuição local. Na demonstração pública, o backup baixado correspondeu à saída do modelo, a seleção por teclado funcionou e não foram observados erros ou avisos no console.
+- A revisão visual de desktop e celular exigiu três ajustes. A revisão dirigida das recapturas pontuou os três como resolvidos e concluiu com disposição `ship`; o [DESIGN.md dessa versão](https://github.com/martinlofranodeoliveira/acervo-de-leitura/blob/be6f3ced211376a20259054ed05839a50647e560/DESIGN.md) registra o sistema aplicado.
+- Referências são processadas no navegador, sem backend de negócio, analytics, CDN ou salvamento automático. O projeto JSON contém metadados e planejamento; anexos, PDFs, coleções e vínculos Zotero não são reconstruídos. [Release e checksums](https://github.com/martinlofranodeoliveira/acervo-de-leitura/releases/tag/v1.0.0).
+
+- Os quatro assets da release foram baixados novamente: fonte, distribuição estática, exemplo JSON e checksums. Os SHA-256 externos e os manifestos internos dos ZIPs coincidiram; o código extraído foi instalado e gerou o mesmo build. A [CI da tag v1.0.0](https://github.com/martinlofranodeoliveira/acervo-de-leitura/actions/runs/42547182526) também foi aprovada.
+
+<!-- EVIDENCE-ACERVO-2026-11-08:END -->
+
 <!-- EVIDENCE-QUESTIONS-2026-11-08:BEGIN -->
 ## Banco de Questões · 8 de novembro de 2026
 
