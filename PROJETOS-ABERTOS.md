@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-CRUZADAS-2026-11-09:BEGIN -->
+## Cruzadas de Papel · palavras, pistas e cruzamentos
+
+Monte palavras cruzadas autorais no navegador, confira as letras compartilhadas e prepare atividade e gabarito. A edição mostra a resposta original e sua preparação em A–Z; a numeração acompanha as posições, inclusive quando duas palavras começam na mesma célula.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/cruzadas-de-papel/) | [Cruzadas de Papel](https://github.com/martinlofranodeoliveira/cruzadas-de-papel) · HTML/CSS/JavaScript · MIT · português · LOFRANO TECNOLOGIA | [v1.0.0](https://github.com/martinlofranodeoliveira/cruzadas-de-papel/releases/tag/v1.0.0) · 25 testes Node + 18 Python · [CI Node 22/24](https://github.com/martinlofranodeoliveira/cruzadas-de-papel/actions/runs/42572011827) |
+
+Até 40 entradas em grade de 5 a 21 células por eixo. JSON guarda a edição, inclusive rascunhos; SVG e IPUZ separam atividade e gabarito. As saídas finais exigem palavras posicionadas e conectadas, pistas e ausência de sequências acidentais. Os dois IPUZ realmente baixados foram abertos no player oficial Exolve: atividade digitável sem controles de solução e gabarito com nove respostas e 28 células conferidas. Sem conta, autosave, banco de palavras ou IA; guarde o JSON antes de fechar a aba.
+
+<!-- DELIVERY-CRUZADAS-2026-11-09:END -->
+
 <!-- DELIVERY-PORTARIA-2026-11-09:BEGIN -->
 ## Portaria Local · localizar, conferir e confirmar
 

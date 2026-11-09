@@ -2,6 +2,22 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-CRUZADAS-2026-11-09:BEGIN -->
+## Cruzadas de Papel · 9 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/cruzadas-de-papel/tree/202936452e03d11cb6704fb329691d4d784fa892), licença MIT e documentação em português. Aplicativo estático da LOFRANO TECNOLOGIA para construir palavras cruzadas com grade interativa, pistas numeradas, sugestões de encaixe e tentativa temporária; exporta projeto JSON, atividade e gabarito em SVG/IPUZ.
+- Passaram 25 testes Node e 18 Python. A [CI](https://github.com/martinlofranodeoliveira/cruzadas-de-papel/actions/runs/42572011827) concluiu com sucesso em Node 22/24 e no trabalho independente Python/Exolve. O modelo foi confrontado com 700 geometrias determinísticas; o verificador independente reconstrói letras, números, sequências maximais e conectividade sem importar o núcleo do aplicativo.
+- No Chrome, foram exercitados recusa de conflito e redimensionamento inválido sem alteração parcial, preservação de rascunho inválido, importação, sugestões e desfazer. A tentativa original chegou a 28 de 28 células corretas. Abrir e reexportar o JSON realmente baixado conservou seus 2483 bytes. Os [cinco downloads finais e hashes](https://github.com/martinlofranodeoliveira/cruzadas-de-papel/blob/202936452e03d11cb6704fb329691d4d784fa892/docs/EVIDENCIAS-ARQUIVOS.json) passaram pelo leitor independente.
+- O Exolve oficial MIT, fixado por commit e hashes e sem patches, abriu os dois IPUZ realmente baixados. No Chrome, a atividade aceitou CASA/CAFE compartilhando o C e não mostrou controles de solução. No navegador integrado, o gabarito revelou as nove pistas e 28 células corretas com Reveal this. O alcance é a demonstração original nesse consumidor; não há promessa para todo leitor ou variante IPUZ. [Roteiro e limites](https://github.com/martinlofranodeoliveira/cruzadas-de-papel/blob/202936452e03d11cb6704fb329691d4d784fa892/docs/VALIDACAO.md).
+- Os SVGs finais realmente baixados foram renderizados com FFmpeg/librsvg e abertos para conferir as pistas completas sem sobreposição. A aplicação não gera PNG/PDF. A revisão visual de 1280, 390 e 1920 px pediu dois ajustes; o passe de veredito pontuou ambos como resolvidos, com disposition ship nesse escopo. [DESIGN.md](https://github.com/martinlofranodeoliveira/cruzadas-de-papel/blob/202936452e03d11cb6704fb329691d4d784fa892/DESIGN.md) registra o sistema observado.
+- O [Pages](https://github.com/martinlofranodeoliveira/cruzadas-de-papel/actions/runs/42572011652) publicou o mesmo commit. [Demonstração](https://martinlofranodeoliveira.github.io/cruzadas-de-papel/) e [release com fonte, distribuição, exemplo e checksums](https://github.com/martinlofranodeoliveira/cruzadas-de-papel/releases/tag/v1.0.0). Sem rede de negócio, conta ou salvamento automático; o projeto deve ser guardado em JSON. Atividade omite a estrutura de solução, mas uma resposta escrita pelo autor no título ou na pista continuará visível.
+
+- A demonstração pública foi aberta no Chrome e no navegador integrado com 28 células, estado Grade pronta e os quatro botões finais habilitados. O JSON baixado da página pública coincidiu byte a byte com o projeto canônico; não houve rolagem horizontal ou avisos/erros no console observado do navegador integrado.
+
+- Os quatro assets da release foram baixados novamente: bytes e SHA256SUMS coincidiram com os preparados. Os ZIPs de fonte e distribuição contêm 51 e 19 arquivos, com CRC válido; a fonte pública por SHA coincidiu em todos os 51 arquivos. Os 18 arquivos HTTP servidos pelo Pages corresponderam ao build e ao manifesto. `.nojekyll` está vazio no ZIP e funciona como controle de hospedagem, sem exigir resposta HTTP pública.
+
+<!-- EVIDENCE-CRUZADAS-2026-11-09:END -->
+
 <!-- EVIDENCE-PORTARIA-2026-11-09:BEGIN -->
 ## Portaria Local · 9 de novembro de 2026
 
