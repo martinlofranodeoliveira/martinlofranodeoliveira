@@ -2,6 +2,18 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-RATEIO-2026-11-09:BEGIN -->
+## Rateio Claro · 9 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/rateio-claro/tree/8ac126b4ec37b33cbd9209a8422e1cc799d4b837), licença MIT e documentação em português. Aplicativo estático da LOFRANO TECNOLOGIA, com núcleo original de rateio por maiores restos, pesos e memória exata. IDs preservam homônimos; o saldo separa valores pagos, parcelas e acertos registrados.
+- Passaram 48 testes JavaScript e 23 Python. A [CI do mesmo commit](https://github.com/martinlofranodeoliveira/rateio-claro/actions/runs/42586661350) concluiu quatro trabalhos: Node 22, Node 24, leitor independente e consumidor LibreOffice. Um oráculo exaustivo confronta 512 rateios pequenos; valores literais verificam produtos acima de 2⁵³, empates, despesas separadas, pagador fora dos beneficiários e sobrepagamentos. A ordem estável de sugestões possui um contraexemplo explícito ao mínimo de transferências.
+- No Chrome foram conferidos prévia sem alteração dos saldos, rascunho preservado ao trocar despesa, erro de valor, importação inválida/cancelada, homônimos, remoção referenciada, desfazer e acerto explícito sem aumentar o custo. O exemplo fictício tem 26.901 centavos de despesas, 2.000 de acertos e 3.450 pendentes. Abrir e reexportar seu JSON conservou os 1.751 bytes. [Registro e limites](https://github.com/martinlofranodeoliveira/rateio-claro/blob/8ac126b4ec37b33cbd9209a8422e1cc799d4b837/docs/CONFERENCIA-NAVEGADOR.json).
+- Os seis arquivos realmente baixados foram reconstruídos por Python com inteiros e Fraction, sem importar o JavaScript. O LibreOffice 26.2.6.3 local preservou 180 células CSV importadas explicitamente como texto, sem fórmulas; uma auditoria separada conferiu 189 resultados inteiros em cinco cenários pequenos. A CI repetiu o ensaio real em LibreOffice 7.3.7.2. Perfil, diretório de trabalho e entradas temporários, macros desativadas e namespace sem rede mantêm o ensaio isolado. Não há promessa universal de aritmética exata em planilhas externas. [Procedimento e proveniência](https://github.com/martinlofranodeoliveira/rateio-claro/blob/8ac126b4ec37b33cbd9209a8422e1cc799d4b837/docs/INTEROPERABILIDADE.md).
+- A revisão visual pediu trazer parcelas e centavo extra à primeira dobra móvel; o passe de veredito marcou esse achado como resolvido, disposition ship nesse escopo. Capturas de 1280, 390 e 1920 px foram conferidas. [DESIGN.md](https://github.com/martinlofranodeoliveira/rateio-claro/blob/8ac126b4ec37b33cbd9209a8422e1cc799d4b837/DESIGN.md) registra o sistema construído; não há certificação formal de acessibilidade.
+- O [Pages](https://github.com/martinlofranodeoliveira/rateio-claro/actions/runs/42586661401) publicou o mesmo commit. Os 95 arquivos da fonte pública coincidiram com os blobs Git; os 14 arquivos HTTP servíveis coincidiram com o build. A [release](https://github.com/martinlofranodeoliveira/rateio-claro/releases/tag/v1.0.0) tem quatro assets baixados novamente e comparados byte a byte: fonte ZIP com 95 membros, distribuição com 15, exemplo JSON e SHA256SUMS; hashes, CRCs, fontes OFL e licença MIT conferidos. `.nojekyll` é controle de hospedagem verificado no pacote. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-RATEIO-2026-11-09:END -->
+
 <!-- EVIDENCE-MATERIAIS-2026-11-09:BEGIN -->
 ## Materiais em Lote · 9 de novembro de 2026
 

@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-RATEIO-2026-11-09:BEGIN -->
+## Rateio Claro · cada centavo tem destino
+
+Divida despesas de um grupo por pesos, confira o arredondamento de cada parcela e registre os acertos declarados. O recibo explica os centavos adicionais; as sugestões permanecem separadas até a confirmação explícita de um acerto.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/rateio-claro/) | [Rateio Claro](https://github.com/martinlofranodeoliveira/rateio-claro) · HTML/CSS/JavaScript · MIT · português · LOFRANO TECNOLOGIA | [v1.0.0](https://github.com/martinlofranodeoliveira/rateio-claro/releases/tag/v1.0.0) · 48 testes Node + 23 Python · [CI com LibreOffice](https://github.com/martinlofranodeoliveira/rateio-claro/actions/runs/42586661350) |
+
+Até 100 pessoas, 500 despesas e 500 acertos; projeto JSON UTF-8 de até 2 MiB. O núcleo usa centavos inteiros e BigInt; desempates seguem o ID em cada despesa. Acertos não aumentam o custo e podem inverter saldos. JSON guarda o estado aplicado; memória JSON, CSV e Markdown permitem conferir a conta. Sugestões determinísticas não prometem o menor número de transferências. Sem conta, banco ou autosave: guarde o JSON para continuar depois.
+
+<!-- DELIVERY-RATEIO-2026-11-09:END -->
+
 <!-- DELIVERY-MATERIAIS-2026-11-09:BEGIN -->
 ## Materiais em Lote · do pedido aos componentes
 
