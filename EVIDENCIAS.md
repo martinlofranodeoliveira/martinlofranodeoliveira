@@ -2,6 +2,21 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-PORTARIA-2026-11-09:BEGIN -->
+## Portaria Local · 9 de novembro de 2026
+
+- Implementação estática HTML/CSS/JavaScript da LOFRANO TECNOLOGIA, licença MIT e documentação em português. [Repositório](https://github.com/martinlofranodeoliveira/portaria-local), [demonstração](https://martinlofranodeoliveira.github.io/portaria-local/) e [versão 1.0.0](https://github.com/martinlofranodeoliveira/portaria-local/releases/tag/v1.0.0) publicados. Fonte em [`b34cf4c`](https://github.com/martinlofranodeoliveira/portaria-local/commit/b34cf4c2e21a78ad4b5b2baae1f90bd0b025b79d).
+- Validação local aprovada: 52 testes Node e sete testes Python. O contrato limita o encontro a 300 participantes e 5.000 registros de histórico; JSON e CSV de entrada são UTF-8 de até 2 MiB. Nomes iguais mantêm identidades diferentes por ID, e uma importação inválida não aplica alterações parciais.
+- No Chrome real, foram exercitadas confirmação de entrada, repetição sem novo registro, anulação com motivo e nova entrada após a correção. A entrada original permanece no histórico; a repetição preserva seu horário e não aumenta a presença. A demonstração é original e fictícia: oito pessoas, dois homônimos, duas presentes, seis ausentes, três entradas e uma anulação.
+- O PNG QR gerado pela aplicação e realmente salvo no Chrome foi lido por um decoder ZXing independente, com payload exatamente igual ao esperado. No sentido inverso, um PNG produzido pelo encoder ZXing foi escolhido no Chrome e lido pelo jsQR; o cadastro foi identificado antes da confirmação de presença. A leitura de QR não registra a entrada automaticamente.
+- Um verificador Python independente reconstruiu as presenças pelo histórico do JSON e conferiu os CSVs realmente baixados. Abrir e reexportar o backup JSON preservou seus bytes. Os relatórios têm formatos próprios; CSV de presenças e histórico não são arquivos de restauração.
+- Códigos e QR são localizadores copiáveis, sem autenticação, assinatura ou prova de identidade. Os horários vêm do relógio do dispositivo, armazenados em UTC e apresentados no fuso local; não existe verificação externa da hora. O backup pode ser editado por seu proprietário. Não há conta, autosave ou sincronização; o projeto deve ser guardado explicitamente em JSON.
+- [CI](https://github.com/martinlofranodeoliveira/portaria-local/actions/runs/42564223089) concluída com sucesso nos três jobs: Node 22, Node 24 e consumidores Python independentes. [Pages](https://github.com/martinlofranodeoliveira/portaria-local/actions/runs/42564223130) concluído com build e deploy bem-sucedidos. Página pública conferida no navegador com oito cadastros, duas presenças, seis ausências e quatro registros; nenhuma rolagem horizontal de página observada. O README principal do perfil permanece intacto.
+
+- Código remoto conferido pela API: 56 arquivos iguais ao commit. Quinze arquivos servíveis do Pages responderam HTTP 200 com bytes iguais ao build; `.nojekyll` é controle do host e foi conferido no ZIP. Quatro assets da release baixados novamente e comparados integralmente: ZIP de fonte com 56 arquivos, ZIP estático com 16, JSON fictício e SHA256SUMS; hashes e CRCs válidos.
+
+<!-- EVIDENCE-PORTARIA-2026-11-09:END -->
+
 <!-- EVIDENCE-SEATING-2026-11-09:BEGIN -->
 ## Mapa de Mesas · 9 de novembro de 2026
 

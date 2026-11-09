@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-PORTARIA-2026-11-09:BEGIN -->
+## Portaria Local · localizar, conferir e confirmar
+
+Receba participantes de um pequeno encontro por busca, código copiável ou imagem QR. Confira o cadastro antes de confirmar a entrada; uma repetição conserva a presença e seu horário. Correções exigem motivo e acrescentam uma anulação ao histórico, mantendo a entrada original.
+
+| Código e documentação | Demonstração e versão | Validação |
+| --- | --- | --- |
+| [Portaria Local](https://github.com/martinlofranodeoliveira/portaria-local) · HTML/CSS/JavaScript · MIT · português · LOFRANO TECNOLOGIA | [Abrir demonstração](https://martinlofranodeoliveira.github.io/portaria-local/) · [Versão 1.0.0](https://github.com/martinlofranodeoliveira/portaria-local/releases/tag/v1.0.0) | 52 testes Node + 7 Python; CI Node 22/24, interoperabilidade e Pages concluídos. |
+
+Até 300 participantes e 5.000 registros de histórico, com arquivos JSON/CSV de entrada UTF-8 de até 2 MiB. IDs preservam homônimos; JSON guarda o projeto completo e CSV apresenta presenças e histórico. O código/QR é um localizador copiável, sem autenticação ou prova de identidade. Horários vêm do relógio do dispositivo. Sem conta ou autosave: guarde o JSON antes de fechar a aba. A demonstração usa oito pessoas fictícias, duas presentes e seis ausentes, com três entradas e uma anulação.
+
+<!-- DELIVERY-PORTARIA-2026-11-09:END -->
+
 <!-- DELIVERY-SEATING-2026-11-09:BEGIN -->
 ## Mapa de Mesas · cada convidado, um lugar
 
