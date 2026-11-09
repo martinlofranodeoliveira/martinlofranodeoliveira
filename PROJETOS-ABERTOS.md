@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-VIDEO-2026-11-08:BEGIN -->
+## Roteiro de Vídeo · da narrativa à gravação
+
+Planeje cenas com texto, referências visuais e duração. A narrativa mantém seus números enquanto a ordem de gravação reúne cenas por local e setup. Durações usam milissegundos inteiros; cenas sem duração continuam identificadas como pendentes.
+
+| Usar | Código e documentação | Versão e verificação |
+| --- | --- | --- |
+| [Abrir demonstração](https://martinlofranodeoliveira.github.io/roteiro-de-video/) | [Roteiro de Vídeo](https://github.com/martinlofranodeoliveira/roteiro-de-video) · HTML/CSS/JavaScript · MIT · README em português | [v1.0.0](https://github.com/martinlofranodeoliveira/roteiro-de-video/releases/tag/v1.0.0) · 56 testes · [CI Node.js 22/24](https://github.com/martinlofranodeoliveira/roteiro-de-video/actions/runs/42538258436) |
+
+Funciona no navegador com até 40 cenas, sem conta nem salvamento automático. O projeto JSON inclui as imagens normalizadas para continuar a edição; Markdown e CSV organizam o roteiro e a gravação, e a impressão usa o diálogo do navegador. Os dados permanecem locais: guarde o JSON antes de fechar a página.
+
+<!-- DELIVERY-VIDEO-2026-11-08:END -->
+
 <!-- DELIVERY-OFX-2026-11-08:BEGIN -->
 ## Extrato OFX · extratos locais, valores exatos
 

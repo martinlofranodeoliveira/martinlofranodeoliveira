@@ -2,6 +2,16 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+## Roteiro de Vídeo · 8 de novembro de 2026
+
+- [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/roteiro-de-video/tree/2c87c5d103d5fc0070ae8ae26364e9fb6faa8e96), licença MIT e documentação em português. Planejador estático HTML/CSS/JavaScript para até 40 cenas, sem conta nem salvamento automático.
+- 56 testes passaram em cada job Node.js 22/24 da [CI desse commit](https://github.com/martinlofranodeoliveira/roteiro-de-video/actions/runs/42538258436).
+- A narrativa preserva os números das cenas quando a ordem de gravação é agrupada por local e setup. Durações usam milissegundos inteiros e distinguem o tempo informado das cenas pendentes.
+- O projeto JSON inclui as imagens normalizadas. Há exportação Markdown e CSV e impressão pelo diálogo nativo do navegador; os dados de edição permanecem locais.
+- [Deploy do GitHub Pages](https://github.com/martinlofranodeoliveira/roteiro-de-video/actions/runs/42538258548) aprovado no mesmo código; os 20 arquivos públicos conferidos por HTTP corresponderam byte a byte à distribuição estática de 21 arquivos. O marcador `.nojekyll` foi conferido apenas dentro do ZIP estático.
+- Na [demonstração pública](https://martinlofranodeoliveira.github.io/roteiro-de-video/), um projeto com seis imagens normalizadas foi carregado e exportado como JSON com bytes idênticos ao exemplo validado. A ordem de gravação ficou em 1, 3, 4, 2, 5 e 6, preservando os números narrativos. Não foram observados erros de console nem overflow horizontal na largura exercitada.
+- [Release e checksums](https://github.com/martinlofranodeoliveira/roteiro-de-video/releases/tag/v1.0.0): os ZIPs de fontes e distribuição estática e o arquivo SHA256SUMS foram baixados da publicação. Os hashes dos dois ZIPs foram validados; os 45 arquivos de fontes corresponderam ao commit indicado e os 21 arquivos estáticos à distribuição preparada. A [CI da tag](https://github.com/martinlofranodeoliveira/roteiro-de-video/actions/runs/42538461370) também passou no mesmo código.
+
 ## Extrato OFX · 8 de novembro de 2026
 
 - [Código da versão 1.0.0](https://github.com/martinlofranodeoliveira/extrato-ofx/tree/11e803c78d15fa821f653902ecf031f200d3a2d2), licença MIT, biblioteca/CLI e documentação em português. O perfil bancário/cartão interpreta OFX1 SGML e OFX2 XML, sem conexão bancária, reconciliação ou aplicação de correções.
