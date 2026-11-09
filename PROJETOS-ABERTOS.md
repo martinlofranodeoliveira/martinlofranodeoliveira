@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-MATERIAIS-2026-11-09:BEGIN -->
+## Materiais em Lote · do pedido aos componentes
+
+Calcule necessidades de fabricação e compra por listas técnicas multinível. Demandas de pais diferentes são reunidas antes de usar o estoque uma vez; apenas os lotes fabricados consomem componentes. Embalagens e lotes explicam as sobras, com quantidades racionais exatas e memória de cada origem.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Materiais em Lote](https://github.com/martinlofranodeoliveira/materiais-em-lote) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/materiais-em-lote/releases/download/v1.0.0/exemplo.zip) | [v1.0.0](https://github.com/martinlofranodeoliveira/materiais-em-lote/releases/tag/v1.0.0) · 59 testes locais · [CI Linux/Windows e LibreOffice](https://github.com/martinlofranodeoliveira/materiais-em-lote/actions/runs/42577747832) |
+
+Até 250 itens, 2.000 relações e 250 demandas; JSON UTF-8 de até 1 MiB. O ZIP reúne entrada, plano JSON/CSV/Markdown/XLSX, orientação e manifesto SHA-256. XLSX é relatório estático; JSON conserva o cenário para recalcular. O LibreOffice importou 414 células corretamente, mas alterou dois padrões literais ao regravar XLSX: essa limitação está documentada. Não há conversão de unidades, preços, calendário, reserva de estoque ou compra real.
+
+<!-- DELIVERY-MATERIAIS-2026-11-09:END -->
+
 <!-- DELIVERY-CRUZADAS-2026-11-09:BEGIN -->
 ## Cruzadas de Papel · palavras, pistas e cruzamentos
 
