@@ -2,6 +2,19 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-ZONAS-2026-11-09:BEGIN -->
+## Zonas GeoJSON · 9 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/zonas-geojson/tree/0c3196e2771954dff2e6b56233933ed67649b1d6), licença MIT, CLI/API Python 3.11+ e documentação em português. O núcleo original usa orientação, teste de segmento e ray crossing com racionais; valida anéis, furos e componentes antes de produzir a junção. Caixas delimitadoras eliminam candidatos sem alterar fronteiras. Não há dependências de execução de terceiros.
+- Passaram 65 testes locais: 24 de geometria/modelo, 14 de JSON/relatórios, seis de CLI, 14 do leitor independente/diagnóstico e sete de distribuição. A [CI do mesmo commit](https://github.com/martinlofranodeoliveira/zonas-geojson/actions/runs/42594417559) concluiu seis trabalhos: Python 3.11–3.14/Linux, 3.14/Windows e consumidor GIS. Inclui limites reais de 100.000 correspondências, orçamento exato, cópias imutáveis e recusas integrais. Casos dependentes de recursos POSIX podem ser omitidos no Windows.
+- O exemplo autoral tem 13 pontos e quatro zonas: cinco pontos internos, três em fronteira de uma única zona, dois ambíguos e três externos; são 12 correspondências e 15 linhas CSV. Uma revisão reproduziu a confusão de igualdade entre booleanos e números ao vincular fontes do relatório. A comparação tipada foi corrigida; o passe dirigido confirmou `REPORT_SOURCE` antes da criação do ZIP. JSON original é preservado e equivalência numérica exata entre inteiros e Decimal continua permitida.
+- O [ensaio externo e seus hashes](https://github.com/martinlofranodeoliveira/zonas-geojson/blob/0c3196e2771954dff2e6b56233933ed67649b1d6/docs/INTEROPERABILIDADE.md) usou CLI instalada fora da fonte, sem importar a produção nos verificadores. GEOS conferiu 3.667 pares ponto–zona em coordenadas binariamente exatas. Os três pontos `1 ± 10⁻¹⁸` e `1` foram confrontados com ouro decimal literal separado, preservando interior, fronteira e exterior sem oráculo float.
+- Fiona/GDAL abriu o GeoJSON anotado, escreveu e reabriu GeoPackage; uma leitura separada por sqlite3 e decoder WKB conferiu IDs, coordenadas, propriedades escalares e campos de correspondência de 736 pontos. A CI repetiu a execução real com namespace sem rede; o relatório verificou somente loopback e ausência de rotas IPv4. Perfil, entradas e diretório temporários isolam o ensaio. Conversão GIS de booleano para `0`/`1` é aceita explicitamente; não há promessa universal para todas as propriedades JSON ou consumidores.
+- Os [dois artefatos sintéticos retidos](https://github.com/martinlofranodeoliveira/zonas-geojson/tree/0c3196e2771954dff2e6b56233933ed67649b1d6/fixtures/interop) permitem conferir o exemplo e um GeoPackage real de treze pontos. A figura SVG foi renderizada e inspecionada. Os segmentos são cartesianos em graus; a análise não determina precisão física, distâncias/áreas geodésicas ou limites territoriais reais.
+- Wheel com 15 membros e sdist com 42 foram conferidos: nove arquivos de runtime, 35 fontes públicas, metadados, licença e RECORD. Ambos foram instalados fora do checkout, geraram o exemplo e preservaram um destino existente. Os quatro [assets da release](https://github.com/martinlofranodeoliveira/zonas-geojson/releases/tag/v1.0.0) foram baixados novamente e coincidiram byte a byte; SHA256SUMS, CRCs e oito membros do exemplo válidos. As 35 fontes públicas coincidiram com os blobs Git por SHA. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-ZONAS-2026-11-09:END -->
+
 <!-- EVIDENCE-RATEIO-2026-11-09:BEGIN -->
 ## Rateio Claro · 9 de novembro de 2026
 

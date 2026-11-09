@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-ZONAS-2026-11-09:BEGIN -->
+## Zonas GeoJSON · pontos, áreas e fronteiras
+
+Cruze pontos já geocodificados com áreas de atendimento. A junção distingue interior, fronteira, exterior e sobreposição, respeita furos e ilhas e conserva todas as correspondências, sem escolher uma zona vencedora silenciosamente.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Zonas GeoJSON](https://github.com/martinlofranodeoliveira/zonas-geojson) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/zonas-geojson/releases/download/v1.0.0/exemplo-zonas.zip) · [Ver figura](https://github.com/martinlofranodeoliveira/zonas-geojson/blob/0c3196e2771954dff2e6b56233933ed67649b1d6/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/zonas-geojson/releases/tag/v1.0.0) · 65 testes locais · [CI Linux/Windows e GIS](https://github.com/martinlofranodeoliveira/zonas-geojson/actions/runs/42594417559) |
+
+Até 10.000 pontos, 100 zonas e 5.000 posições de polígonos, com orçamento lógico explícito. A análise usa racionais exatos sobre os decimais fornecidos; o ZIP reúne fontes originais, JSON, CSV, GeoJSON anotado, SVG, orientação e manifesto. O exemplo tem treze pontos e quatro zonas fictícias. Execução local sem dependências externas de runtime; o recorte é cartesiano em graus, sem geocodificação, áreas geodésicas ou certificação territorial.
+
+<!-- DELIVERY-ZONAS-2026-11-09:END -->
+
 <!-- DELIVERY-RATEIO-2026-11-09:BEGIN -->
 ## Rateio Claro · cada centavo tem destino
 
