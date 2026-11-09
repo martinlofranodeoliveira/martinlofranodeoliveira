@@ -6,6 +6,19 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 
 [Commits e evidências técnicas dos novos projetos](EVIDENCIAS.md).
 
+<!-- DELIVERY-XLSX-2026-11-08:BEGIN -->
+## Conferência XLSX · veja o que mudou na planilha
+
+Biblioteca e CLI Python que comparam duas entregas de uma planilha por aba e coordenada. Distinguem valores tipados, números decimais exatos, texto das fórmulas e resultados armazenados; identificam também mudanças de abas e mesclagens, sem modificar as entradas.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Conferência XLSX](https://github.com/martinlofranodeoliveira/conferencia-xlsx/tree/e8160aec8093072cbdba56e62c9ca35777b0b4d5) · Python · MIT · README em português | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/conferencia-xlsx/releases/download/v1.0.0/exemplo-conferencia.zip) · [Reproduzir ensaio](https://github.com/martinlofranodeoliveira/conferencia-xlsx/blob/e8160aec8093072cbdba56e62c9ca35777b0b4d5/docs/INTEROPERABILIDADE.md) | [v1.0.0](https://github.com/martinlofranodeoliveira/conferencia-xlsx/releases/tag/v1.0.0) · 64 testes · [CI Linux/Windows e LibreOffice](https://github.com/martinlofranodeoliveira/conferencia-xlsx/actions/runs/42551395253) |
+
+Requer Python 3.11+, openpyxl e defusedxml. Produz JSON, Markdown, CSV e ZIP com manifesto SHA-256; o pacote comum contém relatórios, e o comando de exemplo acrescenta duas entradas sintéticas. O LibreOffice real produziu os XLSX usados em onze mudanças conhecidas, além de uma fixture derivada com uma mudança de cache ausente. Outro ensaio confrontou 14 casos de texto em 28 células. A ferramenta não calcula fórmulas: a atualidade dos resultados armazenados permanece desconhecida. Aparência e igualdade integral da pasta de trabalho ficam fora do escopo.
+
+<!-- DELIVERY-XLSX-2026-11-08:END -->
+
 <!-- DELIVERY-ACERVO-2026-11-08:BEGIN -->
 ## Acervo de Leitura · referências e tempo para ler
 
