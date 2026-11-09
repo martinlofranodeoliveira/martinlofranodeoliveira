@@ -268,6 +268,8 @@ Este registro reúne o código público original produzido pela [Lofrano Tecnolo
 
 O [snapshot JSON](evidencias/portfolio-snapshot.json) registra a identidade de cada repositório, seu commit, horário da consulta, presença de arquivos de documentação, inventário de workflows e execuções de GitHub Actions daquele commit. Os dados foram consultados na API pública do GitHub. A data `evaluated_at_utc` identifica esta coleta; ela não se atualiza quando o arquivo é aberto.
 
+Essa coleta histórica de CI contém 98 repositórios e foi avaliada em **5 de novembro de 2026, às 17:29:13 UTC**. O [inventário público automático](evidencias/public-projects.json), apresentado no início do catálogo, acompanha os repositórios e commits atuais, com data `collectedAt` própria. O status atual das verificações pode ser consultado nos links de Actions de cada projeto.
+
 Para conferir uma implementação:
 
 1. Abra o repositório pelo catálogo e consulte o commit indicado em `source_sha`.

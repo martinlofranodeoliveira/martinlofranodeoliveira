@@ -20,14 +20,14 @@ Transformo necessidades de negócio em **software sob medida, agentes de IA e pr
 ## Atividade no GitHub
 
 <a href="https://github.com/martinlofranodeoliveira?tab=overview">
-  <img src="./assets/github-metrics.svg" alt="Métricas e calendário de contribuições de Martin Lofrano, consultados no GitHub e atualizados diariamente." width="100%" />
+  <img src="./assets/github-metrics.svg" alt="Contribuições, commits no período, repositórios públicos e calendário de Martin Lofrano, consultados no GitHub." width="100%" />
 </a>
 
 <img src="./assets/github-languages.svg" alt="Distribuição das linguagens por volume de código nos repositórios públicos próprios, sem forks." width="100%" />
 
 [![Atualização das métricas](https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/actions/workflows/profile-metrics.yml/badge.svg)](https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/actions/workflows/profile-metrics.yml)
 
-<sub>Dados consultados na API do GitHub; a data da última atualização aparece nos painéis. As linguagens representam volume de código público, não nível de domínio.</sub>
+<sub>Dados consultados na API do GitHub, com atualização programada quatro vezes ao dia e após alterações no catálogo deste perfil. A data da coleta aparece nos painéis; execuções agendadas podem atrasar. Commits seguem os critérios de contribuição do GitHub no período exibido. As linguagens representam volume de código público, não nível de domínio.</sub>
 
 ## Stack de desenvolvimento
 
@@ -99,7 +99,7 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 As demos usam cenários sintéticos. Seu código e arquivos publicados foram conferidos; a revisão visual em navegador permanece pendente. Veja o alcance da validação em [EVIDENCIAS.md](EVIDENCIAS.md).
 
 <details>
-<summary><strong>Ver os 98 projetos desta série</strong></summary>
+<summary><strong>Ver os projetos desta série</strong></summary>
 
 <!-- FIRST-BATCH:BEGIN -->
 ### Primeira leva · 10 projetos abertos

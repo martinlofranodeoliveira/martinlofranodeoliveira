@@ -133,13 +133,17 @@ class ActivityValidationTests(unittest.TestCase):
                 self.assertEqual(metrics.active_days_and_longest_streak(activity), expected)
 
     def test_metrics_card_uses_consistent_calendar_and_public_repo_counters(self):
-        activity = metrics.parse_activity(activity_response(), LOGIN, NOW)
+        data = activity_response()
+        data["user"]["contributionsCollection"]["totalCommitContributions"] = 3
+        activity = metrics.parse_activity(data, LOGIN, NOW)
         svg = metrics.render_metrics(activity, 42)
         root = ET.fromstring(svg)
         texts = [node.text for node in root.iter("{http://www.w3.org/2000/svg}text")]
-        for expected in ("CONTRIBUIÇÕES", "DIAS ATIVOS", "MAIOR SEQUÊNCIA", "REPOS PÚBLICOS", "42", "1 dia"):
+        for expected in ("CONTRIBUIÇÕES", "COMMITS NO PERÍODO", "MAIOR SEQUÊNCIA", "REPOS PÚBLICOS", "42", "1 dia", "5", "3"):
             self.assertIn(expected, texts)
-        for removed in ("COMMITS", "PULL REQUESTS", "ISSUES", "REVIEWS"):
+        self.assertIn("2 dias ativos no período", svg)
+        self.assertIn("3 contribuições de commits", svg)
+        for removed in ("PULL REQUESTS", "ISSUES", "REVIEWS"):
             self.assertNotIn(removed, texts)
 
 
