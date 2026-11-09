@@ -20,14 +20,14 @@ Transformo necessidades de negócio em **software sob medida, agentes de IA e pr
 ## Atividade no GitHub
 
 <a href="https://github.com/martinlofranodeoliveira?tab=overview">
-  <img src="./assets/github-metrics.svg" alt="Contribuições, commits no período, repositórios públicos e calendário de Martin Lofrano, consultados no GitHub." width="100%" />
+  <img src="./assets/github-metrics.svg" alt="Contribuições, commits retornados pela consulta, repositórios públicos e calendário de Martin Lofrano no GitHub." width="100%" />
 </a>
 
 <img src="./assets/github-languages.svg" alt="Distribuição das linguagens por volume de código nos repositórios públicos próprios, sem forks." width="100%" />
 
 [![Atualização das métricas](https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/actions/workflows/profile-metrics.yml/badge.svg)](https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/actions/workflows/profile-metrics.yml)
 
-<sub>Dados consultados na API do GitHub, com atualização programada quatro vezes ao dia e após alterações no catálogo deste perfil. A data da coleta aparece nos painéis; execuções agendadas podem atrasar. Commits seguem os critérios de contribuição do GitHub no período exibido. As linguagens representam volume de código público, não nível de domínio.</sub>
+<sub>Dados da API do GitHub, com atualização programada quatro vezes ao dia e após alterações no catálogo deste perfil. A data da coleta aparece nos painéis; execuções agendadas podem atrasar. “Commits na consulta” mostra a contagem retornada pelo acesso automático no período exibido, que pode diferir do total visto pelo titular. As linguagens representam volume de código público, não nível de domínio.</sub>
 
 ## Stack de desenvolvimento
 

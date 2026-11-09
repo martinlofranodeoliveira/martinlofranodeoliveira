@@ -139,10 +139,10 @@ class ActivityValidationTests(unittest.TestCase):
         svg = metrics.render_metrics(activity, 42)
         root = ET.fromstring(svg)
         texts = [node.text for node in root.iter("{http://www.w3.org/2000/svg}text")]
-        for expected in ("CONTRIBUIÇÕES", "COMMITS NO PERÍODO", "MAIOR SEQUÊNCIA", "REPOS PÚBLICOS", "42", "1 dia", "5", "3"):
+        for expected in ("CONTRIBUIÇÕES", "COMMITS NA CONSULTA", "MAIOR SEQUÊNCIA", "REPOS PÚBLICOS", "42", "1 dia", "5", "3"):
             self.assertIn(expected, texts)
         self.assertIn("2 dias ativos no período", svg)
-        self.assertIn("3 contribuições de commits", svg)
+        self.assertIn("3 contribuições de commits acessíveis à consulta", svg)
         for removed in ("PULL REQUESTS", "ISSUES", "REVIEWS"):
             self.assertNotIn(removed, texts)
 

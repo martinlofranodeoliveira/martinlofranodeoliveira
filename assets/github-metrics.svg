@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title description">
-<title id="title">Atividade de Martin Lofrano no GitHub</title><desc id="description">7377 contribuições visíveis no período de 10/11/2025 a 09/11/2026; 945 contribuições de commits, 277 dias ativos e maior sequência de 27 dias nesse período. 254 repositórios públicos.</desc>
+<title id="title">Atividade de Martin Lofrano no GitHub</title><desc id="description">7377 contribuições visíveis no período de 10/11/2025 a 09/11/2026; 945 contribuições de commits acessíveis à consulta, 277 dias ativos e maior sequência de 27 dias nesse período. 254 repositórios públicos.</desc>
 <defs><linearGradient id="card-bg" x2="1" y2="1"><stop stop-color="#0C101B"/><stop offset="1" stop-color="#101321"/></linearGradient></defs>
 <rect x=".5" y=".5" width="1199" height="419" rx="22" fill="url(#card-bg)" stroke="#293044"/>
 <g font-family="Arial, Helvetica, sans-serif">
@@ -11,7 +11,7 @@
 <text x="50" y="157" font-size="12" font-weight="700" text-anchor="start" fill="#9EACC4">CONTRIBUIÇÕES</text>
 <rect x="320" y="88" width="272" height="90" rx="12" fill="#151B29" stroke="#263047"/>
 <text x="338" y="131" font-size="34" font-weight="700" text-anchor="start" fill="#F1F5FB">945</text>
-<text x="338" y="157" font-size="12" font-weight="700" text-anchor="start" fill="#9EACC4">COMMITS NO PERÍODO</text>
+<text x="338" y="157" font-size="12" font-weight="700" text-anchor="start" fill="#9EACC4">COMMITS NA CONSULTA</text>
 <rect x="608" y="88" width="272" height="90" rx="12" fill="#151B29" stroke="#263047"/>
 <text x="626" y="131" font-size="34" font-weight="700" text-anchor="start" fill="#F1F5FB">27 dias</text>
 <text x="626" y="157" font-size="12" font-weight="700" text-anchor="start" fill="#9EACC4">MAIOR SEQUÊNCIA</text>

@@ -403,11 +403,11 @@ def render_metrics(activity: Activity, public_repository_count: int) -> str:
     active_days, longest = active_days_and_longest_streak(activity)
     period = f'{activity.start.astimezone(SAO_PAULO):%d/%m/%Y} a {activity.end.astimezone(SAO_PAULO):%d/%m/%Y}'
     parts = svg_start(1200, 420, "Atividade de Martin Lofrano no GitHub",
-                      f"{activity.total} contribuições visíveis no período de {period}; {activity.commits} contribuições de commits, {active_days} dias ativos e maior sequência de {longest} dias nesse período. {public_repository_count} repositórios públicos.")
+                      f"{activity.total} contribuições visíveis no período de {period}; {activity.commits} contribuições de commits acessíveis à consulta, {active_days} dias ativos e maior sequência de {longest} dias nesse período. {public_repository_count} repositórios públicos.")
     parts += [text_element(32, 42, "ATIVIDADE NO GITHUB", 22, "#F3F5FA", 700),
               text_element(32, 67, f"{activity.login} · Período consultado: {period}", 14),
               text_element(1168, 42, "LOFRANO / ENGINEERING", 13, "#F38AB7", 700, "end")]
-    counters = [("CONTRIBUIÇÕES", integer_label(activity.total)), ("COMMITS NO PERÍODO", integer_label(activity.commits)),
+    counters = [("CONTRIBUIÇÕES", integer_label(activity.total)), ("COMMITS NA CONSULTA", integer_label(activity.commits)),
                 ("MAIOR SEQUÊNCIA", f"{integer_label(longest)} {'dia' if longest == 1 else 'dias'}"),
                 ("REPOS PÚBLICOS", integer_label(public_repository_count))]
     for index, (label, value) in enumerate(counters):
