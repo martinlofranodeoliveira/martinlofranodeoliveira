@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T16:42:27.225753Z",
+  "collectedAt": "2026-11-10T17:02:39.016289Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 289,
+  "publicRepositoryCount": 291,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1302,6 +1302,27 @@
           "oid": "97201169c06a15e9c699bf43abf8b00c3ec6c44a",
           "committedDate": "2026-11-10T13:22:38Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/commit/97201169c06a15e9c699bf43abf8b00c3ec6c44a"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-lajes-concreto-nbr6118",
+      "description": "Dimensionamento e verificação analítica de lajes maciças de concreto armado segundo a norma ABNT NBR 6118:2023 em frações exatas e Python puro.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-lajes-concreto-nbr6118",
+      "createdAt": "2026-11-10T16:43:31Z",
+      "pushedAt": "2026-11-10T17:01:26Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "f3aff495bf5b777f4d705513831b3bd3d4ccbe65",
+          "committedDate": "2026-11-10T17:00:29Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-lajes-concreto-nbr6118/commit/f3aff495bf5b777f4d705513831b3bd3d4ccbe65"
         }
       }
     },
@@ -3494,7 +3515,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T16:42:03Z",
+      "pushedAt": "2026-11-10T16:42:49Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3504,9 +3525,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "8a45d2c9932a9b607b781f8c244b80a9e31b38ee",
-          "committedDate": "2026-11-10T16:42:01Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/8a45d2c9932a9b607b781f8c244b80a9e31b38ee"
+          "oid": "f85bdba5cdcd4bd557e28c5a2439baf6f58e7fbf",
+          "committedDate": "2026-11-10T16:42:47Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/f85bdba5cdcd4bd557e28c5a2439baf6f58e7fbf"
         }
       }
     },
@@ -3843,6 +3864,27 @@
           "oid": "96d26f7b42ab6452480c0e1c53a4fb41125b169d",
           "committedDate": "2026-11-05T02:59:12Z",
           "url": "https://github.com/martinlofranodeoliveira/ndjson-redact/commit/96d26f7b42ab6452480c0e1c53a4fb41125b169d"
+        }
+      }
+    },
+    {
+      "name": "neighborhood-projection-studio",
+      "description": "A bounded Python PCA neighborhood-distortion SDK with exact rank-penalty receipts and a linked React/Three.js report inspector.",
+      "url": "https://github.com/martinlofranodeoliveira/neighborhood-projection-studio",
+      "createdAt": "2026-11-10T16:47:25Z",
+      "pushedAt": "2026-11-10T16:47:31Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "a16d805469fab06c7cb7b7adc9257e31654497fc",
+          "committedDate": "2026-11-10T16:47:21Z",
+          "url": "https://github.com/martinlofranodeoliveira/neighborhood-projection-studio/commit/a16d805469fab06c7cb7b7adc9257e31654497fc"
         }
       }
     },
