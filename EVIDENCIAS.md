@@ -22,6 +22,36 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-CONCILIACAO-BANCARIA-2026-11-10:BEGIN -->
+## Conciliação Bancária · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/tree/0e223f1ce4ca74e62a829e0839e55355ee3e8e19), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor de conciliação bancária determinístico com confrontação de lançamentos em centavos inteiros (`int`) e banimento estrito de ponto flutuante (`float`).
+- Casamento 1:1 estrito por valor exato e tolerância de dias, agregação em lote N:M com desempate lexicográfico rastreável, neutralização contra injeção de fórmulas CSV (`=`, `+`, `-`, `@`, `\t`), codec JSON canônico (rejeição de float, chaves duplicadas e BOM) e empacotamento determinístico em ZIP via `os.O_EXCL` atômico.
+- Passaram 65 testes locais cobrindo casos de conciliação unívoca, múltiplos matches, datas díspares, tolerância estrita, injeção maliciosa e verificador independente em `sqlite3` sem importação do pacote de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/actions/runs/42802978747) em Linux (Python 3.11–3.14), Windows e teste de isolamento de rede (`unshare`).
+- Wheel e sdist inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-CONCILIACAO-BANCARIA-2026-11-10:END -->
+
+<!-- EVIDENCE-BALANCO-MASSA-LOTE-2026-11-10:BEGIN -->
+## Balanço de Massa por Lote · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/balanco-massa-lote/tree/b21827ba099257b2e00e1cac73be66eb03b7b63c), licença MIT, CLI e biblioteca Python 3.11+ sem dependências de terceiros. Balanço de massa e sólidos por batelada para processos industriais (alimentos, química, cosméticos e farmacêutica).
+- Aritmética 100% inteira em gramas (`int`) e frações exatas (`fractions.Fraction`) para concentrações de matéria seca/sólidos, garantindo fechamento analítico estrito de massa (`Entrada = Saída + Acúmulo + Perdas`).
+- Passaram 52 testes locais e a [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/balanco-massa-lote/actions/runs/42801964628) na matriz multiplataforma (Linux Python 3.11–3.14, Windows 3.14 e namespace sem rede). Verificador independente em `sqlite3` auditou todas as etapas e insumos a partir do arquivo CSV exportado.
+- Wheel e sdist inspecionados e verificados. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/balanco-massa-lote/releases/tag/v1.0.0) anexados, baixados e conferidos bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-BALANCO-MASSA-LOTE-2026-11-10:END -->
+
+<!-- EVIDENCE-CURVA-ABC-ESTOQUE-2026-11-10:BEGIN -->
+## Curva ABC de Estoque · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/curva-abc-estoque/tree/f4495e18691b1c302bb37159fd153765e79dd04f), licença MIT, CLI e biblioteca Python 3.11+ sem dependências externas. Classificação de itens por valor financeiro acumulado de Pareto (80/15/5 configurável).
+- Aritmética inteira em centavos (`int`) e frações exatas (`Fraction`), ordenação estável com tratamento formal de empates em fronteiras de corte, prevenção contra injeção CSV e exportação ZIP determinística com painel gráfico de Pareto em SVG (1440×900).
+- Passaram 52 testes locais e a [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/curva-abc-estoque/actions/runs/42800125389) em todas as 6 etapas na matriz multiplataforma (Linux 3.11 a 3.14, Windows e isolamento de rede).
+- Wheel e sdist inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/curva-abc-estoque/releases/tag/v1.0.0) anexados, baixados e validados por `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-CURVA-ABC-ESTOQUE-2026-11-10:END -->
+
 <!-- EVIDENCE-AMORTIZACAO-CLARA-2026-11-10:BEGIN -->
 ## Amortização Clara · 10 de novembro de 2026
 

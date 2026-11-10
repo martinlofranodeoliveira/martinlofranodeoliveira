@@ -43,6 +43,45 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
 
+<!-- DELIVERY-CONCILIACAO-BANCARIA-2026-11-10:BEGIN -->
+## Conciliação Bancária · centavos exatos, extratos e lotes determinísticos
+
+Confronte extratos bancários, controle contábil interno e lotes de transações sem arredondamentos cumulativos ou tolerâncias frouxas. Detecte inconsistências de valor, datas divergentes, lançamentos órfãos em extrato ou contabilidade e identifique ambiguidades em emparelhamentos múltiplos N:M com prova determinística.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Conciliação Bancária](https://github.com/martinlofranodeoliveira/conciliacao-bancaria) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/releases/download/v1.0.0/exemplo-conciliacao.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/blob/0e223f1ce4ca74e62a829e0839e55355ee3e8e19/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/releases/tag/v1.0.0) · 65 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/actions/runs/42802978747) |
+
+Aritmética estritamente inteira em centavos (`int`), sem ponto flutuante (`float`). Mecanismo de emparelhamento determinístico 1:1 estrito e N:M em lote por data e tolerância temporal com desempate lexicográfico rastreável. O pacote ZIP inclui `entrada.json`, `conciliacao.json`, `extrato-conciliado.csv`, `pendencias.csv`, relatório Markdown, painel visual analítico em SVG e hashes validados via `sqlite3` independente.
+
+<!-- DELIVERY-CONCILIACAO-BANCARIA-2026-11-10:END -->
+
+<!-- DELIVERY-BALANCO-MASSA-LOTE-2026-11-10:BEGIN -->
+## Balanço de Massa por Lote · processos industriais, sólidos e perdas
+
+Calcule o balanço estequiométrico e físico de bateladas industriais (alimentos, química fina, cosméticos e farmacêutica) com conservação de massa total e fração de sólidos secos. Avalie evaporação, purgas, adição de insumos por fases, sobras de processo e rendimento global de batelada.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Balanço de Massa por Lote](https://github.com/martinlofranodeoliveira/balanco-massa-lote) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/balanco-massa-lote/releases/download/v1.0.0/exemplo-balanco.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/balanco-massa-lote/blob/b21827ba099257b2e00e1cac73be66eb03b7b63c/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/balanco-massa-lote/releases/tag/v1.0.0) · 52 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/balanco-massa-lote/actions/runs/42801964628) |
+
+Gramas inteiras (`int`) e frações exatas (`Fraction`) para teores de sólidos, garantindo que `Entrada = Saída + Acúmulo + Perdas` feche em zero sem resíduos de aproximação binária. O pacote ZIP inclui entrada com formulação em etapas, memória analítica JSON, planilhas CSV por etapa e insumo com proteção contra injeção de fórmulas, gráfico SVG com diagrama Sankey simplificado e conferência independente por oráculo racional.
+
+<!-- DELIVERY-BALANCO-MASSA-LOTE-2026-11-10:END -->
+
+<!-- DELIVERY-CURVA-ABC-ESTOQUE-2026-11-10:BEGIN -->
+## Curva ABC de Estoque · Pareto determinístico e limites exatos
+
+Classifique o catálogo de itens e matérias-primas por relevância financeira segundo o princípio de Pareto (Classes A, B e C), calculando a contribuição acumulada exata em centavos e percentuais sem distorção. Suporta regras estritas de desempate lexicográfico em fronteiras de corte e tolerância formal de empate.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Curva ABC de Estoque](https://github.com/martinlofranodeoliveira/curva-abc-estoque) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/curva-abc-estoque/releases/download/v1.0.0/exemplo-curva-abc.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/curva-abc-estoque/blob/f4495e18691b1c302bb37159fd153765e79dd04f/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/curva-abc-estoque/releases/tag/v1.0.0) · 52 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/curva-abc-estoque/actions/runs/42800125389) |
+
+Aritmética inteira em centavos (`int`) e frações exatas (`Fraction`) para o percentual acumulado sobre o consumo valorizado total. O ZIP reúne entrada de catálogo e movimentações, classificação JSON estrita, CSV sanitizado contra injeção de fórmulas de planilhas, curva de Pareto renderizada em SVG (1440×900) e integridade checada por verificador relacional independente.
+
+<!-- DELIVERY-CURVA-ABC-ESTOQUE-2026-11-10:END -->
+
 <!-- DELIVERY-AMORTIZACAO-CLARA-2026-11-10:BEGIN -->
 ## Amortização Clara · SAC, Price e SACRE com matemática inteira exata em centavos
 
