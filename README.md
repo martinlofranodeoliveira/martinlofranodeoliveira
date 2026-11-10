@@ -90,6 +90,10 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 
 ### Aplicações 3D em React
 
+![Ilustração conceitual de um móvel em montagem, uma embalagem e um braço articulado](./assets/open-source-3d-studios-sunburst26.webp)
+
+<sub>Ilustração conceitual gerada com OpenAI GPT Image 2.6 Sunburst. As interfaces e os recursos disponíveis estão nos projetos abaixo.</sub>
+
 | Demo | O que experimentar | Código |
 | --- | --- | --- |
 | [Configurador de móveis](https://martinlofranodeoliveira.github.io/cabinet-assembly-studio/) | Editar dimensões, selecionar painéis e explorar a montagem em vista explodida. | [GitHub](https://github.com/martinlofranodeoliveira/cabinet-assembly-studio) |

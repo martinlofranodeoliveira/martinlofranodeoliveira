@@ -1,0 +1,17 @@
+{
+  "schema": "illustration-provenance/1",
+  "asset": "open-source-3d-studios-sunburst26.webp",
+  "kind": "AI-generated conceptual illustration; not a software screenshot",
+  "generator": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "complexity": "high",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "prompt": "Original editorial architectural-model still life: exploded plywood cabinet, blue carton with flat net, matte-aluminium educational articulated arm; pale mineral drafting surface, cobalt accents, no labels, logos, UI, people or client brands.",
+  "original_png_sha256": "6d32889a8c87abdd58b4ca6a6d7c4ee31b1858416179e0343240445f803b6ac4",
+  "published_webp_sha256": "88e7fdba0c89ea1f0409a3c6578d5eb051162297f7bf0195f8a0751262a40ed0",
+  "webp_export": "Pillow WebP quality88, method6; original content retained",
+  "review": "Composition, subject, lack of fake UI/client claims and legible objects checked in original generated image."
+}
