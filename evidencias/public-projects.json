@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T18:23:53.371901Z",
+  "collectedAt": "2026-11-10T18:34:57.503396Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 295,
+  "publicRepositoryCount": 297,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1453,6 +1453,27 @@
       }
     },
     {
+      "name": "dimensionamento-spda-nbr5419",
+      "description": "Motor analítico e CLI para dimensionamento de SPDA e gerenciamento de risco conforme ABNT NBR 5419:2015 em Python puro com aritmética exata.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-spda-nbr5419",
+      "createdAt": "2026-11-10T18:24:09Z",
+      "pushedAt": "2026-11-10T18:34:06Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "66a008d94a65d663435c510163e4de4e193d5189",
+          "committedDate": "2026-11-10T18:33:25Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-spda-nbr5419/commit/66a008d94a65d663435c510163e4de4e193d5189"
+        }
+      }
+    },
+    {
       "name": "dimensionamento-vigas-concreto-nbr6118",
       "description": "Dimensionamento e verificação de vigas de concreto armado segundo a ABNT NBR 6118:2023. 100% Python padrão, Zero Float.",
       "url": "https://github.com/martinlofranodeoliveira/dimensionamento-vigas-concreto-nbr6118",
@@ -1659,6 +1680,27 @@
           "oid": "d6ebc4f09511ad618f9992945008d2b2b9a66da6",
           "committedDate": "2026-11-08T20:24:38Z",
           "url": "https://github.com/martinlofranodeoliveira/exact-change-maker/commit/d6ebc4f09511ad618f9992945008d2b2b9a66da6"
+        }
+      }
+    },
+    {
+      "name": "execucao-contratual-ledger",
+      "description": "A persistent item-level contract execution ledger with measurement reservations, partial acceptance, amendments, reversals, authorization and a reproducible local HTTP demonstration.",
+      "url": "https://github.com/martinlofranodeoliveira/execucao-contratual-ledger",
+      "createdAt": "2026-11-10T18:25:09Z",
+      "pushedAt": "2026-11-10T18:25:16Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "5163fb31b8f24876dad96e3d2d9062dd09f9aad6",
+          "committedDate": "2026-11-10T18:25:06Z",
+          "url": "https://github.com/martinlofranodeoliveira/execucao-contratual-ledger/commit/5163fb31b8f24876dad96e3d2d9062dd09f9aad6"
         }
       }
     },
@@ -3599,7 +3641,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T18:23:23Z",
+      "pushedAt": "2026-11-10T18:34:37Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3609,9 +3651,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "2907b3fae51a97fb5f9ee988e4e9c1375f87e31c",
-          "committedDate": "2026-11-10T18:23:22Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/2907b3fae51a97fb5f9ee988e4e9c1375f87e31c"
+          "oid": "4346064116c77388f406eed2771058e7a720bb69",
+          "committedDate": "2026-11-10T18:34:35Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/4346064116c77388f406eed2771058e7a720bb69"
         }
       }
     },
