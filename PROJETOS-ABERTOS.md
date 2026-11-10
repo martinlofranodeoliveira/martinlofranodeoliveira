@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**288 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 16:20 UTC**.
+**289 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 16:27 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-pilares\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-pilares-concreto-nbr6118) | Dimensionamento analítico, verificação estrutural e detalhamento normativo de pilares de concreto armado segundo ABNT NBR 6118:2023\. LOFRANO TECNOLOGIA\. | Sem commit na branch padrão |
 | [pncp\-contract\-snapshot\-audit](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit) | Offline auditor for captured PNCP contract pages with explicit collection coverage, selected\-projection deduplication, exact monetary values and independently checked SQLite aggre… | [10/11/2026 16:03 · eeda5be](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/commit/eeda5be4477e1752170ca38e5fb3e1a912941e19) |
 | [dimensionamento\-sapatas\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-sapatas-concreto-nbr6118) | Dimensionamento determinístico e verificação estrutural de sapatas isoladas de concreto armado segundo ABNT NBR 6118:2023 e ABNT NBR 6122:2022 \(Zero Float\)\. LOFRANO TECNOLOGIA\. | [10/11/2026 16:17 · 6164087](https://github.com/martinlofranodeoliveira/dimensionamento-sapatas-concreto-nbr6118/commit/6164087ca5df0a475b2a9f7bec5b5d2ae90c7c72) |
 | [dimensionamento\-vigas\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-vigas-concreto-nbr6118) | Dimensionamento e verificação de vigas de concreto armado segundo a ABNT NBR 6118:2023\. 100% Python padrão, Zero Float\. | [10/11/2026 15:51 · 6aac8fa](https://github.com/martinlofranodeoliveira/dimensionamento-vigas-concreto-nbr6118/commit/6aac8fa58aa780a125c2931bb4f3dc5f8a0b9e52) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [dimensionamento\-drenagem\-pluvial\-nbr10844](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844) | Dimensionamento de sistemas prediais e urbanos de drenagem de águas pluviais segundo a ABNT NBR 10844:1989\. 100% Python padrão, Zero Float\. | [10/11/2026 14:55 · 21b216e](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/commit/21b216efd9a74b1a0f79d1c0db9c3b70c87d7a47) |
 | [dosagem\-concreto\-abcp](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp) | Dosagem experimental e analítica de concreto pelo Método ABCP/ACI \(ABNT NBR 12655 e NBR 6118\)\. Traço em massa, consumos, volume absoluto, correção de umidade e custo sem float\. | [10/11/2026 14:30 · d2b30f1](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/commit/d2b30f1ed0d3f7bde0be067c477e18ad916a563e) |
 | [calculo\-luminotecnico\-nbr\-iso\-8995](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995) | Cálculo luminotécnico determinístico pelo Método dos Lúmens \(ABNT NBR ISO/CIE 8995\-1\) em frações e grandezas inteiras exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOL… | [10/11/2026 14:00 · eac384d](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/commit/eac384d6017b31197662d7a76c02d6b1ba7ac0e9) |
-| [calculo\-estabilidade\-taludes\-nbr11682](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682) | Cálculo determinístico de estabilidade de taludes e encostas \(ABNT NBR 11682\) via métodos de Fellenius e Bishop Simplificado em frações e grandezas inteiras exatas\. Zero dependênc… | [10/11/2026 13:43 · 367f8f0](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/commit/367f8f0b0475ba7b1ce88ce5a6359a62ee885717) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
