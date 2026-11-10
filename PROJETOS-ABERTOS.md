@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**282 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 14:02 UTC**.
+**283 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 14:32 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dosagem\-concreto\-abcp](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp) | Dosagem experimental e analítica de concreto pelo Método ABCP/ACI \(ABNT NBR 12655 e NBR 6118\)\. Traço em massa, consumos, volume absoluto, correção de umidade e custo sem float\. | [10/11/2026 14:30 · d2b30f1](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/commit/d2b30f1ed0d3f7bde0be067c477e18ad916a563e) |
 | [calculo\-luminotecnico\-nbr\-iso\-8995](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995) | Cálculo luminotécnico determinístico pelo Método dos Lúmens \(ABNT NBR ISO/CIE 8995\-1\) em frações e grandezas inteiras exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOL… | [10/11/2026 14:00 · eac384d](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/commit/eac384d6017b31197662d7a76c02d6b1ba7ac0e9) |
 | [calculo\-estabilidade\-taludes\-nbr11682](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682) | Cálculo determinístico de estabilidade de taludes e encostas \(ABNT NBR 11682\) via métodos de Fellenius e Bishop Simplificado em frações e grandezas inteiras exatas\. Zero dependênc… | [10/11/2026 13:43 · 367f8f0](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/commit/367f8f0b0475ba7b1ce88ce5a6359a62ee885717) |
 | [dimensionamento\-hidraulica\-predial\-nbr5626](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626) | Dimensionamento determinístico de instalações prediais de água fria e quente \(ABNT NBR 5626\) em frações e grandezas inteiras exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRANO… | [10/11/2026 13:22 · 9720116](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/commit/97201169c06a15e9c699bf43abf8b00c3ec6c44a) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [apuracao\-simples\-nacional](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional) | Apuração determinística do Simples Nacional \(LC 123/2006\), Anexos I a V, Fator R, Alíquota Efetiva e partição de tributos\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 12:48 · aadd80b](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/commit/aadd80bfc29d632d08aa79926dd4a9f06b7840ef) |
 | [cub\-construcao\-civil\-nbr12721](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721) | Cálculo determinístico de Custo Global de Construção, Área Equivalente \(NBR 12721\) e orçamentação CUB/m² em centavos e frações exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRA… | [10/11/2026 12:33 · 727f5a5](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/commit/727f5a5e9384e44f56a635d7afa6926bd7010f52) |
 | [analise\-ponto\-equilibrio](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio) | Análise determinística de Ponto de Equilíbrio \(Contábil, Econômico e Financeiro\), Margem de Contribuição e Alavancagem Operacional em centavos e frações exatas\. Zero dependências,… | [10/11/2026 12:19 · 6b63a82](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/commit/6b63a82e22f76247313a04e628ccb4eae4beb0e9) |
-| [dimensionamento\-condutores\-nbr5410](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410) | Dimensionamento determinístico de condutores elétricos de baixa tensão e disjuntores segundo a ABNT NBR 5410 em miliamperes e frações exatas\. CLI/API Python, português e MIT — LOF… | [10/11/2026 12:07 · 30c4d02](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/commit/30c4d022f6f2ec59d11509611e46a7ed5af6252c) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
@@ -42,6 +42,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
+
+<!-- DELIVERY-DOSAGEM-CONCRETO-ABCP-2026-11-10:BEGIN -->
+## Dosagem de Concreto ABCP · ABNT NBR 12655, NBR 6118 e Método ABCP/ACI
+
+Motor determinístico e analítico para dosagem experimental e tecnológica de concreto de cimento Portland pelo **Método ABCP/ACI**, em estrita conformidade com as normas brasileiras **ABNT NBR 12655:2022** e **ABNT NBR 6118:2023**. Determinação da resistência média de dosagem ($f_{cm} = f_{ck} + 1,65 \times s_d$) por condição de preparo (Condições A, B e C), relação água/cimento ($a/c$) por curvas de Abrams (CP II, CP III, CP IV, CP V-ARI ou personalizada) com restrição de durabilidade ambiental (Classes de Agressividade Ambiental I a IV), consumo de água por abatimento do tronco de cone (*slump* test) e diâmetro máximo do agregado graúdo ($d_{\max}$), consumo de brita por volume aparente compactado ($V_{ob}$), e determinação da areia pelo **Balanço do Volume Absoluto (1000 Litros)**.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Dosagem de Concreto ABCP](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/releases/download/v1.0.0/exemplo-dosagem-concreto.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/blob/d2b30f14fa7672224c65377f0c19cf2f42a5bbca/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/releases/tag/v1.0.0) · 73 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/actions/runs/42834819276) |
+
+Aritmética inteira e racional exata (`Fraction`), sem aproximações por ponto flutuante (`float`). Emite Memorial de Cálculo formal em Markdown, planilhas CSV higienizadas contra injeção de fórmulas, JSON canônico determinístico com memória de cálculo, painel visual vetorial SVG independente (1440×900), correção de canteiro para umidade dos agregados com traço operacional por saco de cimento de 50 kg e dimensionamento de padiolas. A integridade matemática é auditada por verificador independente sobre banco relacional `sqlite3`.
+
+<!-- DELIVERY-DOSAGEM-CONCRETO-ABCP-2026-11-10:END -->
 
 <!-- DELIVERY-CALCULO-LUMINOTECNICO-NBR-ISO-8995-2026-11-10:BEGIN -->
 ## Cálculo Luminotécnico · ABNT NBR ISO/CIE 8995-1, Método dos Lúmens e Malha Isotrópica

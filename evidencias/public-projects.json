@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T14:02:48.741959Z",
+  "collectedAt": "2026-11-10T14:32:09.463852Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 282,
+  "publicRepositoryCount": 283,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1260,6 +1260,27 @@
           "oid": "97201169c06a15e9c699bf43abf8b00c3ec6c44a",
           "committedDate": "2026-11-10T13:22:38Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/commit/97201169c06a15e9c699bf43abf8b00c3ec6c44a"
+        }
+      }
+    },
+    {
+      "name": "dosagem-concreto-abcp",
+      "description": "Dosagem experimental e analítica de concreto pelo Método ABCP/ACI (ABNT NBR 12655 e NBR 6118). Traço em massa, consumos, volume absoluto, correção de umidade e custo sem float.",
+      "url": "https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp",
+      "createdAt": "2026-11-10T14:06:23Z",
+      "pushedAt": "2026-11-10T14:30:45Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "d2b30f1ed0d3f7bde0be067c477e18ad916a563e",
+          "committedDate": "2026-11-10T14:30:41Z",
+          "url": "https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/commit/d2b30f1ed0d3f7bde0be067c477e18ad916a563e"
         }
       }
     },
@@ -3368,7 +3389,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T13:49:12Z",
+      "pushedAt": "2026-11-10T14:05:17Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3378,9 +3399,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "dd4ff10079b865163f15b99d1e632b318955c59a",
-          "committedDate": "2026-11-10T13:49:11Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/dd4ff10079b865163f15b99d1e632b318955c59a"
+          "oid": "f0ed83c1bc56a3b93db4451c5c28e0a43ac3b7a2",
+          "committedDate": "2026-11-10T14:05:16Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/f0ed83c1bc56a3b93db4451c5c28e0a43ac3b7a2"
         }
       }
     },

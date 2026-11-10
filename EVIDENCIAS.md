@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-DOSAGEM-CONCRETO-ABCP-2026-11-10:BEGIN -->
+## Dosagem de Concreto ABCP · ABNT NBR 12655 e NBR 6118 · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/tree/d2b30f14fa7672224c65377f0c19cf2f42a5bbca), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor determinístico e analítico para dimensionamento experimental de traços de concreto de cimento Portland pelo Método ABCP/ACI segundo as normas ABNT NBR 12655:2022 e ABNT NBR 6118:2023.
+- Cálculo da resistência média de dosagem ($f_{cm} = f_{ck} + 1,65 \times s_d$) por condição de preparo A, B ou C, relação água/cimento ($a/c$) por curvas de Abrams (CP II-32, CP II-40, CP III-40, CP IV-32, CP V-ARI ou personalizada) com respeito aos tetos de durabilidade da Classe de Agressividade Ambiental (CAA I a IV), consumo de água de amassamento por abatimento (*slump*) e $d_{\max}$ com aditivos plastificantes, consumo de brita por volume aparente compactado ($V_{ob}$) e determinação do consumo de areia pelo Balanço do Volume Absoluto (1000 Litros). Correção de canteiro para umidade dos agregados, água efetiva na betoneira, traço operacional por saco de cimento de 50 kg e estimativa de custos por m³. Banimento total de ponto flutuante (`float`) com cálculo 100% em grandezas inteiras (gramas, Litros, centavos, milímetros) e frações racionais exatas (`Fraction`).
+- Passaram 73 testes locais cobrindo modelos de domínio, validação normativa de $f_{ck}$, slump e agregados, interpolação bilinear de tabelas empíricas ABCP, codec canônico JSON com rejeição de BOM, float, profundidade excessiva e chaves duplicadas, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/actions/runs/42834819276) em Linux (Python 3.11–3.14), Windows 3.14 e teste de isolamento de rede (`unshare`).
+- Wheel com 17 membros e sdist com 34 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-DOSAGEM-CONCRETO-ABCP-2026-11-10:END -->
+
 <!-- EVIDENCE-CALCULO-LUMINOTECNICO-NBR-ISO-8995-2026-11-10:BEGIN -->
 ## Cálculo Luminotécnico de Interiores NBR ISO/CIE 8995-1 · 10 de novembro de 2026
 
