@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T12:22:14.434089Z",
+  "collectedAt": "2026-11-10T12:52:46.517209Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 276,
+  "publicRepositoryCount": 278,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -105,6 +105,27 @@
           "oid": "9735d660cb8c74d0851b9bf03b77c44d1236f8a0",
           "committedDate": "2026-11-05T02:59:12Z",
           "url": "https://github.com/martinlofranodeoliveira/approval-flow-core/commit/9735d660cb8c74d0851b9bf03b77c44d1236f8a0"
+        }
+      }
+    },
+    {
+      "name": "apuracao-simples-nacional",
+      "description": "Apuração determinística do Simples Nacional (LC 123/2006), Anexos I a V, Fator R, Alíquota Efetiva e partição de tributos. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/apuracao-simples-nacional",
+      "createdAt": "2026-11-10T12:37:15Z",
+      "pushedAt": "2026-11-10T12:50:05Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "aadd80bfc29d632d08aa79926dd4a9f06b7840ef",
+          "committedDate": "2026-11-10T12:48:54Z",
+          "url": "https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/commit/aadd80bfc29d632d08aa79926dd4a9f06b7840ef"
         }
       }
     },
@@ -1029,6 +1050,27 @@
           "oid": "3aeaa35329375304d642f59c77864ae8b0f720af",
           "committedDate": "2026-11-05T01:33:22Z",
           "url": "https://github.com/martinlofranodeoliveira/csv-sqlite-import/commit/3aeaa35329375304d642f59c77864ae8b0f720af"
+        }
+      }
+    },
+    {
+      "name": "cub-construcao-civil-nbr12721",
+      "description": "Cálculo determinístico de Custo Global de Construção, Área Equivalente (NBR 12721) e orçamentação CUB/m² em centavos e frações exatas. Zero dependências, Python 3.11+, MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721",
+      "createdAt": "2026-11-10T12:23:06Z",
+      "pushedAt": "2026-11-10T12:34:08Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "727f5a5e9384e44f56a635d7afa6926bd7010f52",
+          "committedDate": "2026-11-10T12:33:23Z",
+          "url": "https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/commit/727f5a5e9384e44f56a635d7afa6926bd7010f52"
         }
       }
     },
@@ -3263,7 +3305,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T12:21:52Z",
+      "pushedAt": "2026-11-10T12:52:26Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3273,9 +3315,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "b7866ac35bb1aa5d7907cc22c7a012febee7533b",
-          "committedDate": "2026-11-10T12:21:51Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/b7866ac35bb1aa5d7907cc22c7a012febee7533b"
+          "oid": "bc75eaa7e3bead4752c83db7e0986e9eb736fedd",
+          "committedDate": "2026-11-10T12:52:25Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/bc75eaa7e3bead4752c83db7e0986e9eb736fedd"
         }
       }
     },
