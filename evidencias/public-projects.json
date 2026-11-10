@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T20:02:15.206385Z",
+  "collectedAt": "2026-11-10T20:15:11.053879Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 303,
+  "publicRepositoryCount": 304,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1449,6 +1449,27 @@
           "oid": "629b21a8d431a3dacb8fd555140bbc4bddd01124",
           "committedDate": "2026-11-10T16:36:10Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-pilares-concreto-nbr6118/commit/629b21a8d431a3dacb8fd555140bbc4bddd01124"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-piscina-recirculacao-nbr10339",
+      "description": "Dimensionamento analítico de recirculação, filtração, segurança anti-sucção e hidráulica de piscinas segundo a norma ABNT NBR 10339:2018 em Python puro e exato.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-piscina-recirculacao-nbr10339",
+      "createdAt": "2026-11-10T20:03:29Z",
+      "pushedAt": "2026-11-10T20:14:06Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "80627d9b46d69b154bab45cae1cc8de2ca4641f9",
+          "committedDate": "2026-11-10T20:13:14Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-piscina-recirculacao-nbr10339/commit/80627d9b46d69b154bab45cae1cc8de2ca4641f9"
         }
       }
     },
@@ -3746,7 +3767,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T19:57:06Z",
+      "pushedAt": "2026-11-10T20:03:07Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3756,9 +3777,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "a5937ad2fa49bc18762151b8b33ec3cd5e44779a",
-          "committedDate": "2026-11-10T19:57:05Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/a5937ad2fa49bc18762151b8b33ec3cd5e44779a"
+          "oid": "78c7a1e93f2f819e0bdd3c8e32f1cd71e2597f66",
+          "committedDate": "2026-11-10T20:03:05Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/78c7a1e93f2f819e0bdd3c8e32f1cd71e2597f66"
         }
       }
     },

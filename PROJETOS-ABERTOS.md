@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**303 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 20:02 UTC**.
+**304 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 20:15 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-piscina\-recirculacao\-nbr10339](https://github.com/martinlofranodeoliveira/dimensionamento-piscina-recirculacao-nbr10339) | Dimensionamento analítico de recirculação, filtração, segurança anti\-sucção e hidráulica de piscinas segundo a norma ABNT NBR 10339:2018 em Python puro e exato\. | [10/11/2026 20:13 · 80627d9](https://github.com/martinlofranodeoliveira/dimensionamento-piscina-recirculacao-nbr10339/commit/80627d9b46d69b154bab45cae1cc8de2ca4641f9) |
 | [dimensionamento\-sistemas\-septicos\-nbr7229](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229) | Dimensionamento analítico de tanques sépticos, filtros anaeróbios e disposição final conforme ABNT NBR 7229:1993 e ABNT NBR 13969:1997\. | [10/11/2026 20:00 · b8e118f](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229/commit/b8e118fdd730c57bbaacc063c6b260217a57ef3d) |
 | [protocolo\-tramitacao\-ledger](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger) | A PostgreSQL\-backed case\-routing ledger with acknowledged custody transfers, immutable document versions, unit authorization and byte\-identical idempotent receipts\. | [10/11/2026 19:40 · 88e3d57](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger/commit/88e3d57f7c397cf61f31fa10519aa31f81fdc2d0) |
 | [dimensionamento\-ventilacao\-exaustao\-nbr14518](https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518) | Dimensionamento analítico de sistemas de ventilação e exaustão para cozinhas profissionais conforme ABNT NBR 14518:2020\. | [10/11/2026 19:43 · 6d6c2ab](https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518/commit/6d6c2aba2505da10c32a6c60cd8c37206e10f5ac) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [dimensionamento\-sistemas\-sprinklers\-nbr10897](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-sprinklers-nbr10897) | Motor analítico e CLI para dimensionamento de sistemas de chuveiros automáticos \(sprinklers\) conforme ABNT NBR 10897:2020 em Python puro com aritmética exata\. | [10/11/2026 19:10 · d316afb](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-sprinklers-nbr10897/commit/d316afbc3a1b1885cacd59a415ea96e80aa660ae) |
 | [dimensionamento\-hidrantes\-nbr13714](https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714) | Motor analítico e CLI para dimensionamento de sistemas de hidrantes e mangotinhos conforme ABNT NBR 13714:2000 em Python puro com aritmética exata\. | [10/11/2026 18:48 · 05cad2a](https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714/commit/05cad2a2f1a83cdb9efde48cf148107c3a39bc8f) |
 | [execucao\-contratual\-ledger](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger) | A persistent item\-level contract execution ledger with measurement reservations, partial acceptance, amendments, reversals, authorization and a reproducible local HTTP demonstrati… | [10/11/2026 18:25 · 5163fb3](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger/commit/5163fb31b8f24876dad96e3d2d9062dd09f9aad6) |
-| [dimensionamento\-spda\-nbr5419](https://github.com/martinlofranodeoliveira/dimensionamento-spda-nbr5419) | Motor analítico e CLI para dimensionamento de SPDA e gerenciamento de risco conforme ABNT NBR 5419:2015 em Python puro com aritmética exata\. | [10/11/2026 18:33 · 66a008d](https://github.com/martinlofranodeoliveira/dimensionamento-spda-nbr5419/commit/66a008d94a65d663435c510163e4de4e193d5189) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
