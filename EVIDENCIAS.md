@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-DIMENSIONAMENTO-CONDUTORES-NBR5410-2026-11-10:BEGIN -->
+## Dimensionamento de Condutores e Disjuntores NBR 5410 · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/tree/30c4d02b5c777490ca9a05ec3900ca867aa416f5), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Dimensionamento determinístico de condutores de cobre e coordenação de disjuntores DIN termomagnéticos (NBR IEC 60898) segundo ABNT NBR 5410.
+- Avaliação simultânea de 4 critérios fundamentais: seção mínima regulamentar (Tabela 47: 1,5 mm² iluminação, 2,5 mm² tomadas/força), capacidade de corrente em eletroduto embutido Método B1 (Tabela 36), correção por temperatura e agrupamento (Tabelas 40 e 42), queda de tensão admissível (máx. 4% para circuitos terminais, resistividade exata do cobre a 75°C $\rho_{75} = 1/48 \, \Omega\cdot\text{mm}^2/\text{m}$) e coordenação de proteção ($I_B \le I_n \le I_Z$). Banimento total de ponto flutuante (`float`) com cálculo em grandezas inteiras e frações racionais exatas (`Fraction`).
+- Passaram 56 testes locais cobrindo modelos de domínio, tabelas normativas, monotonia de ampacidade, codec canônico JSON com rejeição de BOM, float e profundidade excessiva, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/actions/runs/42813108425) em Linux (Python 3.11–3.14), Windows e teste de isolamento de rede (`unshare`).
+- Wheel com 16 membros e sdist com 31 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-DIMENSIONAMENTO-CONDUTORES-NBR5410-2026-11-10:END -->
+
 <!-- EVIDENCE-PRECIFICACAO-CARDAPIO-CMV-2026-11-10:BEGIN -->
 ## Engenharia de Cardápio e CMV Alvo · 10 de novembro de 2026
 

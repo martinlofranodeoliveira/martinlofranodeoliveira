@@ -43,6 +43,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
 
+<!-- DELIVERY-DIMENSIONAMENTO-CONDUTORES-NBR5410-2026-11-10:BEGIN -->
+## Dimensionamento Elétrico NBR 5410 · condutores de cobre, queda de tensão e disjuntores
+
+Dimensione circuitos elétricos de baixa tensão residenciais e prediais em conformidade estrita com a ABNT NBR 5410 (Versão Corrigida 2008). O motor calcula a seção necessária do condutor e seleciona a proteção termomagnética padronizada (disjuntores DIN NBR IEC 60898), avaliando simultaneamente seção mínima regulamentar, capacidade de condução de corrente (Tabela 36 - Método B1) corrigida por temperatura e agrupamento, queda de tensão admissível (máx. 4%) e coordenação de proteção ($I_B \le I_n \le I_Z$).
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Dimensionamento Elétrico NBR 5410](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/releases/download/v1.0.0/exemplo-condutores.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/blob/30c4d02b5c777490ca9a05ec3900ca867aa416f5/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/releases/tag/v1.0.0) · 56 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/actions/runs/42813108425) |
+
+Aritmética estritamente exata com grandezas inteiras (Watts, Volts, miliamperes, milivolts) e frações racionais (`Fraction`), banindo qualquer desvio de ponto flutuante (`float`). O pacote exporta relatórios técnicos em Markdown, tabelas CSV com neutralização contra injeção de fórmulas, painel vetorial SVG (1440×900) com ocupação térmica por circuito e pacote ZIP determinístico. A integridade matemática é auditada por verificador independente sobre banco relacional `sqlite3`.
+
+<!-- DELIVERY-DIMENSIONAMENTO-CONDUTORES-NBR5410-2026-11-10:END -->
+
 <!-- DELIVERY-PRECIFICACAO-CARDAPIO-CMV-2026-11-10:BEGIN -->
 ## Engenharia de Cardápio e CMV · fichas técnicas, margem e matriz Kasavana & Smith
 
