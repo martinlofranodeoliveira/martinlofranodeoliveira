@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-PLANO-CORTE-BARRAS-2026-11-10:BEGIN -->
+## Otimização de Plano de Corte 1D · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/plano-corte-barras/tree/50b11e74a80e1dc553ce4e0d7c385a4a589339e0), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Otimizador determinístico de corte unidimensional de barras, perfis e tubos com banimento de ponto flutuante (`float`) e conservação física milimétrica exata.
+- Heurísticas combinatórias determinísticas (First-Fit Decreasing, Best-Fit Decreasing e busca local 2-opt), desconto da espessura de corte da serra (*saw kerf*), margem inicial de topo, classificação de sobras (útil vs. refugo descartável) e neutralização contra injeção de fórmulas CSV (`=`, `+`, `-`, `@`, `\t`).
+- Passaram 52 testes locais cobrindo codec canônico JSON, casos de encaixe exato, múltiplos perfis independentes, conservação milimétrica de matéria-prima e verificador independente em `sqlite3` sem importação do pacote de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/plano-corte-barras/actions/runs/42807753099) em Linux (Python 3.11–3.14), Windows e teste de isolamento de rede (`unshare`).
+- Wheel com 13 membros e sdist com 41 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/plano-corte-barras/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-PLANO-CORTE-BARRAS-2026-11-10:END -->
+
 <!-- EVIDENCE-RATEIO-CONDOMINIO-FRACOES-2026-11-10:BEGIN -->
 ## Rateio Condominial por Fração Ideal · 10 de novembro de 2026
 

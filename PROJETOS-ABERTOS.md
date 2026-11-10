@@ -43,6 +43,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
 
+<!-- DELIVERY-PLANO-CORTE-BARRAS-2026-11-10:BEGIN -->
+## Otimização de Plano de Corte 1D · barras, perfis e tubos com kerf e refugo
+
+Otimize o corte unidimensional de barras de aço, perfis de alumínio, tubos e vigas industriais (*1D Cutting Stock Problem*) minimizando o número de barras brutas e o desperdício de matéria-prima. Modelagem com espessura de corte da lâmina (*saw kerf*), margem inicial de cabeceira e segregação de sobras úteis versus refugo descartável.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Plano de Corte 1D](https://github.com/martinlofranodeoliveira/plano-corte-barras) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/plano-corte-barras/releases/download/v1.0.0/exemplo-corte.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/plano-corte-barras/blob/50b11e74a80e1dc553ce4e0d7c385a4a589339e0/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/plano-corte-barras/releases/tag/v1.0.0) · 52 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/plano-corte-barras/actions/runs/42807753099) |
+
+Aritmética estritamente inteira em milímetros (`int`), sem ponto flutuante (`float`), e razões de aproveitamento calculadas com frações racionais exatas (`Fraction`). Heurísticas determinísticas FFD (*First-Fit Decreasing*) e BFD (*Best-Fit Decreasing*) com busca local por trocas. O pacote ZIP inclui `entrada.json`, `plano-corte.json`, `mapa-barras.csv`, `lista-cortes.csv`, relatório Markdown, painel visual com diagrama de fita de corte em SVG (1440×900) e oráculo independente em `sqlite3`.
+
+<!-- DELIVERY-PLANO-CORTE-BARRAS-2026-11-10:END -->
+
 <!-- DELIVERY-RATEIO-CONDOMINIO-FRACOES-2026-11-10:BEGIN -->
 ## Rateio Condominial · fração ideal milesimal, hidrometria e centavos exatos
 
