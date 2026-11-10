@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**283 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 14:35 UTC**.
+**284 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 15:01 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-drenagem\-pluvial\-nbr10844](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844) | Dimensionamento de sistemas prediais e urbanos de drenagem de águas pluviais segundo a ABNT NBR 10844:1989\. 100% Python padrão, Zero Float\. | [10/11/2026 14:55 · 21b216e](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/commit/21b216efd9a74b1a0f79d1c0db9c3b70c87d7a47) |
 | [dosagem\-concreto\-abcp](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp) | Dosagem experimental e analítica de concreto pelo Método ABCP/ACI \(ABNT NBR 12655 e NBR 6118\)\. Traço em massa, consumos, volume absoluto, correção de umidade e custo sem float\. | [10/11/2026 14:30 · d2b30f1](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/commit/d2b30f1ed0d3f7bde0be067c477e18ad916a563e) |
 | [calculo\-luminotecnico\-nbr\-iso\-8995](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995) | Cálculo luminotécnico determinístico pelo Método dos Lúmens \(ABNT NBR ISO/CIE 8995\-1\) em frações e grandezas inteiras exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOL… | [10/11/2026 14:00 · eac384d](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/commit/eac384d6017b31197662d7a76c02d6b1ba7ac0e9) |
 | [calculo\-estabilidade\-taludes\-nbr11682](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682) | Cálculo determinístico de estabilidade de taludes e encostas \(ABNT NBR 11682\) via métodos de Fellenius e Bishop Simplificado em frações e grandezas inteiras exatas\. Zero dependênc… | [10/11/2026 13:43 · 367f8f0](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/commit/367f8f0b0475ba7b1ce88ce5a6359a62ee885717) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [rescisao\-trabalhista\-clt](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt) | Liquidação e cálculo determinístico de rescisão trabalhista sob a CLT, Lei 12\.506/2011, férias com 1/3, 13º salário, FGTS, INSS e IRRF progressivos\. CLI/API Python, português e MI… | [10/11/2026 13:04 · c7d22c6](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/commit/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d) |
 | [apuracao\-simples\-nacional](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional) | Apuração determinística do Simples Nacional \(LC 123/2006\), Anexos I a V, Fator R, Alíquota Efetiva e partição de tributos\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 12:48 · aadd80b](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/commit/aadd80bfc29d632d08aa79926dd4a9f06b7840ef) |
 | [cub\-construcao\-civil\-nbr12721](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721) | Cálculo determinístico de Custo Global de Construção, Área Equivalente \(NBR 12721\) e orçamentação CUB/m² em centavos e frações exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRA… | [10/11/2026 12:33 · 727f5a5](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/commit/727f5a5e9384e44f56a635d7afa6926bd7010f52) |
-| [analise\-ponto\-equilibrio](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio) | Análise determinística de Ponto de Equilíbrio \(Contábil, Econômico e Financeiro\), Margem de Contribuição e Alavancagem Operacional em centavos e frações exatas\. Zero dependências,… | [10/11/2026 12:19 · 6b63a82](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/commit/6b63a82e22f76247313a04e628ccb4eae4beb0e9) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
@@ -42,6 +42,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
+
+<!-- DELIVERY-DIMENSIONAMENTO-DRENAGEM-PLUVIAL-NBR10844-2026-11-10:BEGIN -->
+## Dimensionamento de Drenagem Pluvial Predial · ABNT NBR 10844:1989 e Método Racional
+
+Motor determinístico e analítico para dimensionamento hidráulico e verificação normativa de sistemas prediais e urbanos de drenagem de águas pluviais, em estrita conformidade com a norma brasileira **ABNT NBR 10844:1989** (*Instalações prediais de águas pluviais - Procedimento*). Determinação da vazão de projeto pelo Método Racional ($Q = \frac{C \cdot I \cdot A_c}{60}$) com área de contribuição efetiva ($A_c = A_h + \sum \frac{A_p}{2}$) considerando vento-chuva sobre paredes verticais contíguas, catálogo normativo de chuvas para 20 cidades brasileiras (duração de 5 min e tempos de retorno $T \in \{1, 5, 25\}$ anos), dimensionamento de calhas retangulares, semicirculares e trapezoidais pela fórmula de Manning-Strickler com controle de velocidade, raio hidráulico, declividade mínima ($i \ge 0,5\%$) e borda livre de segurança ($f_b \ge 20$ mm ou $20\%$). Dimensionamento de tubos de queda verticais por vórtice anular segundo a **Tabela 4 da NBR 10844** para bocais retos e com funil cônico, coletores horizontais sob gravidade com lâmina máxima admissível ($h/D \le 0,67$) segundo a **Tabela 5 da NBR 10844**, caixas de areia com câmara de sedimentação de sólidos ($h_{\text{sed}} \ge 200$ mm) e ralos hemisféricos anti-folhas.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Dimensionamento Drenagem Pluvial NBR 10844](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/releases/download/v1.0.0/exemplo-drenagem-pluvial.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/blob/21b216efd9a74b1a0f79d1c0db9c3b70c87d7a47/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/releases/tag/v1.0.0) · 56 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/actions/runs/42839102823) |
+
+Aritmética 100% Zero Float utilizando exclusivamente frações racionais exatas (`Fraction`) e grandezas inteiras, sem perdas de precisão por aproximações IEEE-754. Algoritmos determinísticos de raiz quadrada e cúbica pelo método de Newton com frações. Emite Memorial de Cálculo formal em Markdown, planilhas CSV higienizadas contra injeção de fórmulas, JSON canônico determinístico com memória de cálculo e painel visual vetorial SVG independente (1440×900). A conformidade hidráulica e normativa é auditada por verificador independente em banco relacional `sqlite3`.
+
+<!-- DELIVERY-DIMENSIONAMENTO-DRENAGEM-PLUVIAL-NBR10844-2026-11-10:END -->
 
 <!-- DELIVERY-DOSAGEM-CONCRETO-ABCP-2026-11-10:BEGIN -->
 ## Dosagem de Concreto ABCP · ABNT NBR 12655, NBR 6118 e Método ABCP/ACI

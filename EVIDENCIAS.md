@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-DIMENSIONAMENTO-DRENAGEM-PLUVIAL-NBR10844-2026-11-10:BEGIN -->
+## Dimensionamento de Drenagem Pluvial Predial ABNT NBR 10844 · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/tree/21b216efd9a74b1a0f79d1c0db9c3b70c87d7a47), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Dimensionamento hidráulico e verificação normativa de sistemas prediais e urbanos de drenagem de águas pluviais segundo a norma ABNT NBR 10844:1989.
+- Cálculo da vazão de projeto pelo Método Racional ($Q = \frac{C \cdot I \cdot A_c}{60}$) com área de contribuição efetiva ($A_c = A_h + \sum \frac{A_p}{2}$) para paredes verticais contíguas recebendo vento-chuva. Dimensionamento de calhas retangulares, semicirculares e trapezoidais pela equação de Manning-Strickler com controle de velocidade, raio hidráulico, declividade mínima ($i \ge 0,5\%$) e borda livre de segurança ($f_b \ge 20$ mm ou $20\%$). Dimensionamento de tubos de queda por vórtice anular segundo a Tabela 4 da NBR 10844, coletores horizontais sob gravidade com lâmina máxima admissível ($h/D \le 0,67$) segundo a Tabela 5 da NBR 10844, e caixas de areia com câmara de sedimentação de sólidos ($h_{\text{sed}} \ge 200$ mm). Banimento total de ponto flutuante (`float`) com cálculo 100% em frações racionais exatas (`Fraction`) e grandezas inteiras.
+- Passaram 56 testes locais cobrindo modelos de domínio, catálogo de chuvas para 20 cidades brasileiras, formulações geométricas e hidráulicas, codec canônico JSON com rejeição de BOM, float, profundidade excessiva e chaves duplicadas, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/actions/runs/42839102823) em Linux (Python 3.11–3.14), Windows 3.14 e teste de isolamento de rede (`unshare`).
+- Wheel com 15 membros e sdist com 32 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-DIMENSIONAMENTO-DRENAGEM-PLUVIAL-NBR10844-2026-11-10:END -->
+
 <!-- EVIDENCE-DOSAGEM-CONCRETO-ABCP-2026-11-10:BEGIN -->
 ## Dosagem de Concreto ABCP · ABNT NBR 12655 e NBR 6118 · 10 de novembro de 2026
 

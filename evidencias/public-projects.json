@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T14:35:24.804302Z",
+  "collectedAt": "2026-11-10T15:01:49.042546Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 283,
+  "publicRepositoryCount": 284,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1239,6 +1239,27 @@
           "oid": "30c4d022f6f2ec59d11509611e46a7ed5af6252c",
           "committedDate": "2026-11-10T12:07:24Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/commit/30c4d022f6f2ec59d11509611e46a7ed5af6252c"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-drenagem-pluvial-nbr10844",
+      "description": "Dimensionamento de sistemas prediais e urbanos de drenagem de águas pluviais segundo a ABNT NBR 10844:1989. 100% Python padrão, Zero Float.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844",
+      "createdAt": "2026-11-10T14:36:16Z",
+      "pushedAt": "2026-11-10T14:55:48Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "21b216efd9a74b1a0f79d1c0db9c3b70c87d7a47",
+          "committedDate": "2026-11-10T14:55:47Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/commit/21b216efd9a74b1a0f79d1c0db9c3b70c87d7a47"
         }
       }
     },
@@ -3389,7 +3410,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T14:35:02Z",
+      "pushedAt": "2026-11-10T14:35:39Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3399,9 +3420,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "a7c122ac0da170cd80a19998c8b8c350818aa9e0",
-          "committedDate": "2026-11-10T14:35:01Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/a7c122ac0da170cd80a19998c8b8c350818aa9e0"
+          "oid": "22490483a2970428d49e87e068341e7559f20671",
+          "committedDate": "2026-11-10T14:35:38Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/22490483a2970428d49e87e068341e7559f20671"
         }
       }
     },
