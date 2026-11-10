@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**297 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 18:38 UTC**.
+**298 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 18:50 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-hidrantes\-nbr13714](https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714) | Motor analítico e CLI para dimensionamento de sistemas de hidrantes e mangotinhos conforme ABNT NBR 13714:2000 em Python puro com aritmética exata\. | [10/11/2026 18:48 · 05cad2a](https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714/commit/05cad2a2f1a83cdb9efde48cf148107c3a39bc8f) |
 | [execucao\-contratual\-ledger](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger) | A persistent item\-level contract execution ledger with measurement reservations, partial acceptance, amendments, reversals, authorization and a reproducible local HTTP demonstrati… | [10/11/2026 18:25 · 5163fb3](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger/commit/5163fb31b8f24876dad96e3d2d9062dd09f9aad6) |
 | [dimensionamento\-spda\-nbr5419](https://github.com/martinlofranodeoliveira/dimensionamento-spda-nbr5419) | Motor analítico e CLI para dimensionamento de SPDA e gerenciamento de risco conforme ABNT NBR 5419:2015 em Python puro com aritmética exata\. | [10/11/2026 18:33 · 66a008d](https://github.com/martinlofranodeoliveira/dimensionamento-spda-nbr5419/commit/66a008d94a65d663435c510163e4de4e193d5189) |
 | [dimensionamento\-redes\-gas\-nbr15526](https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526) | Dimensionamento analítico de redes de distribuição interna de gases combustíveis \(GN e GLP\) segundo a ABNT NBR 15526 em frações exatas e Python puro\. | [10/11/2026 18:20 · b2ec4e0](https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526/commit/b2ec4e09002cc5a64c09dad521a83a3296246de1) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [calculo\-alvenaria\-estrutural\-nbr16868](https://github.com/martinlofranodeoliveira/calculo-alvenaria-estrutural-nbr16868) | Dimensionamento e verificação analítica de paredes de alvenaria estrutural sob compressão, flexo\-compressão e cisalhamento segundo a ABNT NBR 16868:2020/2024 em frações exatas e P… | [10/11/2026 17:43 · 56829ff](https://github.com/martinlofranodeoliveira/calculo-alvenaria-estrutural-nbr16868/commit/56829fffe63b1a0ec90f0a93ec437d3b071a3ab1) |
 | [dimensionamento\-estruturas\-metalicas\-nbr8800](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-metalicas-nbr8800) | Dimensionamento analítico de perfis de aço estrutural sob tração, compressão, flexão e cisalhamento segundo a ABNT NBR 8800:2024 em frações exatas e Python puro\. | [10/11/2026 17:24 · 9e7f82b](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-metalicas-nbr8800/commit/9e7f82b3e148c83d80f7a75cf1d40d97623149e3) |
 | [neighborhood\-projection\-studio](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio) | A bounded Python PCA neighborhood\-distortion SDK with exact rank\-penalty receipts and a linked React/Three\.js report inspector\. | [10/11/2026 16:47 · a16d805](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio/commit/a16d805469fab06c7cb7b7adc9257e31654497fc) |
-| [dimensionamento\-lajes\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-lajes-concreto-nbr6118) | Dimensionamento e verificação analítica de lajes maciças de concreto armado segundo a norma ABNT NBR 6118:2023 em frações exatas e Python puro\. | [10/11/2026 17:00 · f3aff49](https://github.com/martinlofranodeoliveira/dimensionamento-lajes-concreto-nbr6118/commit/f3aff495bf5b777f4d705513831b3bd3d4ccbe65) |
 
 <!-- PUBLIC-PROJECTS:END -->
 

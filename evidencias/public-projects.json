@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T18:38:00.130064Z",
+  "collectedAt": "2026-11-10T18:50:52.969942Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 297,
+  "publicRepositoryCount": 298,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1344,6 +1344,27 @@
           "oid": "9e7f82b3e148c83d80f7a75cf1d40d97623149e3",
           "committedDate": "2026-11-10T17:24:15Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-metalicas-nbr8800/commit/9e7f82b3e148c83d80f7a75cf1d40d97623149e3"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-hidrantes-nbr13714",
+      "description": "Motor analítico e CLI para dimensionamento de sistemas de hidrantes e mangotinhos conforme ABNT NBR 13714:2000 em Python puro com aritmética exata.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714",
+      "createdAt": "2026-11-10T18:38:31Z",
+      "pushedAt": "2026-11-10T18:49:31Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "05cad2a2f1a83cdb9efde48cf148107c3a39bc8f",
+          "committedDate": "2026-11-10T18:48:40Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714/commit/05cad2a2f1a83cdb9efde48cf148107c3a39bc8f"
         }
       }
     },
@@ -3641,7 +3662,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T18:37:37Z",
+      "pushedAt": "2026-11-10T18:38:18Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3651,9 +3672,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "0c4950d78fcd3b0183f15f53b65c0278f61cea39",
-          "committedDate": "2026-11-10T18:37:36Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/0c4950d78fcd3b0183f15f53b65c0278f61cea39"
+          "oid": "50a3dc38f26fd6403abcac8fa48e2bd8bffc4eae",
+          "committedDate": "2026-11-10T18:38:17Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/50a3dc38f26fd6403abcac8fa48e2bd8bffc4eae"
         }
       }
     },
