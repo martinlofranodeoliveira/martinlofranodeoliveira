@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T10:28:36.100361Z",
+  "collectedAt": "2026-11-10T10:58:24.474149Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 268,
+  "publicRepositoryCount": 271,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -147,6 +147,27 @@
           "oid": "a198f0cded71fbf252845352ffd07009d64ca1f7",
           "committedDate": "2026-11-05T01:32:25Z",
           "url": "https://github.com/martinlofranodeoliveira/backoff-budget/commit/a198f0cded71fbf252845352ffd07009d64ca1f7"
+        }
+      }
+    },
+    {
+      "name": "balanco-massa-lote",
+      "description": "Balanço de massa e teor de sólidos por batelada em gramas racionais exatos com auditoria de perdas. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/balanco-massa-lote",
+      "createdAt": "2026-11-10T10:46:15Z",
+      "pushedAt": "2026-11-10T10:47:53Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "b21827ba099257b2e00e1cac73be66eb03b7b63c",
+          "committedDate": "2026-11-10T10:46:08Z",
+          "url": "https://github.com/martinlofranodeoliveira/balanco-massa-lote/commit/b21827ba099257b2e00e1cac73be66eb03b7b63c"
         }
       }
     },
@@ -613,6 +634,27 @@
       }
     },
     {
+      "name": "conciliacao-bancaria",
+      "description": "Conciliação bancária determinística em centavos exatos (1:1, lotes 1:N/N:1, tarifas, ambiguidades e pendências). CLI/API Python, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/conciliacao-bancaria",
+      "createdAt": "2026-11-10T10:50:09Z",
+      "pushedAt": "2026-11-10T10:55:13Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "0e223f13315c3186ceaadd656ca703086b9ad79f",
+          "committedDate": "2026-11-10T10:53:48Z",
+          "url": "https://github.com/martinlofranodeoliveira/conciliacao-bancaria/commit/0e223f13315c3186ceaadd656ca703086b9ad79f"
+        }
+      }
+    },
+    {
       "name": "conferencia-xlsx",
       "description": "Compare duas planilhas XLSX por conteúdo, fórmulas, caches e estrutura selecionada. CLI e biblioteca Python local, relatórios JSON/Markdown/CSV, português e MIT.",
       "url": "https://github.com/martinlofranodeoliveira/conferencia-xlsx",
@@ -987,6 +1029,27 @@
           "oid": "75a3bbfb42c743636081df45e2f88b646ad85b31",
           "committedDate": "2026-11-05T08:17:53Z",
           "url": "https://github.com/martinlofranodeoliveira/cursor-page-kit/commit/75a3bbfb42c743636081df45e2f88b646ad85b31"
+        }
+      }
+    },
+    {
+      "name": "curva-abc-estoque",
+      "description": "Classificação ABC de estoque por Pareto, ponto de reposição, estoque de segurança e lote mínimo. CLI/API Python local, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/curva-abc-estoque",
+      "createdAt": "2026-11-10T10:33:05Z",
+      "pushedAt": "2026-11-10T10:35:31Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "f4495e18691b1c302bb37159fd153765e79dd04f",
+          "committedDate": "2026-11-10T10:32:59Z",
+          "url": "https://github.com/martinlofranodeoliveira/curva-abc-estoque/commit/f4495e18691b1c302bb37159fd153765e79dd04f"
         }
       }
     },
@@ -3158,7 +3221,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T10:28:15Z",
+      "pushedAt": "2026-11-10T10:58:02Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3168,9 +3231,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "23ab0d0a574f92fe07e208b2376675d0bd22fdc8",
-          "committedDate": "2026-11-10T10:28:14Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/23ab0d0a574f92fe07e208b2376675d0bd22fdc8"
+          "oid": "134d57795cf5de5ccf8b9f6479bd0d207b0e2cfe",
+          "committedDate": "2026-11-10T10:58:01Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/134d57795cf5de5ccf8b9f6479bd0d207b0e2cfe"
         }
       }
     },
