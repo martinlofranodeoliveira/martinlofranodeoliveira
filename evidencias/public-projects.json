@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T15:57:49.056477Z",
+  "collectedAt": "2026-11-10T16:20:13.544608Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 286,
+  "publicRepositoryCount": 288,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1302,6 +1302,27 @@
           "oid": "97201169c06a15e9c699bf43abf8b00c3ec6c44a",
           "committedDate": "2026-11-10T13:22:38Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/commit/97201169c06a15e9c699bf43abf8b00c3ec6c44a"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-sapatas-concreto-nbr6118",
+      "description": "Dimensionamento determinístico e verificação estrutural de sapatas isoladas de concreto armado segundo ABNT NBR 6118:2023 e ABNT NBR 6122:2022 (Zero Float). LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-sapatas-concreto-nbr6118",
+      "createdAt": "2026-11-10T16:00:40Z",
+      "pushedAt": "2026-11-10T16:17:33Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "6164087ca5df0a475b2a9f7bec5b5d2ae90c7c72",
+          "committedDate": "2026-11-10T16:17:30Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-sapatas-concreto-nbr6118/commit/6164087ca5df0a475b2a9f7bec5b5d2ae90c7c72"
         }
       }
     },
@@ -3452,7 +3473,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T15:30:12Z",
+      "pushedAt": "2026-11-10T15:59:04Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3462,9 +3483,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "b9b18d56aabd22f5fab0e10759778348cf4361d0",
-          "committedDate": "2026-11-10T15:30:10Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/b9b18d56aabd22f5fab0e10759778348cf4361d0"
+          "oid": "9480cbf04e2acbd1018891893177dd25b7b9d475",
+          "committedDate": "2026-11-10T15:59:02Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/9480cbf04e2acbd1018891893177dd25b7b9d475"
         }
       }
     },
@@ -4179,6 +4200,27 @@
           "oid": "50b11e7e3766231c9ee6e40ed98b0db759a38bdd",
           "committedDate": "2026-11-10T11:28:23Z",
           "url": "https://github.com/martinlofranodeoliveira/plano-corte-barras/commit/50b11e7e3766231c9ee6e40ed98b0db759a38bdd"
+        }
+      }
+    },
+    {
+      "name": "pncp-contract-snapshot-audit",
+      "description": "Offline auditor for captured PNCP contract pages with explicit collection coverage, selected-projection deduplication, exact monetary values and independently checked SQLite aggregates.",
+      "url": "https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit",
+      "createdAt": "2026-11-10T16:03:04Z",
+      "pushedAt": "2026-11-10T16:03:11Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "eeda5be4477e1752170ca38e5fb3e1a912941e19",
+          "committedDate": "2026-11-10T16:03:01Z",
+          "url": "https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/commit/eeda5be4477e1752170ca38e5fb3e1a912941e19"
         }
       }
     },
