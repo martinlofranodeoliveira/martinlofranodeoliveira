@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T20:30:36.521444Z",
+  "collectedAt": "2026-11-10T20:48:09.038689Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 305,
+  "publicRepositoryCount": 306,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1428,6 +1428,27 @@
           "oid": "97201169c06a15e9c699bf43abf8b00c3ec6c44a",
           "committedDate": "2026-11-10T13:22:38Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/commit/97201169c06a15e9c699bf43abf8b00c3ec6c44a"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-iluminacao-emergencia-nbr10898",
+      "description": "Dimensionamento de sistemas de iluminação de emergência e balizamento conforme ABNT NBR 10898:2013 em Python puro com aritmética exata Zero Float.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-iluminacao-emergencia-nbr10898",
+      "createdAt": "2026-11-10T20:31:51Z",
+      "pushedAt": "2026-11-10T20:46:56Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "b119d3663877bd72bcfc1aaeef7f574d89f1a0df",
+          "committedDate": "2026-11-10T20:45:49Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-iluminacao-emergencia-nbr10898/commit/b119d3663877bd72bcfc1aaeef7f574d89f1a0df"
         }
       }
     },
@@ -3788,7 +3809,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T20:16:47Z",
+      "pushedAt": "2026-11-10T20:31:28Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3798,9 +3819,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "435e286a5626fd7834b47523b8ce48f4561f188d",
-          "committedDate": "2026-11-10T20:16:46Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/435e286a5626fd7834b47523b8ce48f4561f188d"
+          "oid": "6ccd170f8c71a6879672f5275f13673aa56b7c10",
+          "committedDate": "2026-11-10T20:31:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/6ccd170f8c71a6879672f5275f13673aa56b7c10"
         }
       }
     },
