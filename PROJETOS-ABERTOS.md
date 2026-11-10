@@ -631,3 +631,15 @@ Três bibliotecas e CLIs Python com licença MIT, README em português, exemplos
 | [iCalendar Transition Rehearsal](https://github.com/martinlofranodeoliveira/php-ical-transition-rehearsal) | PHP | Motor de ensaio de recorrência iCalendar (RFC 5545) com Sabre VObject, resolução física de instantes UTC, políticas para lacunas e dobras e oráculo zdump. | [Docs](https://github.com/martinlofranodeoliveira/php-ical-transition-rehearsal/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/php-ical-transition-rehearsal/actions/workflows/ci.yml) |
 
 <!-- THIRTEENTH-BATCH:END -->
+
+<!-- FOURTEENTH-NATIVE-BATCH:BEGIN -->
+### Bibliotecas nativas · D, Nim e Fortran
+
+Implementações com limites explícitos, documentação e ensaios nativos. Consulte os contratos e as execuções de Actions para conferir a versão examinada.
+
+| Projeto | Linguagem | Finalidade | Consulta |
+| --- | --- | --- | --- |
+| [Keyed Tree Merge](https://github.com/martinlofranodeoliveira/keyed-tree-merge) | D | Biblioteca determinística de mesclagem em três vias para árvores enraizadas sem ordenação entre irmãos, com identificadores estáveis, campos escalares tipados e evidências explícitas de conflitos estruturais. | [Docs](https://github.com/martinlofranodeoliveira/keyed-tree-merge/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/keyed-tree-merge/actions/workflows/ci.yml) |
+| [Bounded Canonical Prefix](https://github.com/martinlofranodeoliveira/bounded-canonical-prefix) | Nim | Biblioteca de tabelas Huffman canônicas com comprimento limitado, otimização determinística por package-merge e um pequeno formato binário explicitamente especificado, verificado por consumidor nativo independente. | [Docs](https://github.com/martinlofranodeoliveira/bounded-canonical-prefix/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/bounded-canonical-prefix/actions/workflows/ci.yml) |
+| [Scaled QR Evidence](https://github.com/martinlofranodeoliveira/scaled-qr-evidence) | Fortran | Biblioteca limitada de mínimos quadrados densos com QR Householder original, escalonamento e pivoteamento de colunas, refinamento iterativo limitado e diagnósticos numéricos verificados por oráculo SVD nativo do LAPACK. | [Docs](https://github.com/martinlofranodeoliveira/scaled-qr-evidence/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/scaled-qr-evidence/actions/workflows/ci.yml) |
+<!-- FOURTEENTH-NATIVE-BATCH:END -->

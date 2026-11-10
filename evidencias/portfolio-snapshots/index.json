@@ -1,0 +1,25 @@
+{
+  "schema_version": "portfolio-snapshot-index/1",
+  "evaluated_at_utc": "2026-11-10T03:50:18Z",
+  "total_repositories": 116,
+  "part_repository_limit": 100,
+  "parts": [
+    {
+      "path": "part-001-ff5348c05229e1a9.json",
+      "repositories": 100,
+      "sha256": "ff5348c05229e1a903133e3cf979f7ffdbdc9a69893a88a649fc6ed9fe704f03",
+      "first_repository": "anchored-affine-alignment",
+      "last_repository": "static-link-audit"
+    },
+    {
+      "path": "part-002-3e568ea584d764cc.json",
+      "repositories": 16,
+      "sha256": "3e568ea584d764ccb3e84ba91914fd3dad87f2bfb68e9c875fe02fe7fd85867f",
+      "first_repository": "stratified-permutation-mass",
+      "last_repository": "zig-debuglink-companion-audit"
+    }
+  ],
+  "provenance": "imported",
+  "import_instructions": "Import each part separately. This index is not an Evidence Board snapshot. No serialized record is session-verified.",
+  "legacy_single_snapshot_updated": false
+}

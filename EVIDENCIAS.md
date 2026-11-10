@@ -276,9 +276,9 @@ Este registro reúne o código público original produzido pela [Lofrano Tecnolo
 
 ## Consultar uma versão
 
-O [snapshot JSON](evidencias/portfolio-snapshot.json) registra a identidade de cada repositório, seu commit, horário da consulta, presença de arquivos de documentação, inventário de workflows e execuções de GitHub Actions daquele commit. Os dados foram consultados na API pública do GitHub. A data `evaluated_at_utc` identifica esta coleta; ela não se atualiza quando o arquivo é aberto.
+A [coleta desta série de 116 projetos](evidencias/portfolio-snapshots/index.json), avaliada em **10 de novembro de 2026, às 03:50:18 UTC**, registra repositórios, commits, horários individuais de consulta, documentação, workflows e execuções de Actions daquele commit. São duas partes para respeitar o limite de 100 repositórios por importação do painel: [Parte 1 · 100 repositórios](evidencias/portfolio-snapshots/part-001-ff5348c05229e1a9.json) · [Parte 2 · 16 repositórios](evidencias/portfolio-snapshots/part-002-3e568ea584d764cc.json). O índice serve para navegação; importe cada parte separadamente. Os dados vieram da API pública do GitHub e conservam a proveniência `imported`.
 
-Essa coleta histórica de CI contém 98 repositórios e foi avaliada em **5 de novembro de 2026, às 17:29:13 UTC**. O [inventário público automático](evidencias/public-projects.json), apresentado no início do catálogo, acompanha os repositórios e commits atuais, com data `collectedAt` própria. O status atual das verificações pode ser consultado nos links de Actions de cada projeto.
+O [arquivo histórico anterior](evidencias/portfolio-snapshot.json) contém 98 repositórios e foi avaliado em **5 de novembro de 2026, às 17:29:13 UTC**. Ele permanece preservado com sua própria data. O [inventário público automático](evidencias/public-projects.json), apresentado no início do catálogo, acompanha os repositórios e commits atuais, com data `collectedAt` própria. O status atual das verificações pode ser consultado nos links de Actions de cada projeto.
 
 Para conferir uma implementação:
 
@@ -289,7 +289,7 @@ Para conferir uma implementação:
 
 ## Inspecionar no painel
 
-Baixe o JSON e abra o [GitHub Evidence Board](https://martinlofranodeoliveira.github.io/github-evidence-board/). Use **Open local UTF-8 JSON** e **Apply snapshot**.
+Baixe uma das partes JSON e abra o [GitHub Evidence Board](https://martinlofranodeoliveira.github.io/github-evidence-board/). Use **Open local UTF-8 JSON** e **Apply snapshot**.
 
 O arquivo é identificado como evidência importada: o painel mostra `unverified_offline` até uma consulta explícita à API. No detalhe de um repositório, **Refresh this repository from GitHub** consulta os dados públicos atuais sem pedir credenciais. Exportar e importar o resultado novamente não preserva a autenticação da sessão. A consulta pode ser limitada pelo GitHub.
 
