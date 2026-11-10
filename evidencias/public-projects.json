@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T15:01:49.042546Z",
+  "collectedAt": "2026-11-10T15:27:41.886785Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 284,
+  "publicRepositoryCount": 285,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1260,6 +1260,27 @@
           "oid": "21b216efd9a74b1a0f79d1c0db9c3b70c87d7a47",
           "committedDate": "2026-11-10T14:55:47Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/commit/21b216efd9a74b1a0f79d1c0db9c3b70c87d7a47"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-esgoto-sanitario-nbr8160",
+      "description": "Dimensionamento hidráulico e sanitário de esgoto predial e ventilação segundo a ABNT NBR 8160:1999. 100% Python padrão, Zero Float.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-esgoto-sanitario-nbr8160",
+      "createdAt": "2026-11-10T15:04:37Z",
+      "pushedAt": "2026-11-10T15:24:25Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "1e17d013260481673956be510fb7e87d9f4faceb",
+          "committedDate": "2026-11-10T15:24:22Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-esgoto-sanitario-nbr8160/commit/1e17d013260481673956be510fb7e87d9f4faceb"
         }
       }
     },
@@ -3410,7 +3431,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T14:35:39Z",
+      "pushedAt": "2026-11-10T15:03:02Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3420,9 +3441,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "22490483a2970428d49e87e068341e7559f20671",
-          "committedDate": "2026-11-10T14:35:38Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/22490483a2970428d49e87e068341e7559f20671"
+          "oid": "378389190190b980861d9729489c189582d741c6",
+          "committedDate": "2026-11-10T15:03:00Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/378389190190b980861d9729489c189582d741c6"
         }
       }
     },
