@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T02:39:32.099293Z",
+  "collectedAt": "2026-11-10T04:10:52.700250Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 255,
+  "publicRepositoryCount": 262,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -21,6 +21,27 @@
           "oid": "be6f3ced211376a20259054ed05839a50647e560",
           "committedDate": "2026-11-09T01:41:42Z",
           "url": "https://github.com/martinlofranodeoliveira/acervo-de-leitura/commit/be6f3ced211376a20259054ed05839a50647e560"
+        }
+      }
+    },
+    {
+      "name": "amortizacao-clara",
+      "description": "Compare tabelas SAC e Price, simule amortizações extras e confira cada centavo. Aplicativo local em português, HTML/CSS/JavaScript, MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/amortizacao-clara",
+      "createdAt": "2026-11-10T02:59:25Z",
+      "pushedAt": "2026-11-10T02:59:30Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "9cef9401c71c4506a9217f1f35c8dd6024a49f10",
+          "committedDate": "2026-11-10T02:59:02Z",
+          "url": "https://github.com/martinlofranodeoliveira/amortizacao-clara/commit/9cef9401c71c4506a9217f1f35c8dd6024a49f10"
         }
       }
     },
@@ -210,6 +231,27 @@
           "oid": "89213a52cd6f92786f9cc2faaf2b62ec49780666",
           "committedDate": "2026-11-05T14:09:04Z",
           "url": "https://github.com/martinlofranodeoliveira/booklet-imposition-pack/commit/89213a52cd6f92786f9cc2faaf2b62ec49780666"
+        }
+      }
+    },
+    {
+      "name": "bounded-canonical-prefix",
+      "description": "A length-limited canonical Huffman codebook library with deterministic package-merge optimization and a small explicitly specified binary demonstration format checked by an independent native consumer.",
+      "url": "https://github.com/martinlofranodeoliveira/bounded-canonical-prefix",
+      "createdAt": "2026-11-10T02:52:26Z",
+      "pushedAt": "2026-11-10T02:52:32Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "a67ff95c9f8af600e037641e4283c2d1604fddf0",
+          "committedDate": "2026-11-10T02:52:23Z",
+          "url": "https://github.com/martinlofranodeoliveira/bounded-canonical-prefix/commit/a67ff95c9f8af600e037641e4283c2d1604fddf0"
         }
       }
     },
@@ -781,6 +823,27 @@
       }
     },
     {
+      "name": "cronograma-critico",
+      "description": "Planejamento por caminho crítico (CPM) com relações FS/SS/FF/SF, folgas, feriados e Gantt SVG. CLI/API Python local, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/cronograma-critico",
+      "createdAt": "2026-11-10T02:58:35Z",
+      "pushedAt": "2026-11-10T03:00:36Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "193305837aa2825f17ed31c4a5be77588650d11e",
+          "committedDate": "2026-11-10T02:58:34Z",
+          "url": "https://github.com/martinlofranodeoliveira/cronograma-critico/commit/193305837aa2825f17ed31c4a5be77588650d11e"
+        }
+      }
+    },
+    {
       "name": "cruzadas-de-papel",
       "description": "Construtor de palavras cruzadas em português: grade interativa, pistas, atividade e gabarito em SVG/IPUZ. Local, sem conta, código MIT.",
       "url": "https://github.com/martinlofranodeoliveira/cruzadas-de-papel",
@@ -1268,7 +1331,7 @@
       "description": "A bounded stratified Datalog library that computes finite relational fixed points and records one deterministic derivation per derived fact, including explicit lower-stratum absence evidence.",
       "url": "https://github.com/martinlofranodeoliveira/finite-rule-provenance",
       "createdAt": "2026-11-10T02:31:11Z",
-      "pushedAt": "2026-11-10T02:31:16Z",
+      "pushedAt": "2026-11-10T03:38:28Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -1278,9 +1341,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "95ce96ebf4e103b6a804d4fb740fe7c39c5d190c",
-          "committedDate": "2026-11-10T02:31:08Z",
-          "url": "https://github.com/martinlofranodeoliveira/finite-rule-provenance/commit/95ce96ebf4e103b6a804d4fb740fe7c39c5d190c"
+          "oid": "0798de7cd1e87e81780b8d20ca66e4de84d6999c",
+          "committedDate": "2026-11-10T03:38:26Z",
+          "url": "https://github.com/martinlofranodeoliveira/finite-rule-provenance/commit/0798de7cd1e87e81780b8d20ca66e4de84d6999c"
         }
       }
     },
@@ -1302,6 +1365,27 @@
           "oid": "4223c61abd91b75a42cec326b2b3303c4d009c3f",
           "committedDate": "2026-11-08T21:49:16Z",
           "url": "https://github.com/martinlofranodeoliveira/folha-de-contato/commit/4223c61abd91b75a42cec326b2b3303c4d009c3f"
+        }
+      }
+    },
+    {
+      "name": "folha-ponto-local",
+      "description": "Apure espelho de ponto e banco de horas em minutos exatos: turnos noturnos, intervalos, tolerâncias e alertas. CLI/API Python local, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/folha-ponto-local",
+      "createdAt": "2026-11-10T02:58:07Z",
+      "pushedAt": "2026-11-10T03:02:08Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "5710835ed65221cdb7f455a325e56a5e9275ae67",
+          "committedDate": "2026-11-10T03:00:25Z",
+          "url": "https://github.com/martinlofranodeoliveira/folha-ponto-local/commit/5710835ed65221cdb7f455a325e56a5e9275ae67"
         }
       }
     },
@@ -2230,6 +2314,27 @@
       }
     },
     {
+      "name": "keyed-tree-merge",
+      "description": "A deterministic three-way merge library for unordered rooted trees with stable node identifiers, typed scalar fields and explicit structural conflict witnesses.",
+      "url": "https://github.com/martinlofranodeoliveira/keyed-tree-merge",
+      "createdAt": "2026-11-10T02:45:34Z",
+      "pushedAt": "2026-11-10T02:45:41Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "d8f27b00a4ac331d477487931fc11a7e7e967176",
+          "committedDate": "2026-11-10T02:45:32Z",
+          "url": "https://github.com/martinlofranodeoliveira/keyed-tree-merge/commit/d8f27b00a4ac331d477487931fc11a7e7e967176"
+        }
+      }
+    },
+    {
       "name": "ldap-membership-evidence-lab",
       "description": "Resolve nested synthetic service groups through a private LDAP server, explaining duplicate paths, cycles and unresolved members. Export stable evidence only under an explicit companion-writer revision protocol.",
       "url": "https://github.com/martinlofranodeoliveira/ldap-membership-evidence-lab",
@@ -2969,7 +3074,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T02:39:14Z",
+      "pushedAt": "2026-11-10T04:10:33Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -2979,9 +3084,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "02952ebd3f00e8394003a8a4c8e2592dd139991c",
-          "committedDate": "2026-11-10T02:39:12Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/02952ebd3f00e8394003a8a4c8e2592dd139991c"
+          "oid": "9fb19e1b0b37b329e17a1497bec47b7c4d212a97",
+          "committedDate": "2026-11-10T04:10:31Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/9fb19e1b0b37b329e17a1497bec47b7c4d212a97"
         }
       }
     },
@@ -3444,6 +3549,27 @@
           "oid": "8b00b2e4a180689cdc3c4eba36162ca16e8ec96e",
           "committedDate": "2026-11-05T01:36:46Z",
           "url": "https://github.com/martinlofranodeoliveira/opensource-rea-lab/commit/8b00b2e4a180689cdc3c4eba36162ca16e8ec96e"
+        }
+      }
+    },
+    {
+      "name": "orcamento-composicoes",
+      "description": "Orçamento analítico por composições de preços unitários, BDI e explosão ABC com frações exatas. CLI/API Python local, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/orcamento-composicoes",
+      "createdAt": "2026-11-10T02:54:41Z",
+      "pushedAt": "2026-11-10T02:55:09Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "7a9d4451517e5d6f668a9efb41be26d80d7e0a96",
+          "committedDate": "2026-11-10T02:54:40Z",
+          "url": "https://github.com/martinlofranodeoliveira/orcamento-composicoes/commit/7a9d4451517e5d6f668a9efb41be26d80d7e0a96"
         }
       }
     },
@@ -4263,6 +4389,27 @@
           "oid": "5624c3fa97dd033a9174f8c6f856075aa331b15c",
           "committedDate": "2026-11-05T06:16:19Z",
           "url": "https://github.com/martinlofranodeoliveira/saga-compensation-lab/commit/5624c3fa97dd033a9174f8c6f856075aa331b15c"
+        }
+      }
+    },
+    {
+      "name": "scaled-qr-evidence",
+      "description": "A bounded dense least-squares library with original scaled column-pivoted Householder QR, limited iterative refinement and numerical diagnostics checked against a native LAPACK SVD oracle.",
+      "url": "https://github.com/martinlofranodeoliveira/scaled-qr-evidence",
+      "createdAt": "2026-11-10T02:58:58Z",
+      "pushedAt": "2026-11-10T02:59:05Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "11f8dd5e6f54111b1fc146982d275d785b51198f",
+          "committedDate": "2026-11-10T02:58:56Z",
+          "url": "https://github.com/martinlofranodeoliveira/scaled-qr-evidence/commit/11f8dd5e6f54111b1fc146982d275d785b51198f"
         }
       }
     },
