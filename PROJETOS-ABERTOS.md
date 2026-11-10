@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-hidraulica\-predial\-nbr5626](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626) | Dimensionamento determinístico de instalações prediais de água fria e quente \(ABNT NBR 5626\) em frações e grandezas inteiras exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRA… | [10/11/2026 13:22 · 9720116](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/commit/97201169c06a15e9c699bf43abf8b00c3ec6c44a) |
 | [rescisao\-trabalhista\-clt](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt) | Liquidação e cálculo determinístico de rescisão trabalhista sob a CLT, Lei 12\.506/2011, férias com 1/3, 13º salário, FGTS, INSS e IRRF progressivos\. CLI/API Python, português e MI… | [10/11/2026 13:04 · c7d22c6](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/commit/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d) |
 | [apuracao\-simples\-nacional](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional) | Apuração determinística do Simples Nacional \(LC 123/2006\), Anexos I a V, Fator R, Alíquota Efetiva e partição de tributos\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 12:48 · aadd80b](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/commit/aadd80bfc29d632d08aa79926dd4a9f06b7840ef) |
 | [cub\-construcao\-civil\-nbr12721](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721) | Cálculo determinístico de Custo Global de Construção, Área Equivalente \(NBR 12721\) e orçamentação CUB/m² em centavos e frações exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRA… | [10/11/2026 12:33 · 727f5a5](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/commit/727f5a5e9384e44f56a635d7afa6926bd7010f52) |
@@ -42,6 +43,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
+
+<!-- DELIVERY-DIMENSIONAMENTO-HIDRAULICA-PREDIAL-NBR5626-2026-11-10:BEGIN -->
+## Dimensionamento Hidráulico Predial · ABNT NBR 5626, NBR 5648, Pesos Relativos e Pressões
+
+Motor determinístico e matematicamente exato para dimensionamento, cálculo e verificação de redes prediais de água fria e quente sob a **ABNT NBR 5626:2020** e tubulações de PVC rígido soldável **NBR 5648**. Dimensionamento automático pelo método dos pesos relativos ($Q = 0,30 \times \sqrt{\sum P}$), controle estrito de velocidade máxima ($v \le 3,00$ m/s), controle de pressão estática máxima ($P_{est} \le 40,00$ m.c.a. / 400 kPa) e garantia de pressão dinâmica residual mínima em todos os pontos de consumo sanitários (chuveiros, bacias, lavatórios, pias e máquinas).
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Dimensionamento Hidráulico NBR 5626](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/releases/download/v1.0.0/exemplo-hidraulica.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/blob/97201169c06a15e9c699bf43abf8b00c3ec6c44a/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/releases/tag/v1.0.0) · 56 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/actions/runs/42823965062) |
+
+Aritmética inteira e racional exata (`Fraction`), sem aproximações por ponto flutuante (`float`). Emite Memorial de Cálculo formal em Markdown, planilhas CSV higienizadas contra injeção de fórmulas, JSON canônico determinístico com memória de cálculo, painel vetorial SVG independente (1440×900) e pacote ZIP determinístico. A integridade hidráulica é auditada por verificador independente sobre banco relacional `sqlite3`.
+
+<!-- DELIVERY-DIMENSIONAMENTO-HIDRAULICA-PREDIAL-NBR5626-2026-11-10:END -->
 
 <!-- DELIVERY-RESCISAO-TRABALHISTA-CLT-2026-11-10:BEGIN -->
 ## Rescisão Trabalhista CLT · Liquidação de Verbas, Aviso Prévio Lei 12.506, INSS, IRRF e FGTS

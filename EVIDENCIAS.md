@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-DIMENSIONAMENTO-HIDRAULICA-PREDIAL-NBR5626-2026-11-10:BEGIN -->
+## Dimensionamento Hidráulico Predial NBR 5626 e NBR 5648 · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/tree/97201169c06a15e9c699bf43abf8b00c3ec6c44a), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Dimensionamento determinístico de redes prediais de água fria e quente segundo a ABNT NBR 5626:2020 e tubos e conexões soldáveis de PVC ABNT NBR 5648.
+- Dimensionamento automático de diâmetros nominais comerciais (DN 20 a 110) pelo método probabilístico dos pesos relativos ($Q = 0,30 \times \sqrt{\sum P}$), computado via raiz inteira exata sem ponto flutuante. Controle de velocidade de escoamento ($v \le 3,00$ m/s), controle de pressão estática máxima ($P_{est} \le 40,00$ m.c.a. / 400 kPa), verificação de pressões dinâmicas residuais mínimas normativas nos pontos de utilização (chuveiros, bacias com caixa e válvula de descarga, lavatórios, pias e máquinas) e cálculo de perda de carga contínua e localizada por comprimentos equivalentes em frações racionais exatas (`Fraction`).
+- Passaram 56 testes locais cobrindo modelos de domínio, catálogos de aparelhos e tubulações, interpolação de perda de carga unitária $J$, detecção de ciclos direcionados e ordenação topológica de rede, codec canônico JSON com rejeição de BOM, float e profundidade excessiva, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/actions/runs/42823965062) em Linux (Python 3.11–3.14), Windows 3.14 e teste de isolamento de rede (`unshare`).
+- Wheel com 16 membros e sdist com 31 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-DIMENSIONAMENTO-HIDRAULICA-PREDIAL-NBR5626-2026-11-10:END -->
+
 <!-- EVIDENCE-RESCISAO-TRABALHISTA-CLT-2026-11-10:BEGIN -->
 ## Rescisão Trabalhista CLT, INSS, IRRF e FGTS · 10 de novembro de 2026
 
