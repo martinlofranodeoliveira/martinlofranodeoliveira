@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T23:51:53.637659Z",
+  "collectedAt": "2026-11-10T23:53:15.527731Z",
   "login": "martinlofranodeoliveira",
   "publicRepositoryCount": 317,
   "repositories": [
@@ -4019,7 +4019,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T23:35:54Z",
+      "pushedAt": "2026-11-10T23:52:55Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4029,9 +4029,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "e700407104259323f23a556ca12a4fe92fee7cc6",
-          "committedDate": "2026-11-10T23:35:53Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/e700407104259323f23a556ca12a4fe92fee7cc6"
+          "oid": "1dafcae40ff2c3ac6cad8f539ea0835107e7b151",
+          "committedDate": "2026-11-10T23:52:53Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/1dafcae40ff2c3ac6cad8f539ea0835107e7b151"
         }
       }
     },
