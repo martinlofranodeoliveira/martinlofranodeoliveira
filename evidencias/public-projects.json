@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T17:04:09.238828Z",
+  "collectedAt": "2026-11-10T17:27:33.795098Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 291,
+  "publicRepositoryCount": 292,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1281,6 +1281,27 @@
           "oid": "1e17d013260481673956be510fb7e87d9f4faceb",
           "committedDate": "2026-11-10T15:24:22Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-esgoto-sanitario-nbr8160/commit/1e17d013260481673956be510fb7e87d9f4faceb"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-estruturas-metalicas-nbr8800",
+      "description": "Dimensionamento analítico de perfis de aço estrutural sob tração, compressão, flexão e cisalhamento segundo a ABNT NBR 8800:2024 em frações exatas e Python puro.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-metalicas-nbr8800",
+      "createdAt": "2026-11-10T17:05:23Z",
+      "pushedAt": "2026-11-10T17:25:32Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "9e7f82b3e148c83d80f7a75cf1d40d97623149e3",
+          "committedDate": "2026-11-10T17:24:15Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-metalicas-nbr8800/commit/9e7f82b3e148c83d80f7a75cf1d40d97623149e3"
         }
       }
     },
@@ -3515,7 +3536,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T17:03:42Z",
+      "pushedAt": "2026-11-10T17:04:27Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3525,9 +3546,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "284c6847b76f8f25a05e847e12919089ab999b8a",
-          "committedDate": "2026-11-10T17:03:41Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/284c6847b76f8f25a05e847e12919089ab999b8a"
+          "oid": "432464eb5d95a5e65ed9ee038df1b62c7a0d9421",
+          "committedDate": "2026-11-10T17:04:26Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/432464eb5d95a5e65ed9ee038df1b62c7a0d9421"
         }
       }
     },
@@ -3872,7 +3893,7 @@
       "description": "A bounded Python PCA neighborhood-distortion SDK with exact rank-penalty receipts and a linked React/Three.js report inspector.",
       "url": "https://github.com/martinlofranodeoliveira/neighborhood-projection-studio",
       "createdAt": "2026-11-10T16:47:25Z",
-      "pushedAt": "2026-11-10T16:47:31Z",
+      "pushedAt": "2026-11-10T17:10:59Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
