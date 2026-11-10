@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-09T23:48:49.344952Z",
+  "collectedAt": "2026-11-10T02:39:32.099293Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 254,
+  "publicRepositoryCount": 255,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1260,6 +1260,27 @@
           "oid": "8de10fd1893ed22d6728e004271986feb291c379",
           "committedDate": "2026-11-05T01:33:56Z",
           "url": "https://github.com/martinlofranodeoliveira/file-manifest-check/commit/8de10fd1893ed22d6728e004271986feb291c379"
+        }
+      }
+    },
+    {
+      "name": "finite-rule-provenance",
+      "description": "A bounded stratified Datalog library that computes finite relational fixed points and records one deterministic derivation per derived fact, including explicit lower-stratum absence evidence.",
+      "url": "https://github.com/martinlofranodeoliveira/finite-rule-provenance",
+      "createdAt": "2026-11-10T02:31:11Z",
+      "pushedAt": "2026-11-10T02:31:16Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "95ce96ebf4e103b6a804d4fb740fe7c39c5d190c",
+          "committedDate": "2026-11-10T02:31:08Z",
+          "url": "https://github.com/martinlofranodeoliveira/finite-rule-provenance/commit/95ce96ebf4e103b6a804d4fb740fe7c39c5d190c"
         }
       }
     },
@@ -2948,7 +2969,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-09T10:14:45Z",
+      "pushedAt": "2026-11-10T02:39:14Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -2958,9 +2979,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "e859d43197ab046dd511dc915036d2bb4aa512ea",
-          "committedDate": "2026-11-09T10:14:44Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/e859d43197ab046dd511dc915036d2bb4aa512ea"
+          "oid": "02952ebd3f00e8394003a8a4c8e2592dd139991c",
+          "committedDate": "2026-11-10T02:39:12Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/02952ebd3f00e8394003a8a4c8e2592dd139991c"
         }
       }
     },

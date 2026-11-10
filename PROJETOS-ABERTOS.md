@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**254 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **09/11/2026 às 23:48 UTC**.
+**255 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 02:39 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [finite\-rule\-provenance](https://github.com/martinlofranodeoliveira/finite-rule-provenance) | A bounded stratified Datalog library that computes finite relational fixed points and records one deterministic derivation per derived fact, including explicit lower\-stratum absen… | [10/11/2026 02:31 · 95ce96e](https://github.com/martinlofranodeoliveira/finite-rule-provenance/commit/95ce96ebf4e103b6a804d4fb740fe7c39c5d190c) |
 | [zonas\-geojson](https://github.com/martinlofranodeoliveira/zonas-geojson) | Cruze pontos com áreas GeoJSON: furos, ilhas, fronteiras e sobreposições com predicados exatos\. CLI/API Python local, português e MIT — LOFRANO TECNOLOGIA\. | [09/11/2026 09:34 · 0c3196e](https://github.com/martinlofranodeoliveira/zonas-geojson/commit/0c3196e2771954dff2e6b56233933ed67649b1d6) |
 | [rateio\-claro](https://github.com/martinlofranodeoliveira/rateio-claro) | Divida despesas por pesos, confira cada centavo e registre acertos\. Aplicativo local em português, HTML/CSS/JavaScript, MIT — LOFRANO TECNOLOGIA\. | [09/11/2026 08:32 · 8ac126b](https://github.com/martinlofranodeoliveira/rateio-claro/commit/8ac126b4ec37b33cbd9209a8422e1cc799d4b837) |
 | [materiais\-em\-lote](https://github.com/martinlofranodeoliveira/materiais-em-lote) | Planejamento de materiais por listas técnicas multinível: estoque, lotes, embalagens e memória de cálculo exata\. CLI/API Python, português e MIT\. | [09/11/2026 07:11 · e991b21](https://github.com/martinlofranodeoliveira/materiais-em-lote/commit/e991b213e634f8eff35d8617abd1c7204728a09c) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [portaria\-local](https://github.com/martinlofranodeoliveira/portaria-local) | Recepção e controle local de presença por busca, código e QR, com correções no histórico, arquivos portáteis e interface em português\. MIT\. | [09/11/2026 04:53 · b34cf4c](https://github.com/martinlofranodeoliveira/portaria-local/commit/b34cf4c2e21a78ad4b5b2baae1f90bd0b025b79d) |
 | [mapa\-de\-mesas](https://github.com/martinlofranodeoliveira/mapa-de-mesas) | Organize convidados e grupos por mesas: capacidades, atribuições manuais, backup JSON, CSV e listas para impressão\. Local, português e MIT\. | [09/11/2026 04:04 · db3b68f](https://github.com/martinlofranodeoliveira/mapa-de-mesas/commit/db3b68f968083f2b59f6724e0d7dec6b5769b63a) |
 | [biblioteca\-de\-emprestimos](https://github.com/martinlofranodeoliveira/biblioteca-de-emprestimos) | Controle local de empréstimos de livros e ferramentas, devoluções parciais e atrasos\. Python sem dependências\. | [09/11/2026 03:38 · 1c60541](https://github.com/martinlofranodeoliveira/biblioteca-de-emprestimos/commit/1c605412a2e63d321415a7c4aecf4e834ad9ad94) |
-| [mapa\-midi](https://github.com/martinlofranodeoliveira/mapa-midi) | Inspeção local de arquivos MIDI: tempo racional exato, intervalos de notas, diagnósticos e rolo de piano SVG/PNG\. Python, MIT e documentação em português\. | [09/11/2026 03:13 · 71b832f](https://github.com/martinlofranodeoliveira/mapa-midi/commit/71b832f0eafab4c6d9645dfa6401584ca0519672) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
