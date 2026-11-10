@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T22:33:21.491036Z",
+  "collectedAt": "2026-11-10T22:48:09.494814Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 313,
+  "publicRepositoryCount": 314,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1260,6 +1260,27 @@
           "oid": "464211b8abc5cf4dc0dcfab295eeb80237d16ae4",
           "committedDate": "2026-11-10T20:27:54Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-alarme-incendio-nbr17240/commit/464211b8abc5cf4dc0dcfab295eeb80237d16ae4"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-central-glp-nbr13523",
+      "description": "Motor determinístico de engenharia para dimensionamento e auditoria de Centrais de GLP conforme ABNT NBR 13523:2019 com Zero-Float",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-central-glp-nbr13523",
+      "createdAt": "2026-11-10T22:34:14Z",
+      "pushedAt": "2026-11-10T22:46:51Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "1413dd0b5bc837d4f46a55257c834270d9baf51f",
+          "committedDate": "2026-11-10T22:45:34Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-central-glp-nbr13523/commit/1413dd0b5bc837d4f46a55257c834270d9baf51f"
         }
       }
     },
@@ -3935,7 +3956,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T22:32:58Z",
+      "pushedAt": "2026-11-10T22:33:37Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3945,9 +3966,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "60f92a95dfd18bcfa5535c23ba51933b6aa70751",
-          "committedDate": "2026-11-10T22:32:56Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/60f92a95dfd18bcfa5535c23ba51933b6aa70751"
+          "oid": "355af6d993210963e7fa61ad8f9e986530b251bc",
+          "committedDate": "2026-11-10T22:33:36Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/355af6d993210963e7fa61ad8f9e986530b251bc"
         }
       }
     },
