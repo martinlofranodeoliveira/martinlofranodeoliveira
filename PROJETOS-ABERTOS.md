@@ -43,6 +43,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
 
+<!-- DELIVERY-RATEIO-CONDOMINIO-FRACOES-2026-11-10:BEGIN -->
+## Rateio Condominial · fração ideal milesimal, hidrometria e centavos exatos
+
+Apuere cotas condominiais ordinárias, fundos de reserva e obras e medições individualizadas de água e gás sem arredondamentos cumulativos ou tolerâncias frouxas. Distribuição de centavos indivisíveis pelo algoritmo de Hare-Niemeyer (maiores restos) garantindo conservação contábil e jurídica estrita segundo o Código Civil (art. 1.336, I).
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Rateio Condominial](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/releases/download/v1.0.0/exemplo-rateio.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/blob/626cb9ba373bc092e0be8ef141fb1737be5daaa2/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/releases/tag/v1.0.0) · 55 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/actions/runs/42805930677) |
+
+Aritmética estritamente inteira em centavos (`int`), sem ponto flutuante (`float`), e frações racionais exatas (`Fraction`). Rateio de faturas gerais de água e gás com dedução de medições individuais e rateio proporcional da área comum por fração ideal. O pacote ZIP inclui `entrada.json`, `rateio.json`, `resumo-unidades.csv`, `despesas-detalhadas.csv`, `medicoes-hidrometros.csv`, relatório Markdown, painel visual analítico em SVG (1440×900) e auditoria relacional via `sqlite3` independente.
+
+<!-- DELIVERY-RATEIO-CONDOMINIO-FRACOES-2026-11-10:END -->
+
 <!-- DELIVERY-CONCILIACAO-BANCARIA-2026-11-10:BEGIN -->
 ## Conciliação Bancária · centavos exatos, extratos e lotes determinísticos
 

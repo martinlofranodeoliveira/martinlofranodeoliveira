@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-RATEIO-CONDOMINIO-FRACOES-2026-11-10:BEGIN -->
+## Rateio Condominial por Fração Ideal · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/tree/626cb9ba373bc092e0be8ef141fb1737be5daaa2), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor de rateio condominial por fração ideal milesimal exata com banimento estrito de ponto flutuante (`float`) e conformidade com o Código Civil art. 1.336, I.
+- Algoritmo dos maiores restos (Hare-Niemeyer / Hamilton) para distribuição determinística de centavos indivisíveis, cálculo de hidrômetros e gás por unidade com rateio de excedente de área comum por fração ideal, fundos com tratamento de isenções e prevenção contra injeção de fórmulas CSV (`=`, `+`, `-`, `@`, `\t`).
+- Passaram 55 testes locais cobrindo o codec JSON canônico, desempate lexicográfico estável, matriz de elegibilidade de fundos, medições com tarifa mínima fixa e verificador independente em `sqlite3` sem importação do pacote de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/actions/runs/42805930677) em Linux (Python 3.11–3.14), Windows e teste de isolamento de rede (`unshare`).
+- Wheel com 13 membros e sdist com 41 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-RATEIO-CONDOMINIO-FRACOES-2026-11-10:END -->
+
 <!-- EVIDENCE-CONCILIACAO-BANCARIA-2026-11-10:BEGIN -->
 ## Conciliação Bancária · 10 de novembro de 2026
 
