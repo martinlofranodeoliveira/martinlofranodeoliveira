@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T11:17:47.315970Z",
+  "collectedAt": "2026-11-10T11:31:07.859619Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 272,
+  "publicRepositoryCount": 273,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -3221,7 +3221,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T11:17:26Z",
+      "pushedAt": "2026-11-10T11:30:46Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3231,9 +3231,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "79990a45cf9532e0c467d0750da486a763763e9e",
-          "committedDate": "2026-11-10T11:17:25Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/79990a45cf9532e0c467d0750da486a763763e9e"
+          "oid": "7c1a2b7845e03d24b9f171e6f92c425b595456e9",
+          "committedDate": "2026-11-10T11:30:45Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/7c1a2b7845e03d24b9f171e6f92c425b595456e9"
         }
       }
     },
@@ -3927,6 +3927,27 @@
           "oid": "90ac9ed35df8bfa6797d67048add5e873066727f",
           "committedDate": "2026-11-08T20:47:30Z",
           "url": "https://github.com/martinlofranodeoliveira/pix-key-core/commit/90ac9ed35df8bfa6797d67048add5e873066727f"
+        }
+      }
+    },
+    {
+      "name": "plano-corte-barras",
+      "description": "Otimização determinística de corte unidimensional (1D) de barras, perfis e tubos com aproveitamento máximo e perda mínima. Zero dependências, Python 3.11+, MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/plano-corte-barras",
+      "createdAt": "2026-11-10T11:18:15Z",
+      "pushedAt": "2026-11-10T11:29:25Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "50b11e7e3766231c9ee6e40ed98b0db759a38bdd",
+          "committedDate": "2026-11-10T11:28:23Z",
+          "url": "https://github.com/martinlofranodeoliveira/plano-corte-barras/commit/50b11e7e3766231c9ee6e40ed98b0db759a38bdd"
         }
       }
     },
