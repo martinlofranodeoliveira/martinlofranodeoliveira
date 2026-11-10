@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T18:52:17.881438Z",
+  "collectedAt": "2026-11-10T19:12:52.361248Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 298,
+  "publicRepositoryCount": 299,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1470,6 +1470,27 @@
           "oid": "6164087ca5df0a475b2a9f7bec5b5d2ae90c7c72",
           "committedDate": "2026-11-10T16:17:30Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-sapatas-concreto-nbr6118/commit/6164087ca5df0a475b2a9f7bec5b5d2ae90c7c72"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-sistemas-sprinklers-nbr10897",
+      "description": "Motor analítico e CLI para dimensionamento de sistemas de chuveiros automáticos (sprinklers) conforme ABNT NBR 10897:2020 em Python puro com aritmética exata.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-sprinklers-nbr10897",
+      "createdAt": "2026-11-10T18:53:27Z",
+      "pushedAt": "2026-11-10T19:10:59Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "d316afbc3a1b1885cacd59a415ea96e80aa660ae",
+          "committedDate": "2026-11-10T19:10:07Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-sprinklers-nbr10897/commit/d316afbc3a1b1885cacd59a415ea96e80aa660ae"
         }
       }
     },
@@ -3662,7 +3683,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T18:51:57Z",
+      "pushedAt": "2026-11-10T18:52:32Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3672,9 +3693,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "236acc505de9076b7ef598df6500818be07937c1",
-          "committedDate": "2026-11-10T18:51:55Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/236acc505de9076b7ef598df6500818be07937c1"
+          "oid": "324c154e5e7c2831aa8be7a61ebf164db54bec7f",
+          "committedDate": "2026-11-10T18:52:31Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/324c154e5e7c2831aa8be7a61ebf164db54bec7f"
         }
       }
     },
