@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T12:11:07.361494Z",
+  "collectedAt": "2026-11-10T12:22:14.434089Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 275,
+  "publicRepositoryCount": 276,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -42,6 +42,27 @@
           "oid": "9cef9401c71c4506a9217f1f35c8dd6024a49f10",
           "committedDate": "2026-11-10T02:59:02Z",
           "url": "https://github.com/martinlofranodeoliveira/amortizacao-clara/commit/9cef9401c71c4506a9217f1f35c8dd6024a49f10"
+        }
+      }
+    },
+    {
+      "name": "analise-ponto-equilibrio",
+      "description": "Análise determinística de Ponto de Equilíbrio (Contábil, Econômico e Financeiro), Margem de Contribuição e Alavancagem Operacional em centavos e frações exatas. Zero dependências, Python 3.11+, MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio",
+      "createdAt": "2026-11-10T12:11:20Z",
+      "pushedAt": "2026-11-10T12:20:21Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "6b63a82e22f76247313a04e628ccb4eae4beb0e9",
+          "committedDate": "2026-11-10T12:19:30Z",
+          "url": "https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/commit/6b63a82e22f76247313a04e628ccb4eae4beb0e9"
         }
       }
     },
@@ -3242,7 +3263,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T12:10:47Z",
+      "pushedAt": "2026-11-10T12:21:52Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3252,9 +3273,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "aac2ba802bf715617af7cbc77f66f4842c9bcbab",
-          "committedDate": "2026-11-10T12:10:46Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/aac2ba802bf715617af7cbc77f66f4842c9bcbab"
+          "oid": "b7866ac35bb1aa5d7907cc22c7a012febee7533b",
+          "committedDate": "2026-11-10T12:21:51Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/b7866ac35bb1aa5d7907cc22c7a012febee7533b"
         }
       }
     },
