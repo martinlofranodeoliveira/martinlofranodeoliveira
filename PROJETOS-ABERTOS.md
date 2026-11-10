@@ -28,6 +28,21 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 <!-- PUBLIC-PROJECTS:END -->
 
+<!-- PYTHON-DATA-AI:BEGIN -->
+## Análise de dados e IA local · Python
+
+Três pacotes para experimentos reproduzíveis com tabelas e busca semântica. Todos têm SDK, CLI, documentação em português e inglês e exemplos sintéticos originais. Os contratos explicitam os limites de dados, os formatos e os estados de falha.
+
+| Projeto | Aplicação | Documentação |
+| --- | --- | --- |
+| [Calibrated Tabular Lab](https://github.com/martinlofranodeoliveira/calibrated-tabular-lab) | Investigar calibração de probabilidades e custos de limiar com quatro conjuntos separados; exportar JSON, CSV e HTML. | [Português](https://github.com/martinlofranodeoliveira/calibrated-tabular-lab/blob/main/README.pt-BR.md) |
+| [Tabular Drift Audit](https://github.com/martinlofranodeoliveira/tabular-drift-audit) | Conferir mudanças de esquema, ausências, distância KS, PSI e divergência Jensen–Shannon em um plano explícito. | [Português](https://github.com/martinlofranodeoliveira/tabular-drift-audit/blob/main/README.pt-BR.md) |
+| [Local Semantic Atlas](https://github.com/martinlofranodeoliveira/local-semantic-atlas) | Consultar um corpus pequeno com o modelo multilíngue aberto E5, artefatos conferidos por hash e ordenação por cosseno. | [Português](https://github.com/martinlofranodeoliveira/local-semantic-atlas/blob/main/docs/README.pt-BR.md) |
+
+A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
+<!-- PYTHON-DATA-AI:END -->
+
+
 <!-- DELIVERY-ORCAMENTO-COMPOSICOES-2026-11-10:BEGIN -->
 ## Orçamento por Composições · custos unitários, BDI e curva ABC
 
@@ -622,7 +637,7 @@ Três bibliotecas e CLIs Python com licença MIT, README em português, exemplos
 | [Predictive Grammar Kit](https://github.com/martinlofranodeoliveira/predictive-grammar-kit) | Rust | Análise de gramáticas livres de contexto, derivação de FIRST/FOLLOW e parsing preditivo LL(1) bounded em arena. | [Docs](https://github.com/martinlofranodeoliveira/predictive-grammar-kit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/predictive-grammar-kit/actions/workflows/ci.yml) |
 | [Mesh Section Loops](https://github.com/martinlofranodeoliveira/mesh-section-loops) | C# | Fatiamento exato de malhas fechadas 2-variedades em polígonos planares 2D com aritmética racional e simplificação colinear. | [Docs](https://github.com/martinlofranodeoliveira/mesh-section-loops/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/mesh-section-loops/actions/workflows/ci.yml) |
 | [Colored Graph Witness](https://github.com/martinlofranodeoliveira/colored-graph-witness) | Kotlin | Isomorfismo exato de grafos pequenos direcionados e rotulados com refinamento 1-D Weisfeiler-Lehman e busca com retrocesso. | [Docs](https://github.com/martinlofranodeoliveira/colored-graph-witness/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/colored-graph-witness/actions/workflows/ci.yml) |
-| [Carton Hinge Studio](https://github.com/martinlofranodeoliveira/carton-hinge-studio) | TypeScript | Cinemática analítica de desdobramento de embalagens retangulares em 3D (Three.js), convergência de junções e exportação de faca de corte em SVG. | [Docs](https://github.com/martinlofranodeoliveira/carton-hinge-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/carton-hinge-studio/actions/workflows/ci.yml) |
+| [Carton Hinge Studio](https://github.com/martinlofranodeoliveira/carton-hinge-studio) | TypeScript | Cinemática analítica de desdobramento de embalagens retangulares em 3D (Three.js), convergência de junções e exportação de planificação conceitual em SVG. | [Docs](https://github.com/martinlofranodeoliveira/carton-hinge-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/carton-hinge-studio/actions/workflows/ci.yml) |
 | [Reach Branch Studio](https://github.com/martinlofranodeoliveira/reach-branch-studio) | TypeScript | Cinemática analítica de braço robótico com 3 juntas rotativas (Three.js), enumeração de ramos de cotovelo, alternativas radiais e rejeição por limites articulares. | [Docs](https://github.com/martinlofranodeoliveira/reach-branch-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/reach-branch-studio/actions/workflows/ci.yml) |
 | [Debuglink Companion Audit](https://github.com/martinlofranodeoliveira/zig-debuglink-companion-audit) | Zig | Auditor de binários ELF e arquivos de depuração auxiliares (.gnu_debuglink) com verificação de CRC32 IEEE 802.3, interoperabilidade libelf e barreiras contra TOCTOU. | [Docs](https://github.com/martinlofranodeoliveira/zig-debuglink-companion-audit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/zig-debuglink-companion-audit/actions/workflows/ci.yml) |
 | [Reproducible ZIP Release Packer](https://github.com/martinlofranodeoliveira/rust-reproducible-zip-release) | Rust | Empacotador delimitado de releases para arquivos próprios com bytes ZIP estáveis sob compressão fixada, concessão cooperativa de fontes e publicação atômica via linkat. | [Docs](https://github.com/martinlofranodeoliveira/rust-reproducible-zip-release/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/rust-reproducible-zip-release/actions/workflows/ci.yml) |

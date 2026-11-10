@@ -102,6 +102,24 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 
 As demos usam cenários sintéticos. Seu código e arquivos publicados foram conferidos; a revisão visual em navegador permanece pendente. Veja o alcance da validação em [EVIDENCIAS.md](EVIDENCIAS.md).
 
+<!-- PYTHON-DATA-AI:BEGIN -->
+### Dados e IA em Python
+
+![Instrumentos conceituais de análise de dados e calibração](./assets/python-data-ai-sunburst26.webp)
+
+<sub>Ilustração conceitual criada com OpenAI GPT Image 2.6 Sunburst; não representa resultados medidos nem uma captura dos programas.</sub>
+
+Pacotes com SDK, CLI, exemplos sintéticos e documentação em português e inglês para experimentar análise de dados e modelos locais.
+
+| Projeto | O que experimentar | Documentação |
+| --- | --- | --- |
+| [Calibrated Tabular Lab](https://github.com/martinlofranodeoliveira/calibrated-tabular-lab) | Comparar probabilidades originais e calibradas, com treino, calibração, escolha de limiar e teste separados. | [Instalar e executar](https://github.com/martinlofranodeoliveira/calibrated-tabular-lab/blob/main/README.pt-BR.md) |
+| [Tabular Drift Audit](https://github.com/martinlofranodeoliveira/tabular-drift-audit) | Comparar distribuições, ausências e esquema entre tabelas Arrow, CSV e Parquet. | [Instalar e executar](https://github.com/martinlofranodeoliveira/tabular-drift-audit/blob/main/README.pt-BR.md) |
+| [Local Semantic Atlas](https://github.com/martinlofranodeoliveira/local-semantic-atlas) | Buscar documentos em português e inglês com embeddings reais e inferência local ONNX. | [Preparar o modelo e consultar](https://github.com/martinlofranodeoliveira/local-semantic-atlas/blob/main/docs/README.pt-BR.md) |
+
+As versões qualificadas, os testes e as limitações de cada pacote estão em [EVIDENCIAS.md](EVIDENCIAS.md). Código original MIT; modelos e dependências mantêm seus termos próprios.
+<!-- PYTHON-DATA-AI:END -->
+
 <details>
 <summary><strong>Ver os projetos desta série</strong></summary>
 
@@ -337,7 +355,7 @@ As demos usam cenários sintéticos. Seu código e arquivos publicados foram con
 | [Predictive Grammar Kit](https://github.com/martinlofranodeoliveira/predictive-grammar-kit) | Rust | Análise de gramáticas livres de contexto, derivação de FIRST/FOLLOW e parsing preditivo LL(1) bounded em arena. | [Docs](https://github.com/martinlofranodeoliveira/predictive-grammar-kit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/predictive-grammar-kit/actions/workflows/ci.yml) |
 | [Mesh Section Loops](https://github.com/martinlofranodeoliveira/mesh-section-loops) | C# | Fatiamento exato de malhas fechadas 2-variedades em polígonos planares 2D com aritmética racional e simplificação colinear. | [Docs](https://github.com/martinlofranodeoliveira/mesh-section-loops/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/mesh-section-loops/actions/workflows/ci.yml) |
 | [Colored Graph Witness](https://github.com/martinlofranodeoliveira/colored-graph-witness) | Kotlin | Isomorfismo exato de grafos pequenos direcionados e rotulados com refinamento 1-D Weisfeiler-Lehman e busca com retrocesso. | [Docs](https://github.com/martinlofranodeoliveira/colored-graph-witness/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/colored-graph-witness/actions/workflows/ci.yml) |
-| [Carton Hinge Studio](https://github.com/martinlofranodeoliveira/carton-hinge-studio) | TypeScript | Cinemática analítica de desdobramento de embalagens retangulares em 3D (Three.js), convergência de junções e exportação de faca de corte em SVG. | [Docs](https://github.com/martinlofranodeoliveira/carton-hinge-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/carton-hinge-studio/actions/workflows/ci.yml) |
+| [Carton Hinge Studio](https://github.com/martinlofranodeoliveira/carton-hinge-studio) | TypeScript | Cinemática analítica de desdobramento de embalagens retangulares em 3D (Three.js), convergência de junções e exportação de planificação conceitual em SVG. | [Docs](https://github.com/martinlofranodeoliveira/carton-hinge-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/carton-hinge-studio/actions/workflows/ci.yml) |
 | [Reach Branch Studio](https://github.com/martinlofranodeoliveira/reach-branch-studio) | TypeScript | Cinemática analítica de braço robótico com 3 juntas rotativas (Three.js), enumeração de ramos de cotovelo, alternativas radiais e rejeição por limites articulares. | [Docs](https://github.com/martinlofranodeoliveira/reach-branch-studio/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/reach-branch-studio/actions/workflows/ci.yml) |
 | [Debuglink Companion Audit](https://github.com/martinlofranodeoliveira/zig-debuglink-companion-audit) | Zig | Auditor de binários ELF e arquivos de depuração auxiliares (.gnu_debuglink) com verificação de CRC32 IEEE 802.3, interoperabilidade libelf e barreiras contra TOCTOU. | [Docs](https://github.com/martinlofranodeoliveira/zig-debuglink-companion-audit/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/zig-debuglink-companion-audit/actions/workflows/ci.yml) |
 | [Reproducible ZIP Release Packer](https://github.com/martinlofranodeoliveira/rust-reproducible-zip-release) | Rust | Empacotador delimitado de releases para arquivos próprios com bytes ZIP estáveis sob compressão fixada, concessão cooperativa de fontes e publicação atômica via linkat. | [Docs](https://github.com/martinlofranodeoliveira/rust-reproducible-zip-release/blob/main/README.pt-BR.md) · [Actions](https://github.com/martinlofranodeoliveira/rust-reproducible-zip-release/actions/workflows/ci.yml) |

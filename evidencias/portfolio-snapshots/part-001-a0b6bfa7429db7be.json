@@ -1,0 +1,3961 @@
+{
+  "schema_version": "0.1.0",
+  "evaluated_at_utc": "2026-11-10T06:58:27Z",
+  "ttl_seconds": 86400,
+  "repositories": [
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "anchored-affine-alignment",
+      "description": "A bounded global sequence-alignment library with affine gap costs, forced matching anchors, deterministic tie-breaking and ambiguity reporting. It returns replayable operations rather than only an edit score.",
+      "language": "Kotlin",
+      "source_sha": "c40e11a2883c5c747f3fd2b9a4f146f1de23479b",
+      "observed_at_utc": "2026-11-10T02:36:53Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407911721,
+            "name": "verify",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41999183360,
+            "workflow_id": 407911721,
+            "head_sha": "c40e11a2883c5c747f3fd2b9a4f146f1de23479b",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T09:07:08Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "approval-flow-core",
+      "description": "A deterministic approval-request core with authorized transitions, expected versions and reconstructable history. It records internal decisions without making payments, sending messages or invoking external systems.",
+      "language": "TypeScript",
+      "source_sha": "9735d660cb8c74d0851b9bf03b77c44d1236f8a0",
+      "observed_at_utc": "2026-11-10T02:36:53Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407648449,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41958704657,
+            "workflow_id": 407648449,
+            "head_sha": "9735d660cb8c74d0851b9bf03b77c44d1236f8a0",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T02:59:38Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "audio-edit-replay-lab",
+      "description": "A headless PCM audio assembly application that compiles sample-index edit plans into fixed FFmpeg operations, publishes audio with a source-to-output map and verifies exact decoded samples using synthetic fixtures.",
+      "language": "C#",
+      "source_sha": "a90e95806671e437e338230e3d15f195dded4bf0",
+      "observed_at_utc": "2026-11-10T02:36:53Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408231094,
+            "name": "ci",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42042542017,
+            "workflow_id": 408231094,
+            "head_sha": "a90e95806671e437e338230e3d15f195dded4bf0",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T14:12:48Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "booklet-imposition-pack",
+      "description": "Turn selected static PDF pages into bounded booklet signatures with explicit blank padding, sheet-side maps and deterministic geometry. A headless demo checks the PDF structure, text markers and raster samples.",
+      "language": "PHP",
+      "source_sha": "89213a52cd6f92786f9cc2faaf2b62ec49780666",
+      "observed_at_utc": "2026-11-10T02:36:53Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408228867,
+            "name": "offline-runtime-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42042250705,
+            "workflow_id": 408228867,
+            "head_sha": "89213a52cd6f92786f9cc2faaf2b62ec49780666",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T14:10:24Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "bounded-canonical-prefix",
+      "description": "A length-limited canonical Huffman codebook library with deterministic package-merge optimization and a small explicitly specified binary demonstration format checked by an independent native consumer.",
+      "language": "Nim",
+      "source_sha": "a67ff95c9f8af600e037641e4283c2d1604fddf0",
+      "observed_at_utc": "2026-11-10T03:41:20Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 412824469,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42745710100,
+            "workflow_id": 412824469,
+            "head_sha": "a67ff95c9f8af600e037641e4283c2d1604fddf0",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-10T02:53:05Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "bounded-observed-set",
+      "description": "A bounded observed-remove set for offline replica experiments, with explicit causal tags, atomic merge rejection and canonical snapshots. It demonstrates convergence and concurrent-add survival without clocks, transport or unsafe history pr",
+      "language": "C#",
+      "source_sha": "3ec460e8f22493bc1b06e2300b0cec0ecd866eff",
+      "observed_at_utc": "2026-11-10T02:36:56Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407852756,
+            "name": "checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41989868610,
+            "workflow_id": 407852756,
+            "head_sha": "3ec460e8f22493bc1b06e2300b0cec0ecd866eff",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:49:29Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "bounded-token-net",
+      "description": "A bounded token-flow library for modeling resource protocols, firing transitions atomically and exploring reachable markings. It returns replayable deadlock witnesses and distinguishes completed searches from budget-limited exploration.",
+      "language": "Elixir",
+      "source_sha": "4d9d17865cc3e9454d8c02821e5ea6bc0f8f7025",
+      "observed_at_utc": "2026-11-10T02:36:56Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407842295,
+            "name": "test",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41988270654,
+            "workflow_id": 407842295,
+            "head_sha": "4d9d17865cc3e9454d8c02821e5ea6bc0f8f7025",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:35:47Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "budget-hold-ledger",
+      "description": "Go quota ledger with concurrent reservations, explicit dispatch, settlement and uncertain-charge reconciliation. Retains overage evidence and blocks new holds. Includes race tests, bounded audit history and an offline demo.",
+      "language": "Go",
+      "source_sha": "734f59cfecfa760e61b1b540cde128d9bca34a12",
+      "observed_at_utc": "2026-11-10T02:36:56Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407723753,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41971063703,
+            "workflow_id": 407723753,
+            "head_sha": "734f59cfecfa760e61b1b540cde128d9bca34a12",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T04:59:19Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "business-day-calendar",
+      "description": "A business-date library with configured weekends and explicit closure dates. It calculates operational dates with LocalDate without inferring legal holidays or replacing employment/contract rules.",
+      "language": "Java",
+      "source_sha": "cbbe71876f88f266e6f0e0ae4187562c9e218c99",
+      "observed_at_utc": "2026-11-10T02:36:56Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407638081,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41957128241,
+            "workflow_id": 407638081,
+            "head_sha": "cbbe71876f88f266e6f0e0ae4187562c9e218c99",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T02:44:30Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "byte-corpus-suffix-index",
+      "description": "A bounded byte-corpus suffix index with overlapping occurrence and distinct-document queries. A callable Lua API and asserting CLI compare results with an independent naive substring oracle.",
+      "language": "Lua",
+      "source_sha": "deca7b199f2366e7a50b3eb5d04693aac3954a5c",
+      "observed_at_utc": "2026-11-10T02:36:58Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408158068,
+            "name": "tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42032052639,
+            "workflow_id": 408158068,
+            "head_sha": "deca7b199f2366e7a50b3eb5d04693aac3954a5c",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T13:01:36Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "cabinet-assembly-studio",
+      "description": "A React3D cabinet configurator with linked panel selection, dimensional editing, exploded assembly and deterministic component exports.",
+      "language": "TypeScript",
+      "source_sha": "f7ce91fbe30d776c92e5cc7b7b69f7d497b235d1",
+      "observed_at_utc": "2026-11-10T02:36:58Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408106610,
+            "name": "Verify",
+            "state": "active"
+          },
+          {
+            "id": 408107712,
+            "name": "pages-build-deployment",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42062492005,
+            "workflow_id": 408106610,
+            "head_sha": "f7ce91fbe30d776c92e5cc7b7b69f7d497b235d1",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:15:53Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "calibrated-tabular-lab",
+      "description": "An offline tabular machine-learning experiment package with four disjoint data roles, held-out probability calibration, independently checked evaluation and threshold-cost evidence, and bounded local reports using synthetic process-quality ",
+      "language": "Python",
+      "source_sha": "cba7abfdf1970e219dd3effd9c250ed36713d6e5",
+      "observed_at_utc": "2026-11-10T05:35:46Z",
+      "provenance": "imported",
+      "license": "unknown",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 412920555,
+            "name": "Native package and report gates",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42762390445,
+            "workflow_id": 412920555,
+            "head_sha": "cba7abfdf1970e219dd3effd9c250ed36713d6e5",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-10T05:29:47Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "capability-match-core",
+      "description": "A capacitated bipartite assignment library that maximizes fulfilled items before minimizing integer preference cost. It returns replayable assignments, unassigned items and independently verifiable optimality certificates.",
+      "language": "PHP",
+      "source_sha": "80a5ac88912adf249d041633f2cd4a3c4dad6540",
+      "observed_at_utc": "2026-11-10T02:36:58Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407825780,
+            "name": "checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41985731789,
+            "workflow_id": 407825780,
+            "head_sha": "80a5ac88912adf249d041633f2cd4a3c4dad6540",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:13:58Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "carton-hinge-studio",
+      "description": "A browser-local React and Three.js workbench for studying one six-face rectangular carton net. A single typed hinge layout drives the editable SVG net, actual articulated 3D faces, paired-edge feedback and portable studies.",
+      "language": "TypeScript",
+      "source_sha": "e0f2c1c0d5161d904715ff8ede4fea73869ffb9a",
+      "observed_at_utc": "2026-11-10T06:49:10Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411489494,
+            "name": "Check",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42770875247,
+            "workflow_id": 411489494,
+            "head_sha": "e0f2c1c0d5161d904715ff8ede4fea73869ffb9a",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-10T06:47:53Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "cidr-subnet-planner",
+      "description": "Offline IPv4/IPv6 CIDR audit and deterministic subnet planning in Python. Finds overlaps and non-canonical prefixes, allocates aligned VLSM blocks around reservations and reports exact free address space.",
+      "language": "Python",
+      "source_sha": "e7a5286c5e5fb53faf9ffaf3bc5c7e29e4327146",
+      "observed_at_utc": "2026-11-10T02:37:01Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407736731,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41973154376,
+            "workflow_id": 407736731,
+            "head_sha": "e7a5286c5e5fb53faf9ffaf3bc5c7e29e4327146",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T05:18:26Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "colored-graph-witness",
+      "description": "A small-graph isomorphism SDK for typed directed topologies. Exact color refinement and constrained backtracking either produce a verifiable mapping, establish non-isomorphism after completed reasoning or return an honest budget-limited unk",
+      "language": "Kotlin",
+      "source_sha": "6865c48f98cabaf1b46ad38636bb519f9b81d02e",
+      "observed_at_utc": "2026-11-10T02:37:00Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411478230,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42525838706,
+            "workflow_id": 411478230,
+            "head_sha": "6865c48f98cabaf1b46ad38636bb519f9b81d02e",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T21:35:41Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "config-provenance-resolver",
+      "description": "A layered configuration resolver producing effective state and per-path write provenance. It never reads the host environment and masks sensitive trace values without correlatable secret hashes.",
+      "language": "Rust",
+      "source_sha": "248cb4d1e955071c1158b22ee794b6282d4af955",
+      "observed_at_utc": "2026-11-10T02:37:00Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407753924,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41975375183,
+            "workflow_id": 407753924,
+            "head_sha": "248cb4d1e955071c1158b22ee794b6282d4af955",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T05:39:47Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "connection-handoff-reload-lab",
+      "description": "A Linux supervisor/worker lab that transfers accepted sockets with SCM_RIGHTS, switches new connections only after worker readiness and drains old sessions under explicit ownership and deadline rules.",
+      "language": "C",
+      "source_sha": "a29abc686f268fd6856f7f33e557d207550a8662",
+      "observed_at_utc": "2026-11-10T02:37:01Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407895764,
+            "name": "C lab checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41996762135,
+            "workflow_id": 407895764,
+            "head_sha": "a29abc686f268fd6856f7f33e557d207550a8662",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:44:45Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "control-flow-dominance-core",
+      "description": "A graph-only control-flow analysis library computing dominators, exit-conditioned postdominators, dominance frontiers, control dependencies and natural loops, with explicit treatment of unreachable and nonterminating regions.",
+      "language": "Java",
+      "source_sha": "33b364bdaadc6b051f1d939dad4ce0167b50ca96",
+      "observed_at_utc": "2026-11-10T02:37:03Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407970888,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42008434814,
+            "workflow_id": 407970888,
+            "head_sha": "33b364bdaadc6b051f1d939dad4ce0167b50ca96",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T10:10:49Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "corpus-font-bundle",
+      "description": "Build a bounded TTF/WOFF2 font bundle for an explicit text corpus, then replay shaping against the original font. Reject changed glyph advances or outline identities before publishing the bundle.",
+      "language": "Python",
+      "source_sha": "73c5cd9fbd7cac3adc622752219fb2062da32f8d",
+      "observed_at_utc": "2026-11-10T02:37:03Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408310925,
+            "name": "tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42053878914,
+            "workflow_id": 408310925,
+            "head_sha": "73c5cd9fbd7cac3adc622752219fb2062da32f8d",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T15:21:26Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "cpp-glb-geometry-budget",
+      "description": "A nonrendering GLB auditor for bounded static scenes. A mature glTF parser supplies metadata while original logic validates accessor/index use, composes world transforms, computes referenced geometry bounds and explains embedded-buffer and ",
+      "language": "C++",
+      "source_sha": "bd111d791a44719f51eec5b573979d55c5ba9fbc",
+      "observed_at_utc": "2026-11-10T02:37:03Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411547670,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42536921595,
+            "workflow_id": 411547670,
+            "head_sha": "bd111d791a44719f51eec5b573979d55c5ba9fbc",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T23:49:02Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "cursor-page-kit",
+      "description": "A forward keyset-pagination core with validated opaque cursors and a PDO/SQLite example. It demonstrates stable snapshot pagination with repeated sort values without building another CRUD dashboard.",
+      "language": "PHP",
+      "source_sha": "75a3bbfb42c743636081df45e2f88b646ad85b31",
+      "observed_at_utc": "2026-11-10T02:37:03Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407648450,
+            "name": "PHP checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41993374893,
+            "workflow_id": 407648450,
+            "head_sha": "75a3bbfb42c743636081df45e2f88b646ad85b31",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:18:58Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "deficit-round-queue",
+      "description": "A bounded, clock-free Deficit Round Robin scheduler for caller-owned work IDs and integer costs. It exposes complete rounds, cancellation and credit accounting without executing jobs or sending packets.",
+      "language": "Lua",
+      "source_sha": "1a2d97bf7bdd524c4cdee2d8dd78fa7e3cab8c15",
+      "observed_at_utc": "2026-11-10T02:37:05Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407788116,
+            "name": "Lua checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41979809210,
+            "workflow_id": 407788116,
+            "head_sha": "1a2d97bf7bdd524c4cdee2d8dd78fa7e3cab8c15",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:21:24Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "duplex-drain-pump",
+      "description": "A bounded Linux library for relaying two connected stream sockets while preserving backpressure and directional EOF. Includes a socketpair lab for partial writes, half-close draining and explicit idle deadlines.",
+      "language": "C",
+      "source_sha": "72ee164185b020d2d61cba6735c912973750bc6f",
+      "observed_at_utc": "2026-11-10T02:37:05Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407787793,
+            "name": "C checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41979761858,
+            "workflow_id": 407787793,
+            "head_sha": "72ee164185b020d2d61cba6735c912973750bc6f",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:21:10Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "ets-snapshot-bundles",
+      "description": "An ETS-backed immutable bundle index with monitored reader leases and atomic generation publication. Readers can inspect several keys without mixing versions, while pinned generations and request admission remain explicitly bounded.",
+      "language": "Elixir",
+      "source_sha": "b32f7bad46b805cd046774c1abdae4c082f38205",
+      "observed_at_utc": "2026-11-10T02:37:05Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407798348,
+            "name": "offline-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41981492134,
+            "workflow_id": 407798348,
+            "head_sha": "b32f7bad46b805cd046774c1abdae4c082f38205",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:36:37Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "fenced-weight-cache",
+      "description": "An asynchronous weighted LRU cache with single-flight loading, inclusive TTL expiry and generation-fenced invalidation. A deterministic manual-clock demo shows why an old in-flight load must not resurrect invalidated data.",
+      "language": "Dart",
+      "source_sha": "aa14d977ca9e707160fac12b5a9974360f16f87e",
+      "observed_at_utc": "2026-11-10T02:37:06Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407850891,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41989579634,
+            "workflow_id": 407850891,
+            "head_sha": "aa14d977ca9e707160fac12b5a9974360f16f87e",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:46:53Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "finite-rule-provenance",
+      "description": "A bounded stratified Datalog library that computes finite relational fixed points and records one deterministic derivation per derived fact, including explicit lower-stratum absence evidence.",
+      "language": "Racket",
+      "source_sha": "0798de7cd1e87e81780b8d20ca66e4de84d6999c",
+      "observed_at_utc": "2026-11-10T03:41:21Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 412809976,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42750758626,
+            "workflow_id": 412809976,
+            "head_sha": "0798de7cd1e87e81780b8d20ca66e4de84d6999c",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-10T03:39:45Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "frame-transform-studio",
+      "description": "A React3D rigid-frame editor explaining local/world transforms, quaternion interpolation and world-preserving reparenting with inspectable matrices.",
+      "language": "TypeScript",
+      "source_sha": "5ac300429a83a2552a4d87465679d809bae4f85d",
+      "observed_at_utc": "2026-11-10T02:37:07Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408127097,
+            "name": "Check",
+            "state": "active"
+          },
+          {
+            "id": 408130000,
+            "name": "pages-build-deployment",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42062503161,
+            "workflow_id": 408127097,
+            "head_sha": "5ac300429a83a2552a4d87465679d809bae4f85d",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:16:06Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "freebusy-slot-studio",
+      "description": "Offline browser studio and Node CLI for common availability. Intersects dated working intervals, subtracts buffered busy blocks and explains conflicts. Uses explicit UTC offsets and bounded slot generation.",
+      "language": "JavaScript",
+      "source_sha": "6bed4069d7aad3b6b11e92c87d929bfe5467de55",
+      "observed_at_utc": "2026-11-10T02:37:08Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407738041,
+            "name": "Offline verification",
+            "state": "active"
+          },
+          {
+            "id": 407744379,
+            "name": "pages-build-deployment",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41978964293,
+            "workflow_id": 407738041,
+            "head_sha": "6bed4069d7aad3b6b11e92c87d929bfe5467de55",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:13:30Z"
+          },
+          {
+            "id": 41978963584,
+            "workflow_id": 407744379,
+            "head_sha": "6bed4069d7aad3b6b11e92c87d929bfe5467de55",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:13:55Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "fulfillment-reconciliation-lab",
+      "description": "A synthetic integration and reconciliation lab correlating orders, reservation events and shipment snapshots, explaining quantity mismatches and missing evidence without money, payments or live inventory operations.",
+      "language": "Go",
+      "source_sha": "5dcad071d7d7fdb32f245107a1f7ddb1fcdf7f10",
+      "observed_at_utc": "2026-11-10T02:37:08Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407775724,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41978631194,
+            "workflow_id": 407775724,
+            "head_sha": "5dcad071d7d7fdb32f245107a1f7ddb1fcdf7f10",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:11:18Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "gettext-generation-workbench",
+      "description": "Exercise source extraction, catalog merging, MO compilation and real translated CLI rendering as one offline workflow. Immutable catalog generations prevent a renderer from mixing old and new translations.",
+      "language": "Ruby",
+      "source_sha": "1a0f4f14d3f4d04469eeb81d0875748cdf022e10",
+      "observed_at_utc": "2026-11-10T02:37:10Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408249203,
+            "name": "offline-workflow-tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42044848678,
+            "workflow_id": 408249203,
+            "head_sha": "1a0f4f14d3f4d04469eeb81d0875748cdf022e10",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T14:26:21Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "git-bundle-merge-rehearsal",
+      "description": "An offline merge-rehearsal application that imports a local Git bundle into a fresh private repository, performs Git's real three-way merge and exports either a verified result bundle or structured conflicts without changing the input.",
+      "language": "Ruby",
+      "source_sha": "55f11172f1defe40f8a5e77f816cdbe251d34b89",
+      "observed_at_utc": "2026-11-10T02:37:10Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407963347,
+            "name": "Ruby offline rehearsal tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42007294830,
+            "workflow_id": 407963347,
+            "head_sha": "55f11172f1defe40f8a5e77f816cdbe251d34b89",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T10:03:32Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "github-evidence-board",
+      "description": "Static browser workbench and Node CLI for inspecting public GitHub evidence snapshots, source SHAs, CI results and snapshot age. Includes synthetic offline demos, local import/export and explicit public API refresh.",
+      "language": "JavaScript",
+      "source_sha": "5b992ae803038d4be1bb2208df9138531054e0da",
+      "observed_at_utc": "2026-11-10T02:37:10Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407753743,
+            "name": "Offline checks",
+            "state": "active"
+          },
+          {
+            "id": 407763173,
+            "name": "pages-build-deployment",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41978969934,
+            "workflow_id": 407753743,
+            "head_sha": "5b992ae803038d4be1bb2208df9138531054e0da",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:13:34Z"
+          },
+          {
+            "id": 41978969752,
+            "workflow_id": 407763173,
+            "head_sha": "5b992ae803038d4be1bb2208df9138531054e0da",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:13:59Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "grpc-cancel-tree-lab",
+      "description": "A headless gRPC client, gateway and worker lab for bounded parallel batches, deadline propagation and cooperative cancellation. It exposes terminal work accounting and demonstrates why cancelling a caller must also stop its descendants.",
+      "language": "TypeScript",
+      "source_sha": "80a60598957e07bd5474676862a8b6116dd80aba",
+      "observed_at_utc": "2026-11-10T02:37:10Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407962635,
+            "name": "test",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42007162817,
+            "workflow_id": 407962635,
+            "head_sha": "80a60598957e07bd5474676862a8b6116dd80aba",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T10:01:27Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "guillotine-cut-plan",
+      "description": "A deterministic rectangle-packing library producing replayable guillotine cut certificates with integer dimensions, kerf and per-item rotation rules. Intended for planning experiments, not machine control or optimality claims.",
+      "language": "C++",
+      "source_sha": "8b77ee6334c6415a9eac462fb19537c66516ef98",
+      "observed_at_utc": "2026-11-10T02:37:12Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407787925,
+            "name": "C++ checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41979786372,
+            "workflow_id": 407787925,
+            "head_sha": "8b77ee6334c6415a9eac462fb19537c66516ef98",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:23:20Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "har-budget-audit",
+      "description": "A local HAR analyzer summarizing requests, known response bytes and latency percentiles by origin against explicit budgets. It does not capture traffic or invent performance scores.",
+      "language": "Dart",
+      "source_sha": "bd0da64c6ddada3e32bb30fdf396a33eb9d15051",
+      "observed_at_utc": "2026-11-10T02:37:12Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407700988,
+            "name": "Dart checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41967461828,
+            "workflow_id": 407700988,
+            "head_sha": "bd0da64c6ddada3e32bb30fdf396a33eb9d15051",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T04:23:38Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "health-probe-cli",
+      "description": "A one-shot HTTP probe for teams that need expected-status, availability, latency and response-limit checks in a JSON report. It is not a continuous monitoring service.",
+      "language": "Go",
+      "source_sha": "f2a81e58785ded739fa18ce92fa0040a82c0c3c1",
+      "observed_at_utc": "2026-11-10T02:37:12Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407638632,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41957217443,
+            "workflow_id": 407638632,
+            "head_sha": "f2a81e58785ded739fa18ce92fa0040a82c0c3c1",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T02:46:05Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "http-freshness-core",
+      "description": "A pure calculator of HTTP response age and a restricted freshness verdict from structured metadata and explicit times. It neither stores responses nor parses raw headers or implements a complete cache/proxy.",
+      "language": "Kotlin",
+      "source_sha": "e3011a5fee4be79e89c30aa14bda0bcaeda768d1",
+      "observed_at_utc": "2026-11-10T02:37:12Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407680886,
+            "name": "verify",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41967990605,
+            "workflow_id": 407680886,
+            "head_sha": "e3011a5fee4be79e89c30aa14bda0bcaeda768d1",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T04:29:57Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "indexed-png-palette-pack",
+      "description": "Convert bounded RGBA PNG fixtures into deterministic indexed palettes using exact integer error accounting. Real libpng output is checked through independent decoding, palette and packed-row oracles.",
+      "language": "C++",
+      "source_sha": "ce650c39d7abfd490a515e413b0747f9d6e472e8",
+      "observed_at_utc": "2026-11-10T02:37:14Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408390412,
+            "name": "offline-native-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42066727097,
+            "workflow_id": 408390412,
+            "head_sha": "ce650c39d7abfd490a515e413b0747f9d6e472e8",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:41:11Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "inotify-convergence-lab",
+      "description": "A Linux directory-index application over a fresh owned fixture tree. Real inotify events, rename cookies and quiescent reconciliation demonstrate when an index is current, dirty or incomplete.",
+      "language": "C",
+      "source_sha": "d2b18daae174071f761934da2aad6d327f316c36",
+      "observed_at_utc": "2026-11-10T02:37:14Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408164163,
+            "name": "Linux C checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42034999030,
+            "workflow_id": 408164163,
+            "head_sha": "d2b18daae174071f761934da2aad6d327f316c36",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T13:21:40Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "integer-periodic-neighbors",
+      "description": "An exact-integer periodic neighbor-list library for synthetic particle experiments, with minimum-image distances, conservative skin-based rebuilds and failure-atomic frame updates checked against an all-pairs oracle.",
+      "language": "Python",
+      "source_sha": "bee102ac54cb0bbe05c3dfb5dbb849edcb920494",
+      "observed_at_utc": "2026-11-10T02:37:15Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407984915,
+            "name": "offline-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42010579363,
+            "workflow_id": 407984915,
+            "head_sha": "bee102ac54cb0bbe05c3dfb5dbb849edcb920494",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T10:25:41Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "java-jdbc-cursor-rehearsal",
+      "description": "A real PostgreSQL/JDBC lab for server-side cursors, bounded consumption and cancellation. Portal inspection, independent activity observations and owned database barriers distinguish actual protocol outcomes from assumptions based on except",
+      "language": "Java",
+      "source_sha": "6d7129b81ceb23d39159755d552d31d6a55a050a",
+      "observed_at_utc": "2026-11-10T02:37:14Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411534071,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42534697890,
+            "workflow_id": 411534071,
+            "head_sha": "6d7129b81ceb23d39159755d552d31d6a55a050a",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T23:21:28Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "jpms-linkage-rehearsal",
+      "description": "Compile, package and launch fixed original JPMS service versions in separate JVMs. Rehearse binary-compatible defaults, missing abstract methods, ServiceLoader declarations and module encapsulation.",
+      "language": "Java",
+      "source_sha": "4a29bc810a64472b0d4236e95adbb31c9c0241e0",
+      "observed_at_utc": "2026-11-10T02:37:16Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 410931448,
+            "name": "offline-native-rehearsal",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42454786707,
+            "workflow_id": 410931448,
+            "head_sha": "4a29bc810a64472b0d4236e95adbb31c9c0241e0",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T06:28:42Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "julia-bounded-gk-evidence",
+      "description": "A integer-domain Greenwald–Khanna sketch with rational error parameters, explicit rank-interval certificates and failure-atomic bounded updates. Independent sorted-stream tests check rank evidence, including duplicates, rather than assuming",
+      "language": "Julia",
+      "source_sha": "790a74098d087ea734db15739f6a094212162caf",
+      "observed_at_utc": "2026-11-10T02:37:17Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408305290,
+            "name": "offline-evidence",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42053019663,
+            "workflow_id": 408305290,
+            "head_sha": "790a74098d087ea734db15739f6a094212162caf",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T15:17:12Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "keyed-tree-merge",
+      "description": "A deterministic three-way merge library for unordered rooted trees with stable node identifiers, typed scalar fields and explicit structural conflict witnesses.",
+      "language": "D",
+      "source_sha": "d8f27b00a4ac331d477487931fc11a7e7e967176",
+      "observed_at_utc": "2026-11-10T03:41:20Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 412820247,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42744956185,
+            "workflow_id": 412820247,
+            "head_sha": "d8f27b00a4ac331d477487931fc11a7e7e967176",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-10T02:46:13Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "ldap-membership-evidence-lab",
+      "description": "Resolve nested synthetic service groups through a private LDAP server, explaining duplicate paths, cycles and unresolved members. Export stable evidence only under an explicit companion-writer revision protocol.",
+      "language": "C#",
+      "source_sha": "c515ca52e043c1a5f5caab2c58cc6ece7ece7605",
+      "observed_at_utc": "2026-11-10T02:37:17Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408339714,
+            "name": "offline-synthetic-tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42058340369,
+            "workflow_id": 408339714,
+            "head_sha": "c515ca52e043c1a5f5caab2c58cc6ece7ece7605",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T15:47:30Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "local-semantic-atlas",
+      "description": "A local semantic-search SDK and CLI using one hash-pinned open multilingual embedding model, with explicit token admission, model provenance, deterministic ranking of a bounded document corpus and no runtime network calls.",
+      "language": "Python",
+      "source_sha": "1854b3648d4aaf8fe9d33965116ec012106c7a53",
+      "observed_at_utc": "2026-11-10T06:17:28Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 412938361,
+            "name": "Validate",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42765461005,
+            "workflow_id": 412938361,
+            "head_sha": "1854b3648d4aaf8fe9d33965116ec012106c7a53",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-10T05:59:36Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "logical-snapshot-handoff-lab",
+      "description": "A PostgreSQL-to-SQLite projection lab demonstrating exported-snapshot bootstrap, transactional pgoutput replay and crash-safe replication checkpoints. It makes the snapshot/change-stream handoff independently inspectable without an external",
+      "language": "Go",
+      "source_sha": "c9330e4a37fd9868d789808521eb00cc8df92294",
+      "observed_at_utc": "2026-11-10T02:37:17Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407991021,
+            "name": "offline-private-cluster",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42011567163,
+            "workflow_id": 407991021,
+            "head_sha": "c9330e4a37fd9868d789808521eb00cc8df92294",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T10:35:28Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "loopback-dns-cache-lab",
+      "description": "A loopback-only DNS client and authoritative-service lab demonstrating positive and negative caching, expiry, UDP truncation and TCP fallback with bounded messages and independently checkable protocol fixtures.",
+      "language": "TypeScript",
+      "source_sha": "a5f2553dfc22fcf9da89999a78e8049b034a164b",
+      "observed_at_utc": "2026-11-10T02:37:19Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407841852,
+            "name": "checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41988195657,
+            "workflow_id": 407841852,
+            "head_sha": "a5f2553dfc22fcf9da89999a78e8049b034a164b",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:34:54Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "loopback-tls-rotation-lab",
+      "description": "A local JSSE application demonstrates atomic TLS-context replacement: existing sessions keep their accepted generation while new sessions use the replacement. Disposable test PKI and an OpenSSL oracle make trust transitions headlessly check",
+      "language": "Java",
+      "source_sha": "c2a463c0f021e70c4c3693b158c6c4600b8d2b53",
+      "observed_at_utc": "2026-11-10T02:37:19Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407963340,
+            "name": "local-tls-lab",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42007292454,
+            "workflow_id": 407963340,
+            "head_sha": "c2a463c0f021e70c4c3693b158c6c4600b8d2b53",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T10:03:22Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "lsp-rename-rehearsal",
+      "description": "Rehearse semantic TypeScript renames against a real language-server subprocess. Produce a new checked workspace and edit receipt while leaving the imported source snapshot unchanged.",
+      "language": "TypeScript",
+      "source_sha": "653c91af90a3ffa574a3198eadfe32697431bf4d",
+      "observed_at_utc": "2026-11-10T02:37:19Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408206974,
+            "name": "checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42039225179,
+            "workflow_id": 408206974,
+            "head_sha": "653c91af90a3ffa574a3198eadfe32697431bf4d",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T13:50:16Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "mask-region-core",
+      "description": "A bounded binary-grid library for deterministic connected components, dual-connectivity hole filling and exact squared distance to background. Synthetic PNG round trips and numerical oracles make the demo checkable without viewing images.",
+      "language": "Java",
+      "source_sha": "ee738c775aa32111a9adc1ed88d538b6d4e847c7",
+      "observed_at_utc": "2026-11-10T02:37:19Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407851038,
+            "name": "Java checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41989606871,
+            "workflow_id": 407851038,
+            "head_sha": "ee738c775aa32111a9adc1ed88d538b6d4e847c7",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:47:03Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "mesh-section-loops",
+      "description": "An exact mesh-plane section SDK for small oriented triangular surfaces. Integer predicates and rational intersection coordinates produce topology-preserving contour loops, with explicit empty, degenerate, invalid and incomplete outcomes.",
+      "language": "C#",
+      "source_sha": "9197a62156310f4c7a077c426a7b791803730243",
+      "observed_at_utc": "2026-11-10T02:37:21Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411467514,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42524528323,
+            "workflow_id": 411467514,
+            "head_sha": "9197a62156310f4c7a077c426a7b791803730243",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T21:18:39Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "metric-cardinality-audit",
+      "description": "An offline cardinality auditor for an explicit Prometheus text-format subset. It counts series and distinct label values without reproducing label values in reports.",
+      "language": "Lua",
+      "source_sha": "2508055d59b3a1544b0271954ec7d95fc860b36b",
+      "observed_at_utc": "2026-11-10T02:37:21Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407700381,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41967350636,
+            "workflow_id": 407700381,
+            "head_sha": "2508055d59b3a1544b0271954ec7d95fc860b36b",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T04:22:18Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "modbus-register-replay-lab",
+      "description": "A synthetic Modbus TCP client, independent device emulator and fault proxy exercise typed register reads, bounded request planning and ambiguous write acknowledgments without hardware or external endpoints.",
+      "language": "Rust",
+      "source_sha": "a295ce3806deb3ba656417d843bbfa79240ddf8c",
+      "observed_at_utc": "2026-11-10T02:37:21Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408083449,
+            "name": "offline-validation",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42027480867,
+            "workflow_id": 408083449,
+            "head_sha": "a295ce3806deb3ba656417d843bbfa79240ddf8c",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T12:30:07Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "monotone-curve-core",
+      "description": "A shape-preserving monotone cubic interpolation library with derivatives, analytic integration and plateau-aware inverse brackets. Explicit domains, tolerances and iteration limits make synthetic calibration curves checkable without charts.",
+      "language": "Dart",
+      "source_sha": "198dd1c257b50ba1fcafdf38e509eda3d117c936",
+      "observed_at_utc": "2026-11-10T02:37:21Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407889922,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41996715165,
+            "workflow_id": 407889922,
+            "head_sha": "198dd1c257b50ba1fcafdf38e509eda3d117c936",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:44:18Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "mqtt-session-recovery-lab",
+      "description": "An end-to-end loopback Mosquitto lab for MQTT 3.1.1 retained messages, persistent sessions, queued QoS 1 delivery and Last Will. Fixed scenarios assert protocol outcomes without cloud brokers, credentials or a browser.",
+      "language": "Go",
+      "source_sha": "e2cbf83f8022dcdc7417244ab75b2ea874e6f441",
+      "observed_at_utc": "2026-11-10T02:37:24Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407803619,
+            "name": "local-broker-tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41982305763,
+            "workflow_id": 407803619,
+            "head_sha": "e2cbf83f8022dcdc7417244ab75b2ea874e6f441",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:44:41Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "multipart-object-commit-lab",
+      "description": "A local multipart-upload application combining PHP-FPM, nginx, SQLite metadata and digest-addressed objects. It demonstrates all-or-none batch visibility, concurrent deduplication and recovery from the filesystem/database commit gap.",
+      "language": "PHP",
+      "source_sha": "b26cee49ef517e223c2e978d717303cf706e8a4d",
+      "observed_at_utc": "2026-11-10T02:37:24Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407963344,
+            "name": "local-contract",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42007292900,
+            "workflow_id": 407963344,
+            "head_sha": "b26cee49ef517e223c2e978d717303cf706e8a4d",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T10:03:14Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "ndjson-redact",
+      "description": "An NDJSON log transformer that replaces explicitly selected JSON Pointer fields with per-record processing, explicit limits and diagnostics that do not repeat values. It does not promise complete anonymization.",
+      "language": "Rust",
+      "source_sha": "96d26f7b42ab6452480c0e1c53a4fb41125b169d",
+      "observed_at_utc": "2026-11-10T02:37:24Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407648440,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41958702957,
+            "workflow_id": 407648440,
+            "head_sha": "96d26f7b42ab6452480c0e1c53a4fb41125b169d",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T02:59:39Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "ocaml-regular-path-witness",
+      "description": "A bounded graph engine that finds a shortest path whose edge-label word belongs to a public regular-expression AST. It explains epsilon handling, deterministic tie-breaking and the difference between no witness and an exhausted search budge",
+      "language": "OCaml",
+      "source_sha": "e1ba874e2737120b5365be365d959460439ed319",
+      "observed_at_utc": "2026-11-10T02:37:24Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408414691,
+            "name": "offline-contract",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42070306543,
+            "workflow_id": 408414691,
+            "head_sha": "e1ba874e2737120b5365be365d959460439ed319",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T17:02:00Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "oci-layer-effect-explorer",
+      "description": "Explain an offline OCI image's effective filesystem without executing or extracting it. Resolve whiteouts and opaque directories, attribute surviving paths to layers and compare synthetic results with a real rootless unpacker.",
+      "language": "Go",
+      "source_sha": "f2c49289579e1ab67e8f21c9dbcc9c60e66ad69f",
+      "observed_at_utc": "2026-11-10T02:37:26Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408033080,
+            "name": "verify",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42018157021,
+            "workflow_id": 408033080,
+            "head_sha": "f2c49289579e1ab67e8f21c9dbcc9c60e66ad69f",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T11:21:13Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "ofd-lock-ownership-lab",
+      "description": "A Linux process lab and small callable library for byte-range lock ownership. Real competing processes demonstrate POSIX close hazards, open-file-description lock inheritance, independent ranges and deadline-aware acquisition without arbitr",
+      "language": "C",
+      "source_sha": "fdfb016e9d9258243aa95f4b7a37accf42491b89",
+      "observed_at_utc": "2026-11-10T02:37:26Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407908983,
+            "name": "Linux checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41998705702,
+            "workflow_id": 407908983,
+            "head_sha": "fdfb016e9d9258243aa95f4b7a37accf42491b89",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:59:55Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "offline-dependency-capsule",
+      "description": "Resolve a bounded local dependency catalog into an explainable lock capsule. Explicit platform and feature constraints, minimal lock changes and honest budget-exhausted results make small compatibility experiments reproducible.",
+      "language": "Kotlin",
+      "source_sha": "5d895b1f0fce36d81987c2943a3aa6f05806705f",
+      "observed_at_utc": "2026-11-10T02:37:27Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408084550,
+            "name": "verify",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42024651838,
+            "workflow_id": 408084550,
+            "head_sha": "5d895b1f0fce36d81987c2943a3aa6f05806705f",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T12:10:07Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "openapi-example-check",
+      "description": "An offline checker of JSON request/response body examples against a documented OpenAPI 3.1.1 subset. It helps API authors keep examples consistent without calling the real service.",
+      "language": "TypeScript",
+      "source_sha": "0f22f1ed315ae18e93d92388c295068c29765733",
+      "observed_at_utc": "2026-11-10T02:37:26Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407652164,
+            "name": "checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41959369921,
+            "workflow_id": 407652164,
+            "head_sha": "0f22f1ed315ae18e93d92388c295068c29765733",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T03:05:41Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "orthogonal-route-core",
+      "description": "A bounded integer-grid router for orthogonal connectors around rectangular obstacles. It minimizes Manhattan length and then bends, returning replayable paths or an explicit no-path result with a small-grid oracle.",
+      "language": "C++",
+      "source_sha": "bb61374731bade720fc7814bf5fb7cfa5f6e39ed",
+      "observed_at_utc": "2026-11-10T02:37:29Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407842166,
+            "name": "offline-verification",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41988244330,
+            "workflow_id": 407842166,
+            "head_sha": "bb61374731bade720fc7814bf5fb7cfa5f6e39ed",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:35:41Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "otp-state-upgrade-rehearsal",
+      "description": "Rehearse hot-code state migration for one fixed original OTP service. Real sys.change_code calls, versioned codecs, admission barriers and supervised recovery expose successful, rejected and incomplete upgrades.",
+      "language": "Elixir",
+      "source_sha": "b7b3bba9ba0a924037e3713dc9ec24ee209053f9",
+      "observed_at_utc": "2026-11-10T02:37:29Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408337619,
+            "name": "offline-rehearsal",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42058000828,
+            "workflow_id": 408337619,
+            "head_sha": "b7b3bba9ba0a924037e3713dc9ec24ee209053f9",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T15:45:00Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "pairwise-fixture-plan",
+      "description": "A deterministic constrained pairwise test-fixture planner. It enumerates a bounded configuration space, covers every feasible option pair and reports impossible pairs separately, with an independent coverage verifier and no test execution.",
+      "language": "Python",
+      "source_sha": "dfd772380577c289bba7389216657b513dd3768f",
+      "observed_at_utc": "2026-11-10T02:37:29Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407815909,
+            "name": "Source checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41984201432,
+            "workflow_id": 407815909,
+            "head_sha": "dfd772380577c289bba7389216657b513dd3768f",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:00:51Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "parquet-schema-union-rewrite",
+      "description": "Unify a small explicit Parquet schema subset and rewrite dictionary-backed columns with provenance. PyArrow performs real I/O while independent DuckDB queries verify rows, nulls and aggregates.",
+      "language": "Python",
+      "source_sha": "83d21b2483887984267b9666e9b860d565ed6759",
+      "observed_at_utc": "2026-11-10T02:37:29Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408406633,
+            "name": "bounded-offline-validation",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42069094535,
+            "workflow_id": 408406633,
+            "head_sha": "83d21b2483887984267b9666e9b860d565ed6759",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:54:02Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "php-ical-transition-rehearsal",
+      "description": "A bounded recurrence rehearsal that combines Sabre VObject expansion with native timezone resolution and explicit DST gap/fold policies. Each resolved, skipped or rejected occurrence carries event-instance provenance and independently check",
+      "language": "PHP",
+      "source_sha": "277148b08d5248484c2a17fa3affae9cb7bc0cc2",
+      "observed_at_utc": "2026-11-10T02:37:31Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411560254,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42538817775,
+            "workflow_id": 411560254,
+            "head_sha": "277148b08d5248484c2a17fa3affae9cb7bc0cc2",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-09T00:11:52Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "positional-record-codec",
+      "description": "PHP codec for explicit fixed-width record layouts. Parses and formats header/detail/trailer batches with exact minor-unit control sums, bounded input and diagnostics without raw field values. Includes synthetic offline fixtures.",
+      "language": "PHP",
+      "source_sha": "6c11536cd886d2829c4690dcaacdebc19761a8fb",
+      "observed_at_utc": "2026-11-10T02:37:31Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407736450,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41973106193,
+            "workflow_id": 407736450,
+            "head_sha": "6c11536cd886d2829c4690dcaacdebc19761a8fb",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T05:18:07Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "posix-run-capture",
+      "description": "A local Linux runner that captures stdout/stderr from an explicitly supplied command with output bounds, a deadline and a structured result. It is an automation utility, not a sandbox or agent orchestrator.",
+      "language": "C",
+      "source_sha": "1dbbb354d715c71332baf30667bc7c007e2272fd",
+      "observed_at_utc": "2026-11-10T02:37:31Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407700247,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42000195948,
+            "workflow_id": 407700247,
+            "head_sha": "1dbbb354d715c71332baf30667bc7c007e2272fd",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T09:11:08Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "postgres-isolation-replay-lab",
+      "description": "An isolated PostgreSQL concurrency lab that reproduces write skew, serialization retries and deadlock rollback using deterministic barriers and independent SQL checks, without touching an installed database.",
+      "language": "Ruby",
+      "source_sha": "f2eed1d5c71dab102800643e314a49c79a9fde03",
+      "observed_at_utc": "2026-11-10T02:37:32Z",
+      "provenance": "imported",
+      "license": "unknown",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407830641,
+            "name": "test",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41986508550,
+            "workflow_id": 407830641,
+            "head_sha": "f2eed1d5c71dab102800643e314a49c79a9fde03",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:21:44Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "predictive-grammar-kit",
+      "description": "A typed grammar-analysis and predictive-parsing SDK that explains nullable, FIRST and FOLLOW facts, LL(1) table conflicts and token-level rejection. It produces replayable parse trees only when the grammar is eligible and the requested work",
+      "language": "Rust",
+      "source_sha": "8ffa78242e32b1cfc258c31e1f485cdc29142e8e",
+      "observed_at_utc": "2026-11-10T02:37:33Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411460473,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42523192737,
+            "workflow_id": 411460473,
+            "head_sha": "8ffa78242e32b1cfc258c31e1f485cdc29142e8e",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T21:03:21Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "raster-priority-mosaic",
+      "description": "A headless GeoTIFF mosaic application with explicit grid geometry, valid-mask-aware priority rules and per-pixel provenance and coverage outputs. Tiny synthetic rasters make reprojection and overlap behavior independently checkable.",
+      "language": "Python",
+      "source_sha": "f84fc4a322c0cfd251b4e06246e55bc6e2240eac",
+      "observed_at_utc": "2026-11-10T02:37:33Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408170928,
+            "name": "offline-raster-tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42034000991,
+            "workflow_id": 408170928,
+            "head_sha": "f84fc4a322c0cfd251b4e06246e55bc6e2240eac",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T13:15:23Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "rational-halfspace-witnesses",
+      "description": "An exact rational feasibility library for small systems of non-strict linear inequalities, returning either a checked feasible point, a replayable infeasibility certificate or an explicit exhausted-budget result.",
+      "language": "Haskell",
+      "source_sha": "5fe7edb512265fcad88b914581850cf8eda15f9f",
+      "observed_at_utc": "2026-11-10T02:37:33Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408437556,
+            "name": "native-offline-gates",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42074093011,
+            "workflow_id": 408437556,
+            "head_sha": "5fe7edb512265fcad88b914581850cf8eda15f9f",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T17:24:12Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "rational-polyphase-stream",
+      "description": "A streaming rational-rate FIR resampler with explicit causal indexing, bounded history and chunk-invariant output. Synthetic numerical demos verify interpolation, decimation and flush behavior without audio playback.",
+      "language": "C++",
+      "source_sha": "dd6f6ea2e70c834505278aabc8472b9107bc5f3a",
+      "observed_at_utc": "2026-11-10T02:37:34Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407889775,
+            "name": "Build and test",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995785585,
+            "workflow_id": 407889775,
+            "head_sha": "dd6f6ea2e70c834505278aabc8472b9107bc5f3a",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:36:51Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "reach-branch-studio",
+      "description": "A browser-local React and Three.js workbench for an educational three-revolute-joint arm. Original analytic kinematics expose elbow branches, signed-radial alternatives, joint-limit rejection, singularities and geometric reachability in lin",
+      "language": "TypeScript",
+      "source_sha": "300dc9672427330a963a0cf01e404a7f02f94689",
+      "observed_at_utc": "2026-11-10T02:37:35Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411496453,
+            "name": "Check",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42528578387,
+            "workflow_id": 411496453,
+            "head_sha": "300dc9672427330a963a0cf01e404a7f02f94689",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T22:07:13Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "relational-fixture-slice",
+      "description": "Extract a bounded, referentially closed PostgreSQL test fixture from explicit seed rows, then restore it into a separate empty database. Exports preserve dependencies without pulling every dependent child.",
+      "language": "Python",
+      "source_sha": "8a704a16582c8536247896935e24eb3c8679e39c",
+      "observed_at_utc": "2026-11-10T02:37:36Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408018354,
+            "name": "serial-private-postgresql",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42015779177,
+            "workflow_id": 408018354,
+            "head_sha": "8a704a16582c8536247896935e24eb3c8679e39c",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T11:03:54Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "resumable-transfer-lab",
+      "description": "A .NET utility and end-to-end lab for interrupted local HTTP transfers using persisted state, Range/If-Range, a strong ETag and caller-supplied digest, without claiming production transport or origin authenticity.",
+      "language": "C#",
+      "source_sha": "0a5e071776b3f67672bb47dfad37977d5335cfd5",
+      "observed_at_utc": "2026-11-10T02:37:36Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407775888,
+            "name": "offline-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41977873016,
+            "workflow_id": 407775888,
+            "head_sha": "0a5e071776b3f67672bb47dfad37977d5335cfd5",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:03:59Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "retrieval-eval-kit",
+      "description": "An offline evaluator of retrieval rankings using Recall@K, MRR@K, source hit rate and abstention decisions on labeled cases. It calls no models and does not assess the semantic truth of generated answers.",
+      "language": "TypeScript",
+      "source_sha": "82370079d8732b9bc203167569b6f9e0553f75e9",
+      "observed_at_utc": "2026-11-10T02:37:37Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407654250,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41959742321,
+            "workflow_id": 407654250,
+            "head_sha": "82370079d8732b9bc203167569b6f9e0553f75e9",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T03:09:07Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "revision-validity-index",
+      "description": "An in-memory historical fact index separating effective intervals from knowledge revisions. Corrections split and coalesce intervals atomically while old revisions remain queryable under explicit retention and concurrency limits.",
+      "language": "Kotlin",
+      "source_sha": "3badda6e3050f01afa7af8dc983e151e1f7b6311",
+      "observed_at_utc": "2026-11-10T02:37:37Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407845215,
+            "name": "verify",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41990854603,
+            "workflow_id": 407845215,
+            "head_sha": "3badda6e3050f01afa7af8dc983e151e1f7b6311",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:58:55Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "revisioned-formula-cells",
+      "description": "A bounded typed formula library for atomic cell edits and deterministic incremental recalculation. Structured expressions avoid eval, while revision receipts explain changed cells and propagated errors.",
+      "language": "Dart",
+      "source_sha": "a7215d2083bdc872a3420280d00e345e0b5ec585",
+      "observed_at_utc": "2026-11-10T02:37:38Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407991031,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42011570016,
+            "workflow_id": 407991031,
+            "head_sha": "a7215d2083bdc872a3420280d00e345e0b5ec585",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T10:33:10Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "revisioned-fts-search-lab",
+      "description": "A loopback HTTP search application with SQLite FTS5, atomic revisioned document batches, exact tag filters and explicitly defined facet counts. A CLI writer and HTTP reader exercise crash recovery and concurrent access.",
+      "language": "PHP",
+      "source_sha": "1f5016f03e63f9c045d70e94f8da5d7321a14b67",
+      "observed_at_utc": "2026-11-10T02:37:38Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407889607,
+            "name": "offline-lab",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995755748,
+            "workflow_id": 407889607,
+            "head_sha": "1f5016f03e63f9c045d70e94f8da5d7321a14b67",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:37:00Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "revisioned-text-buffer",
+      "description": "A bounded UTF-8 piece-table library for atomic multi-edit transactions, immutable read snapshots, UTF-16 position conversion and explicit position rebasing. A headless edit-tape demo checks every revision against a flat-string oracle.",
+      "language": "C++",
+      "source_sha": "ec69baab9cae7afb4a2291ed1080ada975eb70a1",
+      "observed_at_utc": "2026-11-10T02:37:39Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407948262,
+            "name": "regression",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42004900728,
+            "workflow_id": 407948262,
+            "head_sha": "ec69baab9cae7afb4a2291ed1080ada975eb70a1",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T09:45:32Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "rollback-connectivity-timeline",
+      "description": "An offline dynamic-connectivity library answering graph connectivity and component-size queries across edge additions and removals using interval decomposition and rollback union-find, with explicit completeness and work limits.",
+      "language": "Rust",
+      "source_sha": "7427312a099f0ee78ca40e4483c2cf6a0062088d",
+      "observed_at_utc": "2026-11-10T02:37:40Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407842012,
+            "name": "Rust checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41988220599,
+            "workflow_id": 407842012,
+            "head_sha": "7427312a099f0ee78ca40e4483c2cf6a0062088d",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:35:05Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "rollout-rule-engine",
+      "description": "Ruby feature-flag evaluation core with typed targeting rules, prerequisite cycle detection, complete SemVer comparisons and reproducible SHA-256 cohort buckets. Includes bounded decision traces and synthetic offline demos.",
+      "language": "Ruby",
+      "source_sha": "99c8da8ff8856068bc447a97a8ec2a10fda83f5d",
+      "observed_at_utc": "2026-11-10T02:37:41Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407736607,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41973130209,
+            "workflow_id": 407736607,
+            "head_sha": "99c8da8ff8856068bc447a97a8ec2a10fda83f5d",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T05:18:23Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "rust-reproducible-zip-release",
+      "description": "A bounded release packer for explicit owned files, with stable ZIP bytes under a locked compressor configuration, source-capture evidence and staged no-overwrite publication. Independent unzip and libarchive checks verify produced archives.",
+      "language": "Rust",
+      "source_sha": "2e1a36a9780a2d8e37cd8a277a15bade1f432806",
+      "observed_at_utc": "2026-11-10T02:37:41Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411525943,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42533131952,
+            "workflow_id": 411525943,
+            "head_sha": "2e1a36a9780a2d8e37cd8a277a15bade1f432806",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T23:02:24Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "saga-compensation-lab",
+      "description": "A Java integration lab for sequential compensable steps against local HTTP services, demonstrating reverse-order compensation and recovery from lost acknowledgments while blocking unresolved outcomes.",
+      "language": "Java",
+      "source_sha": "5624c3fa97dd033a9174f8c6f856075aa331b15c",
+      "observed_at_utc": "2026-11-10T02:37:42Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407784966,
+            "name": "offline-lab-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41979319231,
+            "workflow_id": 407784966,
+            "head_sha": "5624c3fa97dd033a9174f8c6f856075aa331b15c",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:16:53Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "scaled-qr-evidence",
+      "description": "A bounded dense least-squares library with original scaled column-pivoted Householder QR, limited iterative refinement and numerical diagnostics checked against a native LAPACK SVD oracle.",
+      "language": "Fortran",
+      "source_sha": "11f8dd5e6f54111b1fc146982d275d785b51198f",
+      "observed_at_utc": "2026-11-10T03:50:18Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 412828410,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42746409698,
+            "workflow_id": 412828410,
+            "head_sha": "11f8dd5e6f54111b1fc146982d275d785b51198f",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-10T02:59:45Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "schema-form-studio",
+      "description": "Offline browser studio and Node CLI for a bounded JSON Schema subset. Builds labeled forms, validates instances and exports JSON. Includes explicit unsupported-keyword errors and a finite-state pattern matcher.",
+      "language": "JavaScript",
+      "source_sha": "b6c8c8f99f49148d0a2efff168ec4e01579cbeee",
+      "observed_at_utc": "2026-11-10T02:37:42Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407738176,
+            "name": "CI",
+            "state": "active"
+          },
+          {
+            "id": 407744407,
+            "name": "pages-build-deployment",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41978967541,
+            "workflow_id": 407738176,
+            "head_sha": "b6c8c8f99f49148d0a2efff168ec4e01579cbeee",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:13:33Z"
+          },
+          {
+            "id": 41978966558,
+            "workflow_id": 407744407,
+            "head_sha": "b6c8c8f99f49148d0a2efff168ec4e01579cbeee",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:13:59Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "scoped-congruence-explanations",
+      "description": "A bounded ground-term equality engine with congruence closure, rollback scopes and replayable conflict explanations. A Z3 subprocess independently checks synthetic equality and disequality cases.",
+      "language": "C#",
+      "source_sha": "7837d0b7a8be86e593cb70d22881f57990d311b5",
+      "observed_at_utc": "2026-11-10T02:37:43Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407974373,
+            "name": "equality-ci",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42008958617,
+            "workflow_id": 407974373,
+            "head_sha": "7837d0b7a8be86e593cb70d22881f57990d311b5",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T10:14:39Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "selection-bitmap-core",
+      "description": "An immutable in-memory selection index for typed columns, evaluating bounded predicate trees with SQL-style true, false and unknown masks. SQLite oracle tests verify null semantics independently of the bitmap implementation.",
+      "language": "C#",
+      "source_sha": "3e79e63477bfb0d699816fb5fc5ba4f73f6c1c66",
+      "observed_at_utc": "2026-11-10T02:37:43Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407890080,
+            "name": "verify",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995838646,
+            "workflow_id": 407890080,
+            "head_sha": "3e79e63477bfb0d699816fb5fc5ba4f73f6c1c66",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:37:31Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "sequence-gap-audit",
+      "description": "A sequential-event log auditor identifying final gaps, repeated sequence numbers and out-of-order arrivals per stream. It is offline integrity inspection, not a broker consumer or event executor.",
+      "language": "Elixir",
+      "source_sha": "00af0626b7af7701b9c4b221e2ed51a8701c47fe",
+      "observed_at_utc": "2026-11-10T02:37:44Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407700718,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41967418258,
+            "workflow_id": 407700718,
+            "head_sha": "00af0626b7af7701b9c4b221e2ed51a8701c47fe",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T04:23:12Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "set-overlap-join",
+      "description": "An exact batch Jaccard-similarity join SDK for pretokenized sets. Original prefix indexing, cardinality filters and integer verification find qualifying pairs while preserving a clear distinction between a complete empty result and an incom",
+      "language": "Go",
+      "source_sha": "c12b2c4699518438471e676319b131911f77aa64",
+      "observed_at_utc": "2026-11-10T02:37:44Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411414429,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42517015010,
+            "workflow_id": 411414429,
+            "head_sha": "c12b2c4699518438471e676319b131911f77aa64",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T19:50:33Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "sftp-generation-publisher",
+      "description": "Publish bounded immutable file generations through a real owned OpenSSH SFTP server. Manifest verification, required rename extensions and explicit uncertain receipts protect multi-file reader consistency.",
+      "language": "Rust",
+      "source_sha": "5c83c801324910d496e9ea2ea12459ff9ba1b062",
+      "observed_at_utc": "2026-11-10T02:37:45Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408246560,
+            "name": "owned-sftp-lab",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42044513096,
+            "workflow_id": 408246560,
+            "head_sha": "5c83c801324910d496e9ea2ea12459ff9ba1b062",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T14:26:01Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "smtp-mime-capture-lab",
+      "description": "An offline SMTP sink and MIME inspection application for deterministic mail-integration tests. It exercises real SMTP transactions, durable local acceptance, recipient rejection and attachment decoding without sending external mail.",
+      "language": "Ruby",
+      "source_sha": "22ada93eba50dd9a440d47e03a93287e42a210e8",
+      "observed_at_utc": "2026-11-10T02:37:46Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407889422,
+            "name": "Test",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995728411,
+            "workflow_id": 407889422,
+            "head_sha": "22ada93eba50dd9a440d47e03a93287e42a210e8",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:36:53Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "source-map-chain-replay-lab",
+      "description": "A headless compiler, bundler and Node replay lab that traces structured stack frames through explicit source-map chains, preserves unmapped locations and checks results against Node's native source-map support.",
+      "language": "TypeScript",
+      "source_sha": "04735016b7867092f9474cb4801f260fd3c1e224",
+      "observed_at_utc": "2026-11-10T02:37:46Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407890612,
+            "name": "offline-after-install-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41995924383,
+            "workflow_id": 407890612,
+            "head_sha": "04735016b7867092f9474cb4801f260fd3c1e224",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:37:45Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "spatial-loading-studio",
+      "description": "A React3D spatial placement editor for bounded boxes, with exact interior-overlap rules, axis-aligned rotations, undo and deterministic plans.",
+      "language": "TypeScript",
+      "source_sha": "8b9dd49c5a7aaef7caf57535c7bafba6ec22062b",
+      "observed_at_utc": "2026-11-10T02:37:46Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408082829,
+            "name": "checks",
+            "state": "active"
+          },
+          {
+            "id": 408084590,
+            "name": "pages-build-deployment",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42062511773,
+            "workflow_id": 408082829,
+            "head_sha": "8b9dd49c5a7aaef7caf57535c7bafba6ec22062b",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:16:05Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "spill-outer-join",
+      "description": "A bounded external-sort full outer join for local keyed JSONL streams. It preserves duplicate multiplicity, exposes SQL-like null nonmatching and publishes no result when parsing, Cartesian expansion or disk limits fail.",
+      "language": "Kotlin",
+      "source_sha": "f092a78c0f6ff9c78e17b64b4db83ba1c3066a35",
+      "observed_at_utc": "2026-11-10T02:37:48Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407803448,
+            "name": "local-contract",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41982283368,
+            "workflow_id": 407803448,
+            "head_sha": "f092a78c0f6ff9c78e17b64b4db83ba1c3066a35",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:44:50Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "sqlite-migration-rehearsal-lab",
+      "description": "A disposable SQLite migration rehearsal using a consistent copy, explicit invariants and up/down/up state comparisons, preserving the source and avoiding general SQL-equivalence claims.",
+      "language": "Python",
+      "source_sha": "962fe9166c09e566975da0cbd2425f5e59fd777e",
+      "observed_at_utc": "2026-11-10T02:37:48Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407762270,
+            "name": "SQLite runtime checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41993369316,
+            "workflow_id": 407762270,
+            "head_sha": "962fe9166c09e566975da0cbd2425f5e59fd777e",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:19:04Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    }
+  ]
+}

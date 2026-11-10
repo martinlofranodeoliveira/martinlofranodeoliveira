@@ -1,0 +1,17 @@
+{
+  "schema": "illustration-provenance/1",
+  "asset": "python-data-ai-sunburst26.webp",
+  "kind": "AI-generated conceptual still-life illustration; not a chart, measured experiment or software screenshot",
+  "generator": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "complexity": "high",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "prompt": "Use case: stylized-concept. Asset type: editorial concept cover for forthcoming original Python data-analysis and machine-learning open source tools. This is a conceptual still-life, never a software screenshot, measured result, client project or performance claim.\nCreate an exceptional contemporary scientific-instrument still life photographed as a real physical maquette. On a pale warm-grey mineral tabletop: two precise transparent acrylic trays hold small cobalt-blue and warm amber glass cylinders in clearly different but elegant histogram-like distributions; a polished matte-metal calibration instrument with a thin circular dial and a single precise pointer sits beside them; fine paper data cards are stacked neatly nearby. A restrained charcoal pencil and a tiny aluminium node-link model allude to reproducible Python experiments and machine learning. The cylinders are physical objects with real contact, no floating holograms.\nLarge-format editorial photography with orthographic three-quarter composition, graceful asymmetry, tangible material details, subtle machining edges, soft studio daylight, long delicate shadows. Quiet, exact, premium design-magazine art direction. Ground #f3f6f7, cobalt #235bd4, satin graphite, tiny warm amber accent. Fill the central composition and leave generous clean breathing room. No human subjects.\nNo typography, no labels, no letters, no numbers, no Python logo, no brand logos, no screenshots, no charts printed on screens, no dashboard cards, no neon, no purple gradients, no glowing brain, no robots, no decorative computer-code text. Original anonymous instruments only. The mood should suggest auditable data, thoughtful experimentation and elegant engineering rather than sci-fi.",
+  "original_png_sha256": "40b687813a56049eeeba7cc3ea46c440d0cab2d284d6989e5109a1accde6240a",
+  "published_webp_sha256": "e54aea7f26831f0e26efa7532bb5dc727057b93257329a3857dbca1d0227973c",
+  "webp_export": "Pillow WebP quality88, method6; format encoding only, no crop/composition/text/object edits",
+  "original_review": "Original PNG inspected in artifacts/image-generation/python-data-ai-cover-visual-review.json; conceptual acrylic distributions/metal dial, no labels/fake UI or client claims."
+}
