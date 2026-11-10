@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T11:53:39.890085Z",
+  "collectedAt": "2026-11-10T12:11:07.361494Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 274,
+  "publicRepositoryCount": 275,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1113,6 +1113,27 @@
           "oid": "95d6004c6a0ae121aab7b8cea9ca978bf0e5b936",
           "committedDate": "2026-11-08T20:53:02Z",
           "url": "https://github.com/martinlofranodeoliveira/diff-lines-core/commit/95d6004c6a0ae121aab7b8cea9ca978bf0e5b936"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-condutores-nbr5410",
+      "description": "Dimensionamento determinístico de condutores elétricos de baixa tensão e disjuntores segundo a ABNT NBR 5410 em miliamperes e frações exatas. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410",
+      "createdAt": "2026-11-10T11:54:11Z",
+      "pushedAt": "2026-11-10T12:08:49Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "30c4d022f6f2ec59d11509611e46a7ed5af6252c",
+          "committedDate": "2026-11-10T12:07:24Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/commit/30c4d022f6f2ec59d11509611e46a7ed5af6252c"
         }
       }
     },
@@ -3221,7 +3242,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T11:53:18Z",
+      "pushedAt": "2026-11-10T12:10:47Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3231,9 +3252,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "f07aefd49083a4fa76e5a6d9a5a54f390b62f0a1",
-          "committedDate": "2026-11-10T11:53:17Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/f07aefd49083a4fa76e5a6d9a5a54f390b62f0a1"
+          "oid": "aac2ba802bf715617af7cbc77f66f4842c9bcbab",
+          "committedDate": "2026-11-10T12:10:46Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/aac2ba802bf715617af7cbc77f66f4842c9bcbab"
         }
       }
     },
