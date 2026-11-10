@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T13:48:52.600721Z",
+  "collectedAt": "2026-11-10T14:02:48.741959Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 281,
+  "publicRepositoryCount": 282,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -525,6 +525,27 @@
           "oid": "367f8f0b0475ba7b1ce88ce5a6359a62ee885717",
           "committedDate": "2026-11-10T13:43:20Z",
           "url": "https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/commit/367f8f0b0475ba7b1ce88ce5a6359a62ee885717"
+        }
+      }
+    },
+    {
+      "name": "calculo-luminotecnico-nbr-iso-8995",
+      "description": "Cálculo luminotécnico determinístico pelo Método dos Lúmens (ABNT NBR ISO/CIE 8995-1) em frações e grandezas inteiras exatas. Zero dependências, Python 3.11+, MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995",
+      "createdAt": "2026-11-10T13:49:13Z",
+      "pushedAt": "2026-11-10T14:01:48Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "eac384d6017b31197662d7a76c02d6b1ba7ac0e9",
+          "committedDate": "2026-11-10T14:00:44Z",
+          "url": "https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/commit/eac384d6017b31197662d7a76c02d6b1ba7ac0e9"
         }
       }
     },
@@ -3347,7 +3368,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T13:48:31Z",
+      "pushedAt": "2026-11-10T13:49:12Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3357,9 +3378,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "4f434a7d9894e63f1d3d9870ebf127976cb1a3ad",
-          "committedDate": "2026-11-10T13:48:30Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/4f434a7d9894e63f1d3d9870ebf127976cb1a3ad"
+          "oid": "dd4ff10079b865163f15b99d1e632b318955c59a",
+          "committedDate": "2026-11-10T13:49:11Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/dd4ff10079b865163f15b99d1e632b318955c59a"
         }
       }
     },

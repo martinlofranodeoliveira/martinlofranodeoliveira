@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**281 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 13:48 UTC**.
+**282 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 14:02 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [calculo\-luminotecnico\-nbr\-iso\-8995](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995) | Cálculo luminotécnico determinístico pelo Método dos Lúmens \(ABNT NBR ISO/CIE 8995\-1\) em frações e grandezas inteiras exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOL… | [10/11/2026 14:00 · eac384d](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/commit/eac384d6017b31197662d7a76c02d6b1ba7ac0e9) |
 | [calculo\-estabilidade\-taludes\-nbr11682](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682) | Cálculo determinístico de estabilidade de taludes e encostas \(ABNT NBR 11682\) via métodos de Fellenius e Bishop Simplificado em frações e grandezas inteiras exatas\. Zero dependênc… | [10/11/2026 13:43 · 367f8f0](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/commit/367f8f0b0475ba7b1ce88ce5a6359a62ee885717) |
 | [dimensionamento\-hidraulica\-predial\-nbr5626](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626) | Dimensionamento determinístico de instalações prediais de água fria e quente \(ABNT NBR 5626\) em frações e grandezas inteiras exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRANO… | [10/11/2026 13:22 · 9720116](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/commit/97201169c06a15e9c699bf43abf8b00c3ec6c44a) |
 | [rescisao\-trabalhista\-clt](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt) | Liquidação e cálculo determinístico de rescisão trabalhista sob a CLT, Lei 12\.506/2011, férias com 1/3, 13º salário, FGTS, INSS e IRRF progressivos\. CLI/API Python, português e MI… | [10/11/2026 13:04 · c7d22c6](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/commit/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [cub\-construcao\-civil\-nbr12721](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721) | Cálculo determinístico de Custo Global de Construção, Área Equivalente \(NBR 12721\) e orçamentação CUB/m² em centavos e frações exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRA… | [10/11/2026 12:33 · 727f5a5](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/commit/727f5a5e9384e44f56a635d7afa6926bd7010f52) |
 | [analise\-ponto\-equilibrio](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio) | Análise determinística de Ponto de Equilíbrio \(Contábil, Econômico e Financeiro\), Margem de Contribuição e Alavancagem Operacional em centavos e frações exatas\. Zero dependências,… | [10/11/2026 12:19 · 6b63a82](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/commit/6b63a82e22f76247313a04e628ccb4eae4beb0e9) |
 | [dimensionamento\-condutores\-nbr5410](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410) | Dimensionamento determinístico de condutores elétricos de baixa tensão e disjuntores segundo a ABNT NBR 5410 em miliamperes e frações exatas\. CLI/API Python, português e MIT — LOF… | [10/11/2026 12:07 · 30c4d02](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/commit/30c4d022f6f2ec59d11509611e46a7ed5af6252c) |
-| [precificacao\-cardapio\-cmv](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv) | Engenharia de cardápio, ficha técnica gastronômica, CMV alvo e matriz de rentabilidade \(Kasavana &amp; Smith\) em centavos e frações exatas\. CLI/API Python, português e MIT — LOFRANO T… | [10/11/2026 11:51 · 24271d7](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/commit/24271d75ff25f5bcb329ff4ba2689c22454c27bc) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
@@ -42,6 +42,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
+
+<!-- DELIVERY-CALCULO-LUMINOTECNICO-NBR-ISO-8995-2026-11-10:BEGIN -->
+## Cálculo Luminotécnico · ABNT NBR ISO/CIE 8995-1, Método dos Lúmens e Malha Isotrópica
+
+Motor determinístico e matematicamente exato para dimensionamento luminotécnico de interiores pelo **Método dos Lúmens (Cavidades Zonais)**, arranjo espacial isotrópico de luminárias no teto, cálculo de iluminância média mantida ($\bar{E}_m$) e Densidade de Potência Instalada ($DPI$), em estrita conformidade com a norma brasileira **ABNT NBR ISO/CIE 8995-1:2013** (Iluminação de ambientes de trabalho — Parte 1: Interior). Índice do Recinto $K = \frac{C \cdot L}{h_m (C + L)}$ em frações racionais exatas, interpolação de Fator de Utilização ($\eta$), Fator de Manutenção ($F_m$) e algoritmo de malha retangular com controle estrito de espaçamento uniforme ($S / h_m \le 1,50$).
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Cálculo Luminotécnico NBR 8995](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/releases/download/v1.0.0/exemplo-calculo-luminotecnico.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/blob/eac384d2b27131eb7d00f89839fcbe15c2d3ca61/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/releases/tag/v1.0.0) · 55 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/actions/runs/42829837895) |
+
+Aritmética inteira e racional exata (`Fraction`), sem aproximações por ponto flutuante (`float`). Emite Memorial de Cálculo formal em Markdown, planilhas CSV higienizadas contra injeção de fórmulas com coordenadas $(X, Y)$ de cada luminária, JSON canônico determinístico com memória de cálculo, planta baixa vetorial SVG independente (1440×900) e pacote ZIP determinístico. A integridade luminotécnica é auditada por verificador independente sobre banco relacional `sqlite3`.
+
+<!-- DELIVERY-CALCULO-LUMINOTECNICO-NBR-ISO-8995-2026-11-10:END -->
 
 <!-- DELIVERY-CALCULO-ESTABILIDADE-TALUDES-NBR11682-2026-11-10:BEGIN -->
 ## Estabilidade de Taludes e Encostas · ABNT NBR 11682, Fellenius e Bishop Simplificado

@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-CALCULO-LUMINOTECNICO-NBR-ISO-8995-2026-11-10:BEGIN -->
+## Cálculo Luminotécnico de Interiores NBR ISO/CIE 8995-1 · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/tree/eac384d2b27131eb7d00f89839fcbe15c2d3ca61), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor de cálculo luminotécnico para iluminação de ambientes de trabalho interiores segundo a norma ABNT NBR ISO/CIE 8995-1:2013 pelo Método dos Lúmens (Cavidades Zonais).
+- Determinação do índice do recinto ($K = \frac{C \times L}{h_m (C + L)}$), interpolação bilinear racional do fator de utilização ($\eta$) por refletâncias de teto, paredes e plano de trabalho, cálculo do fluxo luminoso total necessário ($\Phi_{\text{total}} = \frac{\bar{E}_m \times A}{\eta \times F_m}$), arranjo geométrico de luminárias com controle de espaçamento máximo ($S/h_m \le 1,50$) e isotropia de malha para uniformidade de iluminância. Banimento total de ponto flutuante (`float`) com cálculo 100% em grandezas inteiras (milímetros, lumens, lux, centavos) e frações racionais exatas (`Fraction`).
+- Passaram 55 testes locais cobrindo modelos de domínio, catálogo de tarefas e refletâncias, interpolação de fatores de utilização, otimização de arranjos geométricos, codec canônico JSON com rejeição de BOM, float, profundidade excessiva e chaves duplicadas, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/actions/runs/42829837895) em Linux (Python 3.11–3.14), Windows 3.14 e teste de isolamento de rede (`unshare`).
+- Wheel com 16 membros e sdist com 32 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/calculo-luminotecnico-nbr-iso-8995/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-CALCULO-LUMINOTECNICO-NBR-ISO-8995-2026-11-10:END -->
+
 <!-- EVIDENCE-CALCULO-ESTABILIDADE-TALUDES-NBR11682-2026-11-10:BEGIN -->
 ## Estabilidade de Taludes e Encostas NBR 11682 · 10 de novembro de 2026
 
