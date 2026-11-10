@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T12:52:46.517209Z",
+  "collectedAt": "2026-11-10T13:07:47.771479Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 278,
+  "publicRepositoryCount": 279,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -3305,7 +3305,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T12:52:26Z",
+      "pushedAt": "2026-11-10T13:07:26Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3315,9 +3315,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "bc75eaa7e3bead4752c83db7e0986e9eb736fedd",
-          "committedDate": "2026-11-10T12:52:25Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/bc75eaa7e3bead4752c83db7e0986e9eb736fedd"
+          "oid": "7b73552150b88579414f20c3d169d85af1248bc2",
+          "committedDate": "2026-11-10T13:07:25Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/7b73552150b88579414f20c3d169d85af1248bc2"
         }
       }
     },
@@ -4431,6 +4431,27 @@
           "oid": "8a704a16582c8536247896935e24eb3c8679e39c",
           "committedDate": "2026-11-05T11:03:11Z",
           "url": "https://github.com/martinlofranodeoliveira/relational-fixture-slice/commit/8a704a16582c8536247896935e24eb3c8679e39c"
+        }
+      }
+    },
+    {
+      "name": "rescisao-trabalhista-clt",
+      "description": "Liquidação e cálculo determinístico de rescisão trabalhista sob a CLT, Lei 12.506/2011, férias com 1/3, 13º salário, FGTS, INSS e IRRF progressivos. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt",
+      "createdAt": "2026-11-10T12:53:25Z",
+      "pushedAt": "2026-11-10T13:05:19Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d",
+          "committedDate": "2026-11-10T13:04:13Z",
+          "url": "https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/commit/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d"
         }
       }
     },

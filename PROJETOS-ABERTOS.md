@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**278 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 12:52 UTC**.
+**279 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 13:07 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,7 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
-| [rescisao\-trabalhista\-clt](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt) | Liquidação e cálculo determinístico de rescisão trabalhista sob a CLT, Lei 12.506/2011, INSS, IRRF e FGTS. Zero dependências, Python 3.11+, MIT — LOFRANO TECNOLOGIA. | [10/11/2026 13:04 · c7d22c6](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/commit/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d) |
+| [rescisao\-trabalhista\-clt](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt) | Liquidação e cálculo determinístico de rescisão trabalhista sob a CLT, Lei 12\.506/2011, férias com 1/3, 13º salário, FGTS, INSS e IRRF progressivos\. CLI/API Python, português e MI… | [10/11/2026 13:04 · c7d22c6](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/commit/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d) |
 | [apuracao\-simples\-nacional](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional) | Apuração determinística do Simples Nacional \(LC 123/2006\), Anexos I a V, Fator R, Alíquota Efetiva e partição de tributos\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 12:48 · aadd80b](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/commit/aadd80bfc29d632d08aa79926dd4a9f06b7840ef) |
 | [cub\-construcao\-civil\-nbr12721](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721) | Cálculo determinístico de Custo Global de Construção, Área Equivalente \(NBR 12721\) e orçamentação CUB/m² em centavos e frações exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRA… | [10/11/2026 12:33 · 727f5a5](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/commit/727f5a5e9384e44f56a635d7afa6926bd7010f52) |
 | [analise\-ponto\-equilibrio](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio) | Análise determinística de Ponto de Equilíbrio \(Contábil, Econômico e Financeiro\), Margem de Contribuição e Alavancagem Operacional em centavos e frações exatas\. Zero dependências,… | [10/11/2026 12:19 · 6b63a82](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/commit/6b63a82e22f76247313a04e628ccb4eae4beb0e9) |
@@ -25,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [precificacao\-cardapio\-cmv](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv) | Engenharia de cardápio, ficha técnica gastronômica, CMV alvo e matriz de rentabilidade \(Kasavana &amp; Smith\) em centavos e frações exatas\. CLI/API Python, português e MIT — LOFRANO T… | [10/11/2026 11:51 · 24271d7](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/commit/24271d75ff25f5bcb329ff4ba2689c22454c27bc) |
 | [plano\-corte\-barras](https://github.com/martinlofranodeoliveira/plano-corte-barras) | Otimização determinística de corte unidimensional \(1D\) de barras, perfis e tubos com aproveitamento máximo e perda mínima\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOLOGI… | [10/11/2026 11:28 · 50b11e7](https://github.com/martinlofranodeoliveira/plano-corte-barras/commit/50b11e7e3766231c9ee6e40ed98b0db759a38bdd) |
 | [rateio\-condominio\-fracoes](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes) | Rateio condominial determinístico por fração ideal milesimal, hidrômetros individualizados e conservação exata de centavos\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOLOG… | [10/11/2026 11:15 · 626cb9b](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/commit/626cb9b13494e41593ebfdffbbf37c93a4bf56d1) |
-| [conciliacao\-bancaria](https://github.com/martinlofranodeoliveira/conciliacao-bancaria) | Conciliação bancária determinística em centavos exatos \(1:1, lotes 1:N/N:1, tarifas, ambiguidades e pendências\)\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 10:53 · 0e223f1](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/commit/0e223f13315c3186ceaadd656ca703086b9ad79f) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
