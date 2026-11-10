@@ -28,6 +28,19 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 <!-- PUBLIC-PROJECTS:END -->
 
+<!-- DELIVERY-ORCAMENTO-COMPOSICOES-2026-11-10:BEGIN -->
+## Orçamento por Composições · custos unitários, BDI e curva ABC
+
+Calcule orçamentos analíticos por composições de preços unitários (CPU), aplique encargos sociais sobre mão de obra, avalie BDI padrão, diferenciado para equipamentos ou isento e gere a explosão global de insumos com classificação ABC de Pareto.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Orçamento por Composições](https://github.com/martinlofranodeoliveira/orcamento-composicoes) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/orcamento-composicoes/releases/download/v1.0.0/exemplo-orcamento.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/orcamento-composicoes/blob/7a9d4451517e5d6f668a9efb41be26d80d7e0a96/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/orcamento-composicoes/releases/tag/v1.0.0) · 59 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/orcamento-composicoes/actions/runs/42745957614) |
+
+Até 2.000 insumos, 1.000 composições e 1.000 itens de orçamento, com entrada JSON UTF-8 de até 8 MiB. Todos os coeficientes, perdas, encargos e taxas de BDI usam frações exatas (`Fraction`), comprovando a igualdade entre o custo direto total da planilha de itens e a soma da explosão global de insumos elementares. O ZIP reúne entrada original, memória analítica JSON, planilhas CSV, relatório Markdown, gráfico SVG, orientação e `SHA256SUMS`.
+
+<!-- DELIVERY-ORCAMENTO-COMPOSICOES-2026-11-10:END -->
+
 <!-- DELIVERY-ZONAS-2026-11-09:BEGIN -->
 ## Zonas GeoJSON · pontos, áreas e fronteiras
 

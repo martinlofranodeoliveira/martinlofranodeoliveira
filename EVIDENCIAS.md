@@ -2,6 +2,16 @@
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-ORCAMENTO-COMPOSICOES-2026-11-10:BEGIN -->
+## Orçamento por Composições · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/orcamento-composicoes/tree/7a9d4451517e5d6f668a9efb41be26d80d7e0a96), licença MIT, CLI/API Python 3.11+ e documentação em português. O núcleo resolve composições de preços unitários e subcomposições auxiliares em grafo acíclico (DAG) com `fractions.Fraction`, decompõe custos por natureza (`material`, `mao_de_obra`, `equipamento`, `servico_terceiro`), aplica encargos sociais e calcula BDI nos modos `padrao`, `diferenciado_equipamentos` e `isento`.
+- Passaram 59 testes locais cobrindo o codec JSON estrito (sem float, BOM ou chaves repetidas), detecção de ciclos com testemunho explícito (`CICLO_COMPOSICAO`), grafos em diamante e multinível, conservação exata entre planilha de itens e explosão de insumos (`custo_total_direto == custo_explosao_insumos`), soma exata `1/1` na curva ABC e proteção de fórmulas CSV. A [CI do mesmo commit](https://github.com/martinlofranodeoliveira/orcamento-composicoes/actions/runs/42745957614) concluiu seis trabalhos: Python 3.11–3.14/Linux, 3.14/Windows e oráculo independente em namespace de rede isolado.
+- O [oráculo independente](https://github.com/martinlofranodeoliveira/orcamento-composicoes/blob/7a9d4451517e5d6f668a9efb41be26d80d7e0a96/docs/INTEROPERABILIDADE.md) audita o ZIP produzido pela CLI instalada sem importar o pacote de produção, recalculando o DAG recursivamente e confrontando as tabelas CSV em `sqlite3`. No cenário autoral (12 insumos no catálogo, 11 utilizados, 5 composições e 4 itens), o custo direto fecha exatamente em `5.828.283` centavos, o BDI em `1.272.703` centavos e o preço total em `7.100.986` centavos.
+- Wheel com 13 membros e sdist com 31 foram conferidos (`RECORD`, metadados, licença MIT e instalação isolada fora da árvore). Os cinco [assets da release](https://github.com/martinlofranodeoliveira/orcamento-composicoes/releases/tag/v1.0.0) foram baixados novamente e conferidos por `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-ORCAMENTO-COMPOSICOES-2026-11-10:END -->
+
 <!-- EVIDENCE-ZONAS-2026-11-09:BEGIN -->
 ## Zonas GeoJSON · 9 de novembro de 2026
 
