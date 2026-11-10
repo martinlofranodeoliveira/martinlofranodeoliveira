@@ -43,6 +43,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
 
+<!-- DELIVERY-ANALISE-PONTO-EQUILIBRIO-2026-11-10:BEGIN -->
+## Ponto de Equilíbrio e Margem de Contribuição · PEC, PEF, PEE e Alavancagem Operacional
+
+Análise determinística e matematicamente exata de viabilidade operacional e financeira para empresas industriais, de serviços e comércio. O motor calcula os três pontos de equilíbrio (Contábil, Financeiro e Econômico) sob mix de vendas ponderado de múltiplos produtos, alocando cotas inteiras discretas de produtos pelo método dos maiores restos (Hare-Niemeyer / Hamilton) com desempate lexicográfico estável, além da Margem de Segurança Operacional (MSO) e Grau de Alavancagem Operacional (GAO).
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Ponto de Equilíbrio e Alavancagem](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/releases/download/v1.0.0/exemplo-equilibrio.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/blob/6b63a82e9b068da8cf2c4e5e4aa3d077c57704df/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/releases/tag/v1.0.0) · 55 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/actions/runs/42814796516) |
+
+Aritmética estritamente exata em centavos inteiros (`int`) e frações racionais (`Fraction`), banindo completamente aproximações por ponto flutuante (`float`). Gera relatórios executivos em Markdown, planilhas CSV com proteção contra injeção de fórmulas, painel vetorial cartesiano em SVG (1440×900) e pacote ZIP determinístico. A integridade contábil é auditada por verificador independente sobre banco relacional `sqlite3`.
+
+<!-- DELIVERY-ANALISE-PONTO-EQUILIBRIO-2026-11-10:END -->
+
 <!-- DELIVERY-DIMENSIONAMENTO-CONDUTORES-NBR5410-2026-11-10:BEGIN -->
 ## Dimensionamento Elétrico NBR 5410 · condutores de cobre, queda de tensão e disjuntores
 

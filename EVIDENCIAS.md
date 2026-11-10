@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-ANALISE-PONTO-EQUILIBRIO-2026-11-10:BEGIN -->
+## Ponto de Equilíbrio e Margem de Contribuição · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/tree/6b63a82e9b068da8cf2c4e5e4aa3d077c57704df), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor determinístico de análise de Ponto de Equilíbrio (Contábil, Financeiro e Econômico), Margem de Contribuição Unitária (MCU), Margem de Segurança Operacional (MSO) e Grau de Alavancagem Operacional (GAO).
+- Rateio discreto de unidades pelo algoritmo dos maiores restos (Hare-Niemeyer / Hamilton) com desempate lexicográfico estável, eliminando frações de produtos físicos no fechamento do mix. Aritmética estritamente exata em centavos inteiros (`int`) e frações racionais (`Fraction`), banindo ponto flutuante (`float`).
+- Passaram 55 testes locais cobrindo validação de domínios, divisão teto, rateio de unidades, detecção de margens negativas, codec canônico JSON com rejeição de BOM/float/chaves duplicadas, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/actions/runs/42814796516) em Linux (Python 3.11–3.14), Windows e teste de isolamento de rede (`unshare`).
+- Wheel com 15 membros e sdist com 29 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-ANALISE-PONTO-EQUILIBRIO-2026-11-10:END -->
+
 <!-- EVIDENCE-DIMENSIONAMENTO-CONDUTORES-NBR5410-2026-11-10:BEGIN -->
 ## Dimensionamento de Condutores e Disjuntores NBR 5410 · 10 de novembro de 2026
 
