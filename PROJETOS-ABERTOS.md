@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**302 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 19:48 UTC**.
+**303 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 19:56 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-sistemas\-septicos\-nbr7229](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229) | Dimensionamento analítico de tanques sépticos, filtros anaeróbios e disposição final conforme ABNT NBR 7229:1993 e ABNT NBR 13969:1997\. | Sem commit na branch padrão |
 | [protocolo\-tramitacao\-ledger](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger) | A PostgreSQL\-backed case\-routing ledger with acknowledged custody transfers, immutable document versions, unit authorization and byte\-identical idempotent receipts\. | [10/11/2026 19:40 · 88e3d57](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger/commit/88e3d57f7c397cf61f31fa10519aa31f81fdc2d0) |
 | [dimensionamento\-ventilacao\-exaustao\-nbr14518](https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518) | Dimensionamento analítico de sistemas de ventilação e exaustão para cozinhas profissionais conforme ABNT NBR 14518:2020\. | [10/11/2026 19:43 · 6d6c2ab](https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518/commit/6d6c2aba2505da10c32a6c60cd8c37206e10f5ac) |
 | [dimensionamento\-climatizacao\-nbr16401](https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401) | Motor analítico e CLI para cálculo de carga térmica, renovação de ar e dimensionamento de climatização e ar\-condicionado conforme ABNT NBR 16401:2008 em Python puro com aritmética… | [10/11/2026 19:24 · 0f9d3c5](https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401/commit/0f9d3c50131f3456c91173f72867e2ca977083f2) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [dimensionamento\-hidrantes\-nbr13714](https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714) | Motor analítico e CLI para dimensionamento de sistemas de hidrantes e mangotinhos conforme ABNT NBR 13714:2000 em Python puro com aritmética exata\. | [10/11/2026 18:48 · 05cad2a](https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714/commit/05cad2a2f1a83cdb9efde48cf148107c3a39bc8f) |
 | [execucao\-contratual\-ledger](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger) | A persistent item\-level contract execution ledger with measurement reservations, partial acceptance, amendments, reversals, authorization and a reproducible local HTTP demonstrati… | [10/11/2026 18:25 · 5163fb3](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger/commit/5163fb31b8f24876dad96e3d2d9062dd09f9aad6) |
 | [dimensionamento\-spda\-nbr5419](https://github.com/martinlofranodeoliveira/dimensionamento-spda-nbr5419) | Motor analítico e CLI para dimensionamento de SPDA e gerenciamento de risco conforme ABNT NBR 5419:2015 em Python puro com aritmética exata\. | [10/11/2026 18:33 · 66a008d](https://github.com/martinlofranodeoliveira/dimensionamento-spda-nbr5419/commit/66a008d94a65d663435c510163e4de4e193d5189) |
-| [dimensionamento\-redes\-gas\-nbr15526](https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526) | Dimensionamento analítico de redes de distribuição interna de gases combustíveis \(GN e GLP\) segundo a ABNT NBR 15526 em frações exatas e Python puro\. | [10/11/2026 18:20 · b2ec4e0](https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526/commit/b2ec4e09002cc5a64c09dad521a83a3296246de1) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
