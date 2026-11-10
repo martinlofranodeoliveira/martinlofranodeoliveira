@@ -1,54 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title description">
-<title id="title">Linguagens dos repositórios públicos</title><desc id="description">Distribuição de 32165152 bytes de código em 311 repositórios próprios, públicos e não forks. 311 repositórios públicos no total.</desc>
+<title id="title">Linguagens dos repositórios públicos</title><desc id="description">Distribuição de 32389061 bytes de código em 312 repositórios próprios, públicos e não forks. 312 repositórios públicos no total.</desc>
 <defs><linearGradient id="card-bg" x2="1" y2="1"><stop stop-color="#0C101B"/><stop offset="1" stop-color="#101321"/></linearGradient></defs>
 <rect x=".5" y=".5" width="1199" height="269" rx="22" fill="url(#card-bg)" stroke="#293044"/>
 <g font-family="Arial, Helvetica, sans-serif">
 <text x="32" y="42" font-size="22" font-weight="700" text-anchor="start" fill="#F3F5FA">LINGUAGENS / CÓDIGO PÚBLICO</text>
 <text x="32" y="67" font-size="14" font-weight="400" text-anchor="start" fill="#B7C1D6">Distribuição por bytes · Repositórios próprios, sem forks</text>
-<text x="1168" y="42" font-size="14" font-weight="700" text-anchor="end" fill="#F38AB7">311 REPOSITÓRIOS PÚBLICOS</text>
-<text x="1168" y="66" font-size="12" font-weight="400" text-anchor="end" fill="#8391A9">311 considerados nesta distribuição</text>
+<text x="1168" y="42" font-size="14" font-weight="700" text-anchor="end" fill="#F38AB7">312 REPOSITÓRIOS PÚBLICOS</text>
+<text x="1168" y="66" font-size="12" font-weight="400" text-anchor="end" fill="#8391A9">312 considerados nesta distribuição</text>
 <defs><clipPath id="language-bar"><rect x="32" y="92" width="1136" height="18" rx="9"/></clipPath></defs>
 <rect x="32" y="92" width="1136" height="18" rx="9" fill="#1A2232"/>
-<rect x="32.000000" y="92" width="406.704938" height="18" fill="#3572A5" clip-path="url(#language-bar)"/>
+<rect x="32.000000" y="92" width="411.746632" height="18" fill="#3572A5" clip-path="url(#language-bar)"/>
 <circle cx="38" cy="141" r="5" fill="#3572A5"/>
 <text x="54" y="146" font-size="15" font-weight="600" text-anchor="start" fill="#DCE3F1">Python</text>
-<text x="297" y="146" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">35,8%</text>
-<text x="54" y="164" font-size="11" font-weight="400" text-anchor="start" fill="#7E8DA6">11.515.604 bytes</text>
-<rect x="438.704938" y="92" width="297.393859" height="18" fill="#f1e05a" clip-path="url(#language-bar)"/>
+<text x="297" y="146" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">36,3%</text>
+<text x="54" y="164" font-size="11" font-weight="400" text-anchor="start" fill="#7E8DA6">11.739.513 bytes</text>
+<rect x="443.746632" y="92" width="295.337944" height="18" fill="#f1e05a" clip-path="url(#language-bar)"/>
 <circle cx="324" cy="141" r="5" fill="#f1e05a"/>
 <text x="340" y="146" font-size="15" font-weight="600" text-anchor="start" fill="#DCE3F1">JavaScript</text>
-<text x="583" y="146" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">26,2%</text>
+<text x="583" y="146" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">26,0%</text>
 <text x="340" y="164" font-size="11" font-weight="400" text-anchor="start" fill="#7E8DA6">8.420.527 bytes</text>
-<rect x="736.098797" y="92" width="91.804189" height="18" fill="#3178c6" clip-path="url(#language-bar)"/>
+<rect x="739.084575" y="92" width="91.169537" height="18" fill="#3178c6" clip-path="url(#language-bar)"/>
 <circle cx="610" cy="141" r="5" fill="#3178c6"/>
 <text x="626" y="146" font-size="15" font-weight="600" text-anchor="start" fill="#DCE3F1">TypeScript</text>
-<text x="869" y="146" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">8,1%</text>
+<text x="869" y="146" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">8,0%</text>
 <text x="626" y="164" font-size="11" font-weight="400" text-anchor="start" fill="#7E8DA6">2.599.380 bytes</text>
-<rect x="827.902985" y="92" width="82.853158" height="18" fill="#4F5D95" clip-path="url(#language-bar)"/>
+<rect x="830.254112" y="92" width="82.280386" height="18" fill="#4F5D95" clip-path="url(#language-bar)"/>
 <circle cx="896" cy="141" r="5" fill="#4F5D95"/>
 <text x="912" y="146" font-size="15" font-weight="600" text-anchor="start" fill="#DCE3F1">PHP</text>
-<text x="1155" y="146" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">7,3%</text>
+<text x="1155" y="146" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">7,2%</text>
 <text x="912" y="164" font-size="11" font-weight="400" text-anchor="start" fill="#7E8DA6">2.345.937 bytes</text>
-<rect x="910.756144" y="92" width="33.058874" height="18" fill="#663399" clip-path="url(#language-bar)"/>
+<rect x="912.534497" y="92" width="32.830335" height="18" fill="#663399" clip-path="url(#language-bar)"/>
 <circle cx="38" cy="189" r="5" fill="#663399"/>
 <text x="54" y="194" font-size="15" font-weight="600" text-anchor="start" fill="#DCE3F1">CSS</text>
 <text x="297" y="194" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">2,9%</text>
 <text x="54" y="212" font-size="11" font-weight="400" text-anchor="start" fill="#7E8DA6">936.042 bytes</text>
-<rect x="943.815018" y="92" width="26.222740" height="18" fill="#00ADD8" clip-path="url(#language-bar)"/>
+<rect x="945.364832" y="92" width="26.041459" height="18" fill="#00ADD8" clip-path="url(#language-bar)"/>
 <circle cx="324" cy="189" r="5" fill="#00ADD8"/>
 <text x="340" y="194" font-size="15" font-weight="600" text-anchor="start" fill="#DCE3F1">Go</text>
 <text x="583" y="194" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">2,3%</text>
 <text x="340" y="212" font-size="11" font-weight="400" text-anchor="start" fill="#7E8DA6">742.481 bytes</text>
-<rect x="970.037758" y="92" width="25.987206" height="18" fill="#dea584" clip-path="url(#language-bar)"/>
+<rect x="971.406292" y="92" width="25.807554" height="18" fill="#dea584" clip-path="url(#language-bar)"/>
 <circle cx="610" cy="189" r="5" fill="#dea584"/>
 <text x="626" y="194" font-size="15" font-weight="600" text-anchor="start" fill="#DCE3F1">Rust</text>
 <text x="869" y="194" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">2,3%</text>
 <text x="626" y="212" font-size="11" font-weight="400" text-anchor="start" fill="#7E8DA6">735.812 bytes</text>
-<rect x="996.024964" y="92" width="171.975036" height="18" fill="#5F6D85" clip-path="url(#language-bar)"/>
+<rect x="997.213845" y="92" width="170.786155" height="18" fill="#5F6D85" clip-path="url(#language-bar)"/>
 <circle cx="896" cy="189" r="5" fill="#5F6D85"/>
 <text x="912" y="194" font-size="15" font-weight="600" text-anchor="start" fill="#DCE3F1">Outras</text>
-<text x="1155" y="194" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">15,1%</text>
+<text x="1155" y="194" font-size="15" font-weight="600" text-anchor="end" fill="#F3A2C6">15,0%</text>
 <text x="912" y="212" font-size="11" font-weight="400" text-anchor="start" fill="#7E8DA6">4.869.369 bytes</text>
-<text x="32" y="246" font-size="12" font-weight="400" text-anchor="start" fill="#8391A9">Fonte: GitHub Languages · Atualizado 10/11/2026 · 18:53 BRT</text>
+<text x="32" y="246" font-size="12" font-weight="400" text-anchor="start" fill="#8391A9">Fonte: GitHub Languages · Atualizado 10/11/2026 · 19:04 BRT</text>
 <text x="1168" y="246" font-size="12" font-weight="700" text-anchor="end" fill="#8391A9">LOFRANO TECNOLOGIA</text>
 </g></svg>
