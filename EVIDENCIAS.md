@@ -18,6 +18,11 @@ O ensaio sintético no limite conferiu 10.000 contratos únicos; centavos e tota
 
 Os testes nativos e consumidores acima usaram contêineres separados, sem rede na etapa de execução, usuário sem privilégios, limite externo de 1 GiB e duas CPUs. As observações locais não são garantias universais de memória, prazo, qualidade preditiva ou prontidão para produção. Código original MIT; modelos, bibliotecas e componentes nativos têm licenças próprias. A capa é uma ilustração conceitual de IA, não um gráfico científico ou captura das ferramentas.
 
+### Neighborhood Projection Studio · Python e React
+
+- [Fonte conferida](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio/tree/a16d805469fab06c7cb7b7adc9257e31654497fc), com 126 testes Python e 55 verificações Node; a [CI do mesmo commit](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio/actions/runs/42858165789) passou nos jobs `native` e `web`. O fluxo documentado gera um estudo PCA em Python, exporta JSON e permite importá-lo no visor React. As verificações locais incluem pacote instalado fora do checkout, cálculos independentes e testes de CPU/JSDOM.
+- A [demo web](https://martinlofranodeoliveira.github.io/neighborhood-projection-studio/), publicada no commit Pages [`80831fd`](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio/tree/80831fdd5b2b57e29b396c6a66813e8cb3f1fb23), teve seus quatro arquivos — HTML, JavaScript, CSS e avisos de terceiros — conferidos por HTTP 200, MIME e SHA-256 em **10 de novembro de 2026, às 17:13 UTC**. Renderização visual em navegador e WebGL/GPU permanecem sem revisão.
+
 ### Atualização do Carton Hinge Studio
 
 [Fonte atualizada](https://github.com/martinlofranodeoliveira/carton-hinge-studio/tree/e0f2c1c0d5161d904715ff8ede4fea73869ffb9a) com 33 testes locais, demo e build aprovados, além da [CI desse commit](https://github.com/martinlofranodeoliveira/carton-hinge-studio/actions/runs/42770875247). As verificações cobrem geometria Three na CPU, transições DOM e importações atrasadas após edição. Renderização WebGL, imagens responsivas e conformidade de acessibilidade em navegador continuam sem verificação. A planificação SVG é conceitual e não constitui uma faca de corte industrial.

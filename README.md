@@ -111,6 +111,7 @@ Os exemplos e a abrangência dos testes estão em [EVIDENCIAS.md](EVIDENCIAS.md)
 | [Configurador de móveis](https://martinlofranodeoliveira.github.io/cabinet-assembly-studio/) | Editar dimensões, selecionar painéis e explorar a montagem em vista explodida. | [GitHub](https://github.com/martinlofranodeoliveira/cabinet-assembly-studio) |
 | [Distribuição de volumes](https://martinlofranodeoliveira.github.io/spatial-loading-studio/) | Posicionar caixas em milímetros, girar e conferir sobreposições. | [GitHub](https://github.com/martinlofranodeoliveira/spatial-loading-studio) |
 | [Transformações 3D](https://martinlofranodeoliveira.github.io/frame-transform-studio/) | Editar hierarquias de coordenadas, inspecionar matrizes e comparar poses. | [GitHub](https://github.com/martinlofranodeoliveira/frame-transform-studio) |
+| [Vizinhanças em PCA](https://martinlofranodeoliveira.github.io/neighborhood-projection-studio/) | Importar um estudo gerado em Python, selecionar pontos e comparar vizinhanças nas vistas 3D/2D. | [GitHub](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio) |
 
 As demos usam cenários sintéticos. Seu código e arquivos publicados foram conferidos; a revisão visual em navegador permanece pendente. Veja o alcance da validação em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -129,6 +130,7 @@ Pacotes com SDK, CLI, exemplos sintéticos e documentação em português e ingl
 | [Tabular Drift Audit](https://github.com/martinlofranodeoliveira/tabular-drift-audit) | Comparar distribuições, ausências e esquema entre tabelas Arrow, CSV e Parquet. | [Instalar e executar](https://github.com/martinlofranodeoliveira/tabular-drift-audit/blob/main/README.pt-BR.md) |
 | [Local Semantic Atlas](https://github.com/martinlofranodeoliveira/local-semantic-atlas) | Buscar documentos em português e inglês com embeddings reais e inferência local ONNX. | [Preparar o modelo e consultar](https://github.com/martinlofranodeoliveira/local-semantic-atlas/blob/main/docs/README.pt-BR.md) |
 | [Forecast Origin Workbench](https://github.com/martinlofranodeoliveira/forecast-origin-workbench) | Avaliar previsões em origens temporais fixas, comparar referências e examinar bandas empíricas de erros anteriores. | [Instalar e executar](https://github.com/martinlofranodeoliveira/forecast-origin-workbench/blob/main/README.pt-BR.md) |
+| [Neighborhood Projection Studio](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio) | Gerar estudos PCA em Python e comparar vizinhanças originais e projetadas em um visor React. | [Instalar e executar](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio/blob/main/README.pt-BR.md) |
 
 As versões qualificadas, os testes e as limitações de cada pacote estão em [EVIDENCIAS.md](EVIDENCIAS.md). Código original MIT; modelos e dependências mantêm seus termos próprios.
 <!-- PYTHON-DATA-AI:END -->
