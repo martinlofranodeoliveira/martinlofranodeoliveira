@@ -43,6 +43,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
 
+<!-- DELIVERY-APURACAO-SIMPLES-NACIONAL-2026-11-10:BEGIN -->
+## Apuração do Simples Nacional · LC 123/2006, Anexos I a V, Fator R e Partição de Tributos
+
+Motor determinístico e matematicamente exato para apuração mensal do **Simples Nacional** segundo a **Lei Complementar nº 123/2006** (atualizada pelas LCs 147/2014 e 155/2016). Enquadramento automático de faixas de RBT12, cálculo da Alíquota Efetiva com dedução de parcela fixa, chaveamento dinâmico pelo Fator R (Folha Salarial 12M / RBT12 $\ge 28\%$) entre os Anexos III e V, e partição exata da guia única (DAS) entre os tributos federais, estaduais e municipais (IRPJ, CSLL, COFINS, PIS, CPP, IPI, ICMS e ISS) via método dos maiores restos (Hare-Niemeyer / Hamilton).
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Apuração do Simples Nacional](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/releases/download/v1.0.0/exemplo-simples.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/blob/aadd80bfc29d632d08aa79926dd4a9f06b7840ef/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/releases/tag/v1.0.0) · 64 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/actions/runs/42818959360) |
+
+Aritmética estritamente exata em centavos inteiros (`int`) e frações racionais irredutíveis (`Fraction`), banindo completamente aproximações por ponto flutuante (`float`). Gera relatórios executivos em Markdown, planilhas CSV com proteção contra injeção de fórmulas, painel vetorial em SVG (1440×900) e pacote ZIP determinístico. A integridade fiscal é auditada por verificador independente sobre banco relacional `sqlite3`.
+
+<!-- DELIVERY-APURACAO-SIMPLES-NACIONAL-2026-11-10:END -->
+
 <!-- DELIVERY-CUB-CONSTRUCAO-CIVIL-NBR12721-2026-11-10:BEGIN -->
 ## Orçamento de Construção Civil · CUB e Área Equivalente NBR 12721
 

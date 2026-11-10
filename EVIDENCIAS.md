@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-APURACAO-SIMPLES-NACIONAL-2026-11-10:BEGIN -->
+## Apuração do Simples Nacional e Fator R · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/tree/aadd80bfc29d632d08aa79926dd4a9f06b7840ef), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor de apuração do Simples Nacional conforme Lei Complementar nº 123/2006, LC 155/2016 e resoluções do CGSN.
+- Enquadramento dinâmico pelo Fator R ($F_R = \text{FS12} / \text{RBT12} \ge 28\%$) com chaveamento automático entre Anexos III e V, alíquota efetiva racional com dedução fixa para as 6 faixas dos Anexos I a V, e partição de cotas tributárias (IRPJ, CSLL, COFINS, PIS, CPP, IPI, ICMS, ISS) pelo método dos maiores restos (Hare-Niemeyer / Hamilton). Banimento total de ponto flutuante (`float`) com cálculo em centavos inteiros e frações racionais exatas (`Fraction`).
+- Passaram 64 testes locais cobrindo modelos de domínio, limites legais de RBT12, faixas e partições da LC 123/2006, divisão teto, codec canônico JSON com rejeição de BOM, float e chaves duplicadas, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/actions/runs/42818959360) em Linux (Python 3.11–3.14), Windows e teste de isolamento de rede (`unshare`).
+- Wheel com 16 membros e sdist com 31 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-APURACAO-SIMPLES-NACIONAL-2026-11-10:END -->
+
 <!-- EVIDENCE-CUB-CONSTRUCAO-CIVIL-NBR12721-2026-11-10:BEGIN -->
 ## Orçamento de Obras CUB e Área Equivalente NBR 12721 · 10 de novembro de 2026
 
