@@ -43,6 +43,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
 
+<!-- DELIVERY-PRECIFICACAO-CARDAPIO-CMV-2026-11-10:BEGIN -->
+## Engenharia de Cardápio e CMV · fichas técnicas, margem e matriz Kasavana & Smith
+
+Otimize o cardápio e a lucratividade de restaurantes, bares e serviços de alimentação com cálculo rigoroso de Custo de Mercadorias Vendidas (CMV alvo), fatores de correção de insumos (perdas de limpeza e aparas) e classificação determinística pela matriz de engenharia de cardápio de Kasavana & Smith (Miller): Estrelas, Burros de Carga, Quebra-Cabeças e Cães.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Engenharia de Cardápio e CMV](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/releases/download/v1.0.0/exemplo-cardapio.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/blob/24271d713c7268ce20fb37305d23e595da124aa7/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/releases/tag/v1.0.0) · 55 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/actions/runs/42810818419) |
+
+Aritmética estritamente inteira em centavos (`int`), sem ponto flutuante (`float`), e fatores de rendimento via frações racionais exatas (`Fraction`). Proteção de teto contábil contra subdimensionamento de custos e preço sugerido automático para atingir o CMV alvo desejado. O pacote ZIP inclui `entrada.json`, `analise_cardapio.json`, `fichas_tecnicas.csv`, `insumos.csv`, relatório Markdown, painel visual com gráfico de dispersão da matriz em SVG (1440×900) e auditoria relacional via `sqlite3` independente.
+
+<!-- DELIVERY-PRECIFICACAO-CARDAPIO-CMV-2026-11-10:END -->
+
 <!-- DELIVERY-PLANO-CORTE-BARRAS-2026-11-10:BEGIN -->
 ## Otimização de Plano de Corte 1D · barras, perfis e tubos com kerf e refugo
 

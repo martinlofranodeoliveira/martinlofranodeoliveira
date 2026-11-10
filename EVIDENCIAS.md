@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-PRECIFICACAO-CARDAPIO-CMV-2026-11-10:BEGIN -->
+## Engenharia de Cardápio e CMV Alvo · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/tree/24271d713c7268ce20fb37305d23e595da124aa7), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor de ficha técnica gastronômica e engenharia de cardápio com banimento estrito de ponto flutuante (`float`) e conservação de centavos inteiros.
+- Classificação determinística nos 4 quadrantes de Kasavana & Smith (Estrelas, Burros de Carga, Quebra-Cabeças e Cães), limiar de popularidade a 70% da média ponderada do mix ($10 \cdot N \cdot v_i \ge 7 \cdot V_{tot}$), fatores de correção fracionários ($FC \ge 1$), recomendação estratégica por prato e neutralização contra injeção de fórmulas CSV (`=`, `+`, `-`, `@`, `\t`).
+- Passaram 55 testes locais cobrindo domínios, codec canônico JSON, arredondamento contábil teto, margens negativas e verificador independente em `sqlite3` sem importação do pacote de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/actions/runs/42810818419) em Linux (Python 3.11–3.14), Windows e teste de isolamento de rede (`unshare`).
+- Wheel com 16 membros e sdist com 31 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-PRECIFICACAO-CARDAPIO-CMV-2026-11-10:END -->
+
 <!-- EVIDENCE-PLANO-CORTE-BARRAS-2026-11-10:BEGIN -->
 ## Otimização de Plano de Corte 1D · 10 de novembro de 2026
 
