@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**312 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 22:15 UTC**.
+**313 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 22:31 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-resistencia\-fogo\-nbr14432](https://github.com/martinlofranodeoliveira/dimensionamento-resistencia-fogo-nbr14432) | Dimensionamento e verificação do Tempo Requerido de Resistência ao Fogo \(TRRF\) e compartimentação construtiva \(ABNT NBR 14432:2001\) em Python puro com aritmética Zero Float\. | [10/11/2026 22:29 · 6e5a935](https://github.com/martinlofranodeoliveira/dimensionamento-resistencia-fogo-nbr14432/commit/6e5a935ea06b05b16012a1ad47f8a6c239b1d193) |
 | [dimensionamento\-sinalizacao\-emergencia\-nbr16820](https://github.com/martinlofranodeoliveira/dimensionamento-sinalizacao-emergencia-nbr16820) | Dimensionamento e projeto de sistemas de sinalização de emergência e pânico contra incêndio \(ABNT NBR 16820:2020\) com aritmética racional exata\. | [10/11/2026 22:08 · a2fb330](https://github.com/martinlofranodeoliveira/dimensionamento-sinalizacao-emergencia-nbr16820/commit/a2fb330482fbc7d8a1ab416bd80194bb3912b169) |
 | [settlement\-match\-workbench](https://github.com/martinlofranodeoliveira/settlement-match-workbench) | Explains forced, optional and excluded links across all optimal expected\-payout\-to\-credit matchings, with exact minor units and an explicit synthetic matching policy\. | [10/11/2026 21:53 · 5a6f67b](https://github.com/martinlofranodeoliveira/settlement-match-workbench/commit/5a6f67b0fec097dcb92c1df8715fa1941794a334) |
 | [dimensionamento\-portas\-corta\-fogo\-nbr11742](https://github.com/martinlofranodeoliveira/dimensionamento-portas-corta-fogo-nbr11742) | Dimensionamento e especificação de portas corta\-fogo para saídas de emergência \(ABNT NBR 11742:2018 e NBR 11785:2018\) com aritmética racional exata\. | [10/11/2026 21:50 · 1c8a150](https://github.com/martinlofranodeoliveira/dimensionamento-portas-corta-fogo-nbr11742/commit/1c8a150e52c364ae2bee6d734ae04111f46541a7) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [dimensionamento\-extintores\-incendio\-nbr12693](https://github.com/martinlofranodeoliveira/dimensionamento-extintores-incendio-nbr12693) | Dimensionamento de Sistemas de Proteção por Extintores de Incêndio \(ABNT NBR 12693:2021\) \- Lofrano Tecnologia | [10/11/2026 21:15 · f92e611](https://github.com/martinlofranodeoliveira/dimensionamento-extintores-incendio-nbr12693/commit/f92e6112ad72363f58b6a09223dadf0c5546b55f) |
 | [dimensionamento\-pressurizacao\-escadas\-nbr14880](https://github.com/martinlofranodeoliveira/dimensionamento-pressurizacao-escadas-nbr14880) | Dimensionamento de sistemas de pressurização de escadas de emergência conforme ABNT NBR 14880:2014 em Python puro com aritmética exata Zero Float\. | [10/11/2026 21:03 · e2651c1](https://github.com/martinlofranodeoliveira/dimensionamento-pressurizacao-escadas-nbr14880/commit/e2651c17c4ecc4c99861f0097aee469c7d102886) |
 | [dimensionamento\-iluminacao\-emergencia\-nbr10898](https://github.com/martinlofranodeoliveira/dimensionamento-iluminacao-emergencia-nbr10898) | Dimensionamento de sistemas de iluminação de emergência e balizamento conforme ABNT NBR 10898:2013 em Python puro com aritmética exata Zero Float\. | [10/11/2026 20:45 · b119d36](https://github.com/martinlofranodeoliveira/dimensionamento-iluminacao-emergencia-nbr10898/commit/b119d3663877bd72bcfc1aaeef7f574d89f1a0df) |
-| [dimensionamento\-alarme\-incendio\-nbr17240](https://github.com/martinlofranodeoliveira/dimensionamento-alarme-incendio-nbr17240) | Dimensionamento analítico de detecção e alarme de incêndio, detectores ópticos/térmicos, acionadores, laços e baterias segundo a ABNT NBR 17240:2010 em Python puro e exato\. | [10/11/2026 20:27 · 464211b](https://github.com/martinlofranodeoliveira/dimensionamento-alarme-incendio-nbr17240/commit/464211b8abc5cf4dc0dcfab295eeb80237d16ae4) |
 
 <!-- PUBLIC-PROJECTS:END -->
 

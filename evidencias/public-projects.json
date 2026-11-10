@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T22:15:54.364933Z",
+  "collectedAt": "2026-11-10T22:31:55.783148Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 312,
+  "publicRepositoryCount": 313,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1596,6 +1596,27 @@
           "oid": "b2ec4e09002cc5a64c09dad521a83a3296246de1",
           "committedDate": "2026-11-10T18:20:23Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526/commit/b2ec4e09002cc5a64c09dad521a83a3296246de1"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-resistencia-fogo-nbr14432",
+      "description": "Dimensionamento e verificação do Tempo Requerido de Resistência ao Fogo (TRRF) e compartimentação construtiva (ABNT NBR 14432:2001) em Python puro com aritmética Zero Float.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-resistencia-fogo-nbr14432",
+      "createdAt": "2026-11-10T22:16:16Z",
+      "pushedAt": "2026-11-10T22:30:20Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "6e5a935ea06b05b16012a1ad47f8a6c239b1d193",
+          "committedDate": "2026-11-10T22:29:24Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-resistencia-fogo-nbr14432/commit/6e5a935ea06b05b16012a1ad47f8a6c239b1d193"
         }
       }
     },
@@ -3914,7 +3935,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T22:15:30Z",
+      "pushedAt": "2026-11-10T22:16:10Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3924,9 +3945,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "975a22fb70dc9c2b73a914adc235b02069e6e25b",
-          "committedDate": "2026-11-10T22:15:28Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/975a22fb70dc9c2b73a914adc235b02069e6e25b"
+          "oid": "eafb0e215ac28ff6d42bf3a2bbbb98fc955ae019",
+          "committedDate": "2026-11-10T22:16:09Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/eafb0e215ac28ff6d42bf3a2bbbb98fc955ae019"
         }
       }
     },
