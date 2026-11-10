@@ -39,6 +39,16 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 <!-- GOVERNMENT-WORKFLOWS:END -->
 
+<!-- FINANCIAL-TOOLS:BEGIN -->
+## Pagamentos e conciliação
+
+| Projeto | Aplicação | Experimentar |
+| --- | --- | --- |
+| [Settlement Match Workbench](https://github.com/martinlofranodeoliveira/settlement-match-workbench) | SDK Python e CLI para explicar pares obrigatórios, alternativos e excluídos entre todos os ótimos de uma política explícita, preservando valores monetários exatos. | [Português](https://github.com/martinlofranodeoliveira/settlement-match-workbench/blob/main/docs/README.pt-BR.md) · [CI do commit publicado](https://github.com/martinlofranodeoliveira/settlement-match-workbench/actions/runs/42909443204) |
+
+Exemplos sintéticos com lotes e créditos declarados. A classificação descreve o modelo fornecido; não confirma liquidação bancária. Consulte os [testes e limites](EVIDENCIAS.md).
+<!-- FINANCIAL-TOOLS:END -->
+
 <!-- PYTHON-DATA-AI:BEGIN -->
 ## Análise de dados e IA local · Python
 

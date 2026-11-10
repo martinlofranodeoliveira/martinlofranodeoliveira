@@ -21,6 +21,16 @@ Os ensaios incluem concorrência com barreiras PostgreSQL reais, replay antigo b
 
 <!-- GOVERNMENT-WORKFLOWS-EVIDENCE:END -->
 
+<!-- FINANCIAL-TOOLS-EVIDENCE:BEGIN -->
+## Pagamentos e conciliação · 10 de novembro de 2026
+
+**Settlement Match Workbench:** [fonte conferida](https://github.com/martinlofranodeoliveira/settlement-match-workbench/tree/5a6f67b0fec097dcb92c1df8715fa1941794a334) e [CI do mesmo commit aprovada](https://github.com/martinlofranodeoliveira/settlement-match-workbench/actions/runs/42909443204). SDK e CLI Python distinguem pares presentes em todos os ótimos, em alguns ou em nenhum, após maximizar a quantidade de associações e minimizar o custo explícito de referência e data. Valores monetários e agregados de até 17 dígitos permanecem exatos, com totais separados por moeda.
+
+Passaram **55 métodos de teste instalados** e **464 verificações de um consumidor separado**, incluindo famílias matemáticas independentes, o relatório financeiro inteiro, o limite de 128 candidatos e a CLI real. O pipeline constrói sdist e wheel genuínos, reconstrói o wheel do sdist e confere os bytes de código e 240 arquivos de licença. O consumidor executa fora do checkout, sem compilador ou backend de build; a demonstração com verificações explícitas passou também sob `python -O`. Os 287 arquivos publicados foram confrontados com os bytes do commit acima.
+
+Os dados são sintéticos e os créditos são declarações do chamador. `FORCED` expressa uma propriedade dos ótimos da política fornecida, sem confirmar pagamento. O digest identifica a entrada normalizada e não autentica sua origem. O orçamento é lógico, com recusa completa quando se esgota; não constitui promessa geral de desempenho. Esta versão publicada contém SDK e CLI; a interface React está em desenvolvimento.
+<!-- FINANCIAL-TOOLS-EVIDENCE:END -->
+
 <!-- PYTHON-DATA-AI-EVIDENCE:BEGIN -->
 ## Análise de dados e IA local · 10 de novembro de 2026
 

@@ -73,6 +73,10 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 
 ## Projetos abertos
 
+<img src="./assets/lofrano-open-source-brand-sunburst26.webp" alt="LOFRANO TECNOLOGIA — Código aberto. Engenharia aplicada. Arte conceitual em vidro, metal e luz rosa." width="100%" />
+
+<sub>Arte personalizada gerada com OpenAI GPT Image 2.6 Sunburst, inspirada na identidade visual da LOFRANO. Representação conceitual das áreas do portfólio.</sub>
+
 [Explore o catálogo de projetos open source e ferramentas →](PROJETOS-ABERTOS.md)
 
 [Consulte os commits e as evidências técnicas do portfólio →](EVIDENCIAS.md)
@@ -81,12 +85,14 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 
 | Projeto | O que experimentar | Abrir |
 | --- | --- | --- |
+| [Execução Contratual Ledger · Python e SQLite](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger) | Registrar medições, recebimentos parciais, devoluções e aditivos com histórico persistido e comandos idempotentes. | [Documentação e exemplos](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger/blob/main/README.pt-BR.md) |
+| [Protocolo Tramitação Ledger · Go e PostgreSQL](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger) | Tramitar processos entre unidades, conferir custódia e versões de documentos e reproduzir disputas de aceite ou cancelamento. | [Documentação e exemplos](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger/blob/main/README.pt-BR.md) |
+| [PNCP Contract Snapshot Audit · Python](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit) | Coletar páginas de contratos públicos e conferir cobertura, repetições e totais declarados com centavos exatos. | [Documentação e exemplos](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/blob/main/README.pt-BR.md) |
+| [Settlement Match Workbench · Python](https://github.com/martinlofranodeoliveira/settlement-match-workbench) | Explicar associações obrigatórias, alternativas e excluídas entre lotes e créditos sintéticos, com valores monetários exatos. | [Documentação e exemplos](https://github.com/martinlofranodeoliveira/settlement-match-workbench/blob/main/docs/README.pt-BR.md) |
+| [Neighborhood Projection Studio · Python e React](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio) | Comparar vizinhanças originais e projetadas de estudos PCA em vistas 3D e 2D. | [Demo web](https://martinlofranodeoliveira.github.io/neighborhood-projection-studio/) |
+| [Local Semantic Atlas · Python e ONNX](https://github.com/martinlofranodeoliveira/local-semantic-atlas) | Buscar documentos em português e inglês com embeddings reais e inferência local. | [Preparar e executar](https://github.com/martinlofranodeoliveira/local-semantic-atlas/blob/main/docs/README.pt-BR.md) |
+| [Cabinet Assembly Studio · React e Three.js](https://github.com/martinlofranodeoliveira/cabinet-assembly-studio) | Editar medidas de um móvel e explorar seus painéis em uma montagem 3D. | [Demo web](https://martinlofranodeoliveira.github.io/cabinet-assembly-studio/) |
 | [GitHub Evidence Board](https://github.com/martinlofranodeoliveira/github-evidence-board) | Inspecionar commits, horários e cobertura de CI de repositórios públicos. | [Demo web](https://martinlofranodeoliveira.github.io/github-evidence-board/) |
-| [Freebusy Slot Studio](https://github.com/martinlofranodeoliveira/freebusy-slot-studio) | Encontrar horários comuns em cenários de disponibilidade explícitos. | [Demo web](https://martinlofranodeoliveira.github.io/freebusy-slot-studio/) |
-| [Schema Form Studio](https://github.com/martinlofranodeoliveira/schema-form-studio) | Gerar formulários e inspecionar validações de um recorte de JSON Schema. | [Demo web](https://martinlofranodeoliveira.github.io/schema-form-studio/) |
-| [Resumable Transfer Lab · C#](https://github.com/martinlofranodeoliveira/resumable-transfer-lab) | Retomar uma transferência HTTP com checkpoint, ETag e SHA-256 esperado. | [Executar localmente](https://github.com/martinlofranodeoliveira/resumable-transfer-lab/blob/main/README.pt-BR.md) |
-| [SQLite Migration Rehearsal Lab · Python](https://github.com/martinlofranodeoliveira/sqlite-migration-rehearsal-lab) | Ensaiar migrações up/down/up em cópias do banco e conferir dados. | [Executar localmente](https://github.com/martinlofranodeoliveira/sqlite-migration-rehearsal-lab/blob/main/README.pt-BR.md) |
-| [MQTT Session Recovery Lab · Go](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab) | Reproduzir recuperação de sessão e Last Will com Mosquitto isolado. | [Executar localmente](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab/blob/main/README.pt-BR.md) |
 
 <!-- GOVERNMENT-WORKFLOWS:BEGIN -->
 ### Sistemas e dados públicos
@@ -101,6 +107,14 @@ Ferramentas abertas para experimentar fluxos de gestão e análise de dados púb
 
 Os exemplos e a abrangência dos testes estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 <!-- GOVERNMENT-WORKFLOWS:END -->
+
+<!-- FINANCIAL-TOOLS:BEGIN -->
+### Pagamentos e conciliação
+
+O [Settlement Match Workbench](https://github.com/martinlofranodeoliveira/settlement-match-workbench) oferece SDK Python e CLI local para explicar todas as associações ótimas entre lotes esperados e créditos declarados. Os exemplos são sintéticos: uma associação obrigatória no modelo não confirma um pagamento bancário.
+
+[Executar os exemplos](https://github.com/martinlofranodeoliveira/settlement-match-workbench/blob/main/docs/README.pt-BR.md) · [CI do commit publicado](https://github.com/martinlofranodeoliveira/settlement-match-workbench/actions/runs/42909443204) · [Evidências técnicas](EVIDENCIAS.md)
+<!-- FINANCIAL-TOOLS:END -->
 
 ### Aplicações 3D em React
 
