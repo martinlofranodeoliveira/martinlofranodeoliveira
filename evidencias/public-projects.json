@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T21:52:39.206966Z",
+  "collectedAt": "2026-11-10T21:54:07.134860Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 310,
+  "publicRepositoryCount": 311,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -3893,7 +3893,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T21:38:09Z",
+      "pushedAt": "2026-11-10T21:53:44Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3903,9 +3903,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "b0612d638f4b7da9a6cd0926367e5200c5063bd9",
-          "committedDate": "2026-11-10T21:38:07Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/b0612d638f4b7da9a6cd0926367e5200c5063bd9"
+          "oid": "c3e9ccd1dea002b7ec7b527fa1d726fb0c668213",
+          "committedDate": "2026-11-10T21:53:42Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/c3e9ccd1dea002b7ec7b527fa1d726fb0c668213"
         }
       }
     },
@@ -5523,6 +5523,27 @@
           "oid": "c12b2c4699518438471e676319b131911f77aa64",
           "committedDate": "2026-11-08T19:50:06Z",
           "url": "https://github.com/martinlofranodeoliveira/set-overlap-join/commit/c12b2c4699518438471e676319b131911f77aa64"
+        }
+      }
+    },
+    {
+      "name": "settlement-match-workbench",
+      "description": "Explains forced, optional and excluded links across all optimal expected-payout-to-credit matchings, with exact minor units and an explicit synthetic matching policy.",
+      "url": "https://github.com/martinlofranodeoliveira/settlement-match-workbench",
+      "createdAt": "2026-11-10T21:53:41Z",
+      "pushedAt": "2026-11-10T21:53:47Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "5a6f67b0fec097dcb92c1df8715fa1941794a334",
+          "committedDate": "2026-11-10T21:53:38Z",
+          "url": "https://github.com/martinlofranodeoliveira/settlement-match-workbench/commit/5a6f67b0fec097dcb92c1df8715fa1941794a334"
         }
       }
     },
