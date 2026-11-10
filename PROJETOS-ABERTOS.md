@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [rescisao\-trabalhista\-clt](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt) | Liquidação e cálculo determinístico de rescisão trabalhista sob a CLT, Lei 12.506/2011, INSS, IRRF e FGTS. Zero dependências, Python 3.11+, MIT — LOFRANO TECNOLOGIA. | [10/11/2026 13:04 · c7d22c6](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/commit/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d) |
 | [apuracao\-simples\-nacional](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional) | Apuração determinística do Simples Nacional \(LC 123/2006\), Anexos I a V, Fator R, Alíquota Efetiva e partição de tributos\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 12:48 · aadd80b](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/commit/aadd80bfc29d632d08aa79926dd4a9f06b7840ef) |
 | [cub\-construcao\-civil\-nbr12721](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721) | Cálculo determinístico de Custo Global de Construção, Área Equivalente \(NBR 12721\) e orçamentação CUB/m² em centavos e frações exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRA… | [10/11/2026 12:33 · 727f5a5](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/commit/727f5a5e9384e44f56a635d7afa6926bd7010f52) |
 | [analise\-ponto\-equilibrio](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio) | Análise determinística de Ponto de Equilíbrio \(Contábil, Econômico e Financeiro\), Margem de Contribuição e Alavancagem Operacional em centavos e frações exatas\. Zero dependências,… | [10/11/2026 12:19 · 6b63a82](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/commit/6b63a82e22f76247313a04e628ccb4eae4beb0e9) |
@@ -42,6 +43,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
+
+<!-- DELIVERY-RESCISAO-TRABALHISTA-CLT-2026-11-10:BEGIN -->
+## Rescisão Trabalhista CLT · Liquidação de Verbas, Aviso Prévio Lei 12.506, INSS, IRRF e FGTS
+
+Motor determinístico e matematicamente exato para cálculo, liquidação e emissão de demonstrativo de rescisão de contrato de trabalho sob as regras da **Consolidação das Leis do Trabalho (CLT)**, **Lei Federal nº 12.506/2011**, **tabelas progressivas oficiais de INSS e IRRF (2026)** e **FGTS**. Abrange modalidades de dispensa sem justa causa, pedido de demissão, justa causa patronal e obreira, acordo mútuo (art. 484-A) e culpa recíproca, com projeção temporal do aviso prévio no tempo de serviço e apuração de avos (1/12) pela fração mínima de 15 dias no mês civil.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Rescisão Trabalhista CLT](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/releases/download/v1.0.0/exemplo-rescisao-clt.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/blob/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/releases/tag/v1.0.0) · 57 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/actions/runs/42821179531) |
+
+Aritmética estritamente exata em centavos inteiros (`int`), eliminando totalmente aproximações por ponto flutuante (`float`). Emite TRCT formal em Markdown, planilhas CSV higienizadas contra injeção de fórmulas, JSON canônico determinístico com memória de cálculo, painel vetorial SVG independente (1440×900) e pacote ZIP determinístico. A liquidação rescisória é auditada por verificador independente em banco relacional `sqlite3`.
+
+<!-- DELIVERY-RESCISAO-TRABALHISTA-CLT-2026-11-10:END -->
 
 <!-- DELIVERY-APURACAO-SIMPLES-NACIONAL-2026-11-10:BEGIN -->
 ## Apuração do Simples Nacional · LC 123/2006, Anexos I a V, Fator R e Partição de Tributos

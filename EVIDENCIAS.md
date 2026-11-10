@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-RESCISAO-TRABALHISTA-CLT-2026-11-10:BEGIN -->
+## Rescisão Trabalhista CLT, INSS, IRRF e FGTS · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/tree/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor de cálculo, liquidação e auditoria de rescisão contratual sob a CLT, Lei Federal nº 12.506/2011, tabelas progressivas oficiais de INSS e IRRF (2026) e regras do FGTS.
+- Liquidação completa das modalidades rescisórias (dispensa sem justa causa, pedido de demissão, justa causa do empregado, acordo mútuo art. 484-A, rescisão indireta e culpa recíproca). Aviso prévio proporcional exato ($30 + 3 \times \min(\text{anos}, 20)$ dias) com projeção temporal (CLT art. 487, § 1º) sobre avos de 13º e férias, cômputo pela regra de 15 dias trabalhados no mês civil, tabelas progressivas de INSS e IRRF faixa a faixa com tributação exclusiva sobre o 13º salário e deduções legais por dependente. Banimento total de ponto flutuante (`float`) com cálculo 100% em centavos inteiros (`int`).
+- Passaram 57 testes locais cobrindo modelos de domínio, datas e anos de serviço, tabelas de INSS/IRRF 2026, modalidades da CLT, codec canônico JSON com rejeição de BOM, float, profundidade excessiva e chaves duplicadas, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/actions/runs/42821179531) em Linux (Python 3.11–3.14), Windows 3.14 e teste de isolamento de rede (`unshare`).
+- Wheel com 16 membros e sdist com 31 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-RESCISAO-TRABALHISTA-CLT-2026-11-10:END -->
+
 <!-- EVIDENCE-APURACAO-SIMPLES-NACIONAL-2026-11-10:BEGIN -->
 ## Apuração do Simples Nacional e Fator R · 10 de novembro de 2026
 
