@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T22:04:24.379785Z",
+  "collectedAt": "2026-11-10T22:14:15.263852Z",
   "login": "martinlofranodeoliveira",
   "publicRepositoryCount": 312,
   "repositories": [
@@ -1646,14 +1646,21 @@
       "description": "Dimensionamento e projeto de sistemas de sinalização de emergência e pânico contra incêndio (ABNT NBR 16820:2020) com aritmética racional exata.",
       "url": "https://github.com/martinlofranodeoliveira/dimensionamento-sinalizacao-emergencia-nbr16820",
       "createdAt": "2026-11-10T21:55:10Z",
-      "pushedAt": "2026-11-10T21:55:12Z",
+      "pushedAt": "2026-11-10T22:09:36Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
       "owner": {
         "login": "martinlofranodeoliveira"
       },
-      "defaultBranchRef": null
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "a2fb330482fbc7d8a1ab416bd80194bb3912b169",
+          "committedDate": "2026-11-10T22:08:28Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-sinalizacao-emergencia-nbr16820/commit/a2fb330482fbc7d8a1ab416bd80194bb3912b169"
+        }
+      }
     },
     {
       "name": "dimensionamento-sistemas-septicos-nbr7229",
@@ -3907,7 +3914,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T22:03:59Z",
+      "pushedAt": "2026-11-10T22:04:41Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3917,9 +3924,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "534898ae5657b126b39a13531f7e5d579aff7712",
-          "committedDate": "2026-11-10T22:03:57Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/534898ae5657b126b39a13531f7e5d579aff7712"
+          "oid": "d2c57fd57425b0bd1e15ed7d178a58dffc8a00d4",
+          "committedDate": "2026-11-10T22:04:40Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/d2c57fd57425b0bd1e15ed7d178a58dffc8a00d4"
         }
       }
     },

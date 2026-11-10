@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**312 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 22:04 UTC**.
+**312 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 22:14 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,7 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
-| [dimensionamento\-sinalizacao\-emergencia\-nbr16820](https://github.com/martinlofranodeoliveira/dimensionamento-sinalizacao-emergencia-nbr16820) | Dimensionamento e projeto de sistemas de sinalização de emergência e pânico contra incêndio \(ABNT NBR 16820:2020\) com aritmética racional exata\. | Sem commit na branch padrão |
+| [dimensionamento\-sinalizacao\-emergencia\-nbr16820](https://github.com/martinlofranodeoliveira/dimensionamento-sinalizacao-emergencia-nbr16820) | Dimensionamento e projeto de sistemas de sinalização de emergência e pânico contra incêndio \(ABNT NBR 16820:2020\) com aritmética racional exata\. | [10/11/2026 22:08 · a2fb330](https://github.com/martinlofranodeoliveira/dimensionamento-sinalizacao-emergencia-nbr16820/commit/a2fb330482fbc7d8a1ab416bd80194bb3912b169) |
 | [settlement\-match\-workbench](https://github.com/martinlofranodeoliveira/settlement-match-workbench) | Explains forced, optional and excluded links across all optimal expected\-payout\-to\-credit matchings, with exact minor units and an explicit synthetic matching policy\. | [10/11/2026 21:53 · 5a6f67b](https://github.com/martinlofranodeoliveira/settlement-match-workbench/commit/5a6f67b0fec097dcb92c1df8715fa1941794a334) |
 | [dimensionamento\-portas\-corta\-fogo\-nbr11742](https://github.com/martinlofranodeoliveira/dimensionamento-portas-corta-fogo-nbr11742) | Dimensionamento e especificação de portas corta\-fogo para saídas de emergência \(ABNT NBR 11742:2018 e NBR 11785:2018\) com aritmética racional exata\. | [10/11/2026 21:50 · 1c8a150](https://github.com/martinlofranodeoliveira/dimensionamento-portas-corta-fogo-nbr11742/commit/1c8a150e52c364ae2bee6d734ae04111f46541a7) |
 | [dimensionamento\-saidas\-emergencia\-nbr9077](https://github.com/martinlofranodeoliveira/dimensionamento-saidas-emergencia-nbr9077) | Dimensionamento de Saídas de Emergência em Edifícios \(ABNT NBR 9077:2001\) \- Lofrano Tecnologia | [10/11/2026 21:34 · 43715c0](https://github.com/martinlofranodeoliveira/dimensionamento-saidas-emergencia-nbr9077/commit/43715c0e66c5f55b4e8fc903ab66963ecc45e2d6) |
