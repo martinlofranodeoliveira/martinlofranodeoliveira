@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**316 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 23:35 UTC**.
+**317 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 23:51 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-muros\-arrimo\-nbr11682](https://github.com/martinlofranodeoliveira/dimensionamento-muros-arrimo-nbr11682) | Dimensionamento geotécnico e estrutural de muros de contenção e arrimo \(NBR 11682 / NBR 6118\) com aritmética 100% racional \(Zero\-Float\)\. | [10/11/2026 23:48 · f6d5225](https://github.com/martinlofranodeoliveira/dimensionamento-muros-arrimo-nbr11682/commit/f6d5225e5a0d775bac7b26f1b5a84d5931c5ee80) |
 | [dimensionamento\-fundacoes\-profundas\-nbr6122](https://github.com/martinlofranodeoliveira/dimensionamento-fundacoes-profundas-nbr6122) | Dimensionamento analítico determinístico de fundações profundas \(estacas e tubulões por Aoki\-Velloso e Décourt\-Quaresma\) conforme ABNT NBR 6122:2022\. 100% Python padrão, Zero\-Floa… | [10/11/2026 23:31 · 5b08503](https://github.com/martinlofranodeoliveira/dimensionamento-fundacoes-profundas-nbr6122/commit/5b0850302ce93b40893c163287185378969c62ee) |
 | [dimensionamento\-bombas\-incendio\-nbr13714](https://github.com/martinlofranodeoliveira/dimensionamento-bombas-incendio-nbr13714) | Motor determinístico de engenharia para dimensionamento de Bombas de Incêndio, RTI, NPSH e Jockey conforme ABNT NBR 13714 e NBR 10897 com Zero\-Float | [10/11/2026 23:09 · 3e3af29](https://github.com/martinlofranodeoliveira/dimensionamento-bombas-incendio-nbr13714/commit/3e3af29f44374de1f531c1cbedc9d9be20576ce7) |
 | [dimensionamento\-central\-glp\-nbr13523](https://github.com/martinlofranodeoliveira/dimensionamento-central-glp-nbr13523) | Motor determinístico de engenharia para dimensionamento e auditoria de Centrais de GLP conforme ABNT NBR 13523:2019 com Zero\-Float | [10/11/2026 22:45 · 1413dd0](https://github.com/martinlofranodeoliveira/dimensionamento-central-glp-nbr13523/commit/1413dd0b5bc837d4f46a55257c834270d9baf51f) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [dimensionamento\-sinalizacao\-emergencia\-nbr16820](https://github.com/martinlofranodeoliveira/dimensionamento-sinalizacao-emergencia-nbr16820) | Dimensionamento e projeto de sistemas de sinalização de emergência e pânico contra incêndio \(ABNT NBR 16820:2020\) com aritmética racional exata\. | [10/11/2026 22:08 · a2fb330](https://github.com/martinlofranodeoliveira/dimensionamento-sinalizacao-emergencia-nbr16820/commit/a2fb330482fbc7d8a1ab416bd80194bb3912b169) |
 | [settlement\-match\-workbench](https://github.com/martinlofranodeoliveira/settlement-match-workbench) | Explains forced, optional and excluded links across all optimal expected\-payout\-to\-credit matchings, with exact minor units and an explicit synthetic matching policy\. | [10/11/2026 21:53 · 5a6f67b](https://github.com/martinlofranodeoliveira/settlement-match-workbench/commit/5a6f67b0fec097dcb92c1df8715fa1941794a334) |
 | [dimensionamento\-portas\-corta\-fogo\-nbr11742](https://github.com/martinlofranodeoliveira/dimensionamento-portas-corta-fogo-nbr11742) | Dimensionamento e especificação de portas corta\-fogo para saídas de emergência \(ABNT NBR 11742:2018 e NBR 11785:2018\) com aritmética racional exata\. | [10/11/2026 21:50 · 1c8a150](https://github.com/martinlofranodeoliveira/dimensionamento-portas-corta-fogo-nbr11742/commit/1c8a150e52c364ae2bee6d734ae04111f46541a7) |
-| [dimensionamento\-saidas\-emergencia\-nbr9077](https://github.com/martinlofranodeoliveira/dimensionamento-saidas-emergencia-nbr9077) | Dimensionamento de Saídas de Emergência em Edifícios \(ABNT NBR 9077:2001\) \- Lofrano Tecnologia | [10/11/2026 21:34 · 43715c0](https://github.com/martinlofranodeoliveira/dimensionamento-saidas-emergencia-nbr9077/commit/43715c0e66c5f55b4e8fc903ab66963ecc45e2d6) |
 
 <!-- PUBLIC-PROJECTS:END -->
 

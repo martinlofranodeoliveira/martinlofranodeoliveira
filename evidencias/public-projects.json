@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T23:35:37.512952Z",
+  "collectedAt": "2026-11-10T23:51:53.637659Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 316,
+  "publicRepositoryCount": 317,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1554,6 +1554,27 @@
           "oid": "f3aff495bf5b777f4d705513831b3bd3d4ccbe65",
           "committedDate": "2026-11-10T17:00:29Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-lajes-concreto-nbr6118/commit/f3aff495bf5b777f4d705513831b3bd3d4ccbe65"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-muros-arrimo-nbr11682",
+      "description": "Dimensionamento geotécnico e estrutural de muros de contenção e arrimo (NBR 11682 / NBR 6118) com aritmética 100% racional (Zero-Float).",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-muros-arrimo-nbr11682",
+      "createdAt": "2026-11-10T23:35:58Z",
+      "pushedAt": "2026-11-10T23:49:48Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "f6d5225e5a0d775bac7b26f1b5a84d5931c5ee80",
+          "committedDate": "2026-11-10T23:48:43Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-muros-arrimo-nbr11682/commit/f6d5225e5a0d775bac7b26f1b5a84d5931c5ee80"
         }
       }
     },
@@ -3998,7 +4019,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T23:35:14Z",
+      "pushedAt": "2026-11-10T23:35:54Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4008,9 +4029,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "ecea780d1ca3d5b1491e405af279d8913effbd64",
-          "committedDate": "2026-11-10T23:35:13Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/ecea780d1ca3d5b1491e405af279d8913effbd64"
+          "oid": "e700407104259323f23a556ca12a4fe92fee7cc6",
+          "committedDate": "2026-11-10T23:35:53Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/e700407104259323f23a556ca12a4fe92fee7cc6"
         }
       }
     },
