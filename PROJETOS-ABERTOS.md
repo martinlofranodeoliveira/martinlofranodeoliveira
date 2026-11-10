@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**273 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 11:31 UTC**.
+**274 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 11:53 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [precificacao\-cardapio\-cmv](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv) | Engenharia de cardápio, ficha técnica gastronômica, CMV alvo e matriz de rentabilidade \(Kasavana &amp; Smith\) em centavos e frações exatas\. CLI/API Python, português e MIT — LOFRANO T… | [10/11/2026 11:51 · 24271d7](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/commit/24271d75ff25f5bcb329ff4ba2689c22454c27bc) |
 | [plano\-corte\-barras](https://github.com/martinlofranodeoliveira/plano-corte-barras) | Otimização determinística de corte unidimensional \(1D\) de barras, perfis e tubos com aproveitamento máximo e perda mínima\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOLOGI… | [10/11/2026 11:28 · 50b11e7](https://github.com/martinlofranodeoliveira/plano-corte-barras/commit/50b11e7e3766231c9ee6e40ed98b0db759a38bdd) |
 | [rateio\-condominio\-fracoes](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes) | Rateio condominial determinístico por fração ideal milesimal, hidrômetros individualizados e conservação exata de centavos\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOLOG… | [10/11/2026 11:15 · 626cb9b](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/commit/626cb9b13494e41593ebfdffbbf37c93a4bf56d1) |
 | [conciliacao\-bancaria](https://github.com/martinlofranodeoliveira/conciliacao-bancaria) | Conciliação bancária determinística em centavos exatos \(1:1, lotes 1:N/N:1, tarifas, ambiguidades e pendências\)\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 10:53 · 0e223f1](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/commit/0e223f13315c3186ceaadd656ca703086b9ad79f) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [curva\-abc\-estoque](https://github.com/martinlofranodeoliveira/curva-abc-estoque) | Classificação ABC de estoque por Pareto, ponto de reposição, estoque de segurança e lote mínimo\. CLI/API Python local, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 10:32 · f4495e1](https://github.com/martinlofranodeoliveira/curva-abc-estoque/commit/f4495e18691b1c302bb37159fd153765e79dd04f) |
 | [forecast\-origin\-workbench](https://github.com/martinlofranodeoliveira/forecast-origin-workbench) | An offline expanding\-window forecasting SDK and CLI with fixed gradient boosting, simple baselines, mature historical error bands and explicit observed\-data lineage\. | [10/11/2026 09:12 · 1a95d8d](https://github.com/martinlofranodeoliveira/forecast-origin-workbench/commit/1a95d8da14edb25d141513d1124987a79464a7be) |
 | [finite\-policy\-difference](https://github.com/martinlofranodeoliveira/finite-policy-difference) | A symbolic comparison library for finite categorical first\-match rule tables, producing exact outcome\-region counts and a replayable input witness when two tables differ\. | [10/11/2026 08:51 · 1aa457d](https://github.com/martinlofranodeoliveira/finite-policy-difference/commit/1aa457d525f8947b406e443917bfd711997ff997) |
-| [minimal\-transversal\-witnesses](https://github.com/martinlofranodeoliveira/minimal-transversal-witnesses) | A bounded hypergraph library that enumerates inclusion\-minimal hitting sets and supplies a private\-edge witness for every selected vertex, with explicit completeness and exhausted… | [10/11/2026 08:47 · d4d87f7](https://github.com/martinlofranodeoliveira/minimal-transversal-witnesses/commit/d4d87f7c75bc73a7d95738ccd37432c2b713d9e3) |
 
 <!-- PUBLIC-PROJECTS:END -->
 

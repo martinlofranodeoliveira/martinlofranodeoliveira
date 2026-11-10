@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T11:31:07.859619Z",
+  "collectedAt": "2026-11-10T11:53:39.890085Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 273,
+  "publicRepositoryCount": 274,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -3221,7 +3221,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T11:30:46Z",
+      "pushedAt": "2026-11-10T11:53:18Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3231,9 +3231,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "7c1a2b7845e03d24b9f171e6f92c425b595456e9",
-          "committedDate": "2026-11-10T11:30:45Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/7c1a2b7845e03d24b9f171e6f92c425b595456e9"
+          "oid": "f07aefd49083a4fa76e5a6d9a5a54f390b62f0a1",
+          "committedDate": "2026-11-10T11:53:17Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/f07aefd49083a4fa76e5a6d9a5a54f390b62f0a1"
         }
       }
     },
@@ -4053,6 +4053,27 @@
           "oid": "f2eed1d5c71dab102800643e314a49c79a9fde03",
           "committedDate": "2026-11-05T07:20:00Z",
           "url": "https://github.com/martinlofranodeoliveira/postgres-isolation-replay-lab/commit/f2eed1d5c71dab102800643e314a49c79a9fde03"
+        }
+      }
+    },
+    {
+      "name": "precificacao-cardapio-cmv",
+      "description": "Engenharia de cardápio, ficha técnica gastronômica, CMV alvo e matriz de rentabilidade (Kasavana & Smith) em centavos e frações exatas. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv",
+      "createdAt": "2026-11-10T11:32:39Z",
+      "pushedAt": "2026-11-10T11:51:44Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "24271d75ff25f5bcb329ff4ba2689c22454c27bc",
+          "committedDate": "2026-11-10T11:51:01Z",
+          "url": "https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/commit/24271d75ff25f5bcb329ff4ba2689c22454c27bc"
         }
       }
     },
