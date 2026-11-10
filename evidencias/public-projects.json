@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T20:16:30.139799Z",
+  "collectedAt": "2026-11-10T20:30:36.521444Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 304,
+  "publicRepositoryCount": 305,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1239,6 +1239,27 @@
           "oid": "95d6004c6a0ae121aab7b8cea9ca978bf0e5b936",
           "committedDate": "2026-11-08T20:53:02Z",
           "url": "https://github.com/martinlofranodeoliveira/diff-lines-core/commit/95d6004c6a0ae121aab7b8cea9ca978bf0e5b936"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-alarme-incendio-nbr17240",
+      "description": "Dimensionamento analítico de detecção e alarme de incêndio, detectores ópticos/térmicos, acionadores, laços e baterias segundo a ABNT NBR 17240:2010 em Python puro e exato.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-alarme-incendio-nbr17240",
+      "createdAt": "2026-11-10T20:16:54Z",
+      "pushedAt": "2026-11-10T20:29:02Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "464211b8abc5cf4dc0dcfab295eeb80237d16ae4",
+          "committedDate": "2026-11-10T20:27:54Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-alarme-incendio-nbr17240/commit/464211b8abc5cf4dc0dcfab295eeb80237d16ae4"
         }
       }
     },
@@ -3767,7 +3788,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T20:16:07Z",
+      "pushedAt": "2026-11-10T20:16:47Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3777,9 +3798,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "eb742c831e37e09cb0602c4319520b3b1ddbdd41",
-          "committedDate": "2026-11-10T20:16:05Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/eb742c831e37e09cb0602c4319520b3b1ddbdd41"
+          "oid": "435e286a5626fd7834b47523b8ce48f4561f188d",
+          "committedDate": "2026-11-10T20:16:46Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/435e286a5626fd7834b47523b8ce48f4561f188d"
         }
       }
     },
