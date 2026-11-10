@@ -1,0 +1,870 @@
+{
+  "schema_version": "0.1.0",
+  "evaluated_at_utc": "2026-11-10T09:28:39Z",
+  "ttl_seconds": 86400,
+  "repositories": [
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "spatial-loading-studio",
+      "description": "A React3D spatial placement editor for bounded boxes, with exact interior-overlap rules, axis-aligned rotations, undo and deterministic plans.",
+      "language": "TypeScript",
+      "source_sha": "8b9dd49c5a7aaef7caf57535c7bafba6ec22062b",
+      "observed_at_utc": "2026-11-10T02:37:46Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408082829,
+            "name": "checks",
+            "state": "active"
+          },
+          {
+            "id": 408084590,
+            "name": "pages-build-deployment",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42062511773,
+            "workflow_id": 408082829,
+            "head_sha": "8b9dd49c5a7aaef7caf57535c7bafba6ec22062b",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:16:05Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "spill-outer-join",
+      "description": "A bounded external-sort full outer join for local keyed JSONL streams. It preserves duplicate multiplicity, exposes SQL-like null nonmatching and publishes no result when parsing, Cartesian expansion or disk limits fail.",
+      "language": "Kotlin",
+      "source_sha": "f092a78c0f6ff9c78e17b64b4db83ba1c3066a35",
+      "observed_at_utc": "2026-11-10T02:37:48Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407803448,
+            "name": "local-contract",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41982283368,
+            "workflow_id": 407803448,
+            "head_sha": "f092a78c0f6ff9c78e17b64b4db83ba1c3066a35",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T06:44:50Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "sqlite-migration-rehearsal-lab",
+      "description": "A disposable SQLite migration rehearsal using a consistent copy, explicit invariants and up/down/up state comparisons, preserving the source and avoiding general SQL-equivalence claims.",
+      "language": "Python",
+      "source_sha": "962fe9166c09e566975da0cbd2425f5e59fd777e",
+      "observed_at_utc": "2026-11-10T02:37:48Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407762270,
+            "name": "SQLite runtime checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41993369316,
+            "workflow_id": 407762270,
+            "head_sha": "962fe9166c09e566975da0cbd2425f5e59fd777e",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:19:04Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "sse-stream-inspector",
+      "description": "Incremental offline SSE capture inspector in Rust. Handles arbitrary chunk boundaries, event framing, IDs and retry fields, with strict UTF-8 diagnostics and independent retention limits. Includes JSON/text reports and CLI demo.",
+      "language": "Rust",
+      "source_sha": "70b944beacb0cd3e47a6be05df2ed02b5300d04f",
+      "observed_at_utc": "2026-11-10T02:37:49Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407723632,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41971045548,
+            "workflow_id": 407723632,
+            "head_sha": "70b944beacb0cd3e47a6be05df2ed02b5300d04f",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T04:58:56Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "static-link-audit",
+      "description": "An offline auditor of link targets and fragments in a local HTML export. It helps teams check sites before handoff without an external crawler or claims of complete SEO/security auditing.",
+      "language": "Ruby",
+      "source_sha": "c88ffdd244745c3c2af3ba2441a3579a9e1d22fa",
+      "observed_at_utc": "2026-11-10T02:37:49Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407657747,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41960295313,
+            "workflow_id": 407657747,
+            "head_sha": "c88ffdd244745c3c2af3ba2441a3579a9e1d22fa",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T03:14:53Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "stratified-permutation-mass",
+      "description": "An exact combinatorial distribution library for bounded two-label assignments within fixed strata, using dynamic programming and convolution to return integer masses and exact rational tail counts.",
+      "language": "R",
+      "source_sha": "6522f24d5fd92c532ea00e474e7bdb785a62fbf1",
+      "observed_at_utc": "2026-11-10T02:37:50Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408398669,
+            "name": "Native offline gates",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42067953553,
+            "workflow_id": 408398669,
+            "head_sha": "6522f24d5fd92c532ea00e474e7bdb785a62fbf1",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T16:49:36Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "stripe-recovery-kit",
+      "description": "A local file-recovery library and CLI using mature Reed-Solomon and SHA-256 crates. Bounded stripes, per-block hashes and manifest-last commits demonstrate recovery from missing or corrupted shards without modifying the source set.",
+      "language": "Rust",
+      "source_sha": "2e55c3601a34e8a3b01d360ab8571d23d41f8bcf",
+      "observed_at_utc": "2026-11-10T02:37:51Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407851144,
+            "name": "local-recovery-tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41989633131,
+            "workflow_id": 407851144,
+            "head_sha": "2e55c3601a34e8a3b01d360ab8571d23d41f8bcf",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T07:47:34Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "swift-actor-transition-rehearsal",
+      "description": "A headless Swift concurrency lab for rehearsing admission, actor reentrancy, cancellation and acknowledged state transitions. Real actors suspend at explicitly owned barriers, while immutable snapshots explain which transitions committed an",
+      "language": "Swift",
+      "source_sha": "0043de8cb0a258088074eb341460c0112b61ae9f",
+      "observed_at_utc": "2026-11-10T02:37:52Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408242632,
+            "name": "offline-concurrency-gate",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42043994621,
+            "workflow_id": 408242632,
+            "head_sha": "0043de8cb0a258088074eb341460c0112b61ae9f",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T14:21:33Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "tabular-drift-audit",
+      "description": "A bounded offline SDK for comparing reference and current tabular feature snapshots. Exact empirical KS distance, frozen-bin smoothed PSI, categorical Jensen-Shannon divergence and missing/schema changes produce reproducible descriptive evi",
+      "language": "Python",
+      "source_sha": "37d8c8f9036aaef5a16b5b32619cf5563a4d2499",
+      "observed_at_utc": "2026-11-10T06:58:27Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 412975738,
+            "name": "native-package-checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42771726497,
+            "workflow_id": 412975738,
+            "head_sha": "37d8c8f9036aaef5a16b5b32619cf5563a4d2499",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-10T06:56:42Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "temporal-obligation-core",
+      "description": "A typed offline temporal-contract SDK for dense Boolean event traces. It evaluates nested bounded obligations with witness explanations while separating false properties, unobserved-future uncertainty and resource-incomplete evaluation.",
+      "language": "PHP",
+      "source_sha": "cc2195751315f7b117221c62985abd2d1d55f92b",
+      "observed_at_utc": "2026-11-10T02:37:51Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411437567,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42520041291,
+            "workflow_id": 411437567,
+            "head_sha": "cc2195751315f7b117221c62985abd2d1d55f92b",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T20:25:40Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "tenant-policy-lab",
+      "description": "A reproducible PostgreSQL lab demonstrating tenant access policies with separate roles, synthetic data and negative read/write tests. It is a bounded RLS example, not a general SaaS security guarantee.",
+      "language": "PLpgSQL",
+      "source_sha": "f4ea4ef23e2dcdc093bf1fb2964c3ede7be83652",
+      "observed_at_utc": "2026-11-10T02:37:52Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407657737,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41962008174,
+            "workflow_id": 407657737,
+            "head_sha": "f4ea4ef23e2dcdc093bf1fb2964c3ede7be83652",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T03:30:46Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "tensor-order-core",
+      "description": "A symbolic tensor-contraction planning SDK that computes an exact minimum-multiplication binary contraction tree for a small explicit network subset. Replayable cost receipts and independent numerical examples make planning decisions inspec",
+      "language": "C++",
+      "source_sha": "eb40d6456d81e9ee0a0c513faeb0ef68e6602e2b",
+      "observed_at_utc": "2026-11-10T02:37:53Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411451415,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42521935021,
+            "workflow_id": 411451415,
+            "head_sha": "eb40d6456d81e9ee0a0c513faeb0ef68e6602e2b",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T20:48:19Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "test-shard-plan",
+      "description": "A deterministic test-to-worker partition planner using supplied durations and affinity groups. It fills the execution-balancing gap without calculating dependencies or running tests.",
+      "language": "Python",
+      "source_sha": "6de51bb60427b05b62d616cb9ae70fb77ff4f311",
+      "observed_at_utc": "2026-11-10T02:37:53Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407700880,
+            "name": "Offline tests and synthetic demos",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41967440496,
+            "workflow_id": 407700880,
+            "head_sha": "6de51bb60427b05b62d616cb9ae70fb77ff4f311",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T04:23:12Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "trace-context-hop-lab",
+      "description": "Two local HTTP services and a real OpenTelemetry Collector demonstrate trace parentage, request-context isolation and baggage allowlisting. A headless verifier checks exported OTLP evidence instead of requiring a tracing dashboard.",
+      "language": "Elixir",
+      "source_sha": "7ec54ce284acbcbaa5980d917b7c579a22a9f3ee",
+      "observed_at_utc": "2026-11-10T02:37:55Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408150298,
+            "name": "local-evidence",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42031032846,
+            "workflow_id": 408150298,
+            "head_sha": "7ec54ce284acbcbaa5980d917b7c579a22a9f3ee",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T12:54:59Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "trace-waterfall-svg",
+      "description": "An offline converter of complete trace events into a standalone SVG with process/thread tracks and an explicit time scale. It helps inspect concurrent operations without uploading traces to a service.",
+      "language": "C++",
+      "source_sha": "72016fdaa8f4550dd6ae18589a2767d99de58c33",
+      "observed_at_utc": "2026-11-10T02:37:55Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407680904,
+            "name": "ci",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41964160059,
+            "workflow_id": 407680904,
+            "head_sha": "72016fdaa8f4550dd6ae18589a2767d99de58c33",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T03:51:58Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "transactional-outbox-lab",
+      "description": "Python/SQLite transactional outbox lab with atomic domain/event writes, fenced worker leases, retry scheduling and dead letters. Demonstrates at-least-once delivery and consumer deduplication with reproducible offline fault injection.",
+      "language": "Python",
+      "source_sha": "f60f71c9ea54df997312ba3fc6c69276d85bce55",
+      "observed_at_utc": "2026-11-10T02:37:55Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407736345,
+            "name": "SQLite runtime checks",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41993363326,
+            "workflow_id": 407736345,
+            "head_sha": "f60f71c9ea54df997312ba3fc6c69276d85bce55",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:18:51Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "utc-cron-preview",
+      "description": "A deterministic preview of future occurrences for an explicit five-field UTC cron subset. It helps review automations before configuration without installing jobs or executing commands.",
+      "language": "C#",
+      "source_sha": "be924480c5eb177580f781e7d9cebcec3d4ae02a",
+      "observed_at_utc": "2026-11-10T02:37:56Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407677829,
+            "name": "Offline contract tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41965988734,
+            "workflow_id": 407677829,
+            "head_sha": "be924480c5eb177580f781e7d9cebcec3d4ae02a",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T04:09:30Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "verified-block-delta",
+      "description": "A bounded binary delta library using rolling block signatures and SHA-256 confirmation. It emits deterministic copy/literal operations and applies them to a new destination only after base, bounds and target checks pass.",
+      "language": "Rust",
+      "source_sha": "14c6c1e279ac9b42dbd3441d9ffe5a3f5f81ba9c",
+      "observed_at_utc": "2026-11-10T02:37:57Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407902185,
+            "name": "ci",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41997740132,
+            "workflow_id": 407902185,
+            "head_sha": "14c6c1e279ac9b42dbd3441d9ffe5a3f5f81ba9c",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T08:52:38Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "wasm-capability-replay",
+      "description": "Compile original WebAssembly fixtures and capture or replay their bounded host capabilities with wazero. Exact call traces, independent arithmetic oracles and explicit interruption outcomes make behavior inspectable.",
+      "language": "Go",
+      "source_sha": "1fdbcde63ed99ac9f9adf86cfa8504fad674ec92",
+      "observed_at_utc": "2026-11-10T02:37:57Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 408440962,
+            "name": "offline-container-tests",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42074685602,
+            "workflow_id": 408440962,
+            "head_sha": "1fdbcde63ed99ac9f9adf86cfa8504fad674ec92",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T17:27:21Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "webhook-signature-lab",
+      "description": "An offline library and lab for signing and verifying raw webhook bodies with an explicit HMAC protocol and caller-supplied time. It complements idempotency controls without executing events or claiming provider compatibility.",
+      "language": "TypeScript",
+      "source_sha": "b89a5f069d72f30741f2b13d3b9239addc6e9225",
+      "observed_at_utc": "2026-11-10T02:37:58Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407654260,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41959743438,
+            "workflow_id": 407654260,
+            "head_sha": "b89a5f069d72f30741f2b13d3b9239addc6e9225",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T03:09:08Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "window-stats-stream",
+      "description": "A Java 21 library and CLI for deterministic computation of numerical statistics over tumbling and sliding time windows on event streams. It uses explicit event timestamps, watermark progression to classify late arrivals, Welford's online al",
+      "language": "Java",
+      "source_sha": "dd66208d4bb26dcb243fa707e82cfb84ddb1fbd2",
+      "observed_at_utc": "2026-11-10T02:37:58Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 407720003,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 41970517129,
+            "workflow_id": 407720003,
+            "head_sha": "dd66208d4bb26dcb243fa707e82cfb84ddb1fbd2",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-05T04:53:11Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    },
+    {
+      "owner": "martinlofranodeoliveira",
+      "name": "zig-debuglink-companion-audit",
+      "description": "A ELF companion auditor that uses maintained libelf metadata APIs and real GNU objcopy/readelf fixtures to explain whether an explicit .gnu_debuglink reference names the supplied debug file and carries its correct CRC.",
+      "language": "Zig",
+      "source_sha": "e2e2fa2cf9c5b596a303aed09e6b053f77aa7fcc",
+      "observed_at_utc": "2026-11-10T02:37:59Z",
+      "provenance": "imported",
+      "license": "present",
+      "documentation": {
+        "readme": "present",
+        "contributing": "present",
+        "security": "present"
+      },
+      "workflow_inventory": {
+        "complete": true,
+        "items": [
+          {
+            "id": 411514943,
+            "name": "CI",
+            "state": "active"
+          }
+        ]
+      },
+      "runs": {
+        "complete": true,
+        "items": [
+          {
+            "id": 42531701240,
+            "workflow_id": 411514943,
+            "head_sha": "e2e2fa2cf9c5b596a303aed09e6b053f77aa7fcc",
+            "status": "completed",
+            "conclusion": "success",
+            "updated_at_utc": "2026-11-08T22:44:45Z"
+          }
+        ]
+      },
+      "claimed_verdict": null
+    }
+  ]
+}

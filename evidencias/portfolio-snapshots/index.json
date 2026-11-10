@@ -1,21 +1,21 @@
 {
   "schema_version": "portfolio-snapshot-index/1",
-  "evaluated_at_utc": "2026-11-10T06:58:27Z",
-  "total_repositories": 119,
+  "evaluated_at_utc": "2026-11-10T09:28:39Z",
+  "total_repositories": 122,
   "part_repository_limit": 100,
   "parts": [
     {
-      "path": "part-001-a0b6bfa7429db7be.json",
+      "path": "part-001-28823e10d055bb84.json",
       "repositories": 100,
-      "sha256": "a0b6bfa7429db7be75baeaf9b12b419000249b271d5f59cba3bfb5765b703217",
+      "sha256": "28823e10d055bb84110f9a5b2d3b8615e3ecba0c20553440c2aeaf65b7fe9026",
       "first_repository": "anchored-affine-alignment",
-      "last_repository": "sqlite-migration-rehearsal-lab"
+      "last_repository": "source-map-chain-replay-lab"
     },
     {
-      "path": "part-002-d17f839094ff7091.json",
-      "repositories": 19,
-      "sha256": "d17f839094ff7091e60181fe3a09f01681fa4c0e6b0f2a4a02929e870566b224",
-      "first_repository": "sse-stream-inspector",
+      "path": "part-002-8f91084af674ab1c.json",
+      "repositories": 22,
+      "sha256": "8f91084af674ab1c52eb9d84b4b9d74631d56f3e5faa9027d30b921bdccf4575",
+      "first_repository": "spatial-loading-studio",
       "last_repository": "zig-debuglink-companion-audit"
     }
   ],

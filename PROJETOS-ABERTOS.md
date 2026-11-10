@@ -31,13 +31,14 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 <!-- PYTHON-DATA-AI:BEGIN -->
 ## Análise de dados e IA local · Python
 
-Três pacotes para experimentos reproduzíveis com tabelas e busca semântica. Todos têm SDK, CLI, documentação em português e inglês e exemplos sintéticos originais. Os contratos explicitam os limites de dados, os formatos e os estados de falha.
+Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal e busca semântica. Todos têm SDK, CLI, documentação em português e inglês e exemplos sintéticos originais. Os contratos explicitam os limites de dados, os formatos e os estados de falha.
 
 | Projeto | Aplicação | Documentação |
 | --- | --- | --- |
 | [Calibrated Tabular Lab](https://github.com/martinlofranodeoliveira/calibrated-tabular-lab) | Investigar calibração de probabilidades e custos de limiar com quatro conjuntos separados; exportar JSON, CSV e HTML. | [Português](https://github.com/martinlofranodeoliveira/calibrated-tabular-lab/blob/main/README.pt-BR.md) |
 | [Tabular Drift Audit](https://github.com/martinlofranodeoliveira/tabular-drift-audit) | Conferir mudanças de esquema, ausências, distância KS, PSI e divergência Jensen–Shannon em um plano explícito. | [Português](https://github.com/martinlofranodeoliveira/tabular-drift-audit/blob/main/README.pt-BR.md) |
 | [Local Semantic Atlas](https://github.com/martinlofranodeoliveira/local-semantic-atlas) | Consultar um corpus pequeno com o modelo multilíngue aberto E5, artefatos conferidos por hash e ordenação por cosseno. | [Português](https://github.com/martinlofranodeoliveira/local-semantic-atlas/blob/main/docs/README.pt-BR.md) |
+| [Forecast Origin Workbench](https://github.com/martinlofranodeoliveira/forecast-origin-workbench) | Comparar boosting por histogramas, persistência e referência sazonal em backtests com origens fixas e resíduos já observados. | [Português](https://github.com/martinlofranodeoliveira/forecast-origin-workbench/blob/main/README.pt-BR.md) |
 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->

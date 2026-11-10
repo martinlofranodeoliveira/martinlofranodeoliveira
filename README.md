@@ -116,6 +116,7 @@ Pacotes com SDK, CLI, exemplos sintéticos e documentação em português e ingl
 | [Calibrated Tabular Lab](https://github.com/martinlofranodeoliveira/calibrated-tabular-lab) | Comparar probabilidades originais e calibradas, com treino, calibração, escolha de limiar e teste separados. | [Instalar e executar](https://github.com/martinlofranodeoliveira/calibrated-tabular-lab/blob/main/README.pt-BR.md) |
 | [Tabular Drift Audit](https://github.com/martinlofranodeoliveira/tabular-drift-audit) | Comparar distribuições, ausências e esquema entre tabelas Arrow, CSV e Parquet. | [Instalar e executar](https://github.com/martinlofranodeoliveira/tabular-drift-audit/blob/main/README.pt-BR.md) |
 | [Local Semantic Atlas](https://github.com/martinlofranodeoliveira/local-semantic-atlas) | Buscar documentos em português e inglês com embeddings reais e inferência local ONNX. | [Preparar o modelo e consultar](https://github.com/martinlofranodeoliveira/local-semantic-atlas/blob/main/docs/README.pt-BR.md) |
+| [Forecast Origin Workbench](https://github.com/martinlofranodeoliveira/forecast-origin-workbench) | Avaliar previsões em origens temporais fixas, comparar referências e examinar bandas empíricas de erros anteriores. | [Instalar e executar](https://github.com/martinlofranodeoliveira/forecast-origin-workbench/blob/main/README.pt-BR.md) |
 
 As versões qualificadas, os testes e as limitações de cada pacote estão em [EVIDENCIAS.md](EVIDENCIAS.md). Código original MIT; modelos e dependências mantêm seus termos próprios.
 <!-- PYTHON-DATA-AI:END -->
