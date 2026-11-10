@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**289 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 16:27 UTC**.
+**289 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 16:41 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,7 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
-| [dimensionamento\-pilares\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-pilares-concreto-nbr6118) | Dimensionamento analítico, verificação estrutural e detalhamento normativo de pilares de concreto armado segundo ABNT NBR 6118:2023\. LOFRANO TECNOLOGIA\. | Sem commit na branch padrão |
+| [dimensionamento\-pilares\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-pilares-concreto-nbr6118) | Dimensionamento analítico, verificação estrutural e detalhamento normativo de pilares de concreto armado segundo ABNT NBR 6118:2023\. LOFRANO TECNOLOGIA\. | [10/11/2026 16:36 · 629b21a](https://github.com/martinlofranodeoliveira/dimensionamento-pilares-concreto-nbr6118/commit/629b21a8d431a3dacb8fd555140bbc4bddd01124) |
 | [pncp\-contract\-snapshot\-audit](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit) | Offline auditor for captured PNCP contract pages with explicit collection coverage, selected\-projection deduplication, exact monetary values and independently checked SQLite aggre… | [10/11/2026 16:03 · eeda5be](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/commit/eeda5be4477e1752170ca38e5fb3e1a912941e19) |
 | [dimensionamento\-sapatas\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-sapatas-concreto-nbr6118) | Dimensionamento determinístico e verificação estrutural de sapatas isoladas de concreto armado segundo ABNT NBR 6118:2023 e ABNT NBR 6122:2022 \(Zero Float\)\. LOFRANO TECNOLOGIA\. | [10/11/2026 16:17 · 6164087](https://github.com/martinlofranodeoliveira/dimensionamento-sapatas-concreto-nbr6118/commit/6164087ca5df0a475b2a9f7bec5b5d2ae90c7c72) |
 | [dimensionamento\-vigas\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-vigas-concreto-nbr6118) | Dimensionamento e verificação de vigas de concreto armado segundo a ABNT NBR 6118:2023\. 100% Python padrão, Zero Float\. | [10/11/2026 15:51 · 6aac8fa](https://github.com/martinlofranodeoliveira/dimensionamento-vigas-concreto-nbr6118/commit/6aac8fa58aa780a125c2931bb4f3dc5f8a0b9e52) |
