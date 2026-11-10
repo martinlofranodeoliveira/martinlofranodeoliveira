@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T19:56:50.591956Z",
+  "collectedAt": "2026-11-10T20:02:15.206385Z",
   "login": "martinlofranodeoliveira",
   "publicRepositoryCount": 303,
   "repositories": [
@@ -1499,14 +1499,21 @@
       "description": "Dimensionamento analítico de tanques sépticos, filtros anaeróbios e disposição final conforme ABNT NBR 7229:1993 e ABNT NBR 13969:1997.",
       "url": "https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229",
       "createdAt": "2026-11-10T19:49:15Z",
-      "pushedAt": "2026-11-10T19:49:17Z",
+      "pushedAt": "2026-11-10T20:01:05Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
       "owner": {
         "login": "martinlofranodeoliveira"
       },
-      "defaultBranchRef": null
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "b8e118fdd730c57bbaacc063c6b260217a57ef3d",
+          "committedDate": "2026-11-10T20:00:24Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229/commit/b8e118fdd730c57bbaacc063c6b260217a57ef3d"
+        }
+      }
     },
     {
       "name": "dimensionamento-sistemas-sprinklers-nbr10897",
@@ -3739,7 +3746,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T19:56:28Z",
+      "pushedAt": "2026-11-10T19:57:06Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3749,9 +3756,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "1f06813d7b062dc6b717cc17caeb49090142cee4",
-          "committedDate": "2026-11-10T19:56:26Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/1f06813d7b062dc6b717cc17caeb49090142cee4"
+          "oid": "a5937ad2fa49bc18762151b8b33ec3cd5e44779a",
+          "committedDate": "2026-11-10T19:57:05Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/a5937ad2fa49bc18762151b8b33ec3cd5e44779a"
         }
       }
     },

@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**303 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 19:56 UTC**.
+**303 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 20:02 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,7 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
-| [dimensionamento\-sistemas\-septicos\-nbr7229](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229) | Dimensionamento analítico de tanques sépticos, filtros anaeróbios e disposição final conforme ABNT NBR 7229:1993 e ABNT NBR 13969:1997\. | Sem commit na branch padrão |
+| [dimensionamento\-sistemas\-septicos\-nbr7229](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229) | Dimensionamento analítico de tanques sépticos, filtros anaeróbios e disposição final conforme ABNT NBR 7229:1993 e ABNT NBR 13969:1997\. | [10/11/2026 20:00 · b8e118f](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229/commit/b8e118fdd730c57bbaacc063c6b260217a57ef3d) |
 | [protocolo\-tramitacao\-ledger](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger) | A PostgreSQL\-backed case\-routing ledger with acknowledged custody transfers, immutable document versions, unit authorization and byte\-identical idempotent receipts\. | [10/11/2026 19:40 · 88e3d57](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger/commit/88e3d57f7c397cf61f31fa10519aa31f81fdc2d0) |
 | [dimensionamento\-ventilacao\-exaustao\-nbr14518](https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518) | Dimensionamento analítico de sistemas de ventilação e exaustão para cozinhas profissionais conforme ABNT NBR 14518:2020\. | [10/11/2026 19:43 · 6d6c2ab](https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518/commit/6d6c2aba2505da10c32a6c60cd8c37206e10f5ac) |
 | [dimensionamento\-climatizacao\-nbr16401](https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401) | Motor analítico e CLI para cálculo de carga térmica, renovação de ar e dimensionamento de climatização e ar\-condicionado conforme ABNT NBR 16401:2008 em Python puro com aritmética… | [10/11/2026 19:24 · 0f9d3c5](https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401/commit/0f9d3c50131f3456c91173f72867e2ca977083f2) |
