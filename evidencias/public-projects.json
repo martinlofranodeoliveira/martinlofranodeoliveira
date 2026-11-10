@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T18:09:26.762526Z",
+  "collectedAt": "2026-11-10T18:22:23.326046Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 294,
+  "publicRepositoryCount": 295,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1407,6 +1407,27 @@
           "oid": "629b21a8d431a3dacb8fd555140bbc4bddd01124",
           "committedDate": "2026-11-10T16:36:10Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-pilares-concreto-nbr6118/commit/629b21a8d431a3dacb8fd555140bbc4bddd01124"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-redes-gas-nbr15526",
+      "description": "Dimensionamento analítico de redes de distribuição interna de gases combustíveis (GN e GLP) segundo a ABNT NBR 15526 em frações exatas e Python puro.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526",
+      "createdAt": "2026-11-10T18:09:35Z",
+      "pushedAt": "2026-11-10T18:21:10Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "b2ec4e09002cc5a64c09dad521a83a3296246de1",
+          "committedDate": "2026-11-10T18:20:23Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526/commit/b2ec4e09002cc5a64c09dad521a83a3296246de1"
         }
       }
     },
@@ -3578,7 +3599,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T18:08:57Z",
+      "pushedAt": "2026-11-10T18:09:42Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3588,9 +3609,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "767d629f3185f6b803a6f5a3aa5e8a153c50faf3",
-          "committedDate": "2026-11-10T18:08:56Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/767d629f3185f6b803a6f5a3aa5e8a153c50faf3"
+          "oid": "ed5bebf1f9f80bce11331507569739fdd5a5a982",
+          "committedDate": "2026-11-10T18:09:41Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/ed5bebf1f9f80bce11331507569739fdd5a5a982"
         }
       }
     },
