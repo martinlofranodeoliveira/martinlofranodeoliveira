@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T17:29:43.477306Z",
+  "collectedAt": "2026-11-10T17:38:38.063282Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 292,
+  "publicRepositoryCount": 293,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -506,6 +506,20 @@
           "url": "https://github.com/martinlofranodeoliveira/caderno-revisoes/commit/5ab7d570d5c99486b018ee21359031c6f2757e75"
         }
       }
+    },
+    {
+      "name": "calculo-alvenaria-estrutural-nbr16868",
+      "description": "Dimensionamento e verificação analítica de paredes de alvenaria estrutural sob compressão, flexo-compressão e cisalhamento segundo a ABNT NBR 16868:2020/2024 em frações exatas e Python puro.",
+      "url": "https://github.com/martinlofranodeoliveira/calculo-alvenaria-estrutural-nbr16868",
+      "createdAt": "2026-11-10T17:30:02Z",
+      "pushedAt": "2026-11-10T17:30:04Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": null
     },
     {
       "name": "calculo-estabilidade-taludes-nbr11682",
@@ -3536,7 +3550,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T17:29:19Z",
+      "pushedAt": "2026-11-10T17:38:17Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3546,9 +3560,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "dd14e95b0d031d2143b445d442bea57d4ebfcee9",
-          "committedDate": "2026-11-10T17:29:17Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/dd14e95b0d031d2143b445d442bea57d4ebfcee9"
+          "oid": "b26d8ff43d785dff7e63838cd57124037bbf428d",
+          "committedDate": "2026-11-10T17:37:57Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/b26d8ff43d785dff7e63838cd57124037bbf428d"
         }
       }
     },
