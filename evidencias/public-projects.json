@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T19:29:36.724210Z",
+  "collectedAt": "2026-11-10T19:47:10.375712Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 300,
+  "publicRepositoryCount": 302,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1533,6 +1533,27 @@
           "oid": "66a008d94a65d663435c510163e4de4e193d5189",
           "committedDate": "2026-11-10T18:33:25Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-spda-nbr5419/commit/66a008d94a65d663435c510163e4de4e193d5189"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-ventilacao-exaustao-nbr14518",
+      "description": "Dimensionamento analítico de sistemas de ventilação e exaustão para cozinhas profissionais conforme ABNT NBR 14518:2020.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518",
+      "createdAt": "2026-11-10T19:30:26Z",
+      "pushedAt": "2026-11-10T19:44:39Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "6d6c2aba2505da10c32a6c60cd8c37206e10f5ac",
+          "committedDate": "2026-11-10T19:43:32Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518/commit/6d6c2aba2505da10c32a6c60cd8c37206e10f5ac"
         }
       }
     },
@@ -3704,7 +3725,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T19:29:02Z",
+      "pushedAt": "2026-11-10T19:29:56Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3714,9 +3735,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "115f3d9ece02e90340663ea5cb7d7bef2e04b27e",
-          "committedDate": "2026-11-10T19:29:00Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/115f3d9ece02e90340663ea5cb7d7bef2e04b27e"
+          "oid": "54ea01a793a101dd5eb76232d8051530b8b8c8d1",
+          "committedDate": "2026-11-10T19:29:54Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/54ea01a793a101dd5eb76232d8051530b8b8c8d1"
         }
       }
     },
@@ -4641,6 +4662,27 @@
           "oid": "90e973f089d06335eb7e4e28d71c908b634a3507",
           "committedDate": "2026-11-05T01:36:53Z",
           "url": "https://github.com/martinlofranodeoliveira/ProjetoColaborativoDH/commit/90e973f089d06335eb7e4e28d71c908b634a3507"
+        }
+      }
+    },
+    {
+      "name": "protocolo-tramitacao-ledger",
+      "description": "A PostgreSQL-backed case-routing ledger with acknowledged custody transfers, immutable document versions, unit authorization and byte-identical idempotent receipts.",
+      "url": "https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger",
+      "createdAt": "2026-11-10T19:40:49Z",
+      "pushedAt": "2026-11-10T19:40:55Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "88e3d57f7c397cf61f31fa10519aa31f81fdc2d0",
+          "committedDate": "2026-11-10T19:40:45Z",
+          "url": "https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger/commit/88e3d57f7c397cf61f31fa10519aa31f81fdc2d0"
         }
       }
     },
