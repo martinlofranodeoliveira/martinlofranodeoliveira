@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**293 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 17:48 UTC**.
+**294 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 18:07 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-estruturas\-madeira\-nbr7190](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-madeira-nbr7190) | Dimensionamento analítico de estruturas de madeira sob tração, compressão, flexão e cisalhamento segundo a ABNT NBR 7190:2022 em frações exatas e Python puro\. | [10/11/2026 18:06 · 1ac00a5](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-madeira-nbr7190/commit/1ac00a585532d58600e65fa55ea571180ebbcf07) |
 | [calculo\-alvenaria\-estrutural\-nbr16868](https://github.com/martinlofranodeoliveira/calculo-alvenaria-estrutural-nbr16868) | Dimensionamento e verificação analítica de paredes de alvenaria estrutural sob compressão, flexo\-compressão e cisalhamento segundo a ABNT NBR 16868:2020/2024 em frações exatas e P… | [10/11/2026 17:43 · 56829ff](https://github.com/martinlofranodeoliveira/calculo-alvenaria-estrutural-nbr16868/commit/56829fffe63b1a0ec90f0a93ec437d3b071a3ab1) |
 | [dimensionamento\-estruturas\-metalicas\-nbr8800](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-metalicas-nbr8800) | Dimensionamento analítico de perfis de aço estrutural sob tração, compressão, flexão e cisalhamento segundo a ABNT NBR 8800:2024 em frações exatas e Python puro\. | [10/11/2026 17:24 · 9e7f82b](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-metalicas-nbr8800/commit/9e7f82b3e148c83d80f7a75cf1d40d97623149e3) |
 | [neighborhood\-projection\-studio](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio) | A bounded Python PCA neighborhood\-distortion SDK with exact rank\-penalty receipts and a linked React/Three\.js report inspector\. | [10/11/2026 16:47 · a16d805](https://github.com/martinlofranodeoliveira/neighborhood-projection-studio/commit/a16d805469fab06c7cb7b7adc9257e31654497fc) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [dimensionamento\-pilares\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-pilares-concreto-nbr6118) | Dimensionamento analítico, verificação estrutural e detalhamento normativo de pilares de concreto armado segundo ABNT NBR 6118:2023\. LOFRANO TECNOLOGIA\. | [10/11/2026 16:36 · 629b21a](https://github.com/martinlofranodeoliveira/dimensionamento-pilares-concreto-nbr6118/commit/629b21a8d431a3dacb8fd555140bbc4bddd01124) |
 | [pncp\-contract\-snapshot\-audit](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit) | Offline auditor for captured PNCP contract pages with explicit collection coverage, selected\-projection deduplication, exact monetary values and independently checked SQLite aggre… | [10/11/2026 16:03 · eeda5be](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/commit/eeda5be4477e1752170ca38e5fb3e1a912941e19) |
 | [dimensionamento\-sapatas\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-sapatas-concreto-nbr6118) | Dimensionamento determinístico e verificação estrutural de sapatas isoladas de concreto armado segundo ABNT NBR 6118:2023 e ABNT NBR 6122:2022 \(Zero Float\)\. LOFRANO TECNOLOGIA\. | [10/11/2026 16:17 · 6164087](https://github.com/martinlofranodeoliveira/dimensionamento-sapatas-concreto-nbr6118/commit/6164087ca5df0a475b2a9f7bec5b5d2ae90c7c72) |
-| [dimensionamento\-vigas\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-vigas-concreto-nbr6118) | Dimensionamento e verificação de vigas de concreto armado segundo a ABNT NBR 6118:2023\. 100% Python padrão, Zero Float\. | [10/11/2026 15:51 · 6aac8fa](https://github.com/martinlofranodeoliveira/dimensionamento-vigas-concreto-nbr6118/commit/6aac8fa58aa780a125c2931bb4f3dc5f8a0b9e52) |
 
 <!-- PUBLIC-PROJECTS:END -->
 

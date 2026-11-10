@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T17:48:14.707342Z",
+  "collectedAt": "2026-11-10T18:07:59.043528Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 293,
+  "publicRepositoryCount": 294,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1302,6 +1302,27 @@
           "oid": "1e17d013260481673956be510fb7e87d9f4faceb",
           "committedDate": "2026-11-10T15:24:22Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-esgoto-sanitario-nbr8160/commit/1e17d013260481673956be510fb7e87d9f4faceb"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-estruturas-madeira-nbr7190",
+      "description": "Dimensionamento analítico de estruturas de madeira sob tração, compressão, flexão e cisalhamento segundo a ABNT NBR 7190:2022 em frações exatas e Python puro.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-madeira-nbr7190",
+      "createdAt": "2026-11-10T17:48:31Z",
+      "pushedAt": "2026-11-10T18:06:58Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "1ac00a585532d58600e65fa55ea571180ebbcf07",
+          "committedDate": "2026-11-10T18:06:17Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-madeira-nbr7190/commit/1ac00a585532d58600e65fa55ea571180ebbcf07"
         }
       }
     },
@@ -3557,7 +3578,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T17:47:50Z",
+      "pushedAt": "2026-11-10T17:48:33Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3567,9 +3588,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "ebae3409ca5325253b41048d6f86137f3f86a142",
-          "committedDate": "2026-11-10T17:47:49Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/ebae3409ca5325253b41048d6f86137f3f86a142"
+          "oid": "f4330d563f31bf64ceb6e50a518df4e299a23a05",
+          "committedDate": "2026-11-10T17:48:32Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/f4330d563f31bf64ceb6e50a518df4e299a23a05"
         }
       }
     },
