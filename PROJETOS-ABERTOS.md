@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**280 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 13:27 UTC**.
+**281 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 13:46 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [calculo\-estabilidade\-taludes\-nbr11682](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682) | Cálculo determinístico de estabilidade de taludes e encostas \(ABNT NBR 11682\) via métodos de Fellenius e Bishop Simplificado em frações e grandezas inteiras exatas\. Zero dependênc… | [10/11/2026 13:43 · 367f8f0](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/commit/367f8f0b0475ba7b1ce88ce5a6359a62ee885717) |
 | [dimensionamento\-hidraulica\-predial\-nbr5626](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626) | Dimensionamento determinístico de instalações prediais de água fria e quente \(ABNT NBR 5626\) em frações e grandezas inteiras exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRANO… | [10/11/2026 13:22 · 9720116](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/commit/97201169c06a15e9c699bf43abf8b00c3ec6c44a) |
 | [rescisao\-trabalhista\-clt](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt) | Liquidação e cálculo determinístico de rescisão trabalhista sob a CLT, Lei 12\.506/2011, férias com 1/3, 13º salário, FGTS, INSS e IRRF progressivos\. CLI/API Python, português e MI… | [10/11/2026 13:04 · c7d22c6](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/commit/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d) |
 | [apuracao\-simples\-nacional](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional) | Apuração determinística do Simples Nacional \(LC 123/2006\), Anexos I a V, Fator R, Alíquota Efetiva e partição de tributos\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 12:48 · aadd80b](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/commit/aadd80bfc29d632d08aa79926dd4a9f06b7840ef) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [analise\-ponto\-equilibrio](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio) | Análise determinística de Ponto de Equilíbrio \(Contábil, Econômico e Financeiro\), Margem de Contribuição e Alavancagem Operacional em centavos e frações exatas\. Zero dependências,… | [10/11/2026 12:19 · 6b63a82](https://github.com/martinlofranodeoliveira/analise-ponto-equilibrio/commit/6b63a82e22f76247313a04e628ccb4eae4beb0e9) |
 | [dimensionamento\-condutores\-nbr5410](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410) | Dimensionamento determinístico de condutores elétricos de baixa tensão e disjuntores segundo a ABNT NBR 5410 em miliamperes e frações exatas\. CLI/API Python, português e MIT — LOF… | [10/11/2026 12:07 · 30c4d02](https://github.com/martinlofranodeoliveira/dimensionamento-condutores-nbr5410/commit/30c4d022f6f2ec59d11509611e46a7ed5af6252c) |
 | [precificacao\-cardapio\-cmv](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv) | Engenharia de cardápio, ficha técnica gastronômica, CMV alvo e matriz de rentabilidade \(Kasavana &amp; Smith\) em centavos e frações exatas\. CLI/API Python, português e MIT — LOFRANO T… | [10/11/2026 11:51 · 24271d7](https://github.com/martinlofranodeoliveira/precificacao-cardapio-cmv/commit/24271d75ff25f5bcb329ff4ba2689c22454c27bc) |
-| [plano\-corte\-barras](https://github.com/martinlofranodeoliveira/plano-corte-barras) | Otimização determinística de corte unidimensional \(1D\) de barras, perfis e tubos com aproveitamento máximo e perda mínima\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOLOGI… | [10/11/2026 11:28 · 50b11e7](https://github.com/martinlofranodeoliveira/plano-corte-barras/commit/50b11e7e3766231c9ee6e40ed98b0db759a38bdd) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
@@ -42,6 +42,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
+
+<!-- DELIVERY-CALCULO-ESTABILIDADE-TALUDES-NBR11682-2026-11-10:BEGIN -->
+## Estabilidade de Taludes e Encostas · ABNT NBR 11682, Fellenius e Bishop Simplificado
+
+Motor determinístico e matematicamente exato para análise de estabilidade de encostas e taludes de corte/aterro segundo os métodos de equilíbrio limite de **Fellenius (Ordinário)** e **Bishop Simplificado**, em estrita conformidade com a norma brasileira **ABNT NBR 11682:2009**. Discretização do maciço terroso em lamelas verticais, envoltória de resistência ao cisalhamento de Mohr-Coulomb ($s = c' + \sigma' \tan \phi'$), redução de tensões efetivas por poropressão hidrostática ($u = \gamma_w \cdot h_w$) e enquadramento normativo nos Níveis de Segurança Alto ($FS \ge 1,50$), Médio ($FS \ge 1,40$) e Baixo ($FS \ge 1,30$).
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Estabilidade de Taludes NBR 11682](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/releases/download/v1.0.0/exemplo-estabilidade-talude.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/blob/367f8f0b0475ba7b1ce88ce5a6359a62ee885717/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/releases/tag/v1.0.0) · 56 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/actions/runs/42827125785) |
+
+Aritmética inteira e racional exata (`Fraction`), sem aproximações por ponto flutuante (`float`). Emite Laudo Técnico Geotécnico formal em Markdown, planilhas CSV higienizadas contra injeção de fórmulas, JSON canônico determinístico com memória de cálculo, painel vetorial SVG independente (1440×900) e pacote ZIP determinístico. A integridade geotécnica é auditada por verificador independente sobre banco relacional `sqlite3`.
+
+<!-- DELIVERY-CALCULO-ESTABILIDADE-TALUDES-NBR11682-2026-11-10:END -->
 
 <!-- DELIVERY-DIMENSIONAMENTO-HIDRAULICA-PREDIAL-NBR5626-2026-11-10:BEGIN -->
 ## Dimensionamento Hidráulico Predial · ABNT NBR 5626, NBR 5648, Pesos Relativos e Pressões

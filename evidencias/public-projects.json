@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T13:27:18.968137Z",
+  "collectedAt": "2026-11-10T13:46:36.360175Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 280,
+  "publicRepositoryCount": 281,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -504,6 +504,27 @@
           "oid": "5ab7d570d5c99486b018ee21359031c6f2757e75",
           "committedDate": "2026-11-08T09:04:29Z",
           "url": "https://github.com/martinlofranodeoliveira/caderno-revisoes/commit/5ab7d570d5c99486b018ee21359031c6f2757e75"
+        }
+      }
+    },
+    {
+      "name": "calculo-estabilidade-taludes-nbr11682",
+      "description": "Cálculo determinístico de estabilidade de taludes e encostas (ABNT NBR 11682) via métodos de Fellenius e Bishop Simplificado em frações e grandezas inteiras exatas. Zero dependências, Python 3.11+, MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682",
+      "createdAt": "2026-11-10T13:27:41Z",
+      "pushedAt": "2026-11-10T13:44:11Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "367f8f0b0475ba7b1ce88ce5a6359a62ee885717",
+          "committedDate": "2026-11-10T13:43:20Z",
+          "url": "https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/commit/367f8f0b0475ba7b1ce88ce5a6359a62ee885717"
         }
       }
     },
@@ -3326,7 +3347,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T13:26:57Z",
+      "pushedAt": "2026-11-10T13:27:38Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3336,9 +3357,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "a34cab2af6fafb5a63fa072333069fe12d4e52bf",
-          "committedDate": "2026-11-10T13:26:56Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/a34cab2af6fafb5a63fa072333069fe12d4e52bf"
+          "oid": "ced7b9cd2e5365f2ccacba419ff1bac9cdc53ec7",
+          "committedDate": "2026-11-10T13:27:37Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/ced7b9cd2e5365f2ccacba419ff1bac9cdc53ec7"
         }
       }
     },

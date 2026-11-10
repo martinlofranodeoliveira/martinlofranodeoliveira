@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-CALCULO-ESTABILIDADE-TALUDES-NBR11682-2026-11-10:BEGIN -->
+## Estabilidade de Taludes e Encostas NBR 11682 · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/tree/367f8f0b0475ba7b1ce88ce5a6359a62ee885717), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor de análise de estabilidade geotécnica de encostas e taludes de corte/aterro segundo a ABNT NBR 11682:2009 pelos métodos de equilíbrio limite de Fellenius (Ordinário) e Bishop Simplificado iterativo.
+- Discretização do maciço terroso em lamelas verticais, envoltória de resistência ao cisalhamento de Mohr-Coulomb ($s = c' + \sigma' \tan \phi'$), redução de tensões normais efetivas por poropressão hidrostática ($u = \gamma_w \cdot h_w$), cálculo de momentos atuantes e resistentes e enquadramento normativo nos Níveis de Segurança Alto ($FS \ge 1,50$), Médio ($FS \ge 1,40$) e Baixo ($FS \ge 1,30$). Banimento total de ponto flutuante (`float`) com cálculo 100% em grandezas inteiras (milímetros, Pascals, Newtons) e frações racionais exatas (`Fraction`).
+- Passaram 56 testes locais cobrindo modelos de domínio, geometria circular, trigonometria racional sem float, convergência de Bishop, solo saturado, codec canônico JSON com rejeição de BOM, float, profundidade excessiva e chaves duplicadas, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/actions/runs/42827125785) em Linux (Python 3.11–3.14), Windows 3.14 e teste de isolamento de rede (`unshare`).
+- Wheel com 16 membros e sdist com 32 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-CALCULO-ESTABILIDADE-TALUDES-NBR11682-2026-11-10:END -->
+
 <!-- EVIDENCE-DIMENSIONAMENTO-HIDRAULICA-PREDIAL-NBR5626-2026-11-10:BEGIN -->
 ## Dimensionamento Hidráulico Predial NBR 5626 e NBR 5648 · 10 de novembro de 2026
 
