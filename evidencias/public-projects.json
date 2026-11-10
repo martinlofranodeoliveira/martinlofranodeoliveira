@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T19:12:52.361248Z",
+  "collectedAt": "2026-11-10T19:28:18.013971Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 299,
+  "publicRepositoryCount": 300,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1239,6 +1239,27 @@
           "oid": "95d6004c6a0ae121aab7b8cea9ca978bf0e5b936",
           "committedDate": "2026-11-08T20:53:02Z",
           "url": "https://github.com/martinlofranodeoliveira/diff-lines-core/commit/95d6004c6a0ae121aab7b8cea9ca978bf0e5b936"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-climatizacao-nbr16401",
+      "description": "Motor analítico e CLI para cálculo de carga térmica, renovação de ar e dimensionamento de climatização e ar-condicionado conforme ABNT NBR 16401:2008 em Python puro com aritmética exata.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401",
+      "createdAt": "2026-11-10T19:14:16Z",
+      "pushedAt": "2026-11-10T19:26:12Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "0f9d3c50131f3456c91173f72867e2ca977083f2",
+          "committedDate": "2026-11-10T19:24:46Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401/commit/0f9d3c50131f3456c91173f72867e2ca977083f2"
         }
       }
     },
@@ -3683,7 +3704,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T18:52:32Z",
+      "pushedAt": "2026-11-10T19:13:44Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3693,9 +3714,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "324c154e5e7c2831aa8be7a61ebf164db54bec7f",
-          "committedDate": "2026-11-10T18:52:31Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/324c154e5e7c2831aa8be7a61ebf164db54bec7f"
+          "oid": "c0b7a602f78d07a7aa38172da3e442f79198ed23",
+          "committedDate": "2026-11-10T19:13:43Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/c0b7a602f78d07a7aa38172da3e442f79198ed23"
         }
       }
     },

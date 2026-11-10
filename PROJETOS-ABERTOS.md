@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**299 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 19:12 UTC**.
+**300 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 19:28 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-climatizacao\-nbr16401](https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401) | Motor analítico e CLI para cálculo de carga térmica, renovação de ar e dimensionamento de climatização e ar\-condicionado conforme ABNT NBR 16401:2008 em Python puro com aritmética… | [10/11/2026 19:24 · 0f9d3c5](https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401/commit/0f9d3c50131f3456c91173f72867e2ca977083f2) |
 | [dimensionamento\-sistemas\-sprinklers\-nbr10897](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-sprinklers-nbr10897) | Motor analítico e CLI para dimensionamento de sistemas de chuveiros automáticos \(sprinklers\) conforme ABNT NBR 10897:2020 em Python puro com aritmética exata\. | [10/11/2026 19:10 · d316afb](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-sprinklers-nbr10897/commit/d316afbc3a1b1885cacd59a415ea96e80aa660ae) |
 | [dimensionamento\-hidrantes\-nbr13714](https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714) | Motor analítico e CLI para dimensionamento de sistemas de hidrantes e mangotinhos conforme ABNT NBR 13714:2000 em Python puro com aritmética exata\. | [10/11/2026 18:48 · 05cad2a](https://github.com/martinlofranodeoliveira/dimensionamento-hidrantes-nbr13714/commit/05cad2a2f1a83cdb9efde48cf148107c3a39bc8f) |
 | [execucao\-contratual\-ledger](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger) | A persistent item\-level contract execution ledger with measurement reservations, partial acceptance, amendments, reversals, authorization and a reproducible local HTTP demonstrati… | [10/11/2026 18:25 · 5163fb3](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger/commit/5163fb31b8f24876dad96e3d2d9062dd09f9aad6) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [dimensionamento\-redes\-gas\-nbr15526](https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526) | Dimensionamento analítico de redes de distribuição interna de gases combustíveis \(GN e GLP\) segundo a ABNT NBR 15526 em frações exatas e Python puro\. | [10/11/2026 18:20 · b2ec4e0](https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526/commit/b2ec4e09002cc5a64c09dad521a83a3296246de1) |
 | [dimensionamento\-estruturas\-madeira\-nbr7190](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-madeira-nbr7190) | Dimensionamento analítico de estruturas de madeira sob tração, compressão, flexão e cisalhamento segundo a ABNT NBR 7190:2022 em frações exatas e Python puro\. | [10/11/2026 18:06 · 1ac00a5](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-madeira-nbr7190/commit/1ac00a585532d58600e65fa55ea571180ebbcf07) |
 | [calculo\-alvenaria\-estrutural\-nbr16868](https://github.com/martinlofranodeoliveira/calculo-alvenaria-estrutural-nbr16868) | Dimensionamento e verificação analítica de paredes de alvenaria estrutural sob compressão, flexo\-compressão e cisalhamento segundo a ABNT NBR 16868:2020/2024 em frações exatas e P… | [10/11/2026 17:43 · 56829ff](https://github.com/martinlofranodeoliveira/calculo-alvenaria-estrutural-nbr16868/commit/56829fffe63b1a0ec90f0a93ec437d3b071a3ab1) |
-| [dimensionamento\-estruturas\-metalicas\-nbr8800](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-metalicas-nbr8800) | Dimensionamento analítico de perfis de aço estrutural sob tração, compressão, flexão e cisalhamento segundo a ABNT NBR 8800:2024 em frações exatas e Python puro\. | [10/11/2026 17:24 · 9e7f82b](https://github.com/martinlofranodeoliveira/dimensionamento-estruturas-metalicas-nbr8800/commit/9e7f82b3e148c83d80f7a75cf1d40d97623149e3) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
