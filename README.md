@@ -97,6 +97,7 @@ Ferramentas abertas para experimentar fluxos de gestão e análise de dados púb
 | --- | --- | --- |
 | [PNCP Contract Snapshot Audit](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit) | Coletar páginas de contratos do PNCP, conferir cobertura, identificar repetições e agregar valores declarados sem arredondamento. | [Instalar e executar](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/blob/main/README.pt-BR.md) |
 | [Execução Contratual Ledger](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger) | Registrar medições, reservar quantidades e conferir recebimentos parciais, devoluções, aditivos e estornos com saldo e histórico persistidos. | [Instalar e executar](https://github.com/martinlofranodeoliveira/execucao-contratual-ledger/blob/main/README.pt-BR.md) |
+| [Protocolo Tramitação Ledger](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger) | Tramitar processos sintéticos entre unidades, disputar aceite ou cancelamento e conferir custódia, versões de documentos e repetição de comandos com o recibo original. | [Instalar e executar](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger/blob/main/README.pt-BR.md) |
 
 Os exemplos e a abrangência dos testes estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 <!-- GOVERNMENT-WORKFLOWS:END -->

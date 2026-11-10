@@ -1,21 +1,21 @@
 {
   "schema_version": "portfolio-snapshot-index/1",
-  "evaluated_at_utc": "2026-11-10T16:16:02Z",
-  "total_repositories": 123,
+  "evaluated_at_utc": "2026-11-10T19:51:12Z",
+  "total_repositories": 126,
   "part_repository_limit": 100,
   "parts": [
     {
-      "path": "part-001-0ce9b643afae3608.json",
+      "path": "part-001-d262d51a70e53f3d.json",
       "repositories": 100,
-      "sha256": "0ce9b643afae3608438a47dd066b446fb1b371ec45359550a19c4342206e7c43",
+      "sha256": "d262d51a70e53f3dd3108de7f85e97dd675ee3af9ec95605fc89e106c1b57e1f",
       "first_repository": "anchored-affine-alignment",
-      "last_repository": "smtp-mime-capture-lab"
+      "last_repository": "sequence-gap-audit"
     },
     {
-      "path": "part-002-b5ab81caecdca40e.json",
-      "repositories": 23,
-      "sha256": "b5ab81caecdca40ec74daf7c272aa6165deca71ba976649cd38c9ccb8d69651a",
-      "first_repository": "source-map-chain-replay-lab",
+      "path": "part-002-9cf68d059da084f6.json",
+      "repositories": 26,
+      "sha256": "9cf68d059da084f6f5a535d3009d7b6e32f50488a91eed979a40b646216c2d74",
+      "first_repository": "set-overlap-join",
       "last_repository": "zig-debuglink-companion-audit"
     }
   ],
