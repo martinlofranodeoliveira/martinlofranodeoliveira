@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**271 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 10:58 UTC**.
+**272 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 11:17 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [rateio\-condominio\-fracoes](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes) | Rateio condominial determinístico por fração ideal milesimal, hidrômetros individualizados e conservação exata de centavos\. Zero dependências, Python 3\.11\+, MIT — LOFRANO TECNOLOG… | [10/11/2026 11:15 · 626cb9b](https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/commit/626cb9b13494e41593ebfdffbbf37c93a4bf56d1) |
 | [conciliacao\-bancaria](https://github.com/martinlofranodeoliveira/conciliacao-bancaria) | Conciliação bancária determinística em centavos exatos \(1:1, lotes 1:N/N:1, tarifas, ambiguidades e pendências\)\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 10:53 · 0e223f1](https://github.com/martinlofranodeoliveira/conciliacao-bancaria/commit/0e223f13315c3186ceaadd656ca703086b9ad79f) |
 | [balanco\-massa\-lote](https://github.com/martinlofranodeoliveira/balanco-massa-lote) | Balanço de massa e teor de sólidos por batelada em gramas racionais exatos com auditoria de perdas\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 10:46 · b21827b](https://github.com/martinlofranodeoliveira/balanco-massa-lote/commit/b21827ba099257b2e00e1cac73be66eb03b7b63c) |
 | [curva\-abc\-estoque](https://github.com/martinlofranodeoliveira/curva-abc-estoque) | Classificação ABC de estoque por Pareto, ponto de reposição, estoque de segurança e lote mínimo\. CLI/API Python local, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 10:32 · f4495e1](https://github.com/martinlofranodeoliveira/curva-abc-estoque/commit/f4495e18691b1c302bb37159fd153765e79dd04f) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [finite\-policy\-difference](https://github.com/martinlofranodeoliveira/finite-policy-difference) | A symbolic comparison library for finite categorical first\-match rule tables, producing exact outcome\-region counts and a replayable input witness when two tables differ\. | [10/11/2026 08:51 · 1aa457d](https://github.com/martinlofranodeoliveira/finite-policy-difference/commit/1aa457d525f8947b406e443917bfd711997ff997) |
 | [minimal\-transversal\-witnesses](https://github.com/martinlofranodeoliveira/minimal-transversal-witnesses) | A bounded hypergraph library that enumerates inclusion\-minimal hitting sets and supplies a private\-edge witness for every selected vertex, with explicit completeness and exhausted… | [10/11/2026 08:47 · d4d87f7](https://github.com/martinlofranodeoliveira/minimal-transversal-witnesses/commit/d4d87f7c75bc73a7d95738ccd37432c2b713d9e3) |
 | [tabular\-drift\-audit](https://github.com/martinlofranodeoliveira/tabular-drift-audit) | A bounded offline SDK for comparing reference and current tabular feature snapshots\. Exact empirical KS distance, frozen\-bin smoothed PSI, categorical Jensen\-Shannon divergence an… | [10/11/2026 06:54 · 37d8c8f](https://github.com/martinlofranodeoliveira/tabular-drift-audit/commit/37d8c8f9036aaef5a16b5b32619cf5563a4d2499) |
-| [local\-semantic\-atlas](https://github.com/martinlofranodeoliveira/local-semantic-atlas) | A local semantic\-search SDK and CLI using one hash\-pinned open multilingual embedding model, with explicit token admission, model provenance, deterministic ranking of a bounded do… | [10/11/2026 05:58 · 1854b36](https://github.com/martinlofranodeoliveira/local-semantic-atlas/commit/1854b3648d4aaf8fe9d33965116ec012106c7a53) |
 
 <!-- PUBLIC-PROJECTS:END -->
 

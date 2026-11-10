@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T10:58:24.474149Z",
+  "collectedAt": "2026-11-10T11:17:47.315970Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 271,
+  "publicRepositoryCount": 272,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -3221,7 +3221,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T10:58:02Z",
+      "pushedAt": "2026-11-10T11:17:26Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3231,9 +3231,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "134d57795cf5de5ccf8b9f6479bd0d207b0e2cfe",
-          "committedDate": "2026-11-10T10:58:01Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/134d57795cf5de5ccf8b9f6479bd0d207b0e2cfe"
+          "oid": "79990a45cf9532e0c467d0750da486a763763e9e",
+          "committedDate": "2026-11-10T11:17:25Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/79990a45cf9532e0c467d0750da486a763763e9e"
         }
       }
     },
@@ -4137,6 +4137,27 @@
           "oid": "8ac126b4ec37b33cbd9209a8422e1cc799d4b837",
           "committedDate": "2026-11-09T08:32:12Z",
           "url": "https://github.com/martinlofranodeoliveira/rateio-claro/commit/8ac126b4ec37b33cbd9209a8422e1cc799d4b837"
+        }
+      }
+    },
+    {
+      "name": "rateio-condominio-fracoes",
+      "description": "Rateio condominial determinístico por fração ideal milesimal, hidrômetros individualizados e conservação exata de centavos. Zero dependências, Python 3.11+, MIT — LOFRANO TECNOLOGIA.",
+      "url": "https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes",
+      "createdAt": "2026-11-10T10:59:32Z",
+      "pushedAt": "2026-11-10T11:15:45Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "626cb9b13494e41593ebfdffbbf37c93a4bf56d1",
+          "committedDate": "2026-11-10T11:15:04Z",
+          "url": "https://github.com/martinlofranodeoliveira/rateio-condominio-fracoes/commit/626cb9b13494e41593ebfdffbbf37c93a4bf56d1"
         }
       }
     },
