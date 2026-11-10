@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T09:33:23.379991Z",
+  "collectedAt": "2026-11-10T10:28:36.100361Z",
   "login": "martinlofranodeoliveira",
   "publicRepositoryCount": 268,
   "repositories": [
@@ -29,7 +29,7 @@
       "description": "Compare tabelas SAC e Price, simule amortizações extras e confira cada centavo. Aplicativo local em português, HTML/CSS/JavaScript, MIT — LOFRANO TECNOLOGIA.",
       "url": "https://github.com/martinlofranodeoliveira/amortizacao-clara",
       "createdAt": "2026-11-10T02:59:25Z",
-      "pushedAt": "2026-11-10T02:59:30Z",
+      "pushedAt": "2026-11-10T10:24:29Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3158,7 +3158,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T09:33:00Z",
+      "pushedAt": "2026-11-10T10:28:15Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3168,9 +3168,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "ccc266542fea5206e299e32d6113a542387954b6",
-          "committedDate": "2026-11-10T09:32:58Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/ccc266542fea5206e299e32d6113a542387954b6"
+          "oid": "23ab0d0a574f92fe07e208b2376675d0bd22fdc8",
+          "committedDate": "2026-11-10T10:28:14Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/23ab0d0a574f92fe07e208b2376675d0bd22fdc8"
         }
       }
     },
