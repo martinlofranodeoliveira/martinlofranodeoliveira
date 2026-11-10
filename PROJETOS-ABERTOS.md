@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**307 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 21:06 UTC**.
+**308 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 21:18 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-extintores\-incendio\-nbr12693](https://github.com/martinlofranodeoliveira/dimensionamento-extintores-incendio-nbr12693) | Dimensionamento de Sistemas de Proteção por Extintores de Incêndio \(ABNT NBR 12693:2021\) \- Lofrano Tecnologia | [10/11/2026 21:15 · f92e611](https://github.com/martinlofranodeoliveira/dimensionamento-extintores-incendio-nbr12693/commit/f92e6112ad72363f58b6a09223dadf0c5546b55f) |
 | [dimensionamento\-pressurizacao\-escadas\-nbr14880](https://github.com/martinlofranodeoliveira/dimensionamento-pressurizacao-escadas-nbr14880) | Dimensionamento de sistemas de pressurização de escadas de emergência conforme ABNT NBR 14880:2014 em Python puro com aritmética exata Zero Float\. | [10/11/2026 21:03 · e2651c1](https://github.com/martinlofranodeoliveira/dimensionamento-pressurizacao-escadas-nbr14880/commit/e2651c17c4ecc4c99861f0097aee469c7d102886) |
 | [dimensionamento\-iluminacao\-emergencia\-nbr10898](https://github.com/martinlofranodeoliveira/dimensionamento-iluminacao-emergencia-nbr10898) | Dimensionamento de sistemas de iluminação de emergência e balizamento conforme ABNT NBR 10898:2013 em Python puro com aritmética exata Zero Float\. | [10/11/2026 20:45 · b119d36](https://github.com/martinlofranodeoliveira/dimensionamento-iluminacao-emergencia-nbr10898/commit/b119d3663877bd72bcfc1aaeef7f574d89f1a0df) |
 | [dimensionamento\-alarme\-incendio\-nbr17240](https://github.com/martinlofranodeoliveira/dimensionamento-alarme-incendio-nbr17240) | Dimensionamento analítico de detecção e alarme de incêndio, detectores ópticos/térmicos, acionadores, laços e baterias segundo a ABNT NBR 17240:2010 em Python puro e exato\. | [10/11/2026 20:27 · 464211b](https://github.com/martinlofranodeoliveira/dimensionamento-alarme-incendio-nbr17240/commit/464211b8abc5cf4dc0dcfab295eeb80237d16ae4) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [dimensionamento\-sistemas\-septicos\-nbr7229](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229) | Dimensionamento analítico de tanques sépticos, filtros anaeróbios e disposição final conforme ABNT NBR 7229:1993 e ABNT NBR 13969:1997\. | [10/11/2026 20:00 · b8e118f](https://github.com/martinlofranodeoliveira/dimensionamento-sistemas-septicos-nbr7229/commit/b8e118fdd730c57bbaacc063c6b260217a57ef3d) |
 | [protocolo\-tramitacao\-ledger](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger) | A PostgreSQL\-backed case\-routing ledger with acknowledged custody transfers, immutable document versions, unit authorization and byte\-identical idempotent receipts\. | [10/11/2026 19:40 · 88e3d57](https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger/commit/88e3d57f7c397cf61f31fa10519aa31f81fdc2d0) |
 | [dimensionamento\-ventilacao\-exaustao\-nbr14518](https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518) | Dimensionamento analítico de sistemas de ventilação e exaustão para cozinhas profissionais conforme ABNT NBR 14518:2020\. | [10/11/2026 19:43 · 6d6c2ab](https://github.com/martinlofranodeoliveira/dimensionamento-ventilacao-exaustao-nbr14518/commit/6d6c2aba2505da10c32a6c60cd8c37206e10f5ac) |
-| [dimensionamento\-climatizacao\-nbr16401](https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401) | Motor analítico e CLI para cálculo de carga térmica, renovação de ar e dimensionamento de climatização e ar\-condicionado conforme ABNT NBR 16401:2008 em Python puro com aritmética… | [10/11/2026 19:24 · 0f9d3c5](https://github.com/martinlofranodeoliveira/dimensionamento-climatizacao-nbr16401/commit/0f9d3c50131f3456c91173f72867e2ca977083f2) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
