@@ -88,6 +88,18 @@ A prévia ajuda a avaliar a solução. Engenharia, revisão e validação acompa
 | [SQLite Migration Rehearsal Lab · Python](https://github.com/martinlofranodeoliveira/sqlite-migration-rehearsal-lab) | Ensaiar migrações up/down/up em cópias do banco e conferir dados. | [Executar localmente](https://github.com/martinlofranodeoliveira/sqlite-migration-rehearsal-lab/blob/main/README.pt-BR.md) |
 | [MQTT Session Recovery Lab · Go](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab) | Reproduzir recuperação de sessão e Last Will com Mosquitto isolado. | [Executar localmente](https://github.com/martinlofranodeoliveira/mqtt-session-recovery-lab/blob/main/README.pt-BR.md) |
 
+<!-- GOVERNMENT-WORKFLOWS:BEGIN -->
+### Sistemas e dados públicos
+
+Ferramentas abertas para experimentar fluxos de gestão e análise de dados públicos, com contratos explícitos e verificações reproduzíveis.
+
+| Projeto | O que experimentar | Documentação |
+| --- | --- | --- |
+| [PNCP Contract Snapshot Audit](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit) | Coletar páginas de contratos do PNCP, conferir cobertura, identificar repetições e agregar valores declarados sem arredondamento. | [Instalar e executar](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/blob/main/README.pt-BR.md) |
+
+Os exemplos e a abrangência dos testes estão em [EVIDENCIAS.md](EVIDENCIAS.md).
+<!-- GOVERNMENT-WORKFLOWS:END -->
+
 ### Aplicações 3D em React
 
 ![Ilustração conceitual de um móvel em montagem, uma embalagem e um braço articulado](./assets/open-source-3d-studios-sunburst26.webp)

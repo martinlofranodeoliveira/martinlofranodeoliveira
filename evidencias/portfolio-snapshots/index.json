@@ -1,21 +1,21 @@
 {
   "schema_version": "portfolio-snapshot-index/1",
-  "evaluated_at_utc": "2026-11-10T09:28:39Z",
-  "total_repositories": 122,
+  "evaluated_at_utc": "2026-11-10T16:16:02Z",
+  "total_repositories": 123,
   "part_repository_limit": 100,
   "parts": [
     {
-      "path": "part-001-28823e10d055bb84.json",
+      "path": "part-001-0ce9b643afae3608.json",
       "repositories": 100,
-      "sha256": "28823e10d055bb84110f9a5b2d3b8615e3ecba0c20553440c2aeaf65b7fe9026",
+      "sha256": "0ce9b643afae3608438a47dd066b446fb1b371ec45359550a19c4342206e7c43",
       "first_repository": "anchored-affine-alignment",
-      "last_repository": "source-map-chain-replay-lab"
+      "last_repository": "smtp-mime-capture-lab"
     },
     {
-      "path": "part-002-8f91084af674ab1c.json",
-      "repositories": 22,
-      "sha256": "8f91084af674ab1c52eb9d84b4b9d74631d56f3e5faa9027d30b921bdccf4575",
-      "first_repository": "spatial-loading-studio",
+      "path": "part-002-b5ab81caecdca40e.json",
+      "repositories": 23,
+      "sha256": "b5ab81caecdca40ec74daf7c272aa6165deca71ba976649cd38c9ccb8d69651a",
+      "first_repository": "source-map-chain-replay-lab",
       "last_repository": "zig-debuglink-companion-audit"
     }
   ],

@@ -1,5 +1,13 @@
 # Evidências técnicas dos projetos abertos
 
+<!-- GOVERNMENT-WORKFLOWS-EVIDENCE:BEGIN -->
+## Dados públicos e contratos · 10 de novembro de 2026
+
+**PNCP Contract Snapshot Audit:** [fonte conferida](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/tree/eeda5be4477e1752170ca38e5fb3e1a912941e19), 51 testes locais e [CI do mesmo commit aprovada](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/actions/runs/42850704398). O pacote foi reconstruído de um sdist original, instalado fora do checkout e exercitado em um runtime separado, sem dependências PyPI de execução. Os testes incluem agrupamentos SQLite reais, valores monetários exatos, conflitos de IDs, limites, entrada incompleta e enquadramento HTTP truncado.
+
+O ensaio sintético no limite conferiu 10.000 contratos únicos; centavos e totais usam strings decimais para preservar a precisão. Uma coleta pública instalada, limitada a uma página, observou 10 registros de 959 páginas declaradas e retornou `PAGE_PREFIX`. A cobertura da coleta e os valores ausentes ou inválidos aparecem separadamente. `valorGlobal` é o valor declarado na fonte; a sequência de páginas não constitui um snapshot remoto atômico. [Procedimento e alcance](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/blob/eeda5be4477e1752170ca38e5fb3e1a912941e19/docs/VALIDATION.md).
+<!-- GOVERNMENT-WORKFLOWS-EVIDENCE:END -->
+
 <!-- PYTHON-DATA-AI-EVIDENCE:BEGIN -->
 ## Análise de dados e IA local · 10 de novembro de 2026
 
@@ -516,7 +524,7 @@ Este registro reúne o código público original produzido pela [Lofrano Tecnolo
 
 ## Consultar uma versão
 
-A [coleta desta série de 122 projetos](evidencias/portfolio-snapshots/index.json), avaliada em **10 de novembro de 2026, às 09:28:39 UTC**, registra repositórios, commits, horários individuais de consulta, documentação, workflows e execuções de Actions daquele commit. São duas partes para respeitar o limite de 100 repositórios por importação do painel: [Parte 1 · 100 repositórios](evidencias/portfolio-snapshots/part-001-28823e10d055bb84.json) · [Parte 2 · 22 repositórios](evidencias/portfolio-snapshots/part-002-8f91084af674ab1c.json). O índice serve para navegação; importe cada parte separadamente. Os dados vieram da API pública do GitHub e conservam a proveniência `imported`.
+A [coleta desta série de 123 projetos](evidencias/portfolio-snapshots/index.json), avaliada em **10 de novembro de 2026, às 16:16:02 UTC**, registra repositórios, commits, horários individuais de consulta, documentação, workflows e execuções de Actions daquele commit. São duas partes para respeitar o limite de 100 repositórios por importação do painel: [Parte 1 · 100 repositórios](evidencias/portfolio-snapshots/part-001-0ce9b643afae3608.json) · [Parte 2 · 23 repositórios](evidencias/portfolio-snapshots/part-002-b5ab81caecdca40e.json). O índice serve para navegação; importe cada parte separadamente. Os dados vieram da API pública do GitHub e conservam a proveniência `imported`.
 
 O [arquivo histórico anterior](evidencias/portfolio-snapshot.json) contém 98 repositórios e foi avaliado em **5 de novembro de 2026, às 17:29:13 UTC**. Ele permanece preservado com sua própria data. O [inventário público automático](evidencias/public-projects.json), apresentado no início do catálogo, acompanha os repositórios e commits atuais, com data `collectedAt` própria. O status atual das verificações pode ser consultado nos links de Actions de cada projeto.
 

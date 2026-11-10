@@ -28,6 +28,15 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 <!-- PUBLIC-PROJECTS:END -->
 
+<!-- GOVERNMENT-WORKFLOWS:BEGIN -->
+## Sistemas e dados públicos
+
+| Projeto | Linguagem | Finalidade | Experimentar |
+| --- | --- | --- | --- |
+| [PNCP Contract Snapshot Audit](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit) | Python | Auditoria de páginas de contratos: cobertura explícita, deduplicação da projeção selecionada, qualidade de campos e agregações SQLite com centavos exatos. | [Documentação](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/blob/main/README.pt-BR.md) · [CI do commit publicado](https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/actions/runs/42850704398) |
+
+<!-- GOVERNMENT-WORKFLOWS:END -->
+
 <!-- PYTHON-DATA-AI:BEGIN -->
 ## Análise de dados e IA local · Python
 
