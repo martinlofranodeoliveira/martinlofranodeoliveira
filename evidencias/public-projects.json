@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T23:14:36.925165Z",
+  "collectedAt": "2026-11-10T23:34:10.189964Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 315,
+  "publicRepositoryCount": 316,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1449,6 +1449,27 @@
           "oid": "f92e6112ad72363f58b6a09223dadf0c5546b55f",
           "committedDate": "2026-11-10T21:15:47Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-extintores-incendio-nbr12693/commit/f92e6112ad72363f58b6a09223dadf0c5546b55f"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-fundacoes-profundas-nbr6122",
+      "description": "Dimensionamento analítico determinístico de fundações profundas (estacas e tubulões por Aoki-Velloso e Décourt-Quaresma) conforme ABNT NBR 6122:2022. 100% Python padrão, Zero-Float.",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-fundacoes-profundas-nbr6122",
+      "createdAt": "2026-11-10T23:15:57Z",
+      "pushedAt": "2026-11-10T23:32:56Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "5b0850302ce93b40893c163287185378969c62ee",
+          "committedDate": "2026-11-10T23:31:49Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-fundacoes-profundas-nbr6122/commit/5b0850302ce93b40893c163287185378969c62ee"
         }
       }
     },
@@ -3977,7 +3998,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T22:49:56Z",
+      "pushedAt": "2026-11-10T23:15:31Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3987,9 +4008,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "1df8bb93d1037ce79f7148a6c70bbffdfc8febda",
-          "committedDate": "2026-11-10T22:49:55Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/1df8bb93d1037ce79f7148a6c70bbffdfc8febda"
+          "oid": "5d4473ec9216bb04470ae28093600610ee117e34",
+          "committedDate": "2026-11-10T23:15:30Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/5d4473ec9216bb04470ae28093600610ee117e34"
         }
       }
     },
