@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T04:10:52.700250Z",
+  "collectedAt": "2026-11-10T07:02:18.450834Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 262,
+  "publicRepositoryCount": 265,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -466,6 +466,27 @@
       }
     },
     {
+      "name": "calibrated-tabular-lab",
+      "description": "An offline tabular machine-learning experiment package with four disjoint data roles, held-out probability calibration, independently checked evaluation and threshold-cost evidence, and bounded local reports using synthetic process-quality examples.",
+      "url": "https://github.com/martinlofranodeoliveira/calibrated-tabular-lab",
+      "createdAt": "2026-11-10T05:28:44Z",
+      "pushedAt": "2026-11-10T05:28:50Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "cba7abfdf1970e219dd3effd9c250ed36713d6e5",
+          "committedDate": "2026-11-10T05:28:41Z",
+          "url": "https://github.com/martinlofranodeoliveira/calibrated-tabular-lab/commit/cba7abfdf1970e219dd3effd9c250ed36713d6e5"
+        }
+      }
+    },
+    {
       "name": "capability-match-core",
       "description": "A capacitated bipartite assignment library that maximizes fulfilled items before minimizing integer preference cost. It returns replayable assignments, unassigned items and independently verifiable optimality certificates.",
       "url": "https://github.com/martinlofranodeoliveira/capability-match-core",
@@ -491,7 +512,7 @@
       "description": "A browser-local React and Three.js workbench for studying one six-face rectangular carton net. A single typed hinge layout drives the editable SVG net, actual articulated 3D faces, paired-edge feedback and portable studies.",
       "url": "https://github.com/martinlofranodeoliveira/carton-hinge-studio",
       "createdAt": "2026-11-08T21:51:28Z",
-      "pushedAt": "2026-11-08T21:51:34Z",
+      "pushedAt": "2026-11-10T06:47:25Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -501,9 +522,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "274b6cb6f83be84ff6c006bb23c9b7b75d131f5e",
-          "committedDate": "2026-11-08T21:51:26Z",
-          "url": "https://github.com/martinlofranodeoliveira/carton-hinge-studio/commit/274b6cb6f83be84ff6c006bb23c9b7b75d131f5e"
+          "oid": "e0f2c1c0d5161d904715ff8ede4fea73869ffb9a",
+          "committedDate": "2026-11-10T06:47:23Z",
+          "url": "https://github.com/martinlofranodeoliveira/carton-hinge-studio/commit/e0f2c1c0d5161d904715ff8ede4fea73869ffb9a"
         }
       }
     },
@@ -2419,6 +2440,27 @@
       }
     },
     {
+      "name": "local-semantic-atlas",
+      "description": "A local semantic-search SDK and CLI using one hash-pinned open multilingual embedding model, with explicit token admission, model provenance, deterministic ranking of a bounded document corpus and no runtime network calls.",
+      "url": "https://github.com/martinlofranodeoliveira/local-semantic-atlas",
+      "createdAt": "2026-11-10T05:58:39Z",
+      "pushedAt": "2026-11-10T05:58:45Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "1854b3648d4aaf8fe9d33965116ec012106c7a53",
+          "committedDate": "2026-11-10T05:58:35Z",
+          "url": "https://github.com/martinlofranodeoliveira/local-semantic-atlas/commit/1854b3648d4aaf8fe9d33965116ec012106c7a53"
+        }
+      }
+    },
+    {
       "name": "locale-key-audit",
       "description": "Auditoria de chaves de tradução — Encontra chaves ausentes e extras em catálogos JSON aninhados, sem expor valores.",
       "url": "https://github.com/martinlofranodeoliveira/locale-key-audit",
@@ -3074,7 +3116,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T04:10:33Z",
+      "pushedAt": "2026-11-10T07:01:56Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3084,9 +3126,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "9fb19e1b0b37b329e17a1497bec47b7c4d212a97",
-          "committedDate": "2026-11-10T04:10:31Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/9fb19e1b0b37b329e17a1497bec47b7c4d212a97"
+          "oid": "80421b544ec0b457f40df827110e52e53fe4ad1d",
+          "committedDate": "2026-11-10T07:01:54Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/80421b544ec0b457f40df827110e52e53fe4ad1d"
         }
       }
     },
@@ -4977,6 +5019,27 @@
           "oid": "0043de8cb0a258088074eb341460c0112b61ae9f",
           "committedDate": "2026-11-05T14:19:52Z",
           "url": "https://github.com/martinlofranodeoliveira/swift-actor-transition-rehearsal/commit/0043de8cb0a258088074eb341460c0112b61ae9f"
+        }
+      }
+    },
+    {
+      "name": "tabular-drift-audit",
+      "description": "A bounded offline SDK for comparing reference and current tabular feature snapshots. Exact empirical KS distance, frozen-bin smoothed PSI, categorical Jensen-Shannon divergence and missing/schema changes produce reproducible descriptive evidence without a model or profiling service.",
+      "url": "https://github.com/martinlofranodeoliveira/tabular-drift-audit",
+      "createdAt": "2026-11-10T06:55:02Z",
+      "pushedAt": "2026-11-10T06:55:08Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "37d8c8f9036aaef5a16b5b32619cf5563a4d2499",
+          "committedDate": "2026-11-10T06:54:59Z",
+          "url": "https://github.com/martinlofranodeoliveira/tabular-drift-audit/commit/37d8c8f9036aaef5a16b5b32619cf5563a4d2499"
         }
       }
     },
