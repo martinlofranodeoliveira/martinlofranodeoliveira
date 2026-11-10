@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**285 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 15:29 UTC**.
+**286 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **10/11/2026 às 15:57 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [dimensionamento\-vigas\-concreto\-nbr6118](https://github.com/martinlofranodeoliveira/dimensionamento-vigas-concreto-nbr6118) | Dimensionamento e verificação de vigas de concreto armado segundo a ABNT NBR 6118:2023\. 100% Python padrão, Zero Float\. | [10/11/2026 15:51 · 6aac8fa](https://github.com/martinlofranodeoliveira/dimensionamento-vigas-concreto-nbr6118/commit/6aac8fa58aa780a125c2931bb4f3dc5f8a0b9e52) |
 | [dimensionamento\-esgoto\-sanitario\-nbr8160](https://github.com/martinlofranodeoliveira/dimensionamento-esgoto-sanitario-nbr8160) | Dimensionamento hidráulico e sanitário de esgoto predial e ventilação segundo a ABNT NBR 8160:1999\. 100% Python padrão, Zero Float\. | [10/11/2026 15:24 · 1e17d01](https://github.com/martinlofranodeoliveira/dimensionamento-esgoto-sanitario-nbr8160/commit/1e17d013260481673956be510fb7e87d9f4faceb) |
 | [dimensionamento\-drenagem\-pluvial\-nbr10844](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844) | Dimensionamento de sistemas prediais e urbanos de drenagem de águas pluviais segundo a ABNT NBR 10844:1989\. 100% Python padrão, Zero Float\. | [10/11/2026 14:55 · 21b216e](https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/commit/21b216efd9a74b1a0f79d1c0db9c3b70c87d7a47) |
 | [dosagem\-concreto\-abcp](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp) | Dosagem experimental e analítica de concreto pelo Método ABCP/ACI \(ABNT NBR 12655 e NBR 6118\)\. Traço em massa, consumos, volume absoluto, correção de umidade e custo sem float\. | [10/11/2026 14:30 · d2b30f1](https://github.com/martinlofranodeoliveira/dosagem-concreto-abcp/commit/d2b30f1ed0d3f7bde0be067c477e18ad916a563e) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [calculo\-estabilidade\-taludes\-nbr11682](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682) | Cálculo determinístico de estabilidade de taludes e encostas \(ABNT NBR 11682\) via métodos de Fellenius e Bishop Simplificado em frações e grandezas inteiras exatas\. Zero dependênc… | [10/11/2026 13:43 · 367f8f0](https://github.com/martinlofranodeoliveira/calculo-estabilidade-taludes-nbr11682/commit/367f8f0b0475ba7b1ce88ce5a6359a62ee885717) |
 | [dimensionamento\-hidraulica\-predial\-nbr5626](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626) | Dimensionamento determinístico de instalações prediais de água fria e quente \(ABNT NBR 5626\) em frações e grandezas inteiras exatas\. Zero dependências, Python 3\.11\+, MIT — LOFRANO… | [10/11/2026 13:22 · 9720116](https://github.com/martinlofranodeoliveira/dimensionamento-hidraulica-predial-nbr5626/commit/97201169c06a15e9c699bf43abf8b00c3ec6c44a) |
 | [rescisao\-trabalhista\-clt](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt) | Liquidação e cálculo determinístico de rescisão trabalhista sob a CLT, Lei 12\.506/2011, férias com 1/3, 13º salário, FGTS, INSS e IRRF progressivos\. CLI/API Python, português e MI… | [10/11/2026 13:04 · c7d22c6](https://github.com/martinlofranodeoliveira/rescisao-trabalhista-clt/commit/c7d22c6b8f0fcaa379a54c4bb9ff4c037fdabe4d) |
-| [apuracao\-simples\-nacional](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional) | Apuração determinística do Simples Nacional \(LC 123/2006\), Anexos I a V, Fator R, Alíquota Efetiva e partição de tributos\. CLI/API Python, português e MIT — LOFRANO TECNOLOGIA\. | [10/11/2026 12:48 · aadd80b](https://github.com/martinlofranodeoliveira/apuracao-simples-nacional/commit/aadd80bfc29d632d08aa79926dd4a9f06b7840ef) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
