@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T07:02:18.450834Z",
+  "collectedAt": "2026-11-10T09:33:23.379991Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 265,
+  "publicRepositoryCount": 268,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1348,6 +1348,27 @@
       }
     },
     {
+      "name": "finite-policy-difference",
+      "description": "A symbolic comparison library for finite categorical first-match rule tables, producing exact outcome-region counts and a replayable input witness when two tables differ.",
+      "url": "https://github.com/martinlofranodeoliveira/finite-policy-difference",
+      "createdAt": "2026-11-10T07:28:35Z",
+      "pushedAt": "2026-11-10T08:51:03Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "1aa457d525f8947b406e443917bfd711997ff997",
+          "committedDate": "2026-11-10T08:51:01Z",
+          "url": "https://github.com/martinlofranodeoliveira/finite-policy-difference/commit/1aa457d525f8947b406e443917bfd711997ff997"
+        }
+      }
+    },
+    {
       "name": "finite-rule-provenance",
       "description": "A bounded stratified Datalog library that computes finite relational fixed points and records one deterministic derivation per derived fact, including explicit lower-stratum absence evidence.",
       "url": "https://github.com/martinlofranodeoliveira/finite-rule-provenance",
@@ -1407,6 +1428,27 @@
           "oid": "5710835ed65221cdb7f455a325e56a5e9275ae67",
           "committedDate": "2026-11-10T03:00:25Z",
           "url": "https://github.com/martinlofranodeoliveira/folha-ponto-local/commit/5710835ed65221cdb7f455a325e56a5e9275ae67"
+        }
+      }
+    },
+    {
+      "name": "forecast-origin-workbench",
+      "description": "An offline expanding-window forecasting SDK and CLI with fixed gradient boosting, simple baselines, mature historical error bands and explicit observed-data lineage.",
+      "url": "https://github.com/martinlofranodeoliveira/forecast-origin-workbench",
+      "createdAt": "2026-11-10T09:12:39Z",
+      "pushedAt": "2026-11-10T09:12:45Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "1a95d8da14edb25d141513d1124987a79464a7be",
+          "committedDate": "2026-11-10T09:12:36Z",
+          "url": "https://github.com/martinlofranodeoliveira/forecast-origin-workbench/commit/1a95d8da14edb25d141513d1124987a79464a7be"
         }
       }
     },
@@ -3116,7 +3158,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T07:01:56Z",
+      "pushedAt": "2026-11-10T09:33:00Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3126,9 +3168,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "80421b544ec0b457f40df827110e52e53fe4ad1d",
-          "committedDate": "2026-11-10T07:01:54Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/80421b544ec0b457f40df827110e52e53fe4ad1d"
+          "oid": "ccc266542fea5206e299e32d6113a542387954b6",
+          "committedDate": "2026-11-10T09:32:58Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/ccc266542fea5206e299e32d6113a542387954b6"
         }
       }
     },
@@ -3318,6 +3360,27 @@
           "oid": "0794f8fa33ca22d30e6bcbfdb06c772e4d4e61dd",
           "committedDate": "2026-11-08T20:40:48Z",
           "url": "https://github.com/martinlofranodeoliveira/mime-sniff-core/commit/0794f8fa33ca22d30e6bcbfdb06c772e4d4e61dd"
+        }
+      }
+    },
+    {
+      "name": "minimal-transversal-witnesses",
+      "description": "A bounded hypergraph library that enumerates inclusion-minimal hitting sets and supplies a private-edge witness for every selected vertex, with explicit completeness and exhausted-budget states.",
+      "url": "https://github.com/martinlofranodeoliveira/minimal-transversal-witnesses",
+      "createdAt": "2026-11-10T07:22:50Z",
+      "pushedAt": "2026-11-10T08:47:42Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "d4d87f7c75bc73a7d95738ccd37432c2b713d9e3",
+          "committedDate": "2026-11-10T08:47:39Z",
+          "url": "https://github.com/martinlofranodeoliveira/minimal-transversal-witnesses/commit/d4d87f7c75bc73a7d95738ccd37432c2b713d9e3"
         }
       }
     },
