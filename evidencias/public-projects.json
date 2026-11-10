@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-10T21:21:34.844734Z",
+  "collectedAt": "2026-11-10T21:37:09.132782Z",
   "login": "martinlofranodeoliveira",
   "publicRepositoryCount": 309,
   "repositories": [
@@ -1583,14 +1583,21 @@
       "description": "Dimensionamento de Saídas de Emergência em Edifícios (ABNT NBR 9077:2001) - Lofrano Tecnologia",
       "url": "https://github.com/martinlofranodeoliveira/dimensionamento-saidas-emergencia-nbr9077",
       "createdAt": "2026-11-10T21:19:40Z",
-      "pushedAt": "2026-11-10T21:19:42Z",
+      "pushedAt": "2026-11-10T21:35:46Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
       "owner": {
         "login": "martinlofranodeoliveira"
       },
-      "defaultBranchRef": null
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "43715c0e66c5f55b4e8fc903ab66963ecc45e2d6",
+          "committedDate": "2026-11-10T21:34:43Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-saidas-emergencia-nbr9077/commit/43715c0e66c5f55b4e8fc903ab66963ecc45e2d6"
+        }
+      }
     },
     {
       "name": "dimensionamento-sapatas-concreto-nbr6118",
@@ -3865,7 +3872,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T21:19:38Z",
+      "pushedAt": "2026-11-10T21:21:50Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3875,9 +3882,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "28b9595de33930e738ed6f8a327ac7b4350da647",
-          "committedDate": "2026-11-10T21:19:37Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/28b9595de33930e738ed6f8a327ac7b4350da647"
+          "oid": "648d68261acd4cd45d58b99562a4d3a9245190da",
+          "committedDate": "2026-11-10T21:21:49Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/648d68261acd4cd45d58b99562a4d3a9245190da"
         }
       }
     },
