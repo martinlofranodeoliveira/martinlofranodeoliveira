@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-10T21:19:20.265049Z",
+  "collectedAt": "2026-11-10T21:21:34.844734Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 308,
+  "publicRepositoryCount": 309,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1577,6 +1577,20 @@
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-redes-gas-nbr15526/commit/b2ec4e09002cc5a64c09dad521a83a3296246de1"
         }
       }
+    },
+    {
+      "name": "dimensionamento-saidas-emergencia-nbr9077",
+      "description": "Dimensionamento de Saídas de Emergência em Edifícios (ABNT NBR 9077:2001) - Lofrano Tecnologia",
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-saidas-emergencia-nbr9077",
+      "createdAt": "2026-11-10T21:19:40Z",
+      "pushedAt": "2026-11-10T21:19:42Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": null
     },
     {
       "name": "dimensionamento-sapatas-concreto-nbr6118",
@@ -3851,7 +3865,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T21:18:56Z",
+      "pushedAt": "2026-11-10T21:19:38Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3861,9 +3875,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "8be96c0a9b325df568cba3c1c9c2887e22cf84cb",
-          "committedDate": "2026-11-10T21:18:54Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/8be96c0a9b325df568cba3c1c9c2887e22cf84cb"
+          "oid": "28b9595de33930e738ed6f8a327ac7b4350da647",
+          "committedDate": "2026-11-10T21:19:37Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/28b9595de33930e738ed6f8a327ac7b4350da647"
         }
       }
     },
