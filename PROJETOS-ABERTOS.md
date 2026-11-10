@@ -43,6 +43,44 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
 
+<!-- DELIVERY-AMORTIZACAO-CLARA-2026-11-10:BEGIN -->
+## Amortização Clara · SAC, Price e SACRE com matemática inteira exata em centavos
+
+Compare sistemas de financiamento imobiliário e empréstimos (SAC, Tabela Price e SACRE) sem distorções de ponto flutuante. Simule amortizações extraordinárias por prazo ou prestação, aportes únicos ou recorrentes, carência de capital e custos administrativos mensais com auditoria independente.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Amortização Clara](https://github.com/martinlofranodeoliveira/amortizacao-clara) · Web app estático / CLI · MIT · português · LOFRANO TECNOLOGIA | [Abrir aplicativo web](https://martinlofranodeoliveira.github.io/amortizacao-clara/) · [Ver painel](https://github.com/martinlofranodeoliveira/amortizacao-clara/blob/9cef940fa658d5236f014a42b1574d53bc86299d/docs/preview.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/amortizacao-clara/releases/tag/v1.0.0) · 50 testes Node.js + 22 testes oráculo · [CI e Pages](https://github.com/martinlofranodeoliveira/amortizacao-clara/actions/runs/42746451128) |
+
+Interface moderna em Vanilla ES Modules e CSS puro sem bundlers nem dependências de runtime. Aritmética inteira em centavos com garantia de conservação do saldo devedor e anuidade racional exata para a Tabela Price. A exportação gera pacotes com memória de cálculo JSON, planilhas CSV com proteção contra injeção de fórmulas e oráculo em Python independente.
+
+<!-- DELIVERY-AMORTIZACAO-CLARA-2026-11-10:END -->
+
+<!-- DELIVERY-FOLHA-PONTO-LOCAL-2026-11-10:BEGIN -->
+## Folha de Ponto Local · apuração determinística e banco de horas
+
+Apure cartões de ponto, turnos que cruzam a meia-noite, banco de horas e hora noturna reduzida sem depender de servidores em nuvem ou bibliotecas de terceiros. Gere espelhos diários, resumos analíticos por colaborador, mapa de calor visual e alertas trabalhistas de intrajornada e interjornada.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Folha de Ponto Local](https://github.com/martinlofranodeoliveira/folha-ponto-local) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/folha-ponto-local/releases/download/v1.0.0/exemplo-folha-ponto.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/folha-ponto-local/blob/5710835ed65221cdb7f455a325e56a5e9275ae67/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/folha-ponto-local/releases/tag/v1.0.0) · 55 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/folha-ponto-local/actions/runs/42746550743) |
+
+Minutos inteiros exatos (`int`) para todas as durações e fração exata `8/7` para a redução ficta da hora noturna das 22h às 05h, eliminando qualquer ponto flutuante. O pacote ZIP inclui `entrada.json`, `apuracao.json`, `espelho-diario.csv`, `resumo-colaboradores.csv`, relatório Markdown, painel visual SVG de jornadas e somas SHA-256 validadas por verificador independente em `sqlite3`.
+
+<!-- DELIVERY-FOLHA-PONTO-LOCAL-2026-11-10:END -->
+
+<!-- DELIVERY-CRONOGRAMA-CRITICO-2026-11-10:BEGIN -->
+## Cronograma Crítico · Método do Caminho Crítico (CPM) determinístico
+
+Planeje cronogramas de projetos e obras com cálculo exato de datas mais cedo, mais tarde, folga total e folga livre. Suporta quatro relações de precedência (FS, SS, FF, SF), defasagens inteiras, calendário explícito de dias úteis e feriados, detecção de ciclos com caminho testemunha e enumeração exata de caminhos críticos empatados.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Cronograma Crítico](https://github.com/martinlofranodeoliveira/cronograma-critico) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/cronograma-critico/releases/download/v1.0.0/exemplo-cronograma.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/cronograma-critico/blob/19330588e404b93b827e8a93ffb22cb54a205a1d/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/cronograma-critico/releases/tag/v1.0.0) · 66 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/cronograma-critico/actions/runs/42746365301) |
+
+Trabalha com até 5.000 tarefas e 20.000 vínculos de precedência com validação estrita sem dependências de terceiros. Diagrama de Gantt com destaque vermelho para o caminho crítico renderizado em SVG (1440×900), relatórios em JSON/CSV/Markdown e oráculo independente baseado no algoritmo de Bellman-Ford com potencial de grafos.
+
+<!-- DELIVERY-CRONOGRAMA-CRITICO-2026-11-10:END -->
 
 <!-- DELIVERY-ORCAMENTO-COMPOSICOES-2026-11-10:BEGIN -->
 ## Orçamento por Composições · custos unitários, BDI e curva ABC

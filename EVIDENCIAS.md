@@ -22,6 +22,36 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-AMORTIZACAO-CLARA-2026-11-10:BEGIN -->
+## Amortização Clara · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/amortizacao-clara/tree/9cef940fa658d5236f014a42b1574d53bc86299d), licença MIT, aplicação web Vanilla ES Modules + CSS puro e CLI/biblioteca utilitária em português. O simulador calcula e confronta simultaneamente os sistemas SAC (amortização constante), Price (prestação constante com fórmula de anuidade exata) e SACRE (amortização crescente).
+- Aritmética 100% inteira em centavos com anuidade racional, sem float nem arredondamentos cumulativos. Suporte a amortizações extraordinárias (redução de prazo ou de prestação), aportes periódicos ou pontuais, carência de capital e seguros/taxas administrativas mensais.
+- Passaram 50 testes Node.js locais e 22 testes do oráculo independente em Python. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/amortizacao-clara/actions/runs/42746451128) e a publicação no [GitHub Pages](https://github.com/martinlofranodeoliveira/amortizacao-clara/actions/runs/42746451069) está ativa e operacional em https://martinlofranodeoliveira.github.io/amortizacao-clara/.
+- Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/amortizacao-clara/releases/tag/v1.0.0) anexados e conferidos com `SHA256SUMS`: código-fonte zip, pacote estático zip, projeto JSON demonstrativo, screenshot 1440x900 e arquivo de somas. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-AMORTIZACAO-CLARA-2026-11-10:END -->
+
+<!-- EVIDENCE-FOLHA-PONTO-LOCAL-2026-11-10:BEGIN -->
+## Folha de Ponto Local · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/folha-ponto-local/tree/5710835ed65221cdb7f455a325e56a5e9275ae67), licença MIT, CLI e biblioteca Python 3.11+ sem dependências de terceiros. Apuração determinística de espelho de ponto, banco de horas e hora noturna reduzida (CLT art. 73 §1º).
+- Aritmética inteira em minutos (`int`) e fração racional `fractions.Fraction(8, 7)` para o fator de hora noturna, sem nenhum número float. Suporte integral a turnos noturnos que cruzam a meia-noite, intervalos intrajornada, interjornada mínima de 11h, tolerância diária configurável e neutralização de fórmulas maliciosas em CSV (`=`, `+`, `-`, `@`).
+- Passaram 55 testes locais cobrindo o codec JSON estrito, cálculo de saldo positivo/negativo de horas e verificador independente minuto a minuto com agregação relacional em `sqlite3`. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/folha-ponto-local/actions/runs/42746550743) em matriz multiplataforma (Linux Python 3.11–3.14 e Windows 3.14).
+- Wheel e sdist inspecionados e verificados. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/folha-ponto-local/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-FOLHA-PONTO-LOCAL-2026-11-10:END -->
+
+<!-- EVIDENCE-CRONOGRAMA-CRITICO-2026-11-10:BEGIN -->
+## Cronograma Crítico · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/cronograma-critico/tree/19330588e404b93b827e8a93ffb22cb54a205a1d), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Implementação rigorosa do Método do Caminho Crítico (CPM) com suporte às quatro relações de precedência (Término-Início FS, Início-Início SS, Término-Término FF e Início-Término SF).
+- Defasagens inteiras positivas e negativas, calendário explícito de dias úteis e feriados, cálculo exato de datas mais cedo e mais tarde, folga total e folga livre. Detecção precoce de ciclos com indicação do caminho de dependência circular testemunha e enumeração completa de todos os caminhos críticos empatados.
+- Passaram 66 testes locais cobrindo codec JSON estrito, limites estruturais (5.000 tarefas / 20.000 relações), geração de pacote ZIP determinístico e gráfico SVG Gantt/CPM. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/cronograma-critico/actions/runs/42746365301) em Linux (Python 3.11 a 3.14), Windows e teste do oráculo Bellman-Ford independente em rede isolada.
+- Wheel e sdist inspecionados e validados. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/cronograma-critico/releases/tag/v1.0.0) anexados, baixados e validados por `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-CRONOGRAMA-CRITICO-2026-11-10:END -->
+
 <!-- EVIDENCE-ORCAMENTO-COMPOSICOES-2026-11-10:BEGIN -->
 ## Orçamento por Composições · 10 de novembro de 2026
 
