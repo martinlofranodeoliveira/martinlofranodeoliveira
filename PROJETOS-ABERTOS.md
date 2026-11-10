@@ -43,6 +43,19 @@ Quatro pacotes para experimentos reproduzíveis com tabelas, previsão temporal 
 A preparação de dependências e do modelo é explícita; o uso qualificado dos pacotes funciona localmente. Consulte [os commits e as execuções de CI](EVIDENCIAS.md) para conferir o alcance da validação. Licença MIT para o código original da LOFRANO; termos próprios para componentes externos.
 <!-- PYTHON-DATA-AI:END -->
 
+<!-- DELIVERY-CUB-CONSTRUCAO-CIVIL-NBR12721-2026-11-10:BEGIN -->
+## Orçamento de Construção Civil · CUB e Área Equivalente NBR 12721
+
+Motor determinístico e matematicamente exato para cálculo de **Área Equivalente de Construção** e **Orçamento Global de Obra** baseado no **CUB (Custo Unitário Básico)** segundo a norma brasileira **ABNT NBR 12721:2006** e a **Lei Federal 4.591/1964**. Converte compartimentos reais com coeficientes de custo padronizados (ou customizados em frações racionais), integra custos não-inclusos (fundações especiais, elevadores, climatização, BDI) e apura custos médios por m² real e equivalente.
+
+| Código e documentação | Experimentar | Versão e verificação |
+| --- | --- | --- |
+| [Orçamento CUB e NBR 12721](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721) · CLI/API Python · MIT · português · LOFRANO TECNOLOGIA | [Baixar exemplo completo](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/releases/download/v1.0.0/exemplo-obra.zip) · [Ver painel](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/blob/727f5a5e9384e44f56a635d7afa6926bd7010f52/docs/exemplo.png) | [v1.0.0](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/releases/tag/v1.0.0) · 56 testes locais · [CI Linux/Windows e oráculo](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/actions/runs/42816774129) |
+
+Aritmética estritamente exata em centésimos de m² (`int`) e centavos de real (`int`) com frações racionais (`Fraction`), banindo completamente aproximações por ponto flutuante (`float`). Gera relatórios executivos em Markdown, planilhas CSV com proteção contra injeção de fórmulas, painel vetorial em SVG (1440×900) e pacote ZIP determinístico. A integridade orçamentária é auditada por verificador independente sobre banco relacional `sqlite3`.
+
+<!-- DELIVERY-CUB-CONSTRUCAO-CIVIL-NBR12721-2026-11-10:END -->
+
 <!-- DELIVERY-ANALISE-PONTO-EQUILIBRIO-2026-11-10:BEGIN -->
 ## Ponto de Equilíbrio e Margem de Contribuição · PEC, PEF, PEE e Alavancagem Operacional
 

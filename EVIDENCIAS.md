@@ -22,6 +22,16 @@ Os testes nativos e consumidores acima usaram contêineres separados, sem rede n
 
 Este registro reúne o código público original produzido pela [Lofrano Tecnologia](https://lofranotecnologia.com.br), com documentação, testes e exemplos locais. As versões e os estados de desenvolvimento variam por projeto. Consulte a finalidade, a versão e os limites de cada um no [catálogo](PROJETOS-ABERTOS.md).
 
+<!-- EVIDENCE-CUB-CONSTRUCAO-CIVIL-NBR12721-2026-11-10:BEGIN -->
+## Orçamento de Obras CUB e Área Equivalente NBR 12721 · 10 de novembro de 2026
+
+- [Fonte da versão 1.0.0](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/tree/727f5a5e9384e44f56a635d7afa6926bd7010f52), licença MIT, CLI e biblioteca Python 3.11+ com zero dependências externas. Motor de orçamento global de construção civil e apuração de área equivalente conforme ABNT NBR 12721:2006 e Lei Federal 4.591/1964.
+- Conversão de áreas reais em equivalentes de custo com coeficientes normativos ou racionais customizados ($A_{equiv} = \lceil A_{real} \cdot p / q \rceil$), cálculo de Custo Base CUB por tipologia de projeto-padrão (R1, R8, R16, PIS, RP1Q, CAL, CSL), consolidação de itens não inclusos no CUB (fundações especiais, elevadores, climatização VRF, subestação, projetos e BDI). Banimento total de ponto flutuante (`float`) com cálculo em grandezas inteiras (centésimos de m² e centavos de real) e frações racionais exatas (`Fraction`).
+- Passaram 56 testes locais cobrindo modelos de domínio, tipologias NBR 12721, funções de teto, monotonia de coeficientes, codec canônico JSON com rejeição de BOM, float e chaves duplicadas, sanitização de CSV contra injeção de fórmulas e verificador independente em `sqlite3` sem importação do código de produção. A [CI concluiu com sucesso](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/actions/runs/42816774129) em Linux (Python 3.11–3.14), Windows e teste de isolamento de rede (`unshare`).
+- Wheel com 16 membros e sdist com 31 inspecionados fora da árvore. Cinco [assets da release v1.0.0](https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721/releases/tag/v1.0.0) anexados, baixados e confrontados bit a bit com `SHA256SUMS`. O README principal do perfil permanece intacto.
+
+<!-- EVIDENCE-CUB-CONSTRUCAO-CIVIL-NBR12721-2026-11-10:END -->
+
 <!-- EVIDENCE-ANALISE-PONTO-EQUILIBRIO-2026-11-10:BEGIN -->
 ## Ponto de Equilíbrio e Margem de Contribuição · 10 de novembro de 2026
 
