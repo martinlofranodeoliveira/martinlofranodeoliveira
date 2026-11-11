@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-11T01:20:19.785167Z",
+  "collectedAt": "2026-11-11T01:30:14.738285Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 317,
+  "publicRepositoryCount": 318,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1617,6 +1617,27 @@
           "oid": "80627d9b46d69b154bab45cae1cc8de2ca4641f9",
           "committedDate": "2026-11-10T20:13:14Z",
           "url": "https://github.com/martinlofranodeoliveira/dimensionamento-piscina-recirculacao-nbr10339/commit/80627d9b46d69b154bab45cae1cc8de2ca4641f9"
+        }
+      }
+    },
+    {
+      "name": "dimensionamento-pontes-concreto-nbr7187",
+      "description": null,
+      "url": "https://github.com/martinlofranodeoliveira/dimensionamento-pontes-concreto-nbr7187",
+      "createdAt": "2026-11-11T01:24:15Z",
+      "pushedAt": "2026-11-11T01:29:02Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "705326b512b5bbb5ea9d2c80504bffcfb9bac162",
+          "committedDate": "2026-11-11T01:27:49Z",
+          "url": "https://github.com/martinlofranodeoliveira/dimensionamento-pontes-concreto-nbr7187/commit/705326b512b5bbb5ea9d2c80504bffcfb9bac162"
         }
       }
     },
@@ -4019,7 +4040,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-10T23:53:28Z",
+      "pushedAt": "2026-11-11T01:20:36Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4029,9 +4050,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "bb03823d75fdf4195289891c2b6c684878e02dce",
-          "committedDate": "2026-11-10T23:53:27Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/bb03823d75fdf4195289891c2b6c684878e02dce"
+          "oid": "7c02934cb52fc7a1d8bee2626b1173bed53e872b",
+          "committedDate": "2026-11-11T01:20:35Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/7c02934cb52fc7a1d8bee2626b1173bed53e872b"
         }
       }
     },
