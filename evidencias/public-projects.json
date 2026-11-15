@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-14T19:58:52.526418Z",
+  "collectedAt": "2026-11-15T11:14:31.930641Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 318,
+  "publicRepositoryCount": 320,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -21,6 +21,27 @@
           "oid": "be6f3ced211376a20259054ed05839a50647e560",
           "committedDate": "2026-11-09T01:41:42Z",
           "url": "https://github.com/martinlofranodeoliveira/acervo-de-leitura/commit/be6f3ced211376a20259054ed05839a50647e560"
+        }
+      }
+    },
+    {
+      "name": "agenda-ics",
+      "description": "Calendários ICS determinísticos offline a partir de JSON. Biblioteca e CLI Python sem serviços externos.",
+      "url": "https://github.com/martinlofranodeoliveira/agenda-ics",
+      "createdAt": "2026-11-15T09:05:28Z",
+      "pushedAt": "2026-11-15T09:22:58Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "d493dfacc024df3ead3ab4bbc3717544bc192cc5",
+          "committedDate": "2026-11-15T09:22:57Z",
+          "url": "https://github.com/martinlofranodeoliveira/agenda-ics/commit/d493dfacc024df3ead3ab4bbc3717544bc192cc5"
         }
       }
     },
@@ -2335,6 +2356,27 @@
       }
     },
     {
+      "name": "formularios-acessiveis",
+      "description": "Inspeção estática local de rótulos, IDs e referências ARIA em formulários HTML. Python sem dependências, relatórios sem eco de valores, português e MIT.",
+      "url": "https://github.com/martinlofranodeoliveira/formularios-acessiveis",
+      "createdAt": "2026-11-15T00:48:45Z",
+      "pushedAt": "2026-11-15T00:52:20Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "0fbddd59602f7a012639c638c6f3ef8524014054",
+          "committedDate": "2026-11-15T00:52:19Z",
+          "url": "https://github.com/martinlofranodeoliveira/formularios-acessiveis/commit/0fbddd59602f7a012639c638c6f3ef8524014054"
+        }
+      }
+    },
+    {
       "name": "frame-transform-studio",
       "description": "A React3D rigid-frame editor explaining local/world transforms, quaternion interpolation and world-preserving reparenting with inspectable matrices.",
       "url": "https://github.com/martinlofranodeoliveira/frame-transform-studio",
@@ -4040,7 +4082,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-12T11:31:00Z",
+      "pushedAt": "2026-11-14T19:59:17Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4050,9 +4092,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "fd4d74d545a3d45f53c89c013b951d3585c0dee8",
-          "committedDate": "2026-11-12T11:30:59Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/fd4d74d545a3d45f53c89c013b951d3585c0dee8"
+          "oid": "7964346cb2b531862240cc9a6c0028348784a024",
+          "committedDate": "2026-11-14T19:59:15Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/7964346cb2b531862240cc9a6c0028348784a024"
         }
       }
     },
