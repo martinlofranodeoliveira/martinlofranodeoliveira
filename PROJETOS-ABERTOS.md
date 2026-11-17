@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**320 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **16/11/2026 às 01:08 UTC**.
+**320 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **17/11/2026 às 12:05 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
