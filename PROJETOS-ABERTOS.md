@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**322 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **19/11/2026 às 11:54 UTC**.
+**323 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **19/11/2026 às 22:41 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,6 +17,7 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [atelie\-de\-tecelagem](https://github.com/martinlofranodeoliveira/atelie-de-tecelagem) | Crie padrões para tear manual, confira as duas faces e imprima o cartão de execução\. | [19/11/2026 11:45 · 7bded20](https://github.com/martinlofranodeoliveira/atelie-de-tecelagem/commit/7bded20cbb2006b1db813724c0f15484e7912843) |
 | [simulador\-de\-atendimento](https://github.com/martinlofranodeoliveira/simulador-de-atendimento) | Deterministic offline FCFS queue simulation with a browser demo, pure JavaScript engine and fictitious examples\. | [19/11/2026 02:09 · c5d3590](https://github.com/martinlofranodeoliveira/simulador-de-atendimento/commit/c5d3590be62a2bcee2a33391ba5c5def8ce10d14) |
 | [planejador\-de\-oficinas](https://github.com/martinlofranodeoliveira/planejador-de-oficinas) | Deterministic offline feasibility planning for community workshops, rooms, resources, instructors and groups\. Python API and JSON CLI\. | [18/11/2026 23:54 · 006afa3](https://github.com/martinlofranodeoliveira/planejador-de-oficinas/commit/006afa3236c2c080b226e43c5f56fa7e245a8d58) |
 | [agenda\-ics](https://github.com/martinlofranodeoliveira/agenda-ics) | Calendários ICS determinísticos offline a partir de JSON\. Biblioteca e CLI Python sem serviços externos\. | [15/11/2026 09:22 · d493dfa](https://github.com/martinlofranodeoliveira/agenda-ics/commit/d493dfacc024df3ead3ab4bbc3717544bc192cc5) |
@@ -24,7 +25,6 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 | [dimensionamento\-pontes\-concreto\-nbr7187](https://github.com/martinlofranodeoliveira/dimensionamento-pontes-concreto-nbr7187) | Sem descrição pública. | [11/11/2026 01:27 · 705326b](https://github.com/martinlofranodeoliveira/dimensionamento-pontes-concreto-nbr7187/commit/705326b512b5bbb5ea9d2c80504bffcfb9bac162) |
 | [dimensionamento\-muros\-arrimo\-nbr11682](https://github.com/martinlofranodeoliveira/dimensionamento-muros-arrimo-nbr11682) | Dimensionamento geotécnico e estrutural de muros de contenção e arrimo \(NBR 11682 / NBR 6118\) com aritmética 100% racional \(Zero\-Float\)\. | [10/11/2026 23:48 · f6d5225](https://github.com/martinlofranodeoliveira/dimensionamento-muros-arrimo-nbr11682/commit/f6d5225e5a0d775bac7b26f1b5a84d5931c5ee80) |
 | [dimensionamento\-fundacoes\-profundas\-nbr6122](https://github.com/martinlofranodeoliveira/dimensionamento-fundacoes-profundas-nbr6122) | Dimensionamento analítico determinístico de fundações profundas \(estacas e tubulões por Aoki\-Velloso e Décourt\-Quaresma\) conforme ABNT NBR 6122:2022\. 100% Python padrão, Zero\-Floa… | [10/11/2026 23:31 · 5b08503](https://github.com/martinlofranodeoliveira/dimensionamento-fundacoes-profundas-nbr6122/commit/5b0850302ce93b40893c163287185378969c62ee) |
-| [dimensionamento\-bombas\-incendio\-nbr13714](https://github.com/martinlofranodeoliveira/dimensionamento-bombas-incendio-nbr13714) | Motor determinístico de engenharia para dimensionamento de Bombas de Incêndio, RTI, NPSH e Jockey conforme ABNT NBR 13714 e NBR 10897 com Zero\-Float | [10/11/2026 23:09 · 3e3af29](https://github.com/martinlofranodeoliveira/dimensionamento-bombas-incendio-nbr13714/commit/3e3af29f44374de1f531c1cbedc9d9be20576ce7) |
 
 <!-- PUBLIC-PROJECTS:END -->
 

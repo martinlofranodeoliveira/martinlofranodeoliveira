@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-19T11:54:18.133150Z",
+  "collectedAt": "2026-11-19T22:41:35.860260Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 322,
+  "publicRepositoryCount": 323,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -168,6 +168,27 @@
           "oid": "a70218facc52615519ddb9de8c6af7672cbd0538",
           "committedDate": "2026-11-08T20:48:59Z",
           "url": "https://github.com/martinlofranodeoliveira/ascii-table-core/commit/a70218facc52615519ddb9de8c6af7672cbd0538"
+        }
+      }
+    },
+    {
+      "name": "atelie-de-tecelagem",
+      "description": "Crie padrões para tear manual, confira as duas faces e imprima o cartão de execução.",
+      "url": "https://github.com/martinlofranodeoliveira/atelie-de-tecelagem",
+      "createdAt": "2026-11-19T12:04:07Z",
+      "pushedAt": "2026-11-19T12:04:14Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "7bded20cbb2006b1db813724c0f15484e7912843",
+          "committedDate": "2026-11-19T11:45:31Z",
+          "url": "https://github.com/martinlofranodeoliveira/atelie-de-tecelagem/commit/7bded20cbb2006b1db813724c0f15484e7912843"
         }
       }
     },
@@ -2528,7 +2549,7 @@
       "description": "Casa Aberta — Gerador e editor de plantas de casas em português, com medidas em metros, planta 2D, maquete 3D, imagens e vídeo. MIT.",
       "url": "https://github.com/martinlofranodeoliveira/gerador-plantas-casas",
       "createdAt": "2026-11-05T01:48:16Z",
-      "pushedAt": "2026-11-19T10:45:15Z",
+      "pushedAt": "2026-11-19T12:10:05Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -2538,9 +2559,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "6c7be71ea22958a5d5362dbfec2e58befb8677c3",
-          "committedDate": "2026-11-05T01:48:16Z",
-          "url": "https://github.com/martinlofranodeoliveira/gerador-plantas-casas/commit/6c7be71ea22958a5d5362dbfec2e58befb8677c3"
+          "oid": "c0fe85e2e8bdfca3af978ff57e41736a0b82704a",
+          "committedDate": "2026-11-19T11:07:39Z",
+          "url": "https://github.com/martinlofranodeoliveira/gerador-plantas-casas/commit/c0fe85e2e8bdfca3af978ff57e41736a0b82704a"
         }
       }
     },
@@ -4082,7 +4103,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-18T22:38:34Z",
+      "pushedAt": "2026-11-19T11:54:42Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4092,9 +4113,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "5d02ca7ed4437072fb376f79ec4d5fb2375f6796",
-          "committedDate": "2026-11-18T22:38:32Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/5d02ca7ed4437072fb376f79ec4d5fb2375f6796"
+          "oid": "1d95d23d9461310377e0bba345f95cb9f3241c03",
+          "committedDate": "2026-11-19T11:54:41Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/1d95d23d9461310377e0bba345f95cb9f3241c03"
         }
       }
     },
