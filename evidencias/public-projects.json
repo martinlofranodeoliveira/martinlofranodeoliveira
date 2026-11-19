@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-18T22:38:07.667458Z",
+  "collectedAt": "2026-11-19T11:54:18.133150Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 320,
+  "publicRepositoryCount": 322,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -659,7 +659,7 @@
       "description": "A browser-local React and Three.js workbench for studying one six-face rectangular carton net. A single typed hinge layout drives the editable SVG net, actual articulated 3D faces, paired-edge feedback and portable studies.",
       "url": "https://github.com/martinlofranodeoliveira/carton-hinge-studio",
       "createdAt": "2026-11-08T21:51:28Z",
-      "pushedAt": "2026-11-10T06:47:25Z",
+      "pushedAt": "2026-11-19T11:41:08Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -2528,7 +2528,7 @@
       "description": "Casa Aberta — Gerador e editor de plantas de casas em português, com medidas em metros, planta 2D, maquete 3D, imagens e vídeo. MIT.",
       "url": "https://github.com/martinlofranodeoliveira/gerador-plantas-casas",
       "createdAt": "2026-11-05T01:48:16Z",
-      "pushedAt": "2026-11-05T01:48:22Z",
+      "pushedAt": "2026-11-19T10:45:15Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4082,7 +4082,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-17T22:59:55Z",
+      "pushedAt": "2026-11-18T22:38:34Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4092,9 +4092,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "aedd0f9dfb0396913cddb861199152e0aadfa421",
-          "committedDate": "2026-11-17T22:59:54Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/aedd0f9dfb0396913cddb861199152e0aadfa421"
+          "oid": "5d02ca7ed4437072fb376f79ec4d5fb2375f6796",
+          "committedDate": "2026-11-18T22:38:32Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/5d02ca7ed4437072fb376f79ec4d5fb2375f6796"
         }
       }
     },
@@ -4809,6 +4809,27 @@
           "oid": "90ac9ed35df8bfa6797d67048add5e873066727f",
           "committedDate": "2026-11-08T20:47:30Z",
           "url": "https://github.com/martinlofranodeoliveira/pix-key-core/commit/90ac9ed35df8bfa6797d67048add5e873066727f"
+        }
+      }
+    },
+    {
+      "name": "planejador-de-oficinas",
+      "description": "Deterministic offline feasibility planning for community workshops, rooms, resources, instructors and groups. Python API and JSON CLI.",
+      "url": "https://github.com/martinlofranodeoliveira/planejador-de-oficinas",
+      "createdAt": "2026-11-19T00:05:20Z",
+      "pushedAt": "2026-11-19T00:05:27Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "006afa3236c2c080b226e43c5f56fa7e245a8d58",
+          "committedDate": "2026-11-18T23:54:03Z",
+          "url": "https://github.com/martinlofranodeoliveira/planejador-de-oficinas/commit/006afa3236c2c080b226e43c5f56fa7e245a8d58"
         }
       }
     },
@@ -5754,6 +5775,27 @@
           "oid": "5c83c801324910d496e9ea2ea12459ff9ba1b062",
           "committedDate": "2026-11-05T14:23:00Z",
           "url": "https://github.com/martinlofranodeoliveira/sftp-generation-publisher/commit/5c83c801324910d496e9ea2ea12459ff9ba1b062"
+        }
+      }
+    },
+    {
+      "name": "simulador-de-atendimento",
+      "description": "Deterministic offline FCFS queue simulation with a browser demo, pure JavaScript engine and fictitious examples.",
+      "url": "https://github.com/martinlofranodeoliveira/simulador-de-atendimento",
+      "createdAt": "2026-11-19T02:11:06Z",
+      "pushedAt": "2026-11-19T02:11:14Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "c5d3590be62a2bcee2a33391ba5c5def8ce10d14",
+          "committedDate": "2026-11-19T02:09:28Z",
+          "url": "https://github.com/martinlofranodeoliveira/simulador-de-atendimento/commit/c5d3590be62a2bcee2a33391ba5c5def8ce10d14"
         }
       }
     },
