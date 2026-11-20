@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**323 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **19/11/2026 às 22:41 UTC**.
+**329 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **20/11/2026 às 22:16 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,14 +17,14 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [estudio\-de\-paletizacao](https://github.com/martinlofranodeoliveira/estudio-de-paletizacao) | Estúdio de Paletização | [20/11/2026 15:16 · 1a5bde6](https://github.com/martinlofranodeoliveira/estudio-de-paletizacao/commit/1a5bde6c0d80f8b7ba0a5caba00115b3c4e072be) |
+| [imposicao\-de\-zines](https://github.com/martinlofranodeoliveira/imposicao-de-zines) | Imposição de Zines | [20/11/2026 13:20 · 7a68b55](https://github.com/martinlofranodeoliveira/imposicao-de-zines/commit/7a68b555e4da77d864cb9d14bf19978634ee0aa4) |
+| [relogio\-de\-programacao\-de\-radio](https://github.com/martinlofranodeoliveira/relogio-de-programacao-de-radio) | Relógio de Programação de Rádio | [20/11/2026 13:38 · 45a533a](https://github.com/martinlofranodeoliveira/relogio-de-programacao-de-radio/commit/45a533a0ab7573faf9fdb2c9f4b9897e0b4226f5) |
+| [lofrano\-vitrine\-demonstracoes](https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes) | Catálogo público de demonstrações auditadas da LOFRANO Tecnologia | [20/11/2026 22:10 · 8de8325](https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/8de832596c11729061a64758117c990fecb05547) |
+| [planejador\-de\-captacao\-pluvial](https://github.com/martinlofranodeoliveira/planejador-de-captacao-pluvial) | Planejador de captação pluvial | [19/11/2026 17:06 · fb675f1](https://github.com/martinlofranodeoliveira/planejador-de-captacao-pluvial/commit/fb675f164954f1ad56acd8bed7605bc7ab247fa6) |
+| [mapa\-de\-danos\-do\-acervo](https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo) | Registre vistorias visuais em fotos locais, compare áreas de dano e imprima pranchas de conservação\. | [19/11/2026 12:34 · b2e3582](https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo/commit/b2e358255a3b3f116ac66460e27925c43b45869c) |
 | [atelie\-de\-tecelagem](https://github.com/martinlofranodeoliveira/atelie-de-tecelagem) | Crie padrões para tear manual, confira as duas faces e imprima o cartão de execução\. | [19/11/2026 11:45 · 7bded20](https://github.com/martinlofranodeoliveira/atelie-de-tecelagem/commit/7bded20cbb2006b1db813724c0f15484e7912843) |
 | [simulador\-de\-atendimento](https://github.com/martinlofranodeoliveira/simulador-de-atendimento) | Deterministic offline FCFS queue simulation with a browser demo, pure JavaScript engine and fictitious examples\. | [19/11/2026 02:09 · c5d3590](https://github.com/martinlofranodeoliveira/simulador-de-atendimento/commit/c5d3590be62a2bcee2a33391ba5c5def8ce10d14) |
-| [planejador\-de\-oficinas](https://github.com/martinlofranodeoliveira/planejador-de-oficinas) | Deterministic offline feasibility planning for community workshops, rooms, resources, instructors and groups\. Python API and JSON CLI\. | [18/11/2026 23:54 · 006afa3](https://github.com/martinlofranodeoliveira/planejador-de-oficinas/commit/006afa3236c2c080b226e43c5f56fa7e245a8d58) |
-| [agenda\-ics](https://github.com/martinlofranodeoliveira/agenda-ics) | Calendários ICS determinísticos offline a partir de JSON\. Biblioteca e CLI Python sem serviços externos\. | [15/11/2026 09:22 · d493dfa](https://github.com/martinlofranodeoliveira/agenda-ics/commit/d493dfacc024df3ead3ab4bbc3717544bc192cc5) |
-| [formularios\-acessiveis](https://github.com/martinlofranodeoliveira/formularios-acessiveis) | Inspeção estática local de rótulos, IDs e referências ARIA em formulários HTML\. Python sem dependências, relatórios sem eco de valores, português e MIT\. | [15/11/2026 00:52 · 0fbddd5](https://github.com/martinlofranodeoliveira/formularios-acessiveis/commit/0fbddd59602f7a012639c638c6f3ef8524014054) |
-| [dimensionamento\-pontes\-concreto\-nbr7187](https://github.com/martinlofranodeoliveira/dimensionamento-pontes-concreto-nbr7187) | Sem descrição pública. | [11/11/2026 01:27 · 705326b](https://github.com/martinlofranodeoliveira/dimensionamento-pontes-concreto-nbr7187/commit/705326b512b5bbb5ea9d2c80504bffcfb9bac162) |
-| [dimensionamento\-muros\-arrimo\-nbr11682](https://github.com/martinlofranodeoliveira/dimensionamento-muros-arrimo-nbr11682) | Dimensionamento geotécnico e estrutural de muros de contenção e arrimo \(NBR 11682 / NBR 6118\) com aritmética 100% racional \(Zero\-Float\)\. | [10/11/2026 23:48 · f6d5225](https://github.com/martinlofranodeoliveira/dimensionamento-muros-arrimo-nbr11682/commit/f6d5225e5a0d775bac7b26f1b5a84d5931c5ee80) |
-| [dimensionamento\-fundacoes\-profundas\-nbr6122](https://github.com/martinlofranodeoliveira/dimensionamento-fundacoes-profundas-nbr6122) | Dimensionamento analítico determinístico de fundações profundas \(estacas e tubulões por Aoki\-Velloso e Décourt\-Quaresma\) conforme ABNT NBR 6122:2022\. 100% Python padrão, Zero\-Floa… | [10/11/2026 23:31 · 5b08503](https://github.com/martinlofranodeoliveira/dimensionamento-fundacoes-profundas-nbr6122/commit/5b0850302ce93b40893c163287185378969c62ee) |
 
 <!-- PUBLIC-PROJECTS:END -->
 

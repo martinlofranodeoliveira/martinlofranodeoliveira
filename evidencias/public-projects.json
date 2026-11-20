@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-19T22:41:35.860260Z",
+  "collectedAt": "2026-11-20T22:16:04.088085Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 323,
+  "publicRepositoryCount": 329,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -2062,6 +2062,27 @@
       }
     },
     {
+      "name": "estudio-de-paletizacao",
+      "description": "Estúdio de Paletização",
+      "url": "https://github.com/martinlofranodeoliveira/estudio-de-paletizacao",
+      "createdAt": "2026-11-20T22:07:21Z",
+      "pushedAt": "2026-11-20T22:07:28Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "1a5bde6c0d80f8b7ba0a5caba00115b3c4e072be",
+          "committedDate": "2026-11-20T15:16:18Z",
+          "url": "https://github.com/martinlofranodeoliveira/estudio-de-paletizacao/commit/1a5bde6c0d80f8b7ba0a5caba00115b3c4e072be"
+        }
+      }
+    },
+    {
       "name": "etiquetas-em-folha",
       "description": "Gerador local de etiquetas SVG em folhas A4/A5 a partir de CSV, com medidas em milímetros, paginação e publicação sem sobrescrever arquivos. Python, MIT, documentação em português.",
       "url": "https://github.com/martinlofranodeoliveira/etiquetas-em-folha",
@@ -3007,6 +3028,27 @@
       }
     },
     {
+      "name": "imposicao-de-zines",
+      "description": "Imposição de Zines",
+      "url": "https://github.com/martinlofranodeoliveira/imposicao-de-zines",
+      "createdAt": "2026-11-20T22:06:12Z",
+      "pushedAt": "2026-11-20T22:06:19Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "7a68b555e4da77d864cb9d14bf19978634ee0aa4",
+          "committedDate": "2026-11-20T13:20:42Z",
+          "url": "https://github.com/martinlofranodeoliveira/imposicao-de-zines/commit/7a68b555e4da77d864cb9d14bf19978634ee0aa4"
+        }
+      }
+    },
+    {
       "name": "indexed-png-palette-pack",
       "description": "Convert bounded RGBA PNG fixtures into deterministic indexed palettes using exact integer error accounting. Real libpng output is checked through independent decoding, palette and packed-row oracles.",
       "url": "https://github.com/martinlofranodeoliveira/indexed-png-palette-pack",
@@ -3889,6 +3931,27 @@
       }
     },
     {
+      "name": "lofrano-vitrine-demonstracoes",
+      "description": "Catálogo público de demonstrações auditadas da LOFRANO Tecnologia",
+      "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes",
+      "createdAt": "2026-11-20T22:01:46Z",
+      "pushedAt": "2026-11-20T22:10:57Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "8de832596c11729061a64758117c990fecb05547",
+          "committedDate": "2026-11-20T22:10:56Z",
+          "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/8de832596c11729061a64758117c990fecb05547"
+        }
+      }
+    },
+    {
       "name": "loft",
       "description": "Loft Flex — página web de estudo — Página HTML de apresentação. Conteúdo e referências comerciais pertencem ao contexto original do exemplo; não há serviço ou oferta provisionada por este repositório.",
       "url": "https://github.com/martinlofranodeoliveira/loft",
@@ -4015,6 +4078,27 @@
       }
     },
     {
+      "name": "mapa-de-danos-do-acervo",
+      "description": "Registre vistorias visuais em fotos locais, compare áreas de dano e imprima pranchas de conservação.",
+      "url": "https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo",
+      "createdAt": "2026-11-20T12:10:35Z",
+      "pushedAt": "2026-11-20T12:10:43Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "b2e358255a3b3f116ac66460e27925c43b45869c",
+          "committedDate": "2026-11-19T12:34:30Z",
+          "url": "https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo/commit/b2e358255a3b3f116ac66460e27925c43b45869c"
+        }
+      }
+    },
+    {
       "name": "mapa-de-mesas",
       "description": "Organize convidados e grupos por mesas: capacidades, atribuições manuais, backup JSON, CSV e listas para impressão. Local, português e MIT.",
       "url": "https://github.com/martinlofranodeoliveira/mapa-de-mesas",
@@ -4103,7 +4187,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-19T11:54:42Z",
+      "pushedAt": "2026-11-19T22:42:03Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4113,9 +4197,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "1d95d23d9461310377e0bba345f95cb9f3241c03",
-          "committedDate": "2026-11-19T11:54:41Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/1d95d23d9461310377e0bba345f95cb9f3241c03"
+          "oid": "af187bc60e4a60b8f6ba1cd2137ac22b4030ba4e",
+          "committedDate": "2026-11-19T22:42:02Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/af187bc60e4a60b8f6ba1cd2137ac22b4030ba4e"
         }
       }
     },
@@ -4834,6 +4918,27 @@
       }
     },
     {
+      "name": "planejador-de-captacao-pluvial",
+      "description": "Planejador de captação pluvial",
+      "url": "https://github.com/martinlofranodeoliveira/planejador-de-captacao-pluvial",
+      "createdAt": "2026-11-20T12:12:53Z",
+      "pushedAt": "2026-11-20T12:13:01Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "fb675f164954f1ad56acd8bed7605bc7ab247fa6",
+          "committedDate": "2026-11-19T17:06:16Z",
+          "url": "https://github.com/martinlofranodeoliveira/planejador-de-captacao-pluvial/commit/fb675f164954f1ad56acd8bed7605bc7ab247fa6"
+        }
+      }
+    },
+    {
       "name": "planejador-de-oficinas",
       "description": "Deterministic offline feasibility planning for community workshops, rooms, resources, instructors and groups. Python API and JSON CLI.",
       "url": "https://github.com/martinlofranodeoliveira/planejador-de-oficinas",
@@ -5313,6 +5418,27 @@
           "oid": "8a704a16582c8536247896935e24eb3c8679e39c",
           "committedDate": "2026-11-05T11:03:11Z",
           "url": "https://github.com/martinlofranodeoliveira/relational-fixture-slice/commit/8a704a16582c8536247896935e24eb3c8679e39c"
+        }
+      }
+    },
+    {
+      "name": "relogio-de-programacao-de-radio",
+      "description": "Relógio de Programação de Rádio",
+      "url": "https://github.com/martinlofranodeoliveira/relogio-de-programacao-de-radio",
+      "createdAt": "2026-11-20T22:05:02Z",
+      "pushedAt": "2026-11-20T22:05:09Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "45a533a0ab7573faf9fdb2c9f4b9897e0b4226f5",
+          "committedDate": "2026-11-20T13:38:14Z",
+          "url": "https://github.com/martinlofranodeoliveira/relogio-de-programacao-de-radio/commit/45a533a0ab7573faf9fdb2c9f4b9897e0b4226f5"
         }
       }
     },
