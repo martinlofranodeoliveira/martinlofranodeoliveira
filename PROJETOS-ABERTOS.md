@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**329 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **20/11/2026 às 22:16 UTC**.
+**335 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **21/11/2026 às 11:25 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,14 +17,14 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [caderno\-leituras\-hidrometro](https://github.com/martinlofranodeoliveira/caderno-leituras-hidrometro) | Organize leituras inicial e final e localize medições com ordem invertida ou evidência de leitura pendente\. | [21/11/2026 10:53 · 1fbdb88](https://github.com/martinlofranodeoliveira/caderno-leituras-hidrometro/commit/1fbdb88688cd90a7f8d16ee7b6c246a313ed2473) |
+| [conferidor\-entregas\-cronograma](https://github.com/martinlofranodeoliveira/conferidor-entregas-cronograma) | Confira entregas parciais por item, unidades pendentes e registros recebidos após o prazo previsto\. | [21/11/2026 08:17 · 7a9b706](https://github.com/martinlofranodeoliveira/conferidor-entregas-cronograma/commit/7a9b70643517ba5938762abde15b294dee022232) |
+| [simulador\-reajuste\-contratual](https://github.com/martinlofranodeoliveira/simulador-reajuste-contratual) | Explore uma sequência de índices fictícios e exporte a memória aritmética, com valores em centavos\. | [21/11/2026 05:27 · 6112831](https://github.com/martinlofranodeoliveira/simulador-reajuste-contratual/commit/611283194f8e908a192103b895b3110fec273069) |
+| [comparador\-clausulas\-minuta](https://github.com/martinlofranodeoliveira/comparador-clausulas-minuta) | Compare versões de uma minuta fictícia por identificador e localize o trecho textual que mudou\. | [20/11/2026 23:43 · a041604](https://github.com/martinlofranodeoliveira/comparador-clausulas-minuta/commit/a0416043a656dcf0fbdd83683feb4776e6a975a5) |
+| [boletim\-medicao\-servicos](https://github.com/martinlofranodeoliveira/boletim-medicao-servicos) | Simule ocorrências fictícias e confira como faixas de pontos alteram o valor do boletim\. | [20/11/2026 23:26 · a0cc574](https://github.com/martinlofranodeoliveira/boletim-medicao-servicos/commit/a0cc57419c3214605e131c1dc50a77c1b3968d92) |
+| [conferidor\-anexos\-proposta](https://github.com/martinlofranodeoliveira/conferidor-anexos-proposta) | Compare os arquivos preparados com a lista esperada e confira ausências, extras e duplicatas por conteúdo\. | [20/11/2026 23:21 · 23a6c6c](https://github.com/martinlofranodeoliveira/conferidor-anexos-proposta/commit/23a6c6ce94e9856c7a5abf4cb254f2b770315c84) |
 | [estudio\-de\-paletizacao](https://github.com/martinlofranodeoliveira/estudio-de-paletizacao) | Estúdio de Paletização | [20/11/2026 15:16 · 1a5bde6](https://github.com/martinlofranodeoliveira/estudio-de-paletizacao/commit/1a5bde6c0d80f8b7ba0a5caba00115b3c4e072be) |
 | [imposicao\-de\-zines](https://github.com/martinlofranodeoliveira/imposicao-de-zines) | Imposição de Zines | [20/11/2026 13:20 · 7a68b55](https://github.com/martinlofranodeoliveira/imposicao-de-zines/commit/7a68b555e4da77d864cb9d14bf19978634ee0aa4) |
-| [relogio\-de\-programacao\-de\-radio](https://github.com/martinlofranodeoliveira/relogio-de-programacao-de-radio) | Relógio de Programação de Rádio | [20/11/2026 13:38 · 45a533a](https://github.com/martinlofranodeoliveira/relogio-de-programacao-de-radio/commit/45a533a0ab7573faf9fdb2c9f4b9897e0b4226f5) |
-| [lofrano\-vitrine\-demonstracoes](https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes) | Catálogo público de demonstrações auditadas da LOFRANO Tecnologia | [20/11/2026 22:10 · 8de8325](https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/8de832596c11729061a64758117c990fecb05547) |
-| [planejador\-de\-captacao\-pluvial](https://github.com/martinlofranodeoliveira/planejador-de-captacao-pluvial) | Planejador de captação pluvial | [19/11/2026 17:06 · fb675f1](https://github.com/martinlofranodeoliveira/planejador-de-captacao-pluvial/commit/fb675f164954f1ad56acd8bed7605bc7ab247fa6) |
-| [mapa\-de\-danos\-do\-acervo](https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo) | Registre vistorias visuais em fotos locais, compare áreas de dano e imprima pranchas de conservação\. | [19/11/2026 12:34 · b2e3582](https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo/commit/b2e358255a3b3f116ac66460e27925c43b45869c) |
-| [atelie\-de\-tecelagem](https://github.com/martinlofranodeoliveira/atelie-de-tecelagem) | Crie padrões para tear manual, confira as duas faces e imprima o cartão de execução\. | [19/11/2026 11:45 · 7bded20](https://github.com/martinlofranodeoliveira/atelie-de-tecelagem/commit/7bded20cbb2006b1db813724c0f15484e7912843) |
-| [simulador\-de\-atendimento](https://github.com/martinlofranodeoliveira/simulador-de-atendimento) | Deterministic offline FCFS queue simulation with a browser demo, pure JavaScript engine and fictitious examples\. | [19/11/2026 02:09 · c5d3590](https://github.com/martinlofranodeoliveira/simulador-de-atendimento/commit/c5d3590be62a2bcee2a33391ba5c5def8ce10d14) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
