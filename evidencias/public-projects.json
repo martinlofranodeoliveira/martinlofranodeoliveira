@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-22T01:26:18.551246Z",
+  "collectedAt": "2026-11-22T11:40:42.148338Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 338,
+  "publicRepositoryCount": 340,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -273,6 +273,27 @@
           "oid": "1dcba99e29be614bbe3651011ca30e8e40265641",
           "committedDate": "2026-11-09T00:48:01Z",
           "url": "https://github.com/martinlofranodeoliveira/banco-de-questoes/commit/1dcba99e29be614bbe3651011ca30e8e40265641"
+        }
+      }
+    },
+    {
+      "name": "basalt",
+      "description": "Local inference engine optimized for NVIDIA Blackwell",
+      "url": "https://github.com/martinlofranodeoliveira/basalt",
+      "createdAt": "2026-11-22T02:45:23Z",
+      "pushedAt": "2026-11-22T02:17:24Z",
+      "isFork": true,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "4c1a2098c3754ce1ae5ab287acacbf6e6ee70b5a",
+          "committedDate": "2026-11-22T02:17:23Z",
+          "url": "https://github.com/martinlofranodeoliveira/basalt/commit/4c1a2098c3754ce1ae5ab287acacbf6e6ee70b5a"
         }
       }
     },
@@ -882,6 +903,27 @@
           "oid": "0e223f13315c3186ceaadd656ca703086b9ad79f",
           "committedDate": "2026-11-10T10:53:48Z",
           "url": "https://github.com/martinlofranodeoliveira/conciliacao-bancaria/commit/0e223f13315c3186ceaadd656ca703086b9ad79f"
+        }
+      }
+    },
+    {
+      "name": "conferencia-lotes-dados-abertos",
+      "description": "Compare contagens de origem e saída e acompanhe a conferência de metadados e de conteúdo sensível.",
+      "url": "https://github.com/martinlofranodeoliveira/conferencia-lotes-dados-abertos",
+      "createdAt": "2026-11-22T06:34:14Z",
+      "pushedAt": "2026-11-22T06:34:21Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "397e83364bed6ef33a03626bd50c600cfbeb7e5a",
+          "committedDate": "2026-11-22T06:34:13Z",
+          "url": "https://github.com/martinlofranodeoliveira/conferencia-lotes-dados-abertos/commit/397e83364bed6ef33a03626bd50c600cfbeb7e5a"
         }
       }
     },
@@ -4082,7 +4124,7 @@
       "description": "Catálogo público de demonstrações auditadas da LOFRANO Tecnologia",
       "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes",
       "createdAt": "2026-11-20T22:01:46Z",
-      "pushedAt": "2026-11-21T20:55:51Z",
+      "pushedAt": "2026-11-22T06:35:27Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4092,9 +4134,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "97bd541b75e3631a57f52d8340cdad0eefdb46dd",
-          "committedDate": "2026-11-21T20:55:51Z",
-          "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/97bd541b75e3631a57f52d8340cdad0eefdb46dd"
+          "oid": "10f83e2e3c26bb129104f3afa2c551f13f8ec227",
+          "committedDate": "2026-11-22T06:35:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/10f83e2e3c26bb129104f3afa2c551f13f8ec227"
         }
       }
     },
@@ -4334,7 +4376,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-21T11:26:01Z",
+      "pushedAt": "2026-11-22T01:26:44Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4344,9 +4386,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "22bfd8b304db3ab229dc74a12f8dcda523d76cd9",
-          "committedDate": "2026-11-21T11:26:00Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/22bfd8b304db3ab229dc74a12f8dcda523d76cd9"
+          "oid": "650b57b9f7ff9f37373882a81ab9d757c26e31d5",
+          "committedDate": "2026-11-22T01:26:42Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/650b57b9f7ff9f37373882a81ab9d757c26e31d5"
         }
       }
     },

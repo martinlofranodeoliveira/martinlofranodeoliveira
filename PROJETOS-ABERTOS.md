@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**338 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **22/11/2026 às 01:26 UTC**.
+**340 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **22/11/2026 às 11:40 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,14 +17,14 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [conferencia\-lotes\-dados\-abertos](https://github.com/martinlofranodeoliveira/conferencia-lotes-dados-abertos) | Compare contagens de origem e saída e acompanhe a conferência de metadados e de conteúdo sensível\. | [22/11/2026 06:34 · 397e833](https://github.com/martinlofranodeoliveira/conferencia-lotes-dados-abertos/commit/397e83364bed6ef33a03626bd50c600cfbeb7e5a) |
+| [basalt](https://github.com/martinlofranodeoliveira/basalt) | Local inference engine optimized for NVIDIA Blackwell | [22/11/2026 02:17 · 4c1a209](https://github.com/martinlofranodeoliveira/basalt/commit/4c1a2098c3754ce1ae5ab287acacbf6e6ee70b5a) |
 | [painel\-saldos\-ata](https://github.com/martinlofranodeoliveira/painel-saldos-ata) | Compare quantidades previstas e pedidas e destaque saldos insuficientes e prazos próximos em cenário fictício\. | [21/11/2026 20:54 · 3ffac07](https://github.com/martinlofranodeoliveira/painel-saldos-ata/commit/3ffac079cf38e00286be237c3d35d817ed469f02) |
 | [capacidade\-visitas\-campo](https://github.com/martinlofranodeoliveira/capacidade-visitas-campo) | Confira assentos disponíveis e acompanhantes confirmados por deslocamento de uma saída de campo\. | [21/11/2026 16:32 · 4142353](https://github.com/martinlofranodeoliveira/capacidade-visitas-campo/commit/4142353f49f12119c04a464d70a6e96fbee4b0a3) |
 | [conferidor\-planilha\-precos](https://github.com/martinlofranodeoliveira/conferidor-planilha-precos) | Compare subtotais declarados com quantidade vezes preço unitário e sinalize referências ultrapassadas\. | [21/11/2026 14:10 · 15c6004](https://github.com/martinlofranodeoliveira/conferidor-planilha-precos/commit/15c60045be2936c0f9dd244f024f22b6f370d997) |
 | [caderno\-leituras\-hidrometro](https://github.com/martinlofranodeoliveira/caderno-leituras-hidrometro) | Organize leituras inicial e final e localize medições com ordem invertida ou evidência de leitura pendente\. | [21/11/2026 14:10 · 51a56e3](https://github.com/martinlofranodeoliveira/caderno-leituras-hidrometro/commit/51a56e325ea7ec5feb4d1e132ab623c037ba7c7d) |
 | [conferidor\-entregas\-cronograma](https://github.com/martinlofranodeoliveira/conferidor-entregas-cronograma) | Confira entregas parciais por item, unidades pendentes e registros recebidos após o prazo previsto\. | [21/11/2026 14:10 · a120a72](https://github.com/martinlofranodeoliveira/conferidor-entregas-cronograma/commit/a120a724fb5240ac5934b25a2af19b6de0168c5d) |
 | [simulador\-reajuste\-contratual](https://github.com/martinlofranodeoliveira/simulador-reajuste-contratual) | Explore uma sequência de índices fictícios e exporte a memória aritmética, com valores em centavos\. | [21/11/2026 14:10 · 43f8ccc](https://github.com/martinlofranodeoliveira/simulador-reajuste-contratual/commit/43f8ccca02f36d32c3736fdc4409184e190e4d15) |
-| [comparador\-clausulas\-minuta](https://github.com/martinlofranodeoliveira/comparador-clausulas-minuta) | Compare versões de uma minuta fictícia por identificador e localize o trecho textual que mudou\. | [21/11/2026 14:10 · 41995a1](https://github.com/martinlofranodeoliveira/comparador-clausulas-minuta/commit/41995a160b3b94c912169c69eaa495db9ed10ca1) |
-| [boletim\-medicao\-servicos](https://github.com/martinlofranodeoliveira/boletim-medicao-servicos) | Simule ocorrências fictícias e confira como faixas de pontos alteram o valor do boletim\. | [21/11/2026 14:10 · b4a6035](https://github.com/martinlofranodeoliveira/boletim-medicao-servicos/commit/b4a6035300871780663bcca566394810cbdd4077) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
