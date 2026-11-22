@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-22T11:40:42.148338Z",
+  "collectedAt": "2026-11-22T21:07:10.958118Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 340,
+  "publicRepositoryCount": 341,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -2440,6 +2440,27 @@
       }
     },
     {
+      "name": "fechamento-romaneio-cestas-cooperativa",
+      "description": "Confere entregas de cestas, retorno de caixas retornáveis e revisão de romaneios por ponto de retirada.",
+      "url": "https://github.com/martinlofranodeoliveira/fechamento-romaneio-cestas-cooperativa",
+      "createdAt": "2026-11-22T14:35:24Z",
+      "pushedAt": "2026-11-22T14:35:31Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "22852de8ccc54e443a63279e2071360fb84c1c82",
+          "committedDate": "2026-11-22T14:35:22Z",
+          "url": "https://github.com/martinlofranodeoliveira/fechamento-romaneio-cestas-cooperativa/commit/22852de8ccc54e443a63279e2071360fb84c1c82"
+        }
+      }
+    },
+    {
       "name": "fenced-weight-cache",
       "description": "An asynchronous weighted LRU cache with single-flight loading, inclusive TTL expiry and generation-fenced invalidation. A deterministic manual-clock demo shows why an old in-flight load must not resurrect invalidated data.",
       "url": "https://github.com/martinlofranodeoliveira/fenced-weight-cache",
@@ -4124,7 +4145,7 @@
       "description": "Catálogo público de demonstrações auditadas da LOFRANO Tecnologia",
       "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes",
       "createdAt": "2026-11-20T22:01:46Z",
-      "pushedAt": "2026-11-22T06:35:27Z",
+      "pushedAt": "2026-11-22T14:37:08Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4134,9 +4155,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "10f83e2e3c26bb129104f3afa2c551f13f8ec227",
-          "committedDate": "2026-11-22T06:35:27Z",
-          "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/10f83e2e3c26bb129104f3afa2c551f13f8ec227"
+          "oid": "39aa848a3407bfe63aa59a7b03296d176fa1bd25",
+          "committedDate": "2026-11-22T14:37:08Z",
+          "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/39aa848a3407bfe63aa59a7b03296d176fa1bd25"
         }
       }
     },
@@ -4376,7 +4397,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-22T01:26:44Z",
+      "pushedAt": "2026-11-22T11:41:04Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4386,9 +4407,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "650b57b9f7ff9f37373882a81ab9d757c26e31d5",
-          "committedDate": "2026-11-22T01:26:42Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/650b57b9f7ff9f37373882a81ab9d757c26e31d5"
+          "oid": "0082447779498edb7acddd8aa1d016f25529e176",
+          "committedDate": "2026-11-22T11:41:03Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/0082447779498edb7acddd8aa1d016f25529e176"
         }
       }
     },
