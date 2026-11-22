@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-21T11:25:38.683650Z",
+  "collectedAt": "2026-11-22T01:26:18.551246Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 335,
+  "publicRepositoryCount": 338,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -323,7 +323,7 @@
       "description": "Simule ocorrências fictícias e confira como faixas de pontos alteram o valor do boletim.",
       "url": "https://github.com/martinlofranodeoliveira/boletim-medicao-servicos",
       "createdAt": "2026-11-20T23:26:38Z",
-      "pushedAt": "2026-11-20T23:26:44Z",
+      "pushedAt": "2026-11-21T14:12:36Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -333,9 +333,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "a0cc57419c3214605e131c1dc50a77c1b3968d92",
-          "committedDate": "2026-11-20T23:26:37Z",
-          "url": "https://github.com/martinlofranodeoliveira/boletim-medicao-servicos/commit/a0cc57419c3214605e131c1dc50a77c1b3968d92"
+          "oid": "b4a6035300871780663bcca566394810cbdd4077",
+          "committedDate": "2026-11-21T14:10:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/boletim-medicao-servicos/commit/b4a6035300871780663bcca566394810cbdd4077"
         }
       }
     },
@@ -554,7 +554,7 @@
       "description": "Organize leituras inicial e final e localize medições com ordem invertida ou evidência de leitura pendente.",
       "url": "https://github.com/martinlofranodeoliveira/caderno-leituras-hidrometro",
       "createdAt": "2026-11-21T10:53:38Z",
-      "pushedAt": "2026-11-21T10:53:44Z",
+      "pushedAt": "2026-11-21T14:12:36Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -564,9 +564,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "1fbdb88688cd90a7f8d16ee7b6c246a313ed2473",
-          "committedDate": "2026-11-21T10:53:37Z",
-          "url": "https://github.com/martinlofranodeoliveira/caderno-leituras-hidrometro/commit/1fbdb88688cd90a7f8d16ee7b6c246a313ed2473"
+          "oid": "51a56e325ea7ec5feb4d1e132ab623c037ba7c7d",
+          "committedDate": "2026-11-21T14:10:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/caderno-leituras-hidrometro/commit/51a56e325ea7ec5feb4d1e132ab623c037ba7c7d"
         }
       }
     },
@@ -718,6 +718,27 @@
       }
     },
     {
+      "name": "capacidade-visitas-campo",
+      "description": "Confira assentos disponíveis e acompanhantes confirmados por deslocamento de uma saída de campo.",
+      "url": "https://github.com/martinlofranodeoliveira/capacidade-visitas-campo",
+      "createdAt": "2026-11-21T16:32:24Z",
+      "pushedAt": "2026-11-21T16:32:31Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "4142353f49f12119c04a464d70a6e96fbee4b0a3",
+          "committedDate": "2026-11-21T16:32:23Z",
+          "url": "https://github.com/martinlofranodeoliveira/capacidade-visitas-campo/commit/4142353f49f12119c04a464d70a6e96fbee4b0a3"
+        }
+      }
+    },
+    {
       "name": "carton-hinge-studio",
       "description": "A browser-local React and Three.js workbench for studying one six-face rectangular carton net. A single typed hinge layout drives the editable SVG net, actual articulated 3D faces, paired-edge feedback and portable studies.",
       "url": "https://github.com/martinlofranodeoliveira/carton-hinge-studio",
@@ -827,7 +848,7 @@
       "description": "Compare versões de uma minuta fictícia por identificador e localize o trecho textual que mudou.",
       "url": "https://github.com/martinlofranodeoliveira/comparador-clausulas-minuta",
       "createdAt": "2026-11-20T23:43:17Z",
-      "pushedAt": "2026-11-20T23:43:24Z",
+      "pushedAt": "2026-11-21T14:12:36Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -837,9 +858,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "a0416043a656dcf0fbdd83683feb4776e6a975a5",
-          "committedDate": "2026-11-20T23:43:16Z",
-          "url": "https://github.com/martinlofranodeoliveira/comparador-clausulas-minuta/commit/a0416043a656dcf0fbdd83683feb4776e6a975a5"
+          "oid": "41995a160b3b94c912169c69eaa495db9ed10ca1",
+          "committedDate": "2026-11-21T14:10:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/comparador-clausulas-minuta/commit/41995a160b3b94c912169c69eaa495db9ed10ca1"
         }
       }
     },
@@ -890,7 +911,7 @@
       "description": "Compare os arquivos preparados com a lista esperada e confira ausências, extras e duplicatas por conteúdo.",
       "url": "https://github.com/martinlofranodeoliveira/conferidor-anexos-proposta",
       "createdAt": "2026-11-20T23:21:40Z",
-      "pushedAt": "2026-11-20T23:21:46Z",
+      "pushedAt": "2026-11-21T14:15:01Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -900,9 +921,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "23a6c6ce94e9856c7a5abf4cb254f2b770315c84",
-          "committedDate": "2026-11-20T23:21:39Z",
-          "url": "https://github.com/martinlofranodeoliveira/conferidor-anexos-proposta/commit/23a6c6ce94e9856c7a5abf4cb254f2b770315c84"
+          "oid": "7e91154cb5f5c5e210f66b25e83a63a42bf854aa",
+          "committedDate": "2026-11-21T14:13:50Z",
+          "url": "https://github.com/martinlofranodeoliveira/conferidor-anexos-proposta/commit/7e91154cb5f5c5e210f66b25e83a63a42bf854aa"
         }
       }
     },
@@ -911,7 +932,7 @@
       "description": "Confira entregas parciais por item, unidades pendentes e registros recebidos após o prazo previsto.",
       "url": "https://github.com/martinlofranodeoliveira/conferidor-entregas-cronograma",
       "createdAt": "2026-11-21T08:17:11Z",
-      "pushedAt": "2026-11-21T08:17:19Z",
+      "pushedAt": "2026-11-21T14:12:42Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -921,9 +942,30 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "7a9b70643517ba5938762abde15b294dee022232",
-          "committedDate": "2026-11-21T08:17:10Z",
-          "url": "https://github.com/martinlofranodeoliveira/conferidor-entregas-cronograma/commit/7a9b70643517ba5938762abde15b294dee022232"
+          "oid": "a120a724fb5240ac5934b25a2af19b6de0168c5d",
+          "committedDate": "2026-11-21T14:10:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/conferidor-entregas-cronograma/commit/a120a724fb5240ac5934b25a2af19b6de0168c5d"
+        }
+      }
+    },
+    {
+      "name": "conferidor-planilha-precos",
+      "description": "Compare subtotais declarados com quantidade vezes preço unitário e sinalize referências ultrapassadas.",
+      "url": "https://github.com/martinlofranodeoliveira/conferidor-planilha-precos",
+      "createdAt": "2026-11-21T14:02:36Z",
+      "pushedAt": "2026-11-21T14:12:42Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "15c60045be2936c0f9dd244f024f22b6f370d997",
+          "committedDate": "2026-11-21T14:10:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/conferidor-planilha-precos/commit/15c60045be2936c0f9dd244f024f22b6f370d997"
         }
       }
     },
@@ -4040,7 +4082,7 @@
       "description": "Catálogo público de demonstrações auditadas da LOFRANO Tecnologia",
       "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes",
       "createdAt": "2026-11-20T22:01:46Z",
-      "pushedAt": "2026-11-21T10:54:49Z",
+      "pushedAt": "2026-11-21T20:55:51Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4050,9 +4092,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "38c66ba34ec10283ed28e68bb86fe32bf57dfc87",
-          "committedDate": "2026-11-21T10:54:49Z",
-          "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/38c66ba34ec10283ed28e68bb86fe32bf57dfc87"
+          "oid": "97bd541b75e3631a57f52d8340cdad0eefdb46dd",
+          "committedDate": "2026-11-21T20:55:51Z",
+          "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/97bd541b75e3631a57f52d8340cdad0eefdb46dd"
         }
       }
     },
@@ -4292,7 +4334,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-20T22:16:30Z",
+      "pushedAt": "2026-11-21T11:26:01Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4302,9 +4344,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "1073026982a328d25fc2edbd96c5dfe91c3bcd24",
-          "committedDate": "2026-11-20T22:16:29Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/1073026982a328d25fc2edbd96c5dfe91c3bcd24"
+          "oid": "22bfd8b304db3ab229dc74a12f8dcda523d76cd9",
+          "committedDate": "2026-11-21T11:26:00Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/22bfd8b304db3ab229dc74a12f8dcda523d76cd9"
         }
       }
     },
@@ -4893,6 +4935,27 @@
           "oid": "b7b3bba9ba0a924037e3713dc9ec24ee209053f9",
           "committedDate": "2026-11-05T15:44:03Z",
           "url": "https://github.com/martinlofranodeoliveira/otp-state-upgrade-rehearsal/commit/b7b3bba9ba0a924037e3713dc9ec24ee209053f9"
+        }
+      }
+    },
+    {
+      "name": "painel-saldos-ata",
+      "description": "Compare quantidades previstas e pedidas e destaque saldos insuficientes e prazos próximos em cenário fictício.",
+      "url": "https://github.com/martinlofranodeoliveira/painel-saldos-ata",
+      "createdAt": "2026-11-21T20:54:29Z",
+      "pushedAt": "2026-11-21T20:54:36Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "3ffac079cf38e00286be237c3d35d817ed469f02",
+          "committedDate": "2026-11-21T20:54:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/painel-saldos-ata/commit/3ffac079cf38e00286be237c3d35d817ed469f02"
         }
       }
     },
@@ -6056,7 +6119,7 @@
       "description": "Explore uma sequência de índices fictícios e exporte a memória aritmética, com valores em centavos.",
       "url": "https://github.com/martinlofranodeoliveira/simulador-reajuste-contratual",
       "createdAt": "2026-11-21T05:27:37Z",
-      "pushedAt": "2026-11-21T05:27:44Z",
+      "pushedAt": "2026-11-21T14:12:42Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -6066,9 +6129,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "611283194f8e908a192103b895b3110fec273069",
-          "committedDate": "2026-11-21T05:27:36Z",
-          "url": "https://github.com/martinlofranodeoliveira/simulador-reajuste-contratual/commit/611283194f8e908a192103b895b3110fec273069"
+          "oid": "43f8ccca02f36d32c3736fdc4409184e190e4d15",
+          "committedDate": "2026-11-21T14:10:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/simulador-reajuste-contratual/commit/43f8ccca02f36d32c3736fdc4409184e190e4d15"
         }
       }
     },
