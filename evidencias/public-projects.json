@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-23T01:50:11.311482Z",
+  "collectedAt": "2026-11-24T02:22:04.317093Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 341,
+  "publicRepositoryCount": 344,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -2440,6 +2440,27 @@
       }
     },
     {
+      "name": "fechamento-lotes-impressao",
+      "description": "Compare folhas pedidas, produzidas e aproveitadas e registre a conferência da prova de cada lote.",
+      "url": "https://github.com/martinlofranodeoliveira/fechamento-lotes-impressao",
+      "createdAt": "2026-11-23T21:59:26Z",
+      "pushedAt": "2026-11-23T21:59:35Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "5f09c25757c7746d1db6cbe97c57998616189d88",
+          "committedDate": "2026-11-23T21:59:24Z",
+          "url": "https://github.com/martinlofranodeoliveira/fechamento-lotes-impressao/commit/5f09c25757c7746d1db6cbe97c57998616189d88"
+        }
+      }
+    },
+    {
       "name": "fechamento-romaneio-cestas-cooperativa",
       "description": "Confere entregas de cestas, retorno de caixas retornáveis e revisão de romaneios por ponto de retirada.",
       "url": "https://github.com/martinlofranodeoliveira/fechamento-romaneio-cestas-cooperativa",
@@ -4145,7 +4166,7 @@
       "description": "Catálogo público de demonstrações auditadas da LOFRANO Tecnologia",
       "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes",
       "createdAt": "2026-11-20T22:01:46Z",
-      "pushedAt": "2026-11-22T14:37:08Z",
+      "pushedAt": "2026-11-23T22:13:34Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4155,9 +4176,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "39aa848a3407bfe63aa59a7b03296d176fa1bd25",
-          "committedDate": "2026-11-22T14:37:08Z",
-          "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/39aa848a3407bfe63aa59a7b03296d176fa1bd25"
+          "oid": "943bf5a4a9170a62869d18adb664473f73105a5e",
+          "committedDate": "2026-11-23T22:13:34Z",
+          "url": "https://github.com/martinlofranodeoliveira/lofrano-vitrine-demonstracoes/commit/943bf5a4a9170a62869d18adb664473f73105a5e"
         }
       }
     },
@@ -4288,6 +4309,27 @@
       }
     },
     {
+      "name": "mapa-canais-ensaio-musical",
+      "description": "Confira canais solicitados e montados por sessão e sinalize ajustes antes do ensaio de som.",
+      "url": "https://github.com/martinlofranodeoliveira/mapa-canais-ensaio-musical",
+      "createdAt": "2026-11-23T22:05:23Z",
+      "pushedAt": "2026-11-23T22:05:30Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "f2a6eacf5f2e5b38593219ccd6693a505b7c03a7",
+          "committedDate": "2026-11-23T22:05:20Z",
+          "url": "https://github.com/martinlofranodeoliveira/mapa-canais-ensaio-musical/commit/f2a6eacf5f2e5b38593219ccd6693a505b7c03a7"
+        }
+      }
+    },
+    {
       "name": "mapa-de-danos-do-acervo",
       "description": "Registre vistorias visuais em fotos locais, compare áreas de dano e imprima pranchas de conservação.",
       "url": "https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo",
@@ -4397,7 +4439,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-22T21:07:36Z",
+      "pushedAt": "2026-11-23T01:50:40Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4407,9 +4449,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "0b76b125b6fe1a15e091aa3dd4ec39303b9d45ae",
-          "committedDate": "2026-11-22T21:07:35Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/0b76b125b6fe1a15e091aa3dd4ec39303b9d45ae"
+          "oid": "e215fce848c79a326bc2db871b611a02090b0cf2",
+          "committedDate": "2026-11-23T01:50:38Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/e215fce848c79a326bc2db871b611a02090b0cf2"
         }
       }
     },
@@ -5376,6 +5418,27 @@
           "oid": "8ffa78242e32b1cfc258c31e1f485cdc29142e8e",
           "committedDate": "2026-11-08T21:02:50Z",
           "url": "https://github.com/martinlofranodeoliveira/predictive-grammar-kit/commit/8ffa78242e32b1cfc258c31e1f485cdc29142e8e"
+        }
+      }
+    },
+    {
+      "name": "preparo-paineis-exposicao",
+      "description": "Acompanhe a disponibilidade de painéis e suportes por área e localize conjuntos sem mapa de montagem.",
+      "url": "https://github.com/martinlofranodeoliveira/preparo-paineis-exposicao",
+      "createdAt": "2026-11-23T22:12:18Z",
+      "pushedAt": "2026-11-23T22:12:26Z",
+      "isFork": false,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "eaa7197b465f2c50c72435d986849aebf9f55513",
+          "committedDate": "2026-11-23T22:12:16Z",
+          "url": "https://github.com/martinlofranodeoliveira/preparo-paineis-exposicao/commit/eaa7197b465f2c50c72435d986849aebf9f55513"
         }
       }
     },

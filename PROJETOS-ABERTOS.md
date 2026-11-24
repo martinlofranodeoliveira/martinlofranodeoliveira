@@ -9,7 +9,7 @@ Código, ferramentas e exemplos públicos. Consulte o README de cada repositóri
 <!-- PUBLIC-PROJECTS:BEGIN -->
 ## Repositórios públicos · atualização automática
 
-**341 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **23/11/2026 às 01:50 UTC**.
+**344 repositórios públicos próprios**, incluindo forks e arquivados quando existirem. Metadados consultados no GitHub em **24/11/2026 às 02:22 UTC**.
 
 Os oito repositórios criados mais recentemente, com o último commit da branch padrão. As coleções abaixo têm curadoria manual; as validações técnicas estão em [EVIDENCIAS.md](EVIDENCIAS.md).
 
@@ -17,14 +17,14 @@ Os oito repositórios criados mais recentemente, com o último commit da branch 
 
 | Projeto | Descrição pública | Último commit da branch padrão (UTC) |
 | --- | --- | --- |
+| [preparo\-paineis\-exposicao](https://github.com/martinlofranodeoliveira/preparo-paineis-exposicao) | Acompanhe a disponibilidade de painéis e suportes por área e localize conjuntos sem mapa de montagem\. | [23/11/2026 22:12 · eaa7197](https://github.com/martinlofranodeoliveira/preparo-paineis-exposicao/commit/eaa7197b465f2c50c72435d986849aebf9f55513) |
+| [mapa\-canais\-ensaio\-musical](https://github.com/martinlofranodeoliveira/mapa-canais-ensaio-musical) | Confira canais solicitados e montados por sessão e sinalize ajustes antes do ensaio de som\. | [23/11/2026 22:05 · f2a6eac](https://github.com/martinlofranodeoliveira/mapa-canais-ensaio-musical/commit/f2a6eacf5f2e5b38593219ccd6693a505b7c03a7) |
+| [fechamento\-lotes\-impressao](https://github.com/martinlofranodeoliveira/fechamento-lotes-impressao) | Compare folhas pedidas, produzidas e aproveitadas e registre a conferência da prova de cada lote\. | [23/11/2026 21:59 · 5f09c25](https://github.com/martinlofranodeoliveira/fechamento-lotes-impressao/commit/5f09c25757c7746d1db6cbe97c57998616189d88) |
 | [fechamento\-romaneio\-cestas\-cooperativa](https://github.com/martinlofranodeoliveira/fechamento-romaneio-cestas-cooperativa) | Confere entregas de cestas, retorno de caixas retornáveis e revisão de romaneios por ponto de retirada\. | [22/11/2026 14:35 · 22852de](https://github.com/martinlofranodeoliveira/fechamento-romaneio-cestas-cooperativa/commit/22852de8ccc54e443a63279e2071360fb84c1c82) |
 | [conferencia\-lotes\-dados\-abertos](https://github.com/martinlofranodeoliveira/conferencia-lotes-dados-abertos) | Compare contagens de origem e saída e acompanhe a conferência de metadados e de conteúdo sensível\. | [22/11/2026 06:34 · 397e833](https://github.com/martinlofranodeoliveira/conferencia-lotes-dados-abertos/commit/397e83364bed6ef33a03626bd50c600cfbeb7e5a) |
 | [basalt](https://github.com/martinlofranodeoliveira/basalt) | Local inference engine optimized for NVIDIA Blackwell | [22/11/2026 02:17 · 4c1a209](https://github.com/martinlofranodeoliveira/basalt/commit/4c1a2098c3754ce1ae5ab287acacbf6e6ee70b5a) |
 | [painel\-saldos\-ata](https://github.com/martinlofranodeoliveira/painel-saldos-ata) | Compare quantidades previstas e pedidas e destaque saldos insuficientes e prazos próximos em cenário fictício\. | [21/11/2026 20:54 · 3ffac07](https://github.com/martinlofranodeoliveira/painel-saldos-ata/commit/3ffac079cf38e00286be237c3d35d817ed469f02) |
 | [capacidade\-visitas\-campo](https://github.com/martinlofranodeoliveira/capacidade-visitas-campo) | Confira assentos disponíveis e acompanhantes confirmados por deslocamento de uma saída de campo\. | [21/11/2026 16:32 · 4142353](https://github.com/martinlofranodeoliveira/capacidade-visitas-campo/commit/4142353f49f12119c04a464d70a6e96fbee4b0a3) |
-| [conferidor\-planilha\-precos](https://github.com/martinlofranodeoliveira/conferidor-planilha-precos) | Compare subtotais declarados com quantidade vezes preço unitário e sinalize referências ultrapassadas\. | [21/11/2026 14:10 · 15c6004](https://github.com/martinlofranodeoliveira/conferidor-planilha-precos/commit/15c60045be2936c0f9dd244f024f22b6f370d997) |
-| [caderno\-leituras\-hidrometro](https://github.com/martinlofranodeoliveira/caderno-leituras-hidrometro) | Organize leituras inicial e final e localize medições com ordem invertida ou evidência de leitura pendente\. | [21/11/2026 14:10 · 51a56e3](https://github.com/martinlofranodeoliveira/caderno-leituras-hidrometro/commit/51a56e325ea7ec5feb4d1e132ab623c037ba7c7d) |
-| [conferidor\-entregas\-cronograma](https://github.com/martinlofranodeoliveira/conferidor-entregas-cronograma) | Confira entregas parciais por item, unidades pendentes e registros recebidos após o prazo previsto\. | [21/11/2026 14:10 · a120a72](https://github.com/martinlofranodeoliveira/conferidor-entregas-cronograma/commit/a120a724fb5240ac5934b25a2af19b6de0168c5d) |
 
 <!-- PUBLIC-PROJECTS:END -->
 
