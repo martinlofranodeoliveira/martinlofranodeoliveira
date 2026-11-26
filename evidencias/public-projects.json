@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-26T12:52:34.499891Z",
+  "collectedAt": "2026-11-26T23:54:50.646371Z",
   "login": "martinlofranodeoliveira",
   "publicRepositoryCount": 347,
   "repositories": [
@@ -260,7 +260,7 @@
       "description": "Banco de questões em JSON para Moodle XML: validação, imagens, cadernos docente/aluno, relatórios e manifesto. CLI/biblioteca Python local, português e MIT.",
       "url": "https://github.com/martinlofranodeoliveira/banco-de-questoes",
       "createdAt": "2026-11-09T00:43:24Z",
-      "pushedAt": "2026-11-09T00:51:36Z",
+      "pushedAt": "2026-11-26T20:47:08Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -270,9 +270,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "1dcba99e29be614bbe3651011ca30e8e40265641",
-          "committedDate": "2026-11-09T00:48:01Z",
-          "url": "https://github.com/martinlofranodeoliveira/banco-de-questoes/commit/1dcba99e29be614bbe3651011ca30e8e40265641"
+          "oid": "630867ea1758d850f87dc31ba5a90318575232d3",
+          "committedDate": "2026-11-26T20:47:07Z",
+          "url": "https://github.com/martinlofranodeoliveira/banco-de-questoes/commit/630867ea1758d850f87dc31ba5a90318575232d3"
         }
       }
     },
@@ -533,7 +533,7 @@
       "description": "A React3D cabinet configurator with linked panel selection, dimensional editing, exploded assembly and deterministic component exports.",
       "url": "https://github.com/martinlofranodeoliveira/cabinet-assembly-studio",
       "createdAt": "2026-11-05T12:25:12Z",
-      "pushedAt": "2026-11-05T16:17:13Z",
+      "pushedAt": "2026-11-26T20:47:14Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -543,9 +543,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "f7ce91fbe30d776c92e5cc7b7b69f7d497b235d1",
-          "committedDate": "2026-11-05T16:15:27Z",
-          "url": "https://github.com/martinlofranodeoliveira/cabinet-assembly-studio/commit/f7ce91fbe30d776c92e5cc7b7b69f7d497b235d1"
+          "oid": "1ad3736c72974867b19432236217fb3d391f206c",
+          "committedDate": "2026-11-26T20:47:13Z",
+          "url": "https://github.com/martinlofranodeoliveira/cabinet-assembly-studio/commit/1ad3736c72974867b19432236217fb3d391f206c"
         }
       }
     },
@@ -701,7 +701,7 @@
       "description": "An offline tabular machine-learning experiment package with four disjoint data roles, held-out probability calibration, independently checked evaluation and threshold-cost evidence, and bounded local reports using synthetic process-quality examples.",
       "url": "https://github.com/martinlofranodeoliveira/calibrated-tabular-lab",
       "createdAt": "2026-11-10T05:28:44Z",
-      "pushedAt": "2026-11-10T05:28:50Z",
+      "pushedAt": "2026-11-26T20:47:20Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -711,9 +711,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "cba7abfdf1970e219dd3effd9c250ed36713d6e5",
-          "committedDate": "2026-11-10T05:28:41Z",
-          "url": "https://github.com/martinlofranodeoliveira/calibrated-tabular-lab/commit/cba7abfdf1970e219dd3effd9c250ed36713d6e5"
+          "oid": "9acd3ae691bed4ffaa55669d2baaf3c7cc60c9d1",
+          "committedDate": "2026-11-26T20:47:19Z",
+          "url": "https://github.com/martinlofranodeoliveira/calibrated-tabular-lab/commit/9acd3ae691bed4ffaa55669d2baaf3c7cc60c9d1"
         }
       }
     },
@@ -764,7 +764,7 @@
       "description": "A browser-local React and Three.js workbench for studying one six-face rectangular carton net. A single typed hinge layout drives the editable SVG net, actual articulated 3D faces, paired-edge feedback and portable studies.",
       "url": "https://github.com/martinlofranodeoliveira/carton-hinge-studio",
       "createdAt": "2026-11-08T21:51:28Z",
-      "pushedAt": "2026-11-19T11:41:08Z",
+      "pushedAt": "2026-11-26T22:07:12Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -774,9 +774,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "e0f2c1c0d5161d904715ff8ede4fea73869ffb9a",
-          "committedDate": "2026-11-10T06:47:23Z",
-          "url": "https://github.com/martinlofranodeoliveira/carton-hinge-studio/commit/e0f2c1c0d5161d904715ff8ede4fea73869ffb9a"
+          "oid": "3b357adba0fddd2e406aa9a8b1d85b787b6d6de7",
+          "committedDate": "2026-11-26T22:07:12Z",
+          "url": "https://github.com/martinlofranodeoliveira/carton-hinge-studio/commit/3b357adba0fddd2e406aa9a8b1d85b787b6d6de7"
         }
       }
     },
@@ -2381,7 +2381,7 @@
       "description": "A persistent item-level contract execution ledger with measurement reservations, partial acceptance, amendments, reversals, authorization and a reproducible local HTTP demonstration.",
       "url": "https://github.com/martinlofranodeoliveira/execucao-contratual-ledger",
       "createdAt": "2026-11-10T18:25:09Z",
-      "pushedAt": "2026-11-10T18:25:16Z",
+      "pushedAt": "2026-11-26T20:47:25Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -2391,9 +2391,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "5163fb31b8f24876dad96e3d2d9062dd09f9aad6",
-          "committedDate": "2026-11-10T18:25:06Z",
-          "url": "https://github.com/martinlofranodeoliveira/execucao-contratual-ledger/commit/5163fb31b8f24876dad96e3d2d9062dd09f9aad6"
+          "oid": "600978f17909ebcb2673a6c9d463575474c6fd06",
+          "committedDate": "2026-11-26T20:47:25Z",
+          "url": "https://github.com/martinlofranodeoliveira/execucao-contratual-ledger/commit/600978f17909ebcb2673a6c9d463575474c6fd06"
         }
       }
     },
@@ -2633,7 +2633,7 @@
       "description": "Monte páginas de catálogo com fotos, nomes, referências e preços opcionais. Editor local em português, PNG/SVG, projeto JSON portátil e licença MIT.",
       "url": "https://github.com/martinlofranodeoliveira/folha-de-contato",
       "createdAt": "2026-11-08T21:42:17Z",
-      "pushedAt": "2026-11-08T21:54:21Z",
+      "pushedAt": "2026-11-26T22:07:20Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -2643,9 +2643,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "4223c61abd91b75a42cec326b2b3303c4d009c3f",
-          "committedDate": "2026-11-08T21:49:16Z",
-          "url": "https://github.com/martinlofranodeoliveira/folha-de-contato/commit/4223c61abd91b75a42cec326b2b3303c4d009c3f"
+          "oid": "b62ce8b93f6ed561624e4d3e818d222586c62a3e",
+          "committedDate": "2026-11-26T22:07:20Z",
+          "url": "https://github.com/martinlofranodeoliveira/folha-de-contato/commit/b62ce8b93f6ed561624e4d3e818d222586c62a3e"
         }
       }
     },
@@ -3767,7 +3767,7 @@
       "description": "A local semantic-search SDK and CLI using one hash-pinned open multilingual embedding model, with explicit token admission, model provenance, deterministic ranking of a bounded document corpus and no runtime network calls.",
       "url": "https://github.com/martinlofranodeoliveira/local-semantic-atlas",
       "createdAt": "2026-11-10T05:58:39Z",
-      "pushedAt": "2026-11-10T05:58:45Z",
+      "pushedAt": "2026-11-26T20:47:32Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -3777,9 +3777,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "1854b3648d4aaf8fe9d33965116ec012106c7a53",
-          "committedDate": "2026-11-10T05:58:35Z",
-          "url": "https://github.com/martinlofranodeoliveira/local-semantic-atlas/commit/1854b3648d4aaf8fe9d33965116ec012106c7a53"
+          "oid": "cd0445f10d8804a713fb2e19fdc9542a1a6eeab0",
+          "committedDate": "2026-11-26T20:47:32Z",
+          "url": "https://github.com/martinlofranodeoliveira/local-semantic-atlas/commit/cd0445f10d8804a713fb2e19fdc9542a1a6eeab0"
         }
       }
     },
@@ -4397,7 +4397,7 @@
       "description": "Registre vistorias visuais em fotos locais, compare áreas de dano e imprima pranchas de conservação.",
       "url": "https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo",
       "createdAt": "2026-11-20T12:10:35Z",
-      "pushedAt": "2026-11-20T12:10:43Z",
+      "pushedAt": "2026-11-26T22:07:28Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4407,9 +4407,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "b2e358255a3b3f116ac66460e27925c43b45869c",
-          "committedDate": "2026-11-19T12:34:30Z",
-          "url": "https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo/commit/b2e358255a3b3f116ac66460e27925c43b45869c"
+          "oid": "3e94c5733da505348622f3e6a9783e473178a0ff",
+          "committedDate": "2026-11-26T22:07:27Z",
+          "url": "https://github.com/martinlofranodeoliveira/mapa-de-danos-do-acervo/commit/3e94c5733da505348622f3e6a9783e473178a0ff"
         }
       }
     },
@@ -4502,7 +4502,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-25T23:42:07Z",
+      "pushedAt": "2026-11-26T12:53:07Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4512,9 +4512,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "ee0d88e5cf227413e9f845f0258dcf062e327e1c",
-          "committedDate": "2026-11-25T23:42:06Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/ee0d88e5cf227413e9f845f0258dcf062e327e1c"
+          "oid": "8604fe8aa83bc56daf584fc96e040b0676c20df6",
+          "committedDate": "2026-11-26T12:53:06Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/8604fe8aa83bc56daf584fc96e040b0676c20df6"
         }
       }
     },
@@ -4859,7 +4859,7 @@
       "description": "A bounded Python PCA neighborhood-distortion SDK with exact rank-penalty receipts and a linked React/Three.js report inspector.",
       "url": "https://github.com/martinlofranodeoliveira/neighborhood-projection-studio",
       "createdAt": "2026-11-10T16:47:25Z",
-      "pushedAt": "2026-11-10T17:10:59Z",
+      "pushedAt": "2026-11-26T20:47:38Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4869,9 +4869,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "a16d805469fab06c7cb7b7adc9257e31654497fc",
-          "committedDate": "2026-11-10T16:47:21Z",
-          "url": "https://github.com/martinlofranodeoliveira/neighborhood-projection-studio/commit/a16d805469fab06c7cb7b7adc9257e31654497fc"
+          "oid": "1733763f6c39e6cf056fec295e806b6584f46c5d",
+          "committedDate": "2026-11-26T20:47:37Z",
+          "url": "https://github.com/martinlofranodeoliveira/neighborhood-projection-studio/commit/1733763f6c39e6cf056fec295e806b6584f46c5d"
         }
       }
     },
@@ -4880,7 +4880,7 @@
       "description": "Nexus — orquestrador de agentes de IA — Servidor Node e interface React para tarefas, salas e integrações opcionais. O modo observador acompanha uma equipe externa sem executar comandos.",
       "url": "https://github.com/martinlofranodeoliveira/NexusOrchestrator-open",
       "createdAt": "2026-10-20T02:35:01Z",
-      "pushedAt": "2026-11-09T08:24:48Z",
+      "pushedAt": "2026-11-26T20:47:02Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4890,9 +4890,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "1bd42c9544929a5906a0f89daff91e7971a6456c",
-          "committedDate": "2026-11-09T08:24:44Z",
-          "url": "https://github.com/martinlofranodeoliveira/NexusOrchestrator-open/commit/1bd42c9544929a5906a0f89daff91e7971a6456c"
+          "oid": "19dea65ce0dfe5dbbbe0a6a716604299112f937c",
+          "committedDate": "2026-11-26T20:47:01Z",
+          "url": "https://github.com/martinlofranodeoliveira/NexusOrchestrator-open/commit/19dea65ce0dfe5dbbbe0a6a716604299112f937c"
         }
       }
     },
@@ -5321,7 +5321,7 @@
       "description": "Offline auditor for captured PNCP contract pages with explicit collection coverage, selected-projection deduplication, exact monetary values and independently checked SQLite aggregates.",
       "url": "https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit",
       "createdAt": "2026-11-10T16:03:04Z",
-      "pushedAt": "2026-11-10T16:03:11Z",
+      "pushedAt": "2026-11-26T20:47:44Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -5331,9 +5331,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "eeda5be4477e1752170ca38e5fb3e1a912941e19",
-          "committedDate": "2026-11-10T16:03:01Z",
-          "url": "https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/commit/eeda5be4477e1752170ca38e5fb3e1a912941e19"
+          "oid": "ce1f359bc070e8acd4be3f8252e20bfbbfc5d573",
+          "committedDate": "2026-11-26T20:47:43Z",
+          "url": "https://github.com/martinlofranodeoliveira/pncp-contract-snapshot-audit/commit/ce1f359bc070e8acd4be3f8252e20bfbbfc5d573"
         }
       }
     },
@@ -5342,7 +5342,7 @@
       "description": "Recepção e controle local de presença por busca, código e QR, com correções no histórico, arquivos portáteis e interface em português. MIT.",
       "url": "https://github.com/martinlofranodeoliveira/portaria-local",
       "createdAt": "2026-11-09T04:48:26Z",
-      "pushedAt": "2026-11-09T04:54:21Z",
+      "pushedAt": "2026-11-26T22:07:37Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -5352,9 +5352,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "b34cf4c2e21a78ad4b5b2baae1f90bd0b025b79d",
-          "committedDate": "2026-11-09T04:53:10Z",
-          "url": "https://github.com/martinlofranodeoliveira/portaria-local/commit/b34cf4c2e21a78ad4b5b2baae1f90bd0b025b79d"
+          "oid": "a007cb04e5893d01626c541903e698ecf3b2dda9",
+          "committedDate": "2026-11-26T22:07:36Z",
+          "url": "https://github.com/martinlofranodeoliveira/portaria-local/commit/a007cb04e5893d01626c541903e698ecf3b2dda9"
         }
       }
     },
@@ -5531,7 +5531,7 @@
       "description": "A PostgreSQL-backed case-routing ledger with acknowledged custody transfers, immutable document versions, unit authorization and byte-identical idempotent receipts.",
       "url": "https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger",
       "createdAt": "2026-11-10T19:40:49Z",
-      "pushedAt": "2026-11-10T19:40:55Z",
+      "pushedAt": "2026-11-26T20:47:50Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -5541,9 +5541,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "88e3d57f7c397cf61f31fa10519aa31f81fdc2d0",
-          "committedDate": "2026-11-10T19:40:45Z",
-          "url": "https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger/commit/88e3d57f7c397cf61f31fa10519aa31f81fdc2d0"
+          "oid": "fb034291cebaf621e8f7b8196f5346d18849d920",
+          "committedDate": "2026-11-26T20:47:49Z",
+          "url": "https://github.com/martinlofranodeoliveira/protocolo-tramitacao-ledger/commit/fb034291cebaf621e8f7b8196f5346d18849d920"
         }
       }
     },
@@ -6245,7 +6245,7 @@
       "description": "Explains forced, optional and excluded links across all optimal expected-payout-to-credit matchings, with exact minor units and an explicit synthetic matching policy.",
       "url": "https://github.com/martinlofranodeoliveira/settlement-match-workbench",
       "createdAt": "2026-11-10T21:53:41Z",
-      "pushedAt": "2026-11-10T21:53:47Z",
+      "pushedAt": "2026-11-26T20:47:56Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -6255,9 +6255,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "5a6f67b0fec097dcb92c1df8715fa1941794a334",
-          "committedDate": "2026-11-10T21:53:38Z",
-          "url": "https://github.com/martinlofranodeoliveira/settlement-match-workbench/commit/5a6f67b0fec097dcb92c1df8715fa1941794a334"
+          "oid": "3141869e112548c318b962581a3181ee87a72be8",
+          "committedDate": "2026-11-26T20:47:55Z",
+          "url": "https://github.com/martinlofranodeoliveira/settlement-match-workbench/commit/3141869e112548c318b962581a3181ee87a72be8"
         }
       }
     },
@@ -6287,7 +6287,7 @@
       "description": "Deterministic offline FCFS queue simulation with a browser demo, pure JavaScript engine and fictitious examples.",
       "url": "https://github.com/martinlofranodeoliveira/simulador-de-atendimento",
       "createdAt": "2026-11-19T02:11:06Z",
-      "pushedAt": "2026-11-19T02:11:14Z",
+      "pushedAt": "2026-11-26T22:07:44Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -6297,9 +6297,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "c5d3590be62a2bcee2a33391ba5c5def8ce10d14",
-          "committedDate": "2026-11-19T02:09:28Z",
-          "url": "https://github.com/martinlofranodeoliveira/simulador-de-atendimento/commit/c5d3590be62a2bcee2a33391ba5c5def8ce10d14"
+          "oid": "f44662c14547da72e7d47903a940099fe673ff1f",
+          "committedDate": "2026-11-26T22:07:44Z",
+          "url": "https://github.com/martinlofranodeoliveira/simulador-de-atendimento/commit/f44662c14547da72e7d47903a940099fe673ff1f"
         }
       }
     },
