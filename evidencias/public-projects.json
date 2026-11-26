@@ -1,7 +1,7 @@
 {
-  "collectedAt": "2026-11-25T23:41:37.980756Z",
+  "collectedAt": "2026-11-26T12:52:34.499891Z",
   "login": "martinlofranodeoliveira",
-  "publicRepositoryCount": 344,
+  "publicRepositoryCount": 347,
   "repositories": [
     {
       "name": "acervo-de-leitura",
@@ -1432,6 +1432,27 @@
       }
     },
     {
+      "name": "deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/martinlofranodeoliveira/deepseek-harness",
+      "createdAt": "2026-11-26T00:12:47Z",
+      "pushedAt": "2026-11-22T11:00:05Z",
+      "isFork": true,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "master",
+        "target": {
+          "oid": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96",
+          "committedDate": "2026-11-22T08:50:28Z",
+          "url": "https://github.com/martinlofranodeoliveira/deepseek-harness/commit/4b399c39a6d1479cd84ca591b4d7c88e24d38a96"
+        }
+      }
+    },
+    {
       "name": "deficit-round-queue",
       "description": "A bounded, clock-free Deficit Round Robin scheduler for caller-owned work IDs and integer costs. It exposes complete rounds, cancellation and credit accounting without executing jobs or sending packets.",
       "url": "https://github.com/martinlofranodeoliveira/deficit-round-queue",
@@ -2146,6 +2167,27 @@
       }
     },
     {
+      "name": "dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "url": "https://github.com/martinlofranodeoliveira/dsh-superagent-prototype",
+      "createdAt": "2026-11-26T00:13:02Z",
+      "pushedAt": "2026-11-03T09:29:14Z",
+      "isFork": true,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "8c32a9dc5d72c033816c6a8110b37f40cf94fba4",
+          "committedDate": "2026-10-31T12:06:31Z",
+          "url": "https://github.com/martinlofranodeoliveira/dsh-superagent-prototype/commit/8c32a9dc5d72c033816c6a8110b37f40cf94fba4"
+        }
+      }
+    },
+    {
       "name": "duplex-drain-pump",
       "description": "A bounded Linux library for relaying two connected stream sockets while preserving backpressure and directional EOF. Includes a socketpair lab for partial writes, half-close draining and explicit idle deadlines.",
       "url": "https://github.com/martinlofranodeoliveira/duplex-drain-pump",
@@ -2562,6 +2604,27 @@
           "oid": "0798de7cd1e87e81780b8d20ca66e4de84d6999c",
           "committedDate": "2026-11-10T03:38:26Z",
           "url": "https://github.com/martinlofranodeoliveira/finite-rule-provenance/commit/0798de7cd1e87e81780b8d20ca66e4de84d6999c"
+        }
+      }
+    },
+    {
+      "name": "firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "url": "https://github.com/martinlofranodeoliveira/firecrawl",
+      "createdAt": "2026-11-26T01:33:50Z",
+      "pushedAt": "2026-11-26T01:27:23Z",
+      "isFork": true,
+      "isArchived": false,
+      "isPrivate": false,
+      "owner": {
+        "login": "martinlofranodeoliveira"
+      },
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "68291b7a8c27d60b848a58f26e271be808912735",
+          "committedDate": "2026-11-26T01:17:12Z",
+          "url": "https://github.com/martinlofranodeoliveira/firecrawl/commit/68291b7a8c27d60b848a58f26e271be808912735"
         }
       }
     },
@@ -4439,7 +4502,7 @@
       "description": "Martin Lofrano | LOFRANO TECNOLOGIA — software sob medida, inteligência artificial, automação e integração de sistemas para empresas.",
       "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira",
       "createdAt": "2025-11-21T01:16:39Z",
-      "pushedAt": "2026-11-25T13:13:25Z",
+      "pushedAt": "2026-11-25T23:42:07Z",
       "isFork": false,
       "isArchived": false,
       "isPrivate": false,
@@ -4449,9 +4512,9 @@
       "defaultBranchRef": {
         "name": "main",
         "target": {
-          "oid": "5b3b1ee0113fb09fcd23b7fb8f8da8090b3c769a",
-          "committedDate": "2026-11-25T13:13:24Z",
-          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/5b3b1ee0113fb09fcd23b7fb8f8da8090b3c769a"
+          "oid": "ee0d88e5cf227413e9f845f0258dcf062e327e1c",
+          "committedDate": "2026-11-25T23:42:06Z",
+          "url": "https://github.com/martinlofranodeoliveira/martinlofranodeoliveira/commit/ee0d88e5cf227413e9f845f0258dcf062e327e1c"
         }
       }
     },
